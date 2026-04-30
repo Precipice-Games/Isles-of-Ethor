@@ -150,7 +150,7 @@ Transform:
   m_GameObject: {fileID: 22306275}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12, y: 0, z: 12}
+  m_LocalPosition: {x: 12, y: 0, z: 15}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -185,8 +185,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 2
   gridX: 4
-  gridZ: 4
+  gridZ: 5
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -326,7 +327,7 @@ Transform:
   m_GameObject: {fileID: 32274487}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6, y: 0, z: 21}
+  m_LocalPosition: {x: 9, y: 0, z: 21}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -360,9 +361,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 2
+  gridX: 3
   gridZ: 7
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -502,7 +504,7 @@ Transform:
   m_GameObject: {fileID: 62297699}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 15}
+  m_LocalPosition: {x: 3, y: 0, z: 18}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -537,8 +539,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
   gridX: 1
-  gridZ: 5
+  gridZ: 6
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -768,7 +771,7 @@ Transform:
   m_GameObject: {fileID: 73144705}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9, y: 0, z: 12}
+  m_LocalPosition: {x: 9, y: 0, z: 15}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -803,8 +806,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
   gridX: 3
-  gridZ: 4
+  gridZ: 5
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -1484,7 +1488,7 @@ Transform:
   m_GameObject: {fileID: 86506670}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21, y: 0, z: 12}
+  m_LocalPosition: {x: 24, y: 0, z: 12}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1518,9 +1522,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 7
+  gridX: 8
   gridZ: 4
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -1731,7 +1736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.699993
+      value: -16.9
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1739,11 +1744,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 203.18318
+      value: 201.1
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.10948181
+      value: 0.571222
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1751,7 +1756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.9939889
+      value: -0.8207956
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1763,7 +1768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -167.429
+      value: -110.329
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1793,11 +1798,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 57472801171398331, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 57472801171398331, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 115618297942063103, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_Name
@@ -1813,11 +1818,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 563326666085521974, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 563326666085521974, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 563326666085521974, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: tileType
@@ -1837,7 +1842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1640623606830934790, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: width
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1640623606830934790, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: height
@@ -1849,11 +1854,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1788808401797866365, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1788808401797866365, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1788808401797866365, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: originalColor.b
@@ -1877,11 +1882,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2275969997962342486, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2275969997962342486, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2275969997962342486, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: tileType
@@ -1921,11 +1926,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2543200966874335288, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2543200966874335288, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2543200966874335288, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: originalColor.g
@@ -1937,19 +1942,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2722518522013452351, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2722518522013452351, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 3034548341052867213, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3034548341052867213, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3034548341052867213, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: originalColor.g
@@ -1985,7 +1990,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 285.64
+      value: 281.5
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1993,7 +1998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 202.3
+      value: 205.1
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2033,11 +2038,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3582445771482792929, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3582445771482792929, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3624906698350998147, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2057,11 +2062,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4064603128251208255, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4064603128251208255, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4064603128251208255, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: tileType
@@ -2081,11 +2086,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4441267795168363193, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4441267795168363193, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4441267795168363193, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: tileType
@@ -2109,11 +2114,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5025002967551595757, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5025002967551595757, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5025002967551595757, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: originalColor.g
@@ -2133,11 +2138,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6241378083209524425, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6241378083209524425, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6321783586416998415, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: originalColor.g
@@ -2157,7 +2162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6625943618315678091, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6625943618315678091, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: originalColor.g
@@ -2173,19 +2178,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7032101937263023470, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7032101937263023470, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7120682438755080915, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7120682438755080915, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7199852587322879966, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_Name
@@ -2213,7 +2218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7295780280858452554, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7321162161942524934, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2277,19 +2282,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8449441648833188324, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8449441648833188324, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9007823278109169485, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9007823278109169485, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9059629293011494203, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: originalColor.g
@@ -2380,7 +2385,7 @@ Transform:
   m_GameObject: {fileID: 120266135}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 9}
+  m_LocalPosition: {x: 12, y: 0, z: 12}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2413,10 +2418,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9908a1708c744e844bf7e2a979c0f3f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
-  tileType: 0
-  gridX: 1
-  gridZ: 3
+  tileType: 2
+  gridX: 4
+  gridZ: 4
   gridManager: {fileID: 111690257}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -2556,7 +2562,7 @@ Transform:
   m_GameObject: {fileID: 129042658}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 21}
+  m_LocalPosition: {x: 3, y: 0, z: 21}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2590,9 +2596,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 2
-  gridX: 0
+  gridX: 1
   gridZ: 7
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -2818,7 +2825,7 @@ Transform:
   m_GameObject: {fileID: 162013007}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6, y: 0, z: 24}
+  m_LocalPosition: {x: 9, y: 0, z: 24}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2852,9 +2859,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 2
+  gridX: 3
   gridZ: 8
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3067,7 +3075,7 @@ Transform:
   m_GameObject: {fileID: 188855107}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24, y: 0, z: 21}
+  m_LocalPosition: {x: 27, y: 0, z: 21}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3101,9 +3109,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 8
+  gridX: 9
   gridZ: 7
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3356,7 +3365,7 @@ Transform:
   m_GameObject: {fileID: 217052965}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 6}
+  m_LocalPosition: {x: 6, y: 0, z: 6}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3390,9 +3399,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 1
+  gridX: 2
   gridZ: 2
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3618,7 +3628,7 @@ Transform:
   m_GameObject: {fileID: 263677121}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18, y: 0, z: 21}
+  m_LocalPosition: {x: 21, y: 0, z: 21}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3652,9 +3662,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 6
+  gridX: 7
   gridZ: 7
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3880,7 +3891,7 @@ Transform:
   m_GameObject: {fileID: 309023794}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21, y: 0, z: 21}
+  m_LocalPosition: {x: 24, y: 0, z: 21}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3914,9 +3925,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
-  gridX: 7
+  gridX: 8
   gridZ: 7
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -4213,7 +4225,7 @@ Transform:
   m_GameObject: {fileID: 321353815}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18, y: 0, z: 6}
+  m_LocalPosition: {x: 21, y: 0, z: 6}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4247,9 +4259,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 6
+  gridX: 7
   gridZ: 2
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -4629,7 +4642,7 @@ Transform:
   m_GameObject: {fileID: 370350296}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 24}
+  m_LocalPosition: {x: 3, y: 0, z: 24}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4663,9 +4676,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 0
+  gridX: 1
   gridZ: 8
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -4805,7 +4819,7 @@ Transform:
   m_GameObject: {fileID: 378908118}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24, y: 0, z: 15}
+  m_LocalPosition: {x: 27, y: 0, z: 15}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4839,9 +4853,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 8
+  gridX: 9
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -5380,7 +5395,7 @@ Transform:
   m_GameObject: {fileID: 386154990}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9, y: 0, z: 15}
+  m_LocalPosition: {x: 12, y: 0, z: 15}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -5414,9 +5429,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 3
+  gridX: 4
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -5556,7 +5572,7 @@ Transform:
   m_GameObject: {fileID: 386709258}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12, y: 0, z: 24}
+  m_LocalPosition: {x: 15, y: 0, z: 24}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -5590,9 +5606,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
-  gridX: 4
+  gridX: 5
   gridZ: 8
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -5732,7 +5749,7 @@ Transform:
   m_GameObject: {fileID: 389455271}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18, y: 0, z: 9}
+  m_LocalPosition: {x: 18, y: 0, z: 12}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -5767,8 +5784,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
   gridX: 6
-  gridZ: 3
+  gridZ: 4
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -5923,11 +5941,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1640623606830934790, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: width
-      value: 11
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1640623606830934790, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: height
-      value: 11
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1712450131070757306, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_IsActive
@@ -6259,7 +6277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: moveBackUses
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: moveLeftUses
@@ -6271,7 +6289,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: moveForwardUses
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7295780280858452554, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6404,7 +6422,7 @@ Transform:
   m_GameObject: {fileID: 392594915}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12, y: 0, z: 15}
+  m_LocalPosition: {x: 15, y: 0, z: 15}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -6438,9 +6456,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 4
+  gridX: 5
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -6679,7 +6698,7 @@ Transform:
   m_GameObject: {fileID: 428582379}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 9}
+  m_LocalPosition: {x: 3, y: 0, z: 9}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -6713,9 +6732,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
-  gridX: 0
+  gridX: 1
   gridZ: 3
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -6967,7 +6987,7 @@ Transform:
   m_GameObject: {fileID: 498357355}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21, y: 0, z: 9}
+  m_LocalPosition: {x: 24, y: 0, z: 9}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7001,9 +7021,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 7
+  gridX: 8
   gridZ: 3
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -7397,7 +7418,7 @@ Transform:
   m_GameObject: {fileID: 587412814}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18, y: 0, z: 15}
+  m_LocalPosition: {x: 21, y: 0, z: 15}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7431,9 +7452,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 6
+  gridX: 7
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -7659,7 +7681,7 @@ Transform:
   m_GameObject: {fileID: 604282069}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21, y: 0, z: 15}
+  m_LocalPosition: {x: 24, y: 0, z: 15}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7693,9 +7715,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 7
+  gridX: 8
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -7835,7 +7858,7 @@ Transform:
   m_GameObject: {fileID: 606257967}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21, y: 0, z: 3}
+  m_LocalPosition: {x: 24, y: 0, z: 3}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7869,9 +7892,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 7
+  gridX: 8
   gridZ: 1
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8042,7 +8066,7 @@ Transform:
   m_GameObject: {fileID: 648112089}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6, y: 0, z: 15}
+  m_LocalPosition: {x: 9, y: 0, z: 18}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -8076,9 +8100,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
-  gridX: 2
-  gridZ: 5
+  gridX: 3
+  gridZ: 6
   gridManager: {fileID: 111690257}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8218,7 +8243,7 @@ Transform:
   m_GameObject: {fileID: 648925154}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15, y: 0, z: 27}
+  m_LocalPosition: {x: 18, y: 0, z: 27}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -8252,9 +8277,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 5
+  gridX: 6
   gridZ: 9
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8456,7 +8482,7 @@ Transform:
   m_GameObject: {fileID: 692042315}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24, y: 0, z: 12}
+  m_LocalPosition: {x: 27, y: 0, z: 12}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -8490,9 +8516,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 8
+  gridX: 9
   gridZ: 4
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8632,7 +8659,7 @@ Transform:
   m_GameObject: {fileID: 706295970}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 12}
+  m_LocalPosition: {x: 3, y: 0, z: 15}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -8666,9 +8693,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
-  gridX: 0
-  gridZ: 4
+  gridX: 1
+  gridZ: 5
   gridManager: {fileID: 111690257}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -9095,7 +9123,7 @@ Transform:
   m_GameObject: {fileID: 740714156}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15, y: 0, z: 15}
+  m_LocalPosition: {x: 18, y: 0, z: 15}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -9129,9 +9157,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
-  gridX: 5
+  gridX: 6
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -9384,7 +9413,7 @@ Transform:
   m_GameObject: {fileID: 747594068}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9, y: 0, z: 6}
+  m_LocalPosition: {x: 12, y: 0, z: 6}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -9418,9 +9447,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 3
+  gridX: 4
   gridZ: 2
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -9560,7 +9590,7 @@ Transform:
   m_GameObject: {fileID: 764915461}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6, y: 0, z: 15}
+  m_LocalPosition: {x: 9, y: 0, z: 15}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -9594,9 +9624,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
-  gridX: 2
+  gridX: 3
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -9944,7 +9975,7 @@ Transform:
   m_GameObject: {fileID: 779035484}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9, y: 0, z: 9}
+  m_LocalPosition: {x: 3, y: 0, z: 9}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -9977,10 +10008,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9908a1708c744e844bf7e2a979c0f3f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
-  tileType: 2
-  gridX: 3
+  tileType: 0
+  gridX: 1
   gridZ: 3
   gridManager: {fileID: 111690257}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -10103,7 +10135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 57472801171398331, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 115618297942063103, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_Name
@@ -10123,7 +10155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 563326666085521974, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 563326666085521974, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: tileType
@@ -10135,11 +10167,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 588839293333666835, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -97.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 588839293333666835, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -39.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 925581002351369635, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_IsActive
@@ -10151,7 +10183,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1640623606830934790, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: width
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1640623606830934790, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: height
@@ -10163,11 +10195,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1788808401797866365, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1788808401797866365, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1788808401797866365, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: originalColor.b
@@ -10195,7 +10227,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2275969997962342486, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2275969997962342486, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: tileType
@@ -10239,7 +10271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2543200966874335288, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2543200966874335288, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: originalColor.g
@@ -10251,11 +10283,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2722518522013452351, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2722518522013452351, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 3034548341052867213, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
@@ -10263,7 +10295,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3034548341052867213, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3034548341052867213, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: originalColor.g
@@ -10299,7 +10331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 169.67
+      value: 148.3
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10307,7 +10339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 211.3
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10343,7 +10375,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3446106412191676171, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3582445771482792929, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10351,7 +10383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3582445771482792929, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3624906698350998147, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10375,7 +10407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4064603128251208255, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4064603128251208255, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: tileType
@@ -10399,7 +10431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4441267795168363193, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4441267795168363193, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: tileType
@@ -10411,7 +10443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4759651532516943100, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4759651532516943100, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
@@ -10427,7 +10459,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5025002967551595757, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5025002967551595757, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: tileType
@@ -10455,7 +10487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6241378083209524425, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6321783586416998415, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: originalColor.g
@@ -10475,7 +10507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6625943618315678091, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6625943618315678091, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: originalColor.g
@@ -10495,7 +10527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7032101937263023470, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7120682438755080915, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10503,7 +10535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7120682438755080915, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7199852587322879966, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_Name
@@ -10527,7 +10559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7295780280858452554, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7321162161942524934, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10595,7 +10627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8449441648833188324, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9007823278109169485, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10603,7 +10635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9007823278109169485, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 9059629293011494203, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: originalColor.g
@@ -11027,7 +11059,7 @@ Transform:
   m_GameObject: {fileID: 821285918}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18, y: 0, z: 24}
+  m_LocalPosition: {x: 21, y: 0, z: 24}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -11061,9 +11093,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 6
+  gridX: 7
   gridZ: 8
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11289,7 +11322,7 @@ Transform:
   m_GameObject: {fileID: 849067805}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 15}
+  m_LocalPosition: {x: 3, y: 0, z: 15}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -11323,9 +11356,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 0
+  gridX: 1
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11465,7 +11499,7 @@ Transform:
   m_GameObject: {fileID: 863695832}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24, y: 0, z: 6}
+  m_LocalPosition: {x: 27, y: 0, z: 6}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -11499,9 +11533,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
-  gridX: 8
+  gridX: 9
   gridZ: 2
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11641,7 +11676,7 @@ Transform:
   m_GameObject: {fileID: 871273191}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 12}
+  m_LocalPosition: {x: 3, y: 0, z: 15}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -11676,8 +11711,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
   gridX: 1
-  gridZ: 4
+  gridZ: 5
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11817,7 +11853,7 @@ Transform:
   m_GameObject: {fileID: 875459047}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15, y: 0, z: 6}
+  m_LocalPosition: {x: 15, y: 0, z: 9}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -11852,8 +11888,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
   gridX: 5
-  gridZ: 2
+  gridZ: 3
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -12800,7 +12837,7 @@ Transform:
   m_GameObject: {fileID: 902964696}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18, y: 0, z: 12}
+  m_LocalPosition: {x: 18, y: 0, z: 15}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -12835,8 +12872,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
   gridX: 6
-  gridZ: 4
+  gridZ: 5
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -13827,7 +13865,7 @@ Transform:
   m_GameObject: {fileID: 1049313792}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 15}
+  m_LocalPosition: {x: 3, y: 0, z: 18}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -13861,9 +13899,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
-  gridX: 0
-  gridZ: 5
+  gridX: 1
+  gridZ: 6
   gridManager: {fileID: 111690257}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -14003,7 +14042,7 @@ Transform:
   m_GameObject: {fileID: 1053114236}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24, y: 0, z: 27}
+  m_LocalPosition: {x: 27, y: 0, z: 27}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -14037,9 +14076,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 8
+  gridX: 9
   gridZ: 9
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -14179,7 +14219,7 @@ Transform:
   m_GameObject: {fileID: 1054600198}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18, y: 0, z: 18}
+  m_LocalPosition: {x: 21, y: 0, z: 18}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -14213,9 +14253,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 6
+  gridX: 7
   gridZ: 6
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -14670,7 +14711,7 @@ Transform:
   m_GameObject: {fileID: 1103179041}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 9}
+  m_LocalPosition: {x: 6, y: 0, z: 9}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -14704,9 +14745,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 1
+  gridX: 2
   gridZ: 3
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -15404,7 +15446,7 @@ Transform:
   m_GameObject: {fileID: 1167788893}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 24}
+  m_LocalPosition: {x: 6, y: 0, z: 24}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -15438,9 +15480,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
-  gridX: 1
+  gridX: 2
   gridZ: 8
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -16005,7 +16048,7 @@ Transform:
   m_GameObject: {fileID: 1212971311}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15, y: 0, z: 9}
+  m_LocalPosition: {x: 18, y: 0, z: 9}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -16039,9 +16082,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 5
+  gridX: 6
   gridZ: 3
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -16243,7 +16287,7 @@ Transform:
   m_GameObject: {fileID: 1231519501}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15, y: 0, z: 15}
+  m_LocalPosition: {x: 15, y: 0, z: 18}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -16278,8 +16322,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
   gridX: 5
-  gridZ: 5
+  gridZ: 6
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -16419,7 +16464,7 @@ Transform:
   m_GameObject: {fileID: 1262902547}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15, y: 0, z: 18}
+  m_LocalPosition: {x: 18, y: 0, z: 18}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -16453,9 +16498,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
-  gridX: 5
+  gridX: 6
   gridZ: 6
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -16595,7 +16641,7 @@ Transform:
   m_GameObject: {fileID: 1274075232}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 27}
+  m_LocalPosition: {x: 6, y: 0, z: 27}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -16629,9 +16675,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 1
+  gridX: 2
   gridZ: 9
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -16750,7 +16797,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 57472801171398331, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 57472801171398331, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16774,7 +16821,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 563326666085521974, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 563326666085521974, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
@@ -16790,11 +16837,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 588839293333666835, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -95.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 588839293333666835, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -39.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 925581002351369635, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_IsActive
@@ -16814,7 +16861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1640623606830934790, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: height
-      value: 11
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1712450131070757306, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_IsActive
@@ -16822,7 +16869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1788808401797866365, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1788808401797866365, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
@@ -16850,7 +16897,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2275969997962342486, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2275969997962342486, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
@@ -16894,7 +16941,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2543200966874335288, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2543200966874335288, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
@@ -16910,7 +16957,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2722518522013452351, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2722518522013452351, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16922,7 +16969,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
     - target: {fileID: 3034548341052867213, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3034548341052867213, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
@@ -16970,7 +17017,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 36
+      value: -17.5
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16978,7 +17025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 331.9
+      value: 239.9
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17014,11 +17061,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3446106412191676171, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3582445771482792929, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3582445771482792929, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17042,7 +17089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4064603128251208255, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4064603128251208255, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
@@ -17066,7 +17113,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4441267795168363193, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4441267795168363193, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
@@ -17110,7 +17157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5025002967551595757, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5025002967551595757, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
@@ -17138,7 +17185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6241378083209524425, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6241378083209524425, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17158,7 +17205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6625943618315678091, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6625943618315678091, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
@@ -17186,7 +17233,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7032101937263023470, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7032101937263023470, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17194,7 +17241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7120682438755080915, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 7120682438755080915, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17206,19 +17253,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: moveBackUses
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: moveLeftUses
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: startingMana
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: moveRightUses
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: moveForwardUses
@@ -17226,7 +17273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7295780280858452554, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 7295780280858452554, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17306,7 +17353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8449441648833188324, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8449441648833188324, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17314,7 +17361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9007823278109169485, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 9007823278109169485, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18628,7 +18675,7 @@ Transform:
   m_GameObject: {fileID: 1597430612}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 12}
+  m_LocalPosition: {x: 3, y: 0, z: 12}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -18662,9 +18709,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 0
+  gridX: 1
   gridZ: 4
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -19266,7 +19314,7 @@ Transform:
   m_GameObject: {fileID: 1709062920}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9, y: 0, z: 15}
+  m_LocalPosition: {x: 12, y: 0, z: 18}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -19300,9 +19348,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
-  gridX: 3
-  gridZ: 5
+  gridX: 4
+  gridZ: 6
   gridManager: {fileID: 111690257}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -19599,7 +19648,7 @@ Transform:
   m_GameObject: {fileID: 1733261142}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24, y: 0, z: 18}
+  m_LocalPosition: {x: 27, y: 0, z: 18}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -19633,9 +19682,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 2
-  gridX: 8
+  gridX: 9
   gridZ: 6
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -19757,6 +19807,10 @@ PrefabInstance:
       value: HotSign
       objectReference: {fileID: 0}
     - target: {fileID: 5785528264533770188, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5785528264533770188, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: islandPuzzleManager
       value: 
       objectReference: {fileID: 0}
@@ -19784,7 +19838,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -140.9
+      value: -139.41
       objectReference: {fileID: 0}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19792,7 +19846,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 85.1
+      value: 91.79
       objectReference: {fileID: 0}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19826,8 +19880,7 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5785528264533770188, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -19871,7 +19924,7 @@ Transform:
   m_GameObject: {fileID: 1760505299}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6, y: 0, z: 6}
+  m_LocalPosition: {x: 9, y: 0, z: 6}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -19905,9 +19958,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 2
+  gridX: 3
   gridZ: 2
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -20047,7 +20101,7 @@ Transform:
   m_GameObject: {fileID: 1776041997}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12, y: 0, z: 12}
+  m_LocalPosition: {x: 15, y: 0, z: 12}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -20081,9 +20135,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 4
+  gridX: 5
   gridZ: 4
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -20380,7 +20435,7 @@ Transform:
   m_GameObject: {fileID: 1800276760}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9, y: 0, z: 18}
+  m_LocalPosition: {x: 12, y: 0, z: 18}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -20414,9 +20469,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
-  gridX: 3
+  gridX: 4
   gridZ: 6
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -20786,7 +20842,7 @@ Transform:
   m_GameObject: {fileID: 1916586425}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21, y: 0, z: 24}
+  m_LocalPosition: {x: 24, y: 0, z: 24}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -20820,9 +20876,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 7
+  gridX: 8
   gridZ: 8
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -21353,7 +21410,7 @@ Transform:
   m_GameObject: {fileID: 2007446752}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6, y: 0, z: 18}
+  m_LocalPosition: {x: 9, y: 0, z: 18}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -21387,9 +21444,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 2
+  gridX: 3
   gridZ: 6
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -21615,7 +21673,7 @@ Transform:
   m_GameObject: {fileID: 2018630492}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18, y: 0, z: 12}
+  m_LocalPosition: {x: 21, y: 0, z: 12}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -21649,9 +21707,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 6
+  gridX: 7
   gridZ: 4
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -21802,7 +21861,7 @@ Transform:
   m_GameObject: {fileID: 2054633372}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 0, z: 15}
+  m_LocalPosition: {x: 6, y: 0, z: 18}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -21836,9 +21895,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
-  gridX: 1
-  gridZ: 5
+  gridX: 2
+  gridZ: 6
   gridManager: {fileID: 111690257}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -22150,7 +22210,7 @@ Transform:
   m_GameObject: {fileID: 2090135191}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9, y: 0, z: 27}
+  m_LocalPosition: {x: 12, y: 0, z: 27}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -22184,9 +22244,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
-  gridX: 3
+  gridX: 4
   gridZ: 9
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
