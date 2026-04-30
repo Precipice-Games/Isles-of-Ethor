@@ -21,6 +21,20 @@ public class PlayerControlsInputs : MonoBehaviour
 		move = context.ReadValue<Vector2>();
 	}
 	
+	public void PlayerSprint(InputAction.CallbackContext context)
+	{
+		if (context.performed)
+		{
+			sprint = true;
+			Debug.Log("PlayerControlsInputs.cs >> Sprint performed.");
+		}
+		else if (context.canceled)
+		{
+			sprint = false;
+			Debug.Log("PlayerControlsInputs.cs >> Sprint canceled.");
+		}
+	}
+	
 	/// <summary>
 	/// Takes in the Player's mouse pointer (delta) input in as a
 	/// Vector2 and assigns it to lookX, which defines the turning
@@ -43,28 +57,15 @@ public class PlayerControlsInputs : MonoBehaviour
 	/// <param name="context"></param>
 	public void PlayerJump(InputAction.CallbackContext context)
 	{
-		// if (context.performed && isGrounded)
-		// {
-		//     Debug.Log("PlayerMovement.cs >> Jump performed.");
-		// }
-
 		if (context.performed)
 		{
 			jump = true;
-			Debug.Log("PlayerMovement.cs >> Jump performed.");
+			Debug.Log("PlayerControlsInputs.cs >> Jump performed.");
 		}
 		else if (context.canceled)
 		{
 			jump = false;
-			Debug.Log("PlayerMovement.cs >> Jump canceled.");
+			Debug.Log("PlayerControlsInputs.cs >> Jump canceled.");
 		}
-        
-		// Normally, we would run the following:
-		// if (context.performed && isGrounded && jumpsRemaining > 0)
-		// {
-		//     rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpPower, rb.linearVelocity.z);
-		// }
-		// However, because I'm trying to use the character controller, I'm going to see
-		// if that can be handled in the JumpAndGravity() method instead.
 	}
 }
