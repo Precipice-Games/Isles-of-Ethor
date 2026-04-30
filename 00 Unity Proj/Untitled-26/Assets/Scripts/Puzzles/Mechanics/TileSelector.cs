@@ -140,19 +140,9 @@ public class TileSelector : MonoBehaviour
         if (PlayerOnSelectedTile()) return;
         if (SelectedTileIsStartOrEnd()) return;
 
-        // If we're out of Mana
-        if (resourceManager.GetMana() <= 0)
-        {
-            resourceManager.OutOfMana();
+        // Ensure there are enough resources before attempting the move.
+        if (resourceManager.GetRightUses() <= 0 || resourceManager.GetMana() <= 0)
             return;
-        }
-
-        // If we don't have enough Right move cards
-        if (resourceManager.GetRightUses() <= 0)
-        {
-            resourceManager.NoMoreCardUses("Right");
-            return;
-        }
 
         // Only spend mana if the move actually succeeds
         if (selectedTile.TryMove(1, 0))
@@ -174,20 +164,7 @@ public class TileSelector : MonoBehaviour
 
         // Ensure there are enough resources before attempting the move.
         Debug.Log("TileSelector.cs >> Attempting to move left. Remaining uses: " + resourceManager.moveLeftUses + ", Remaining mana: " + resourceManager.GetMana());
-
-        // If we're out of Mana
-        if (resourceManager.GetMana() <= 0)
-        {
-            resourceManager.OutOfMana();
-            return;
-        }
-
-        // If we don't have enough Left move cards
-        if (resourceManager.GetLeftUses() <= 0)
-        {
-            resourceManager.NoMoreCardUses("Left");
-            return;
-        }
+        if (resourceManager.GetLeftUses() <= 0 || resourceManager.GetMana() <= 0) return;
 
         // Only spend mana if the move actually succeeds
         if (selectedTile.TryMove(-1, 0))
@@ -206,20 +183,10 @@ public class TileSelector : MonoBehaviour
         if (selectedTile == null) return;
         if (PlayerOnSelectedTile()) return;
         if (SelectedTileIsStartOrEnd()) return;
-        
-        // If we're out of Mana
-        if (resourceManager.GetMana() <= 0)
-        {
-            resourceManager.OutOfMana();
-            return;
-        }
 
-        // If we don't have enough Forward/Up move cards
-        if (resourceManager.GetForwardUses() <= 0)
-        {
-            resourceManager.NoMoreCardUses("Up");
+        // Ensure there are enough resources before attempting the move.
+        if (resourceManager.GetForwardUses() <= 0 || resourceManager.GetMana() <= 0)
             return;
-        }
 
         // Only spend mana if the move actually succeeds
         if (selectedTile.TryMove(0, 1))
@@ -238,20 +205,10 @@ public class TileSelector : MonoBehaviour
         if (selectedTile == null) return;
         if (PlayerOnSelectedTile()) return;
         if (SelectedTileIsStartOrEnd()) return;
-        
-        // If we're out of Mana
-        if (resourceManager.GetMana() <= 0)
-        {
-            resourceManager.OutOfMana();
-            return;
-        }
 
-        // If we don't have enough Back/Down move cards
-        if (resourceManager.GetBackUses() <= 0)
-        {
-            resourceManager.NoMoreCardUses("Down");
+        // Ensure there are enough resources before attempting the move.
+        if (resourceManager.GetBackUses() <= 0 || resourceManager.GetMana() <= 0)
             return;
-        }
 
         // Only spend mana if the move actually succeeds
         if (selectedTile.TryMove(0, -1))
