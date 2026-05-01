@@ -302,6 +302,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8719596876456590039}
+  - component: {fileID: 725334714972085789}
+  - component: {fileID: 844713276752542486}
   m_Layer: 0
   m_Name: Airship
   m_TagString: Untagged
@@ -331,6 +333,46 @@ Transform:
   - {fileID: 6397125062946424787}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &725334714972085789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4286574371609574416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60642b4dc867a2441a709bf5d508be9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
+  nextDestination: 1
+--- !u!114 &844713276752542486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4286574371609574416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e95b7be7f041b0bdbcaa73cbb80815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Airship
+  travelToNextIsland:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 725334714972085789}
+        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4600702809286780884
 GameObject:
   m_ObjectHideFlags: 0
