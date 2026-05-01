@@ -54628,6 +54628,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Airship
       objectReference: {fileID: 0}
+    - target: {fileID: 6870026109915186962, guid: 23e1b0ce437627845a9873a765a2a15d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 41b0f5f25d02c3042a3e8351ed9cc35d, type: 2}
     - target: {fileID: 8719596876456590039, guid: 23e1b0ce437627845a9873a765a2a15d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
