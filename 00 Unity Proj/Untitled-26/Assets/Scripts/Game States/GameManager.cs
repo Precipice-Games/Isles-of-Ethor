@@ -1,4 +1,5 @@
 using UnityCommunity.UnitySingleton;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 // This is the GameManager. It is a singleton that is primarily used for handling scene changes.
@@ -15,7 +16,11 @@ public class GameManager : MonoSingleton<GameManager>
     }
     
     // Placeholder string
-    private string scene;
+    private string nextScene;
+    private string currentScene;
+
+    private AsyncOperation asyncLoadOp;
+    private AsyncOperation asyncUnloadOp;
 
     /// <summary>
     /// Called by SceneChanger.cs to prep the next scene to load. Once the
@@ -25,7 +30,31 @@ public class GameManager : MonoSingleton<GameManager>
     /// <param name="destination"></param>
     public void IncomingScene(SceneDestination destination)
     {
-        scene = DetermineScene(destination);
+        // Unload the current scene
+        currentScene = SceneManager.GetActiveScene().name;
+        asyncUnloadOp = SceneManager.UnloadSceneAsync(currentScene);
+        
+        if (asyncUnloadOp == null)
+        {
+            Debug.LogError($"GameManager.cs >> Failed to unload scene '{currentScene}'. Scene may not exist or is not loaded.");
+            return;
+        }
+        
+        asyncUnloadOp.allowSceneActivation = false;
+        Debug.Log($"GameManager.cs >> asyncUnloadOp.allowSceneActivation = {asyncUnloadOp.allowSceneActivation}");
+        
+        // Determine the next scene to load
+        nextScene = DetermineScene(destination);
+        asyncLoadOp = SceneManager.LoadSceneAsync(nextScene);
+        
+        if (asyncLoadOp == null)
+        {
+            Debug.LogError($"GameManager.cs >> Failed to load scene '{nextScene}'. Scene may not exist in build settings.");
+            return;
+        }
+        
+        asyncLoadOp.allowSceneActivation = false;
+        Debug.Log($"GameManager.cs >> asyncLoadOp.allowSceneActivation = {asyncLoadOp.allowSceneActivation}");
     }
     
     /// <summary>
@@ -60,6 +89,13 @@ public class GameManager : MonoSingleton<GameManager>
     /// </summary>
     public void LoadScene()
     {
-        SceneManager.LoadScene(scene);
+        if (asyncLoadOp == null || asyncUnloadOp == null)
+        {
+            Debug.LogError("GameManager.cs >> Cannot load scene. Async operations are null. Call IncomingScene() first.");
+            return;
+        }
+        
+        asyncLoadOp.allowSceneActivation = true;
+        asyncUnloadOp.allowSceneActivation = true;
     }
 }
