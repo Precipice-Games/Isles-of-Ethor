@@ -7234,6 +7234,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3393642962448538683, guid: 09eca921f8089e945beec870a9418486, type: 3}
+      propertyPath: nextDestination
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4175658769258702892, guid: 09eca921f8089e945beec870a9418486, type: 3}
       propertyPath: m_Name
       value: Airship
