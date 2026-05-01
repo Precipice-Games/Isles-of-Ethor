@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Islands/Oasis_Island.unity
     guid: bc6d0fec251804af7a76b879b584c91b
+  - enabled: 1
+    path: Assets/Scenes/Islands/Flower_Island.unity
+    guid: 7ff84d9375ae86042b60517c477b60ff
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 329cb175dd24ca844b2b0a19fd7b9f47, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: e7b54d2a4b159d1429081771157819c3, type: 2}
