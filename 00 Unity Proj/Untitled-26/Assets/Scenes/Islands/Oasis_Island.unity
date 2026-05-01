@@ -187,7 +187,6 @@ MonoBehaviour:
   gridX: 4
   gridZ: 5
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -364,7 +363,6 @@ MonoBehaviour:
   gridX: 3
   gridZ: 7
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -541,7 +539,6 @@ MonoBehaviour:
   gridX: 1
   gridZ: 6
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -808,7 +805,6 @@ MonoBehaviour:
   gridX: 3
   gridZ: 5
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -1525,7 +1521,6 @@ MonoBehaviour:
   gridX: 8
   gridZ: 4
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -2422,7 +2417,6 @@ MonoBehaviour:
   gridX: 4
   gridZ: 4
   gridManager: {fileID: 111690257}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -2599,7 +2593,6 @@ MonoBehaviour:
   gridX: 1
   gridZ: 7
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -2862,7 +2855,6 @@ MonoBehaviour:
   gridX: 3
   gridZ: 8
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3112,7 +3104,6 @@ MonoBehaviour:
   gridX: 9
   gridZ: 7
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3402,7 +3393,6 @@ MonoBehaviour:
   gridX: 2
   gridZ: 2
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3665,7 +3655,6 @@ MonoBehaviour:
   gridX: 7
   gridZ: 7
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3928,7 +3917,6 @@ MonoBehaviour:
   gridX: 8
   gridZ: 7
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -4262,7 +4250,6 @@ MonoBehaviour:
   gridX: 7
   gridZ: 2
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -4679,7 +4666,6 @@ MonoBehaviour:
   gridX: 1
   gridZ: 8
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -4856,7 +4842,6 @@ MonoBehaviour:
   gridX: 9
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -5432,7 +5417,6 @@ MonoBehaviour:
   gridX: 4
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -5609,7 +5593,6 @@ MonoBehaviour:
   gridX: 5
   gridZ: 8
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -5786,7 +5769,6 @@ MonoBehaviour:
   gridX: 6
   gridZ: 4
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -6459,7 +6441,6 @@ MonoBehaviour:
   gridX: 5
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -6735,7 +6716,6 @@ MonoBehaviour:
   gridX: 1
   gridZ: 3
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -7024,7 +7004,6 @@ MonoBehaviour:
   gridX: 8
   gridZ: 3
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -7455,7 +7434,6 @@ MonoBehaviour:
   gridX: 7
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -7718,7 +7696,6 @@ MonoBehaviour:
   gridX: 8
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -7895,7 +7872,6 @@ MonoBehaviour:
   gridX: 8
   gridZ: 1
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8103,7 +8079,6 @@ MonoBehaviour:
   gridX: 3
   gridZ: 6
   gridManager: {fileID: 111690257}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8280,7 +8255,6 @@ MonoBehaviour:
   gridX: 6
   gridZ: 9
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8519,7 +8493,6 @@ MonoBehaviour:
   gridX: 9
   gridZ: 4
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8696,7 +8669,6 @@ MonoBehaviour:
   gridX: 1
   gridZ: 5
   gridManager: {fileID: 111690257}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -9160,7 +9132,6 @@ MonoBehaviour:
   gridX: 6
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -9450,7 +9421,6 @@ MonoBehaviour:
   gridX: 4
   gridZ: 2
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -9627,7 +9597,6 @@ MonoBehaviour:
   gridX: 3
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -10012,7 +9981,6 @@ MonoBehaviour:
   gridX: 1
   gridZ: 3
   gridManager: {fileID: 111690257}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11096,7 +11064,6 @@ MonoBehaviour:
   gridX: 7
   gridZ: 8
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11359,7 +11326,6 @@ MonoBehaviour:
   gridX: 1
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11536,7 +11502,6 @@ MonoBehaviour:
   gridX: 9
   gridZ: 2
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11713,7 +11678,6 @@ MonoBehaviour:
   gridX: 1
   gridZ: 5
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11890,7 +11854,6 @@ MonoBehaviour:
   gridX: 5
   gridZ: 3
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -12874,7 +12837,6 @@ MonoBehaviour:
   gridX: 6
   gridZ: 5
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -13902,7 +13864,6 @@ MonoBehaviour:
   gridX: 1
   gridZ: 6
   gridManager: {fileID: 111690257}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -14079,7 +14040,6 @@ MonoBehaviour:
   gridX: 9
   gridZ: 9
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -14256,7 +14216,6 @@ MonoBehaviour:
   gridX: 7
   gridZ: 6
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -14748,7 +14707,6 @@ MonoBehaviour:
   gridX: 2
   gridZ: 3
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -15483,7 +15441,6 @@ MonoBehaviour:
   gridX: 2
   gridZ: 8
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -16085,7 +16042,6 @@ MonoBehaviour:
   gridX: 6
   gridZ: 3
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -16324,7 +16280,6 @@ MonoBehaviour:
   gridX: 5
   gridZ: 6
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -16501,7 +16456,6 @@ MonoBehaviour:
   gridX: 6
   gridZ: 6
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -16678,7 +16632,6 @@ MonoBehaviour:
   gridX: 2
   gridZ: 9
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -17261,7 +17214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: startingMana
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: moveRightUses
@@ -18712,7 +18665,6 @@ MonoBehaviour:
   gridX: 1
   gridZ: 4
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -19351,7 +19303,6 @@ MonoBehaviour:
   gridX: 4
   gridZ: 6
   gridManager: {fileID: 111690257}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -19685,7 +19636,6 @@ MonoBehaviour:
   gridX: 9
   gridZ: 6
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -19961,7 +19911,6 @@ MonoBehaviour:
   gridX: 3
   gridZ: 2
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -20138,7 +20087,6 @@ MonoBehaviour:
   gridX: 5
   gridZ: 4
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -20472,7 +20420,6 @@ MonoBehaviour:
   gridX: 4
   gridZ: 6
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -20879,7 +20826,6 @@ MonoBehaviour:
   gridX: 8
   gridZ: 8
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -21447,7 +21393,6 @@ MonoBehaviour:
   gridX: 3
   gridZ: 6
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -21710,7 +21655,6 @@ MonoBehaviour:
   gridX: 7
   gridZ: 4
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -21898,7 +21842,6 @@ MonoBehaviour:
   gridX: 2
   gridZ: 6
   gridManager: {fileID: 111690257}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -22247,7 +22190,6 @@ MonoBehaviour:
   gridX: 4
   gridZ: 9
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
