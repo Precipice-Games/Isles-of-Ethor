@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 827951171023605881}
   - component: {fileID: 2683379204049032788}
   - component: {fileID: 6870026109915186962}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wires
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 7588657306519751472}
   - component: {fileID: 5871060567371781997}
   - component: {fileID: 5118774831850077454}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Blimp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 4956870979337061479}
   - component: {fileID: 1904497822250952907}
   - component: {fileID: 6676290682645193679}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AirshipWalkway
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 8955111805379124902}
   - component: {fileID: 6718684434482106827}
   - component: {fileID: 2943194735716961559}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ropes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 8719596876456590039}
   - component: {fileID: 725334714972085789}
   - component: {fileID: 844713276752542486}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Airship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 6397125062946424787}
   - component: {fileID: 602863634827500304}
   - component: {fileID: 4681717875784900425}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlimpRings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -588,7 +588,7 @@ GameObject:
   - component: {fileID: 1890286861795289494}
   - component: {fileID: 2258105591450019892}
   - component: {fileID: 4544424434657737583}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -701,7 +701,7 @@ GameObject:
   - component: {fileID: 916840486901077264}
   - component: {fileID: 8135242441960454474}
   - component: {fileID: 224479896413035259}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Vessel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -814,7 +814,7 @@ GameObject:
   - component: {fileID: 4681060726110426802}
   - component: {fileID: 3832355364992519662}
   - component: {fileID: 3033793782214699709}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Engine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
