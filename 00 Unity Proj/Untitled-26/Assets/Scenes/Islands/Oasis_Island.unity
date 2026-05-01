@@ -10818,17 +10818,12 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
   m_PrefabInstance: {fileID: 810433452}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 810433454}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8618e9cc617733409d8d1c3d5b6565d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractableCrystal
---- !u!1 &810433454 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4445865944655362573, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
-  m_PrefabInstance: {fileID: 810433452}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &813247601
 GameObject:
   m_ObjectHideFlags: 0
@@ -13205,74 +13200,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1001 &940302236
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1045020396733171722, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
-      propertyPath: m_Name
-      value: PuzzleCheatSign
-      objectReference: {fileID: 0}
-    - target: {fileID: 5785528264533770188, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
-      propertyPath: collectableCrystal
-      value: 
-      objectReference: {fileID: 810433454}
-    - target: {fileID: 5785528264533770188, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
-      propertyPath: islandPuzzleManager
-      value: 
-      objectReference: {fileID: 706432708}
-    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 202.62286
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -21.628307
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.6868973
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.72675455
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 93.23
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8966030265941660681, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-  m_SourcePrefab: {fileID: 100100000, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
 --- !u!1001 &969145205
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22584,7 +22511,6 @@ SceneRoots:
   - {fileID: 788873473}
   - {fileID: 1274900496}
   - {fileID: 810433452}
-  - {fileID: 940302236}
   - {fileID: 1920595132}
   - {fileID: 895975369}
   - {fileID: 100226727}
