@@ -53892,14 +53892,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 607449464}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
-      propertyPath: crystalCollected
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
-      propertyPath: allPuzzlesCompleted
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzleManager
       value: 
       objectReference: {fileID: 7795512651711934440}
