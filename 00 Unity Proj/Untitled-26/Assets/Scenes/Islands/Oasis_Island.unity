@@ -8811,22 +8811,26 @@ PrefabInstance:
       objectReference: {fileID: 810433453}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandName
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: variableStorage
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1174035686}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzleManager
       value: 
       objectReference: {fileID: 706432708}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
+      propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
@@ -8838,7 +8842,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 810433453}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
+      propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1298792205}
+    - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
+      propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
@@ -8850,11 +8862,23 @@ PrefabInstance:
       value: Interaction
       objectReference: {fileID: 0}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
+      propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: OnCrystalCollect
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: InteractableCrystal, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
+      propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: Deathbox, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
+      propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2606719747866598393, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
@@ -10818,12 +10842,17 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
   m_PrefabInstance: {fileID: 810433452}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 810433454}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8618e9cc617733409d8d1c3d5b6565d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractableCrystal
+--- !u!1 &810433454 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4445865944655362573, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
+  m_PrefabInstance: {fileID: 810433452}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &813247601
 GameObject:
   m_ObjectHideFlags: 0
@@ -15703,6 +15732,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9208909222160705754, guid: 8a4743623ff36b94f9f8e976cda3a878, type: 3}
   m_PrefabInstance: {fileID: 1174035683}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1174035686 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7407150238594421454, guid: 8a4743623ff36b94f9f8e976cda3a878, type: 3}
+  m_PrefabInstance: {fileID: 1174035683}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 610c541718d694070a21327d1ae62e75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1189490650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15866,6 +15906,74 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
   m_PrefabInstance: {fileID: 1197702378}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1201615401
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1045020396733171722, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+      propertyPath: m_Name
+      value: PuzzleCheatSign
+      objectReference: {fileID: 0}
+    - target: {fileID: 5785528264533770188, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+      propertyPath: collectableCrystal
+      value: 
+      objectReference: {fileID: 810433454}
+    - target: {fileID: 5785528264533770188, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+      propertyPath: islandPuzzleManager
+      value: 
+      objectReference: {fileID: 706432708}
+    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 196.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9733858
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -23.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7654271
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.64352256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 80.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8966030265941660681, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
 --- !u!1 &1212971311
 GameObject:
   m_ObjectHideFlags: 0
@@ -22510,6 +22618,7 @@ SceneRoots:
   - {fileID: 111690256}
   - {fileID: 788873473}
   - {fileID: 1274900496}
+  - {fileID: 1201615401}
   - {fileID: 810433452}
   - {fileID: 1920595132}
   - {fileID: 895975369}
