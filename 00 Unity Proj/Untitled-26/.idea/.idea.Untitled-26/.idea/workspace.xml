@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbef25c7-7cea-4452-bcf0-670b2112a0f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Props/smaller airship.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Props/smaller airship.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/AirshipTempMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/airship/AirshipTempMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/AirshipTempMaterial.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/airship/AirshipTempMaterial.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/AirshipWoodMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/airship/AirshipWoodMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Materials/AirshipWoodMaterial.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Materials/airship/AirshipWoodMaterial.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-    </list>
+    <list default="true" id="fbef25c7-7cea-4452-bcf0-670b2112a0f8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,16 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Standalone Player.Start Unity.executor": "Run",
-    "git-widget-placeholder": "issue/495-import-frances-new-airship-texture",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Standalone Player.Start Unity.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;issue/495-import-frances-new-airship-texture&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Standalone Player.Start Unity">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$USER_HOME$/Desktop/v2.0.4\Isles of Ethor.exe" />
