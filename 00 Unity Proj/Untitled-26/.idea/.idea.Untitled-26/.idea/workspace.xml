@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbef25c7-7cea-4452-bcf0-670b2112a0f8" name="Changes" comment="" />
+    <list default="true" id="fbef25c7-7cea-4452-bcf0-670b2112a0f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/AirshipTextures/mechanical texture.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/AirshipTextures/MechanicalTexture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Textures/AirshipTextures/sail texture.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Textures/AirshipTextures/sail/SailTexture.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
