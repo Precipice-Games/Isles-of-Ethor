@@ -10,9 +10,8 @@ public class GameManager : MonoSingleton<GameManager>
         MainMenu,
         MotherIsland,
         IceIsland,
-        OasisIsland
-        
-        // Add flower island later
+        OasisIsland,
+        FlowerIsland
     }
     
     // Placeholder string
@@ -47,6 +46,8 @@ public class GameManager : MonoSingleton<GameManager>
                 return "Ice_Island";
             case SceneDestination.OasisIsland:
                 return "Oasis_Island";
+            case SceneDestination.FlowerIsland:
+                return "Flower_Island";
             default:
                 return "MainMenu";
         }

@@ -17,7 +17,8 @@ public class IslandManager : MonoBehaviour
     {
         MotherIsland,
         IceIsland,
-        OasisIsland
+        OasisIsland,
+        FlowerIsland
     }
 
     [Title("Island Manager Data", "Data regarding the current island.")]
@@ -59,6 +60,11 @@ public class IslandManager : MonoBehaviour
             case IslandName.OasisIsland:
                 Debug.Log("IslandManager.cs >> Oasis Island puzzles completed!");
                 // variableStorage.SetValue("$oasisFinished", true);
+                allPuzzlesCompleted = true;
+                break;
+            case IslandName.FlowerIsland:
+                Debug.Log("IslandManager.cs >> Flower Island puzzles completed!");
+                // variableStorage.SetValue("$flowerFinished", true);
                 allPuzzlesCompleted = true;
                 break;
             

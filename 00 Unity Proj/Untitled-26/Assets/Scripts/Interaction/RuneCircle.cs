@@ -94,7 +94,7 @@ public class RuneCircle : MonoBehaviour
         if (!PuzzleInfoFound()) return;
 
         // Play rune circle sound effect
-        if (SFXManager.Instance != null) SFXManager.Instance.PlayRuneCircle();
+        SFXManager.Instance.PlayRuneCircle();
         
         // If the puzzle has already been completed, teleport to the other rune circle.
         if (puzzleInfo.puzzleSolved == true)
@@ -105,7 +105,6 @@ public class RuneCircle : MonoBehaviour
 
         // Assign the transform position of the player's respawn location to be on the starting rune circle.
         exitPuzzleButton.currentRuneCircle = this;
-        exitPuzzleButton.player = player;
         exitPuzzleButton.respawnLocation = new Vector3(transform.position.x, transform.position.y + 1.0f, transform.position.z);
 
         // If the puzzle has not been completed, trigger the

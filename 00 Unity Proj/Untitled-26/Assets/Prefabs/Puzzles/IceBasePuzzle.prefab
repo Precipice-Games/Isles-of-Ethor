@@ -158,7 +158,6 @@ MonoBehaviour:
   gridX: 2
   gridZ: 3
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -334,7 +333,6 @@ MonoBehaviour:
   gridX: 1
   gridZ: 1
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -581,7 +579,6 @@ MonoBehaviour:
   gridX: 3
   gridZ: 5
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -757,7 +754,6 @@ MonoBehaviour:
   gridX: 1
   gridZ: 4
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -933,7 +929,6 @@ MonoBehaviour:
   gridX: 1
   gridZ: 5
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -1180,7 +1175,6 @@ MonoBehaviour:
   gridX: 3
   gridZ: 2
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -1356,7 +1350,6 @@ MonoBehaviour:
   gridX: 5
   gridZ: 3
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -1533,7 +1526,6 @@ MonoBehaviour:
   gridX: 1
   gridZ: 6
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -1710,7 +1702,6 @@ MonoBehaviour:
   gridX: 3
   gridZ: 0
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -1886,7 +1877,6 @@ MonoBehaviour:
   gridX: 2
   gridZ: 2
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -2200,7 +2190,6 @@ MonoBehaviour:
   gridX: 4
   gridZ: 4
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -2376,7 +2365,6 @@ MonoBehaviour:
   gridX: 4
   gridZ: 2
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -2552,7 +2540,6 @@ MonoBehaviour:
   gridX: 1
   gridZ: 3
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -2728,7 +2715,6 @@ MonoBehaviour:
   gridX: 3
   gridZ: 3
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3086,7 +3072,6 @@ MonoBehaviour:
   gridX: 4
   gridZ: 1
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3139,6 +3124,7 @@ Transform:
   - {fileID: 8168447386167564006}
   - {fileID: 3610915418619955191}
   - {fileID: 5018615782271576797}
+  - {fileID: 5158399700957503990}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9191018659038673785
@@ -3168,7 +3154,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 588839293333666835}
-  - component: {fileID: 1284802655190286773}
   m_Layer: 0
   m_Name: Islands
   m_TagString: Untagged
@@ -3208,33 +3193,6 @@ Transform:
   - {fileID: 2392832193953854197}
   m_Father: {fileID: 3397337548393501967}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1284802655190286773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7264184287714543087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 169a640392ed4572949cb0c8fa80e788, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SelectableTilesParent
-  gridMoveBlocked:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2186891206686781560}
-        m_TargetAssemblyTypeName: PuzzleFeedback, Assembly-CSharp
-        m_MethodName: DisplayFeedback
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &7470132292000716953
 GameObject:
   m_ObjectHideFlags: 0
@@ -3393,7 +3351,6 @@ MonoBehaviour:
   gridX: 3
   gridZ: 1
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3455,27 +3412,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c25cdba096906e54bb7d84f6b69f698b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  lackOfResources:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2186891206686781560}
-        m_TargetAssemblyTypeName: PuzzleFeedback, Assembly-CSharp
-        m_MethodName: DisplayFeedback
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   startingMana: 3
   moveLeftUses: 2
   moveRightUses: 2
   moveForwardUses: 2
   moveBackUses: 2
-  puzzleFeedback: {fileID: 2186891206686781560}
   manaLabel: {fileID: 4244620660118580199}
   leftLabel: {fileID: 1230731256228544730}
   rightLabel: {fileID: 4912949784702118134}
@@ -3643,7 +3584,6 @@ MonoBehaviour:
   gridX: 5
   gridZ: 2
   gridManager: {fileID: 1640623606830934790}
-  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3742,6 +3682,81 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dedef1882a78850498d9dc638d6cb5cb, type: 3}
   m_PrefabInstance: {fileID: 1452176004927795202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2356174237965320745
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3397337548393501967}
+    m_Modifications:
+    - target: {fileID: 2396372427838243438, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+      propertyPath: feedbackPrefab
+      value: 
+      objectReference: {fileID: 1580311064563317073}
+    - target: {fileID: 3845136706088205176, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+      propertyPath: m_Name
+      value: FeedbackController
+      objectReference: {fileID: 0}
+    - target: {fileID: 4016069986699250757, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 247
+      objectReference: {fileID: 0}
+    - target: {fileID: 7432239896893596639, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 603.4878
+      objectReference: {fileID: 0}
+    - target: {fileID: 7432239896893596639, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.69034
+      objectReference: {fileID: 0}
+    - target: {fileID: 7432239896893596639, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 405.29257
+      objectReference: {fileID: 0}
+    - target: {fileID: 7432239896893596639, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7432239896893596639, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7432239896893596639, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7432239896893596639, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7432239896893596639, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7432239896893596639, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7432239896893596639, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+--- !u!1 &1580311064563317073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3845136706088205176, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+  m_PrefabInstance: {fileID: 2356174237965320745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5158399700957503990 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7432239896893596639, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+  m_PrefabInstance: {fileID: 2356174237965320745}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7138607130776157398
 PrefabInstance:
@@ -3943,17 +3958,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8794074883102573080, guid: 6112f478f7cbb684481585851a3c27ae, type: 3}
   m_PrefabInstance: {fileID: 7138607130776157398}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2186891206686781560 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9027474980577086638, guid: 6112f478f7cbb684481585851a3c27ae, type: 3}
-  m_PrefabInstance: {fileID: 7138607130776157398}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34376192bcee4931bc81975a7c88e19f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PuzzleFeedback
 --- !u!114 &4244620660118580199 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6482510951426643761, guid: 6112f478f7cbb684481585851a3c27ae, type: 3}
