@@ -2107,6 +2107,10 @@ PrefabInstance:
       propertyPath: originalColor.g
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4943596135170749970, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 410468428}
     - target: {fileID: 5025002967551595757, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
       value: 0
@@ -6189,6 +6193,10 @@ PrefabInstance:
       propertyPath: originalColor.g
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4943596135170749970, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 410468428}
     - target: {fileID: 5025002967551595757, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: originalColor.g
       value: 0
@@ -10421,6 +10429,10 @@ PrefabInstance:
       propertyPath: originalColor.g
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4943596135170749970, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 410468428}
     - target: {fileID: 5025002967551595757, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
       value: 1
@@ -17096,6 +17108,10 @@ PrefabInstance:
       propertyPath: originalColor.g
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4943596135170749970, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 410468428}
     - target: {fileID: 5018615782271576797, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -82.9
