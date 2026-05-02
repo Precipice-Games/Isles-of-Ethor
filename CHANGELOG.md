@@ -7,6 +7,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Put any unreleased features here.
 
+## [v2.1.4] - 2026-04-30
+
+### Fixed
+* Fixed a bug with a missing reference to the Player in ExitPuzzleButton.cs.
+     * This bug soft locked the Player in a broken puzzle.
+
+### Changed
+* Updated puzzle feedback UI to utilize the same text asset (aesthetic) of the interaction prompt.
+* Reworked event handling for puzzle feedback.
+
 ## [v2.1.3] - 2026-04-29
 
 ### Fixed
