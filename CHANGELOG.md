@@ -7,6 +7,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Put any unreleased features here.
 
+## [v2.2.1] - 2026-05-02
+
+### Added
+* Created first draft of RopeBridge.prefab (model made by @Samisushi).
+* Added PostProcessing.prefab to Mother_Island.unity.
+
+### Fixed
+* Performed checks to ensure all in-game puzzles are correct with tile layouts, resource data, and functionality.
+* Fixed a bug where the gameplay wasn't blurring when paused on Mother Island.
+
+### Changed
+* Rune circles are no longer a subscriber of the Player interaction event.
+
 ## [v2.2.0] - 2026-05-01
 
 ### Added
