@@ -7,6 +7,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Put any unreleased features here.
 
+## [v2.2.0] - 2026-05-01
+
+### Added
+* Added the Flower Island to the game.
+* Added the new airship model to the game (made by @fwooley).
+
+### Fixed
+* Fixed a massive memory leak on Oasis Island in relation to the PuzzleCheatSign.
+
+### Changed
+* Island traversal chain has now been updated to include Flower_Island.unity.
+* Oasis_Island.unity now goes to Flower_Island.unity instead of Mother_Island.unity.
+
 ## [v2.1.4] - 2026-04-30
 
 ### Fixed
