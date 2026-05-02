@@ -53774,6 +53774,50 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 446106262223623158, guid: 1710d0def16b0e64ca15a0462b10aed0, type: 3}
+      propertyPath: m_MoveAction
+      value: 
+      objectReference: {fileID: -4265220639702670642, guid: 398bff137a68b47458beb240fdd12a92, type: 3}
+    - target: {fileID: 446106262223623158, guid: 1710d0def16b0e64ca15a0462b10aed0, type: 3}
+      propertyPath: m_PointAction
+      value: 
+      objectReference: {fileID: 6465669424074167628, guid: 398bff137a68b47458beb240fdd12a92, type: 3}
+    - target: {fileID: 446106262223623158, guid: 1710d0def16b0e64ca15a0462b10aed0, type: 3}
+      propertyPath: m_ActionsAsset
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: 398bff137a68b47458beb240fdd12a92, type: 3}
+    - target: {fileID: 446106262223623158, guid: 1710d0def16b0e64ca15a0462b10aed0, type: 3}
+      propertyPath: m_CancelAction
+      value: 
+      objectReference: {fileID: 415226467710996720, guid: 398bff137a68b47458beb240fdd12a92, type: 3}
+    - target: {fileID: 446106262223623158, guid: 1710d0def16b0e64ca15a0462b10aed0, type: 3}
+      propertyPath: m_SubmitAction
+      value: 
+      objectReference: {fileID: -7838565490652668449, guid: 398bff137a68b47458beb240fdd12a92, type: 3}
+    - target: {fileID: 446106262223623158, guid: 1710d0def16b0e64ca15a0462b10aed0, type: 3}
+      propertyPath: m_LeftClickAction
+      value: 
+      objectReference: {fileID: 2385318201707490742, guid: 398bff137a68b47458beb240fdd12a92, type: 3}
+    - target: {fileID: 446106262223623158, guid: 1710d0def16b0e64ca15a0462b10aed0, type: 3}
+      propertyPath: m_RightClickAction
+      value: 
+      objectReference: {fileID: -8671386872515475562, guid: 398bff137a68b47458beb240fdd12a92, type: 3}
+    - target: {fileID: 446106262223623158, guid: 1710d0def16b0e64ca15a0462b10aed0, type: 3}
+      propertyPath: m_MiddleClickAction
+      value: 
+      objectReference: {fileID: -1127534448034733246, guid: 398bff137a68b47458beb240fdd12a92, type: 3}
+    - target: {fileID: 446106262223623158, guid: 1710d0def16b0e64ca15a0462b10aed0, type: 3}
+      propertyPath: m_ScrollWheelAction
+      value: 
+      objectReference: {fileID: 1932992226813233507, guid: 398bff137a68b47458beb240fdd12a92, type: 3}
+    - target: {fileID: 446106262223623158, guid: 1710d0def16b0e64ca15a0462b10aed0, type: 3}
+      propertyPath: m_TrackedDevicePositionAction
+      value: 
+      objectReference: {fileID: -7472464319981792750, guid: 398bff137a68b47458beb240fdd12a92, type: 3}
+    - target: {fileID: 446106262223623158, guid: 1710d0def16b0e64ca15a0462b10aed0, type: 3}
+      propertyPath: m_TrackedDeviceOrientationAction
+      value: 
+      objectReference: {fileID: 1139918243457856847, guid: 398bff137a68b47458beb240fdd12a92, type: 3}
     - target: {fileID: 4252315353629880175, guid: 1710d0def16b0e64ca15a0462b10aed0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -2070,6 +2070,14 @@ PrefabInstance:
       propertyPath: gridX
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4943596135170749970, guid: 0487eeb8116a2bc44b04ac1dd8955b3d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2064143266}
+    - target: {fileID: 4943596135170749970, guid: 0487eeb8116a2bc44b04ac1dd8955b3d, type: 3}
+      propertyPath: currentRuneCircle
+      value: 
+      objectReference: {fileID: 2071926729}
     - target: {fileID: 5018615782271576797, guid: 0487eeb8116a2bc44b04ac1dd8955b3d, type: 3}
       propertyPath: m_LocalPosition.z
       value: 3
@@ -2724,8 +2732,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 54.879906, y: 1.7007141, z: 166.97644}
-  m_Center: {x: -39.18118, y: -153.65, z: 190.08414}
+  m_Size: {x: 54.879906, y: 7.1476746, z: 166.97644}
+  m_Center: {x: -39.18118, y: -163.82185, z: 190.08414}
 --- !u!114 &1074486373 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3432335786353409372, guid: cd77f075d3ae50f43890f44b657a1a52, type: 3}
@@ -2899,6 +2907,14 @@ PrefabInstance:
       propertyPath: gridX
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4943596135170749970, guid: 0487eeb8116a2bc44b04ac1dd8955b3d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2064143266}
+    - target: {fileID: 4943596135170749970, guid: 0487eeb8116a2bc44b04ac1dd8955b3d, type: 3}
+      propertyPath: currentRuneCircle
+      value: 
+      objectReference: {fileID: 2106538891}
     - target: {fileID: 5018615782271576797, guid: 0487eeb8116a2bc44b04ac1dd8955b3d, type: 3}
       propertyPath: m_LocalPosition.z
       value: 5
@@ -5619,6 +5635,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5438321986708604092, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
   m_PrefabInstance: {fileID: 2064143264}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2071926729 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3625183002538320219, guid: 0487eeb8116a2bc44b04ac1dd8955b3d, type: 3}
+  m_PrefabInstance: {fileID: 1021214702}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245062b318bd734438bf0438b5bf4871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RuneCircle
 --- !u!1 &2081925795 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1053923620404659715, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
@@ -5664,6 +5691,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &2106538891 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3625183002538320219, guid: 0487eeb8116a2bc44b04ac1dd8955b3d, type: 3}
+  m_PrefabInstance: {fileID: 1153222202}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245062b318bd734438bf0438b5bf4871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RuneCircle
 --- !u!1001 &2144424999
 PrefabInstance:
   m_ObjectHideFlags: 0
