@@ -28,18 +28,6 @@ public class RuneCircle : MonoBehaviour
     // Static event to notify subscribers of game state changes
     public static event Action<PuzzleInformation> puzzleTriggered;
 
-    // Subscribe to events
-    private void OnEnable()
-    {
-        PlayerInteraction.playerInteraction += Interaction;
-    }
-
-    // Unsubscribe from events
-    private void OnDisable()
-    {
-        PlayerInteraction.playerInteraction -= Interaction;
-    }
-
     /// <summary>
     /// Called when the Player's collider enters the rune circle collider.
     /// This sets inCircle to true and invokes the playerInCircle event
@@ -66,6 +54,7 @@ public class RuneCircle : MonoBehaviour
     /// <param name="other"></param>
     private void OnTriggerExit(Collider other)
     {
+        Debug.Log("RuneCircle.cs >> Player exited rune circle.");
         if (other.CompareTag("Player"))
         {
             playerInCircle?.Invoke(false);
@@ -87,14 +76,19 @@ public class RuneCircle : MonoBehaviour
     /// </summary>
     public void Interaction()
     {
+        Debug.Log("RuneCircle.cs >> Player interacted with rune circle.");
         // If the player is not standing on the rune circle, break out.
         if (!inCircle) return;
+        Debug.Log("RuneCircle.cs >> inCircle = " + inCircle);
 
         // If there's no puzzle info, break out.
         if (!PuzzleInfoFound()) return;
 
         // Play rune circle sound effect
-        SFXManager.Instance.PlayRuneCircle();
+        if (SFXManager.Instance != null)
+        {
+            SFXManager.Instance.PlayRuneCircle();
+        }
         
         // If the puzzle has already been completed, teleport to the other rune circle.
         if (puzzleInfo.puzzleSolved == true)
