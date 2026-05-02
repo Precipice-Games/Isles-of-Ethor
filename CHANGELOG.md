@@ -16,6 +16,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ### Changed
 * Increased the camera FOV on Ice Island puzzle 4.
 
+## [v2.1.3] - 2026-04-29
+
+### Fixed
+* Fixed a bug where Ice Island puzzle 4 was unsolvable.
+* Fixed a bug where the 'move down' card values for Oasis Island puzzle 1 were incorrect.
+
+### Changed
+* Increased the camera FOV on Ice Island puzzle 4.
+
 ## [v2.1.2] - 2026-04-27
 
 ### Fixed
