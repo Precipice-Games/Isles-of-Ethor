@@ -1,0 +1,177 @@
+﻿title: flowerArrivalDialogue
+---
+Dahlia: Ah! Sorry, you startled me. Um…Omigosh, who are you?
+Dahlia: I’ve never seen you before.   
+
+Sky: The name’s Sky. I’m from the main island.
+
+Dahlia: The…the main island?! But– how?!
+
+Sky: It’s…a long story.
+
+Dahlia: No matter! You’re new! Ah, it’s been forever since we’ve had a visitor!
+Dahlia: My name is Dahlia, and allow me to be the first to welcome you to Flower Island!
+
+Sky: It’s nice to meet you, Dahlia.
+
+Dahlia: Um…Sky…
+Dahlia: Can I ask you something?
+
+Sky: Of course.
+
+Dahlia: Could you…not step on my garden?
+
+Sky: Oh! I’m so sorry! I had no idea I was standing on them. We don’t really have flowers on the main island, I’m not used to having to step around them.
+
+Dahlia: It’s okay, I know you didn’t mean to– 
+Dahlia: Wait. No flowers?
+
+Sky: Nope. Or, at least, not ones like this.
+
+Dahlia: Omigosh! Then I have to take you on a tour! 
+Dahlia: We have every kind of flower, and they’re all so beautiful! You need to see them!
+
+Sky: Well, actually, I’m here to look for a crystal–
+
+Dahlia: That can wait! 
+Dahlia: Sky, get ready for your life to be changed!
+Dahlia: There’s six flowers that are perfectly in bloom right now. A sunflower, a tulip, a rose, a lily, a waterlily, and a dahlia. That’s what I’m named after. You’ll know them when you see them!
+
+Sky: Okay, but–
+
+Dahlia: Go on! We can talk about that crystal when you’re done.
+===
+
+title: firstFlower
+---
+Sky: It’s a sunflower! 
+Sky: Wow they’re pretty! It’s such a shame they make my allergies act up…
+Sky: Oh well! At least the seeds are delicious!
+Sky: But enough of that, I’ve got a crystal to retrieve!
+===
+
+title: secondFlower
+---
+Sky: This must be one of Dahlia’s flowers!
+Sky: Tulips are so pretty! I could sit here and look at them all day.
+Sky: I should probably go… but one sniff shouldn’t hurt.
+Sky: Sometimes you gotta stop and smell the flo– ACHOO!!
+Sky: *Sniffle* So pretty… onto the next…
+===
+
+title: thirdFlower
+---
+//Sky walks to the small field of Roses
+Sky: Wow! What’s this one? It’s gorgeous!
+Sky: Ouch! Oh right, thorns. I should be more careful.
+Sky: Better see if there are any more flowers to find. I hope they’re less dangerous. 
+===
+
+title: fourthFlower
+---
+Sky: Wow, such a pretty Lily! This has to be one of Dahlia’s flowers!
+Sky: It’s really got me wondering, though…
+Sky: Like the chicken and the egg dilemma, which got named first? The flower or a person?
+Sky: Ahh who cares! There’s a crystal waiting for me!
+===
+
+title: fifthFlower
+---
+Sky: A flower! And, it’s right next to the water; this MUST be the waterlily. 
+Sky: I bet it’s nice to be right next to the water as a flower…
+Sky: You never get thirsty!
+Sky: Okay, let’s continue on.
+===
+
+title: sixthFlower
+---
+Sky: I bet this is Dahlia’s dahlia. Ha. 
+Sky: I can see the resemblance! 
+Sky: It’s amazing that it can grow here in these ruins, and that it’s stayed so beautiful after all this time…
+Sky: I think this one is my favorite. 
+Sky: …
+Sky: Alright…I’d love to stay here longer, but it’s time to go.
+===
+
+title: returnToDahliaDialogue
+---
+Sky: Dahlia, I’m back!
+
+Dahlia: Hey! How’d it go? Did you see all the flowers?
+
+Sky: I did! They were all so beautiful.
+Sky: Thank you for encouraging me to see them.
+
+Dahlia: Of course! No one should go their life without seeing flowers.
+Dahlia: You know, we used to get lots of visitors before the Fracture.
+Dahlia: My grandma used to tell me stories of how people would travel from all around the world to see our gardens.
+Dahlia: But now…well, you know.
+Dahlia: And with such a diminished amount of magic, it’s hard to keep everything alive and healthy without damaging the land.
+Dahlia: I’m worried that some day soon we won’t be able to grow anything anymore.
+Dahlia: But let me not bore you with that! Sorry! You’re a guest, and there’s more to–
+
+Sky: Dahlia, I’m here to help. That’s why I’m looking for the crystal. I have a way to bring it back to life.
+
+Dahlia: What?! Really?! I mean, that would be great if you could…it’s just right over there.
+
+Sky: Thanks! Just give me a moment.
+===
+
+title: afterActivatingCrystalDialogue
+---
+Sky: Alright, there we go. Your pesky crystal problem is taken care of.
+
+Dahlia: Oh, thank you Sky! Thank you so much!
+Dahlia: The island already looks so much brighter!
+
+Sky: I’m happy to help! And, hopefully, you should start getting some more visitors.
+
+Dahlia: Ah! Are you serious?!
+
+Sky: Everyone should get to see this place.
+
+Dahlia: Omigosh! I can’t wait!
+Dahlia: And…I can’t thank you enough. Please come back and see me! There’s still so much more I can show you. 
+
+Sky: Absolutely! I can’t wait to come back. Bye, Dahlia, I’ll see you soon!
+
+Dahlia: Bye! And take care!
+===
+
+title: flowerOutroDialogue
+---
+Mother Crystal: My child…can you hear me?
+
+Sky: Hello?! Yes, I can!
+
+Mother Crystal: Pray, return to the Mother Island.
+
+Sky: Is something wrong? The crystals seem to be working again…
+
+Mother Crystal: Fear not. Nothing is amiss. You are doing amazing, Sky.
+Mother Crystal: My powers have just grown weary. I need to rest, as do you. We can talk more when you return.  
+
+Sky: Roger that! I’ll head back right now!
+//(The player goes to the skyship, which takes them to the Mother Island.)
+===
+
+title: Bee
+---
+=>Bee: Bzzt!! (Back off!! This pollen is mine! MINE!)
+    Sky: Alright Mr. Bee. I didn’t want it anyway.
+
+=>Bee: Bzz Bzz Bzz! (Float like a bee, sting like allergies!)
+    Sky: That’s not how the saying goes, little buddy.
+    Bee: Bzzz! (You know what really makes me want to sting people? WHEN THEY CORRECT ME!)
+    Sky: Ack!! I’m sorry! Please don’t sting me!!
+
+=>Bee: Bzzzzzzzzzzt! (Watch where you’re stepping!)
+    Sky: Hey, little guy! Could you help me find a flower?
+    Bee: Bzzt! Bzzt!! Bzzt!!! (No! This is my garden! Stay away!)
+    Sky: Okay, okay. I’ll find it myself.
+
+=>Bee: Bzzt. Bzzt? (So, you like Jazz?)
+    Sky: Oh my Mother Crystal! A bee!
+===
+
+
