@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 
 public class TileSelector : MonoBehaviour
 {
+    public GridManager gridManager;
+
     [Title("Tile Selector Variables", "Variables used in the Tile Selection process.")]
     [PropertyTooltip("Please assign the ResourceManager for this specific puzzle prefab.")]
     public ResourceManager resourceManager;
@@ -146,9 +148,16 @@ public class TileSelector : MonoBehaviour
 
         // Only spend mana if the move actually succeeds
         if (selectedTile.TryMove(1, 0))
+{
+        resourceManager.UseMove("Right");
+
+        if (gridManager == null)
         {
-            resourceManager.UseMove("Right");
+        gridManager = selectedTile.gridManager;
         }
+
+        gridManager.ApplyGusts();
+}
     }
 
     /// <summary>
