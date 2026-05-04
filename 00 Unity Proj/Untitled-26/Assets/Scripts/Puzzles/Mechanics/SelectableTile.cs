@@ -30,6 +30,9 @@ public class SelectableTile : MonoBehaviour
     // Reference to the GridManager for this specific puzzle
     public GridManager gridManager;
     private Renderer rend;
+    
+    // Reference to the parent object that holds all the SelectableTiles for this puzzle
+    public SelectableTilesParent selectableTilesParent;
 
     // Making originalColor public for now to tell
     // which are the start and end tiles.
@@ -40,12 +43,13 @@ public class SelectableTile : MonoBehaviour
     [Title("Debugging Options", "Settings for quick debugging options.")]
     [PropertyTooltip("Print out the starting position of a tile. True by default.")]
     public bool printStartingPosition;
-
-    // Event fired when a move is blocked by an occupied cell
-    public static event Action<SelectableTile> cellOccupied;
-
-    // Event fired when a move is out of bounds
-    public static event Action<SelectableTile> moveOutOfBounds;
+    
+    private void Awake()
+    {
+        // Ensure we have the GridManager reference since this script is
+        // using [ExecuteAlways] and we need that reference before runtime.
+        if (selectableTilesParent == null) selectableTilesParent = GetComponentInParent<SelectableTilesParent>();
+    }
 
     // Subscribe to events
     private void OnEnable()
@@ -148,8 +152,9 @@ public class SelectableTile : MonoBehaviour
 
         Debug.Log($"SelectableTile.cs >> BLOCKED: Cell at ({coordX},{coordZ}) is occupied.");
 
-        // Fire off an event to say that a cell is occupied
-        cellOccupied?.Invoke(this);
+        // Fire off the parent event to say that a cell is occupied
+        string message = "That space is occupied!";
+        selectableTilesParent.gridMoveBlocked?.Invoke(message, this);
         return false;
     }
 
@@ -166,8 +171,9 @@ public class SelectableTile : MonoBehaviour
         {
             Debug.Log("SelectableTile.cs >> BLOCKED: Outside grid – no mana spent");
 
-            // Fire off an event to say that the move is out of bounds
-            moveOutOfBounds?.Invoke(this);
+            // Fire off the parent event to say that the move is out of bounds
+            string message = "You cannot move outside the grid!";
+            selectableTilesParent.gridMoveBlocked?.Invoke(message, this);
             return true;
         }
 
