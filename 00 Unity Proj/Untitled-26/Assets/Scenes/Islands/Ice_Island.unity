@@ -9396,6 +9396,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 562672765}
+  - component: {fileID: 562672766}
   m_Layer: 0
   m_Name: Right Side Forest
   m_TagString: Untagged
@@ -9548,6 +9549,21 @@ Transform:
   - {fileID: 1347864454}
   m_Father: {fileID: 848428186}
   m_LocalEulerAnglesHint: {x: 0, y: 14.257, z: 0}
+--- !u!114 &562672766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562672764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ef1bdd940628342a145208fb55a5bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IceTreeManager
+  maxDefaultTrees: 0
+  maxSmallTrees: 0
+  maxTallTrees: 0
 --- !u!1001 &567092688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34372,6 +34388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1504941346}
+  - component: {fileID: 1504941347}
   m_Layer: 0
   m_Name: Left Side Forest
   m_TagString: Untagged
@@ -34454,6 +34471,21 @@ Transform:
   - {fileID: 846238479}
   m_Father: {fileID: 848428186}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1504941347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504941345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ef1bdd940628342a145208fb55a5bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IceTreeManager
+  maxDefaultTrees: 0
+  maxSmallTrees: 0
+  maxTallTrees: 0
 --- !u!114 &1508110539 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1640623606830934790, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
