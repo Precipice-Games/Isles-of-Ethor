@@ -7,6 +7,24 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Put any unreleased features here.
 
+## [v2.2.2] - 2026-05-04
+
+### Added
+* Added background music to Flower Island.
+* Created new prefab for Flower Island named Created FlowerBasePuzzleNew.prefab.
+* Added all Ice Island tree variations.
+
+### Fixed
+* Fixed a bug where many Players were unable to move on high-end devices.
+     * Still a few bugs with this feature but significantly better than what was patched in 2f95294.
+* Fixed a bug where the onscreen puzzle feedback wasn't appearing with finalized style from v2.1.4.
+* Fixed a bug where the material for "normal" tiles on Ice Island wasn't appearing.
+
+### Changed
+* Restored some systems and scripts wiped after 0c3f7f3.
+* PlayerMovement.cs logic has been further spliced up into more update-based methods.
+* Updated Mother Island death boxes to handle dynamic respawning in relation to puzzle progression.
+
 ## [v2.2.1] - 2026-05-02
 
 ### Added
