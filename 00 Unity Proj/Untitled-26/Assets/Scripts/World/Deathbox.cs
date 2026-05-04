@@ -19,6 +19,11 @@ public class Deathbox : MonoBehaviour
         puzzlesComplete = 0;
     }
 
+    public void OnDoorEntered(Vector3 respawnLocation)
+    {
+        puzzlesComplete = 1;
+    }
+
     // Teleport player to respawn location when they enter the deathbox trigger.
     // The respawn location is determined by the number of puzzles completed, which is updated by the OnPuzzleCompletion().
     private void OnTriggerEnter(Collider other)
