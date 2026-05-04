@@ -1527,7 +1527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 137271524649294906, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.15
+      value: -6.5
       objectReference: {fileID: 0}
     - target: {fileID: 137271524649294906, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2295,6 +2295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 5
   gridZ: 5
   gridManager: {fileID: 51436021}
@@ -2470,6 +2471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 8
   gridZ: 4
   gridManager: {fileID: 51436021}
@@ -2891,6 +2893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 1
   gridZ: 5
   gridManager: {fileID: 51436021}
@@ -3312,6 +3315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 3
   gridZ: 4
   gridManager: {fileID: 51436021}
@@ -9248,6 +9252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 7
   gridZ: 5
   gridManager: {fileID: 51436021}
@@ -9423,6 +9428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 9
   gridZ: 8
   gridManager: {fileID: 51436021}
@@ -9762,6 +9768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 2
   gridZ: 5
   gridManager: {fileID: 51436021}
@@ -12421,6 +12428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 9
   gridZ: 4
   gridManager: {fileID: 51436021}
@@ -12678,6 +12686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 5
   gridZ: 3
   gridManager: {fileID: 51436021}
@@ -13164,6 +13173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 9
   gridZ: 7
   gridManager: {fileID: 51436021}
@@ -14414,8 +14424,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IceTreeManager
   maxDefaultTrees: 0
+  currentDefaultTrees: 0
   maxSmallTrees: 0
+  currentSmallTrees: 0
   maxTallTrees: 0
+  currentTallTrees: 0
 --- !u!1001 &567092688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14680,6 +14693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 4
   gridZ: 8
   gridManager: {fileID: 51436021}
@@ -19745,6 +19759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 3
   gridZ: 6
   gridManager: {fileID: 51436021}
@@ -20494,6 +20509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 4
   gridZ: 7
   gridManager: {fileID: 51436021}
@@ -20782,6 +20798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 3
   gridZ: 7
   gridManager: {fileID: 51436021}
@@ -21044,6 +21061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 6
   gridZ: 4
   gridManager: {fileID: 51436021}
@@ -22179,6 +22197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 5
   gridZ: 4
   gridManager: {fileID: 51436021}
@@ -23714,6 +23733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 8
   gridZ: 6
   gridManager: {fileID: 51436021}
@@ -29902,6 +29922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 4
   gridZ: 5
   gridManager: {fileID: 51436021}
@@ -30436,6 +30457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 5
   gridZ: 6
   gridManager: {fileID: 51436021}
@@ -31793,6 +31815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 7
   gridZ: 2
   gridManager: {fileID: 51436021}
@@ -37109,6 +37132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 7
   gridZ: 4
   gridManager: {fileID: 51436021}
@@ -37448,6 +37472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 8
   gridZ: 5
   gridManager: {fileID: 51436021}
@@ -39317,6 +39342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 1
   gridZ: 8
   gridManager: {fileID: 51436021}
@@ -39574,6 +39600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 9
   gridZ: 3
   gridManager: {fileID: 51436021}
@@ -41012,6 +41039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 4
   gridZ: 6
   gridManager: {fileID: 1508110539}
@@ -41650,6 +41678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 7
   gridZ: 6
   gridManager: {fileID: 51436021}
@@ -41825,6 +41854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 1
   gridZ: 6
   gridManager: {fileID: 51436021}
@@ -47071,6 +47101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 8
   gridZ: 3
   gridManager: {fileID: 51436021}
@@ -47246,6 +47277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 6
   gridZ: 7
   gridManager: {fileID: 51436021}
@@ -48473,6 +48505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 9
   gridZ: 5
   gridManager: {fileID: 51436021}
@@ -49062,8 +49095,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IceTreeManager
   maxDefaultTrees: 0
+  currentDefaultTrees: 0
   maxSmallTrees: 0
+  currentSmallTrees: 0
   maxTallTrees: 0
+  currentTallTrees: 0
 --- !u!114 &1508110539 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1640623606830934790, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
@@ -49221,6 +49257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 4
   gridZ: 6
   gridManager: {fileID: 51436021}
@@ -49841,6 +49878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 6
   gridZ: 5
   gridManager: {fileID: 51436021}
@@ -57399,6 +57437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 7
   gridZ: 3
   gridManager: {fileID: 51436021}
@@ -57655,6 +57694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 1
   gridZ: 1
   gridManager: {fileID: 89625282}
@@ -58511,6 +58551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 6
   gridZ: 6
   gridManager: {fileID: 51436021}
@@ -58685,6 +58726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 5
   gridZ: 5
   gridManager: {fileID: 1800943169}
@@ -58860,6 +58902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 1
   gridZ: 7
   gridManager: {fileID: 51436021}
@@ -63843,6 +63886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 8
   gridZ: 7
   gridManager: {fileID: 51436021}
@@ -64444,6 +64488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 6
   gridZ: 3
   gridManager: {fileID: 51436021}
@@ -65029,6 +65074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 6
   gridZ: 8
   gridManager: {fileID: 51436021}
@@ -65566,6 +65612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 5
   gridZ: 7
   gridManager: {fileID: 51436021}
@@ -66447,6 +66494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 2
   gridZ: 8
   gridManager: {fileID: 51436021}
@@ -67525,6 +67573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
+  gustDirection: 0
   gridX: 1
   gridZ: 2
   gridManager: {fileID: 1800943169}
@@ -68322,6 +68371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 0
+  gustDirection: 0
   gridX: 4
   gridZ: 5
   gridManager: {fileID: 89625282}
@@ -68712,7 +68762,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7298955605622718558, guid: 883f2f309a01da144b5bf7a5f9cdc71a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.15
+      value: -10.5
       objectReference: {fileID: 0}
     - target: {fileID: 7298955605622718558, guid: 883f2f309a01da144b5bf7a5f9cdc71a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -69410,7 +69460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 45922031430906625, guid: ff16e4e71610ade4bb5e6805e7db56e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.15
+      value: -10.5
       objectReference: {fileID: 0}
     - target: {fileID: 45922031430906625, guid: ff16e4e71610ade4bb5e6805e7db56e3, type: 3}
       propertyPath: m_LocalRotation.w
