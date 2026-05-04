@@ -29,8 +29,6 @@ public class PlayerMovement : MonoBehaviour
     [Tooltip("How fast the character turns to face movement direction")]
     [Range(0.0f, 0.3f)]
     public float RotationSmoothTime = 0.12f;
-    [Tooltip("Acceleration and deceleration")]
-    public float SpeedChangeRate = 10.0f;
     private Vector3 inputDirection;
     private float speedOffset = 0.1f;
     private float playerTargetYaw;
@@ -45,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
     private float _fallTimeoutDelta;
     private const float _threshold = 0.01f;
     [SerializeField] private float turnSpeed = 120f;
+    private bool shouldEnableController;
 
     // ========== Jumping ==========
     [Space]
@@ -107,12 +106,34 @@ public class PlayerMovement : MonoBehaviour
         _jumpTimeoutDelta = JumpTimeout;
         _fallTimeoutDelta = FallTimeout;
     }
-
-    private void FixedUpdate()
+    
+    private void Update()
     {
         // Keep a direct sync to avoid one-frame event timing differences on fast machines.
         currentGameState = GameStateManager.CurrentGameState;
         ConfigurePlayerOnGameState();
+    }
+
+    private void FixedUpdate()
+    {
+        if (!shouldEnableController)
+        {
+            return;
+        }
+        
+        JumpAndGravity();
+        
+        // Move the charController
+        charController.Move(inputDirection.normalized * (_speed * Time.fixedDeltaTime) +
+                            new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.fixedDeltaTime);
+        
+        // NOTE: According to the Unity documentation, CharacterController.Move() should really be
+        // called in Update, but due to the input issues we were continuously experiencing, I have
+        // moved it to a FixedUpdate() for now. It will be jittery, but it seems to have a greater
+        // success rate than solely using Update(). -- Nikki
+        
+        // Rotate the Player
+        transform.rotation = Quaternion.Euler(0.0f, playerTargetYaw, 0.0f);
     }
     
     /// <summary>
@@ -128,25 +149,21 @@ public class PlayerMovement : MonoBehaviour
     
     private void ConfigurePlayerOnGameState()
     {
-        bool shouldEnableController = currentGameState == GameStateManager.GameState.Exploration;
+        shouldEnableController = currentGameState == GameStateManager.GameState.Exploration;
 
         // If the character controller should be enabled
         if (charController.enabled != shouldEnableController)
         {
             Player.Instance.ToggleCharacterController(shouldEnableController);
         }
-
+        
         if (!shouldEnableController)
         {
             return;
         }
-
+        
         MoveCharacter();
         RotateCharacter();
-        JumpAndGravity();
-        
-        charController.Move(inputDirection.normalized * (_speed * Time.deltaTime) +
-                            new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
     }
     
     private void MoveCharacter()
@@ -154,40 +171,21 @@ public class PlayerMovement : MonoBehaviour
         // Set the target speed depending on movement type (walking or sprinting)
         float targetSpeed = _input.sprint ? sprintSpeed : moveSpeed;
         
-        // If there's no input, set the target speed to 0
-        if (_input.move == Vector2.zero) targetSpeed = 0.0f;
-        
-        // Get the current horizontal speed (X, Z)
-        float currentHorizontalSpeed = new Vector3(charController.velocity.x, 0.0f, charController.velocity.z).magnitude;
-        
-        // create a float input magnitude
-        // float inputMagnitude = Mathf.Clamp01(_input.move.magnitude);
-        float inputMagnitude = _input.move.magnitude;
-        
-        // Accelerate or decelerate to target speed
-        if (currentHorizontalSpeed < targetSpeed - speedOffset ||
-            currentHorizontalSpeed > targetSpeed + speedOffset)
+        // If there's no input, set the speed to 0
+        if (_input.move == Vector2.zero)
         {
-            // Use Lerp() to smoothly interpolate between the current speed and the
-            // target speed, based on the input magnitude and the speed change rate.
-            _speed = Mathf.Lerp(currentHorizontalSpeed, targetSpeed * inputMagnitude, Time.deltaTime * SpeedChangeRate);
-            
-            // Round speed to reduce jitter
-            _speed = Mathf.Round(_speed * 1000f) / 1000f;
+            _speed = 0.0f;
+            return;
         }
-        else
-        {
-            _speed = targetSpeed;
-        }
+
+        // Otherwise, set the speed to the target speed
+        _speed = targetSpeed;
         
-        // Normalize input direction
-        inputDirection = new Vector3(_input.move.x, 0.0f, _input.move.y).normalized;
+        // Round speed to reduce jitter
+        _speed = Mathf.Round(_speed * 1000f) / 1000f;
         
-        // If Move input is detected
-        if (_input.move != Vector2.zero)
-        {
-            inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
-        }
+        // Calculate input direction
+        inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
     }
 
     /// <summary>
@@ -206,9 +204,6 @@ public class PlayerMovement : MonoBehaviour
 
         // Clamp rotation to limit it to 360 degrees
         playerTargetYaw = ClampAngle(playerTargetYaw, float.MinValue, float.MaxValue);
-
-        // Rotate the Player
-        transform.rotation = Quaternion.Euler(0.0f, playerTargetYaw, 0.0f);
     }
     
     /// <summary>
@@ -275,7 +270,7 @@ public class PlayerMovement : MonoBehaviour
             // jump timeout
             if (_jumpTimeoutDelta >= 0.0f)
             {
-                _jumpTimeoutDelta -= Time.deltaTime;
+                _jumpTimeoutDelta -= Time.fixedDeltaTime;
             }
         }
         else
@@ -286,17 +281,18 @@ public class PlayerMovement : MonoBehaviour
             // fall timeout
             if (_fallTimeoutDelta >= 0.0f)
             {
-                _fallTimeoutDelta -= Time.deltaTime;
+                _fallTimeoutDelta -= Time.fixedDeltaTime;
             }
 
             // if we are not grounded, do not jump
             _input.jump = false;
         }
 
-        // apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
+        // apply gravity over time if under terminal (multiply
+        // by fixedDeltaTime twice to linearly speed up over time)
         if (_verticalVelocity < _terminalVelocity)
         {
-            _verticalVelocity += Gravity * Time.deltaTime;
+            _verticalVelocity += Gravity * Time.fixedDeltaTime;
         }
     }
 }
