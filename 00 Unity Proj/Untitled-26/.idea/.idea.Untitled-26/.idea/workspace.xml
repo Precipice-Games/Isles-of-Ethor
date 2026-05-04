@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbef25c7-7cea-4452-bcf0-670b2112a0f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-26/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-26/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/3D Models/World Materials/Snow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/3D Models/World Materials/Snow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Tiles/Ice/Puzzle 1IceNormalTile2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Tiles/Ice/Puzzle 1IceNormalTile2.mat.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Standalone Player.Start Unity.executor": "Run",
-    "git-widget-placeholder": "issue/564-pre-beta-character-controller-physics",
+    "git-widget-placeholder": "dev",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -93,7 +94,7 @@
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -104,6 +105,7 @@
       <option name="selectedOptions">
         <list />
       </option>
+      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
