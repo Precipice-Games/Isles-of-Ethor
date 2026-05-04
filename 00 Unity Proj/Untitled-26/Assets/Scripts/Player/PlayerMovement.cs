@@ -108,7 +108,7 @@ public class PlayerMovement : MonoBehaviour
         _fallTimeoutDelta = FallTimeout;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         // Keep a direct sync to avoid one-frame event timing differences on fast machines.
         currentGameState = GameStateManager.CurrentGameState;
