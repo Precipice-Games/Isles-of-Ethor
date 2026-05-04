@@ -1527,7 +1527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 137271524649294906, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.553
+      value: 21.5
       objectReference: {fileID: 0}
     - target: {fileID: 137271524649294906, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_LocalRotation.w
@@ -33578,6 +33578,12 @@ PrefabInstance:
       insertIndex: 10
       addedObject: {fileID: 2141377680}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7264184287714543087, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1437640443}
+    - targetCorrespondingSourceObject: {fileID: 7264184287714543087, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1437640444}
     - targetCorrespondingSourceObject: {fileID: 6722711722673865938, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1846180523}
@@ -33585,6 +33591,45 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1846180522}
   m_SourcePrefab: {fileID: 100100000, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
+--- !u!1 &1437640442 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7264184287714543087, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
+  m_PrefabInstance: {fileID: 1437640441}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1437640443
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437640442}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 17.051308, y: 4.241297, z: 14.967615}
+  m_Center: {x: 8.025654, y: 1.6206478, z: 9.171172}
+--- !u!114 &1437640444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437640442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1808c420607c4f4c8e16816b2303385, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlocker
+  StateManager: {fileID: 1604888279}
 --- !u!1001 &1442416483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54134,7 +54179,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7298955605622718558, guid: 883f2f309a01da144b5bf7a5f9cdc71a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.5529995
+      value: 17.5
       objectReference: {fileID: 0}
     - target: {fileID: 7298955605622718558, guid: 883f2f309a01da144b5bf7a5f9cdc71a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -54832,7 +54877,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 45922031430906625, guid: ff16e4e71610ade4bb5e6805e7db56e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.5529995
+      value: 17.5
       objectReference: {fileID: 0}
     - target: {fileID: 45922031430906625, guid: ff16e4e71610ade4bb5e6805e7db56e3, type: 3}
       propertyPath: m_LocalRotation.w
