@@ -1,8 +1,7 @@
-using System;
 using Sirenix.OdinInspector;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Events;
 
 /// <summary>
 /// This script stores data regarding the resources provided during each puzzle.
@@ -12,8 +11,13 @@ using TMPro;
 /// </summary>
 public class ResourceManager : MonoBehaviour
 {
-    public static event Action noMoreCardUses;
-
+    // NOTE: The only reason lackOfResources takes in a SelectableTile is so that we only need
+    // one method in PuzzleFeedback.cs to handle all different message types. Likewise, any
+    // usages of this event in this class should just pass in a null value as a placeholder.
+    
+    [Title("Lacking Resources", "This event is fired when the Player has no Mana left or is lacking uses of a specific movement card.")]
+    public UnityEvent<string, SelectableTile> lackOfResources;
+    
     [Title("Resource Data", "Set the appropriate Mana and Move Card count for this puzzle.")]
     [PropertyTooltip("The starting Mana count. Set to 5 by default, but should be updated per puzzle.")]
     public int startingMana = 5;
@@ -37,7 +41,9 @@ public class ResourceManager : MonoBehaviour
     private int currentBackUses;
 
     [Space]
-    [Title("UI Data", "Attach the UI elements for this puzzle's resources.")]
+    [Title("UI Data", "Attach the UI elements for this puzzle.")]
+    [PropertyTooltip("Game object that holds the PuzzleFeedback script.")]
+    public PuzzleFeedback puzzleFeedback;
     public TMP_Text manaLabel;
     public TMP_Text leftLabel;
     public TMP_Text rightLabel;
@@ -72,6 +78,11 @@ public class ResourceManager : MonoBehaviour
 
     void Start()
     {
+        if (puzzleFeedback == null)
+        {
+            Debug.LogError("ResourceManager.cs >> PuzzleFeedback reference is missing!");
+        }
+        
         currentMana = startingMana;
         currentLeftUses = moveLeftUses;
         currentRightUses = moveRightUses;
@@ -101,71 +112,33 @@ public class ResourceManager : MonoBehaviour
     /// </summary>
     public bool UseMove(string moveType)
     {
-        if (currentMana <= 0)
-        {
-            Debug.Log("ResourceManager.cs >> No mana to move.");
-            PuzzleFeedback.Instance?.ShowMessage("No more mana!");
-            return false;
-        }
+        // if (currentMana <= 0)
+        // {
+        //     Debug.Log("ResourceManager.cs >> No mana to move.");
+        //     string message = "No more mana!";
+        //     // noCardUsagesLeft?.Invoke();
+        //     // TODO: put Mana message here somehow with event.
+        //     return false;
+        // }
 
         switch (moveType)
         {
             case "Left":
-                if (currentLeftUses <= 0)
-                {
-                    if (printCardDrainage)
-                        Debug.Log("ResourceManager.cs >> No Left card uses remaining");
-
-                    PuzzleFeedback.Instance?.ShowMessage("No more Left card usages!");
-                    noMoreCardUses?.Invoke();
-                    return false;
-                }
-
                 currentLeftUses--;
                 UpdateLeftText(currentLeftUses);
                 break;
 
             case "Right":
-                if (currentRightUses <= 0)
-                {
-                    if (printCardDrainage)
-                        Debug.Log("ResourceManager.cs >> No Right card uses remaining");
-
-                    PuzzleFeedback.Instance?.ShowMessage("No more Right card usages!");
-                    noMoreCardUses?.Invoke();
-                    return false;
-                }
-
                 currentRightUses--;
                 UpdateRightText(currentRightUses);
                 break;
 
             case "Forward":
-                if (currentForwardUses <= 0)
-                {
-                    if (printCardDrainage)
-                        Debug.Log("ResourceManager.cs >> No Forward card uses remaining");
-
-                    PuzzleFeedback.Instance?.ShowMessage("No more Forward card usages!");
-                    noMoreCardUses?.Invoke();
-                    return false;
-                }
-
                 currentForwardUses--;
                 UpdateUpText(currentForwardUses);
                 break;
 
             case "Back":
-                if (currentBackUses <= 0)
-                {
-                    if (printCardDrainage)
-                        Debug.Log("ResourceManager.cs >> No Back card uses remaining");
-
-                    PuzzleFeedback.Instance?.ShowMessage("No more Back card usages!");
-                    noMoreCardUses?.Invoke();
-                    return false;
-                }
-
                 currentBackUses--;
                 UpdateDownText(currentBackUses);
                 break;
@@ -182,6 +155,29 @@ public class ResourceManager : MonoBehaviour
         UpdateManaText(currentMana);
 
         return true;
+    }
+
+    /// <summary>
+    /// Called by TileSelector.cs when the Player tries to
+    /// use a movement card but has no Mana left.
+    /// </summary>
+    public void OutOfMana()
+    {
+        string message = $"You have no Mana left!";
+        lackOfResources?.Invoke(message, null);
+    }
+
+    /// <summary>
+    /// Called by TileSelector.cs when the Player tries to use a movement card
+    /// that has no uses left. Builds a new string based on the direction type
+    /// and fires it in the noCardUsagesLeft event, which is utilized by
+    /// PuzzleFeedback.cs.
+    /// </summary>
+    /// <param name="direction"></param>
+    public void NoMoreCardUses(string direction)
+    {
+        string message = $"No more {direction} cards left.";
+        lackOfResources?.Invoke(message, null);
     }
 
     /// <summary>
