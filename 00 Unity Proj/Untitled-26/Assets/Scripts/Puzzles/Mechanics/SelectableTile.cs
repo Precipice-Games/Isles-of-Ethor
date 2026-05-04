@@ -15,11 +15,22 @@ public class SelectableTile : MonoBehaviour
     {
         Normal,
         Ice,
-        ManaWell
+        ManaWell,
+        Gust,
     }
 
     // Default tile type is Normal
     public TileType tileType = TileType.Normal;
+
+    public enum GustDirection
+{
+    Up,
+    Down,
+    Left,
+    Right
+}
+
+public GustDirection gustDirection;
 
     private int startingGridX;
     private int startingGridZ;

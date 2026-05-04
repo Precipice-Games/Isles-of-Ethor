@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 
 public class TileSelector : MonoBehaviour
 {
+    public GridManager gridManager;
+
     [Title("Tile Selector Variables", "Variables used in the Tile Selection process.")]
     [PropertyTooltip("Please assign the ResourceManager for this specific puzzle prefab.")]
     public ResourceManager resourceManager;
@@ -146,9 +148,16 @@ public class TileSelector : MonoBehaviour
 
         // Only spend mana if the move actually succeeds
         if (selectedTile.TryMove(1, 0))
+    {
+        resourceManager.UseMove("Right");
+
+        if (gridManager == null)
         {
-            resourceManager.UseMove("Right");
+        gridManager = selectedTile.gridManager;
         }
+
+        gridManager.ApplyGusts();
+    }
     }
 
     /// <summary>
@@ -169,8 +178,15 @@ public class TileSelector : MonoBehaviour
         // Only spend mana if the move actually succeeds
         if (selectedTile.TryMove(-1, 0))
         {
-            resourceManager.UseMove("Left");
+        resourceManager.UseMove("Left");
+
+        if (gridManager == null)
+        {
+        gridManager = selectedTile.gridManager;
         }
+
+        gridManager.ApplyGusts();
+    }
     }
 
     /// <summary>
@@ -189,10 +205,16 @@ public class TileSelector : MonoBehaviour
             return;
 
         // Only spend mana if the move actually succeeds
-        if (selectedTile.TryMove(0, 1))
         {
-            resourceManager.UseMove("Forward");
+        resourceManager.UseMove("Forward");
+
+        if (gridManager == null)
+        {
+        gridManager = selectedTile.gridManager;
         }
+
+        gridManager.ApplyGusts();
+    }
     }
 
     /// <summary>
@@ -211,9 +233,15 @@ public class TileSelector : MonoBehaviour
             return;
 
         // Only spend mana if the move actually succeeds
-        if (selectedTile.TryMove(0, -1))
+       {
+        resourceManager.UseMove("Back");
+
+        if (gridManager == null)
         {
-            resourceManager.UseMove("Back");
+        gridManager = selectedTile.gridManager;
         }
+
+        gridManager.ApplyGusts();
+    }
     }
 }
