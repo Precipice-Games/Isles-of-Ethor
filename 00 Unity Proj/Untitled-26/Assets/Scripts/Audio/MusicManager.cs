@@ -14,14 +14,11 @@ public class MusicManager : MonoBehaviour
     [SerializeField] private AudioClip motherIslandTrack;
     [SerializeField] private AudioClip oasisIslandTrack;
     [SerializeField] private AudioClip iceIslandTrack;
-    [SerializeField] private AudioClip flowerIslandTrack;
 
     [Header("Puzzle Track Per Scene")]
     [SerializeField] private AudioClip motherIslandPuzzleTrack;
     [SerializeField] private AudioClip oasisIslandPuzzleTrack;
     [SerializeField] private AudioClip iceIslandPuzzleTrack;
-    [SerializeField] private AudioClip flowerIslandPuzzleTrack;
-
 
     [Header("Settings")]
     [SerializeField] private float fadeDuration = 0.75f;
@@ -135,11 +132,6 @@ public class MusicManager : MonoBehaviour
                 currentSceneTrack = iceIslandTrack;
                 currentPuzzleTrack = iceIslandPuzzleTrack;
                 break;
-
-            case "Flower_Island":
-                currentSceneTrack = flowerIslandTrack;
-                currentPuzzleTrack = flowerIslandPuzzleTrack;
-                break; 
         }
     }
 

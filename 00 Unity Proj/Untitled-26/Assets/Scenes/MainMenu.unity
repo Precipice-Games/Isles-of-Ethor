@@ -673,11 +673,9 @@ MonoBehaviour:
   motherIslandTrack: {fileID: 8300000, guid: 16423356ea11343ed9f88b09cca959dd, type: 3}
   oasisIslandTrack: {fileID: 8300000, guid: ef15429dfb1874165ad7c46a252d7dc1, type: 3}
   iceIslandTrack: {fileID: 8300000, guid: c2762d05acb8843e88e7aeb8e3b4086d, type: 3}
-  flowerIslandTrack: {fileID: 8300000, guid: d1497d18fb2e743c6a4c86feb4d50853, type: 3}
   motherIslandPuzzleTrack: {fileID: 8300000, guid: 8631798488cc64812800bb5bc4815413, type: 3}
   oasisIslandPuzzleTrack: {fileID: 0}
   iceIslandPuzzleTrack: {fileID: 8300000, guid: 61bc7a410ba3849d1a2eb2f44752f2c7, type: 3}
-  flowerIslandPuzzleTrack: {fileID: 0}
   fadeDuration: 1.05
   defaultVolume: 0.6
 --- !u!82 &816375123

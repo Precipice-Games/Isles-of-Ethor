@@ -76,16 +76,13 @@ public class PlayerMovement : MonoBehaviour
         PlayerGroundcast.groundCheck += GroundCheck;
         GameStateManager.transitionedToNewState += UpdateGameState;
         // PlayerGroundcast.groundCheck += JumpAndGravity;
-
-        // Sync immediately in case this object enables after the latest state event.
-        currentGameState = GameStateManager.CurrentGameState;
     }
     
     // Unsubscribe from events
     private void OnDisable()
     {
         PlayerGroundcast.groundCheck -= GroundCheck;
-        GameStateManager.transitionedToNewState -= UpdateGameState;
+        GameStateManager.transitionedToNewState += UpdateGameState;
         // PlayerGroundcast.groundCheck -= JumpAndGravity;
     }
     
@@ -108,10 +105,8 @@ public class PlayerMovement : MonoBehaviour
         _fallTimeoutDelta = FallTimeout;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
-        // Keep a direct sync to avoid one-frame event timing differences on fast machines.
-        currentGameState = GameStateManager.CurrentGameState;
         ConfigurePlayerOnGameState();
     }
     
@@ -128,25 +123,20 @@ public class PlayerMovement : MonoBehaviour
     
     private void ConfigurePlayerOnGameState()
     {
-        bool shouldEnableController = currentGameState == GameStateManager.GameState.Exploration;
-
-        // If the character controller should be enabled
-        if (charController.enabled != shouldEnableController)
+        if (currentGameState == GameStateManager.GameState.Exploration)
         {
-            Player.Instance.ToggleCharacterController(shouldEnableController);
+            Player.Instance.ToggleCharacterController(true);
+            MoveCharacter();
+            RotateCharacter();
+            JumpAndGravity();
+            
+            charController.Move(inputDirection.normalized * (_speed * Time.deltaTime) +
+                                new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
         }
-
-        if (!shouldEnableController)
+        else
         {
-            return;
+            Player.Instance.ToggleCharacterController(false);
         }
-
-        MoveCharacter();
-        RotateCharacter();
-        JumpAndGravity();
-        
-        charController.Move(inputDirection.normalized * (_speed * Time.deltaTime) +
-                            new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
     }
     
     private void MoveCharacter()
