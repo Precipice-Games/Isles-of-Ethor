@@ -417,76 +417,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f7ea53b5c9004e31bec423e76b802ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuSFX
---- !u!1001 &670465457
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3397337548393501967, guid: ded007f763ebd09498b6e81df1ae25be, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 8.3904705
-      objectReference: {fileID: 0}
-    - target: {fileID: 3397337548393501967, guid: ded007f763ebd09498b6e81df1ae25be, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.22999938
-      objectReference: {fileID: 0}
-    - target: {fileID: 3397337548393501967, guid: ded007f763ebd09498b6e81df1ae25be, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 5.7817383
-      objectReference: {fileID: 0}
-    - target: {fileID: 3397337548393501967, guid: ded007f763ebd09498b6e81df1ae25be, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3397337548393501967, guid: ded007f763ebd09498b6e81df1ae25be, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3397337548393501967, guid: ded007f763ebd09498b6e81df1ae25be, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3397337548393501967, guid: ded007f763ebd09498b6e81df1ae25be, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3397337548393501967, guid: ded007f763ebd09498b6e81df1ae25be, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3397337548393501967, guid: ded007f763ebd09498b6e81df1ae25be, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3397337548393501967, guid: ded007f763ebd09498b6e81df1ae25be, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4943596135170749970, guid: ded007f763ebd09498b6e81df1ae25be, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1669348534}
-    - target: {fileID: 7199852587322879966, guid: ded007f763ebd09498b6e81df1ae25be, type: 3}
-      propertyPath: m_Name
-      value: FlowerBasePuzzle
-      objectReference: {fileID: 0}
-    - target: {fileID: 7199852587322879966, guid: ded007f763ebd09498b6e81df1ae25be, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ded007f763ebd09498b6e81df1ae25be, type: 3}
---- !u!1 &670465458 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7199852587322879966, guid: ded007f763ebd09498b6e81df1ae25be, type: 3}
-  m_PrefabInstance: {fileID: 670465457}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &689919036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2553,7 +2483,7 @@ PrefabInstance:
     - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: 'puzzlePrefabs.Array.data[0]'
       value: 
-      objectReference: {fileID: 670465458}
+      objectReference: {fileID: 0}
     - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: 'puzzlePrefabs.Array.data[1]'
       value: 
@@ -2963,7 +2893,6 @@ SceneRoots:
   - {fileID: 1766300489}
   - {fileID: 1601755880}
   - {fileID: 1514090928}
-  - {fileID: 670465457}
   - {fileID: 200873443}
   - {fileID: 818928133}
   - {fileID: 1518863139}
