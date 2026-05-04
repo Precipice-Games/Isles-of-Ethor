@@ -3,13 +3,13 @@ using UnityEngine;
 public class InteractableDoor : MonoBehaviour
 {
 
-    public Vector3 teleportLocation;
+    public Transform teleportLocation;
 
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player"))
         {
-            Player.Instance.TeleportPlayer(teleportLocation);
+            Player.Instance.TeleportPlayer(teleportLocation.position);
         }
     }
 
