@@ -22,17 +22,24 @@ public class IceTrees : MonoBehaviour
         
         treeNum = Random.Range(0, 3);
 
-        if (treeNum == 0)
+        if (treeNum == 0 && transform.GetComponentInParent<IceTreeManager>().currentDefaultTrees < transform.GetComponentInParent<IceTreeManager>().maxDefaultTrees)
         {
             GetComponent<MeshRenderer>().material = defaultTree;
+            transform.GetComponentInParent<IceTreeManager>().currentDefaultTrees += 1;
         }
-        else if (treeNum == 1)
+        else if (treeNum == 1 && transform.GetComponentInParent<IceTreeManager>().currentTallTrees < transform.GetComponentInParent<IceTreeManager>().maxTallTrees)
         {
             GetComponent<MeshRenderer>().material = tallTree;
+            transform.GetComponentInParent<IceTreeManager>().currentTallTrees += 1;
         }
-        else if (treeNum == 2)
+        else if (treeNum == 2 && transform.GetComponentInParent<IceTreeManager>().currentSmallTrees < transform.GetComponentInParent<IceTreeManager>().maxSmallTrees)
         {
             GetComponent<MeshRenderer>().material = smallTree;
+            transform.GetComponentInParent<IceTreeManager>().currentSmallTrees += 1;
+        }
+        else
+        {
+            GetComponent<MeshRenderer>().material = defaultTree;
         }
 
 
