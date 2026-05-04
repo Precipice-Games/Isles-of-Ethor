@@ -179,10 +179,17 @@ public class SelectableTile : MonoBehaviour
     /// </summary>
     private void ResetTiles()
     {
+        // clear the current cell before resetting position
+        gridManager.ClearCell(gridX, gridZ);
+
+        // move tile back to starting position
         gridX = startingGridX;
         gridZ = startingGridZ;
 
         transform.localPosition = gridManager.GridToWorld(gridX, gridZ);
+
+        // Ensure grid manager is up to date with tile position
+        gridManager.PlaceTile(this, gridX, gridZ);
 
         // Reset tile color after reset
         if (tileType == TileType.ManaWell)
