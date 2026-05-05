@@ -405,7 +405,6 @@ public class PlayerFixedMovement : MonoBehaviour
             lastTileX = coordX;
             lastTileZ = coordZ;
             // Handle tile effects (ManaWell, etc.)
-            Debug.Log("Checkpoint Reached");
             CheckTileEffects(coordX, coordZ);
         }
 
@@ -418,8 +417,6 @@ public class PlayerFixedMovement : MonoBehaviour
     private void CheckTileEffects(int coordX, int coordZ)
     {
         SelectableTile.TileType tileType = gridManager.GetTileType(coordX, coordZ);
-
-        Debug.Log("Checkpoint reached: manaWellTriggeredThisEntry = " + manaWellTriggeredThisEntry);
 
         if (tileType == SelectableTile.TileType.ManaWell)
         {
