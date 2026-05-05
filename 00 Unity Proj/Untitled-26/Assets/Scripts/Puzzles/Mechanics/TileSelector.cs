@@ -158,16 +158,15 @@ public class TileSelector : MonoBehaviour
         if (selectedTile.TryMove(1, 0))
         {
             resourceManager.UseMove("Right");
-<<<<<<< issue/590-block-off-island-areas
 
+            /*
             if (gridManager == null)
             {
                 gridManager = selectedTile.gridManager;
             }
 
             gridManager.ApplyGusts();
-=======
->>>>>>> dev
+            */
         }
     }
 
@@ -188,16 +187,6 @@ public class TileSelector : MonoBehaviour
         // If we're out of Mana
         if (resourceManager.GetMana() <= 0)
         {
-<<<<<<< issue/590-block-off-island-areas
-            resourceManager.UseMove("Left");
-
-            if (gridManager == null)
-            {
-                gridManager = selectedTile.gridManager;
-            }
-
-            gridManager.ApplyGusts();
-=======
             resourceManager.OutOfMana();
             return;
         }
@@ -213,7 +202,15 @@ public class TileSelector : MonoBehaviour
         if (selectedTile.TryMove(-1, 0))
         {
             resourceManager.UseMove("Left");
->>>>>>> dev
+
+            /*
+            if (gridManager == null)
+            {
+                gridManager = selectedTile.gridManager;
+            }
+
+            gridManager.ApplyGusts();
+            */
         }
     }
 
@@ -227,23 +224,9 @@ public class TileSelector : MonoBehaviour
         if (selectedTile == null) return;
         if (PlayerOnSelectedTile()) return;
         if (SelectedTileIsStartOrEnd()) return;
-<<<<<<< issue/590-block-off-island-areas
 
         // Ensure there are enough resources before attempting the move.
         if (resourceManager.GetForwardUses() <= 0 || resourceManager.GetMana() <= 0) return;
-
-        // Only spend mana if the move actually succeeds
-        if (selectedTile.TryMove(0, 1))
-        {
-            resourceManager.UseMove("Forward");
-
-            if (gridManager == null)
-            {
-            gridManager = selectedTile.gridManager;
-            }
-
-            gridManager.ApplyGusts();
-=======
         
         // If we're out of Mana
         if (resourceManager.GetMana() <= 0)
@@ -263,7 +246,20 @@ public class TileSelector : MonoBehaviour
         if (selectedTile.TryMove(0, 1))
         {
             resourceManager.UseMove("Forward");
->>>>>>> dev
+
+            if (selectedTile.TryMove(0, 1))
+            {
+                resourceManager.UseMove("Forward");
+
+                /*
+                if (gridManager == null)
+                {
+                    gridManager = selectedTile.gridManager;
+                }
+
+                gridManager.ApplyGusts();
+                */
+            }
         }
     }
 
@@ -296,16 +292,15 @@ public class TileSelector : MonoBehaviour
         if (selectedTile.TryMove(0, -1))
         {
             resourceManager.UseMove("Back");
-<<<<<<< issue/590-block-off-island-areas
 
+            /*
             if (gridManager == null)
             {
                 gridManager = selectedTile.gridManager;
             }
 
             gridManager.ApplyGusts();
-=======
->>>>>>> dev
+            */
         }
     }
 }
