@@ -148,16 +148,16 @@ public class TileSelector : MonoBehaviour
 
         // Only spend mana if the move actually succeeds
         if (selectedTile.TryMove(1, 0))
-    {
-        resourceManager.UseMove("Right");
-
-        if (gridManager == null)
         {
-        gridManager = selectedTile.gridManager;
-        }
+            resourceManager.UseMove("Right");
 
-        gridManager.ApplyGusts();
-    }
+            if (gridManager == null)
+            {
+                gridManager = selectedTile.gridManager;
+            }
+
+            gridManager.ApplyGusts();
+        }
     }
 
     /// <summary>
@@ -178,15 +178,15 @@ public class TileSelector : MonoBehaviour
         // Only spend mana if the move actually succeeds
         if (selectedTile.TryMove(-1, 0))
         {
-        resourceManager.UseMove("Left");
+            resourceManager.UseMove("Left");
 
-        if (gridManager == null)
-        {
-        gridManager = selectedTile.gridManager;
+            if (gridManager == null)
+            {
+                gridManager = selectedTile.gridManager;
+            }
+
+            gridManager.ApplyGusts();
         }
-
-        gridManager.ApplyGusts();
-    }
     }
 
     /// <summary>
@@ -201,20 +201,20 @@ public class TileSelector : MonoBehaviour
         if (SelectedTileIsStartOrEnd()) return;
 
         // Ensure there are enough resources before attempting the move.
-        if (resourceManager.GetForwardUses() <= 0 || resourceManager.GetMana() <= 0)
-            return;
+        if (resourceManager.GetForwardUses() <= 0 || resourceManager.GetMana() <= 0) return;
 
         // Only spend mana if the move actually succeeds
+        if (selectedTile.TryMove(0, 1))
         {
-        resourceManager.UseMove("Forward");
+            resourceManager.UseMove("Forward");
 
-        if (gridManager == null)
-        {
-        gridManager = selectedTile.gridManager;
+            if (gridManager == null)
+            {
+            gridManager = selectedTile.gridManager;
+            }
+
+            gridManager.ApplyGusts();
         }
-
-        gridManager.ApplyGusts();
-    }
     }
 
     /// <summary>
@@ -233,15 +233,16 @@ public class TileSelector : MonoBehaviour
             return;
 
         // Only spend mana if the move actually succeeds
-       {
-        resourceManager.UseMove("Back");
-
-        if (gridManager == null)
+        if (selectedTile.TryMove(0, -1))
         {
-        gridManager = selectedTile.gridManager;
-        }
+            resourceManager.UseMove("Back");
 
-        gridManager.ApplyGusts();
-    }
+            if (gridManager == null)
+            {
+                gridManager = selectedTile.gridManager;
+            }
+
+            gridManager.ApplyGusts();
+        }
     }
 }

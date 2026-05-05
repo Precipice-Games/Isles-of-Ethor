@@ -16,7 +16,7 @@ public class PuzzleBlocker : MonoBehaviour
     void Update()
     {
 
-        Debug.Log(StateManager.gameState == GameStateManager.GameState.Puzzle);
+        //Debug.Log(StateManager.gameState == GameStateManager.GameState.Puzzle);
 
         if (StateManager != null && StateManager.gameState == GameStateManager.GameState.Puzzle)
         //if (GameStateManager.Instance != null && GameStateManager.Instance.gameState == GameStateManager.GameState.Puzzle)
