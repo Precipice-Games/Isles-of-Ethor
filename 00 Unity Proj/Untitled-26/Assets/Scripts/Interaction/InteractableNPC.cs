@@ -20,6 +20,9 @@ public class InteractableNPC : MonoBehaviour, IInteractable
     [SerializeField]
     CinemachineCamera playerCam;
 
+    [SerializeField]
+    bool destroyOnPickup;
+
     private void Awake()
     {
         if (playerCam == null)
@@ -46,6 +49,7 @@ public class InteractableNPC : MonoBehaviour, IInteractable
             
             runner = FindFirstObjectByType<Yarn.Unity.DialogueRunner>();
             runner.StartDialogue(gameObject.name);
+            if (destroyOnPickup){Destroy(gameObject);}
             interactedWith = false;
 
         }
