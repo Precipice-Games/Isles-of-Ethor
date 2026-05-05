@@ -3470,7 +3470,7 @@ MonoBehaviour:
   moveRightUses: 2
   moveForwardUses: 2
   moveBackUses: 2
-  puzzleFeedback: {fileID: 0}
+  puzzleFeedback: {fileID: 140579135797805127}
   manaLabel: {fileID: 4244620660118580199}
   leftLabel: {fileID: 1230731256228544730}
   rightLabel: {fileID: 4912949784702118134}
@@ -3749,6 +3749,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 3397337548393501967}
     m_Modifications:
     - target: {fileID: 2396372427838243438, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+      propertyPath: feedbackText
+      value: 
+      objectReference: {fileID: 4455366089648708046}
+    - target: {fileID: 2396372427838243438, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
       propertyPath: feedbackPrefab
       value: 
       objectReference: {fileID: 1580311064563317073}
@@ -3805,9 +3809,25 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+--- !u!114 &140579135797805127 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2396372427838243438, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+  m_PrefabInstance: {fileID: 2356174237965320745}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580311064563317073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34376192bcee4931bc81975a7c88e19f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleFeedback
 --- !u!1 &1580311064563317073 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3845136706088205176, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
+  m_PrefabInstance: {fileID: 2356174237965320745}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4455366089648708046 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2118499586246745063, guid: 2732b24e89f7bed4cab9b395262bf9b8, type: 3}
   m_PrefabInstance: {fileID: 2356174237965320745}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &5158399700957503990 stripped

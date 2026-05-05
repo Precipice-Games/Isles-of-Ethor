@@ -69,6 +69,9 @@ public class PlayerFixedMovement : MonoBehaviour
     // Player's Rigidbody
     private Rigidbody rb;
 
+    // Track status of ManaWell trigger to prevent multiple activations in one puzzle attempt.
+    private bool manaWellTriggeredThisEntry = false;
+
     [Space]
     [Title("Debugging Options", "Settings for quick debugging options.")]
     [PropertyTooltip("Print out what move action was taken. True by default.")]
@@ -91,9 +94,6 @@ public class PlayerFixedMovement : MonoBehaviour
     public UnityEvent puzzleCompleted;
 
     public static event Action<PuzzleInformation> updatePuzzleStatus;
-
-
-    private bool manaWellTriggeredThisEntry = false;
 
     private void Start()
     {
@@ -145,6 +145,8 @@ public class PlayerFixedMovement : MonoBehaviour
 
         destinationX = 0;
         destinationZ = 0;
+
+        manaWellTriggeredThisEntry = false;
 
         // After gathering data, move Player to the startTile
         SetPlayersYPosition(startTile);
@@ -466,6 +468,8 @@ public class PlayerFixedMovement : MonoBehaviour
     /// </summary>
     private void ResetPlayerPosition()
     {
+        manaWellTriggeredThisEntry = false;
+
         // Get the grid coordinates of the starting tile
         startTileX = startTile.GetComponent<SelectableTile>().gridX;
         startTileZ = startTile.GetComponent<SelectableTile>().gridZ;
