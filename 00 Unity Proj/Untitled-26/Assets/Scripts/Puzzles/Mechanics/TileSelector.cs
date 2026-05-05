@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 
 public class TileSelector : MonoBehaviour
 {
+    public GridManager gridManager;
+
     [Title("Tile Selector Variables", "Variables used in the Tile Selection process.")]
     [PropertyTooltip("Please assign the ResourceManager for this specific puzzle prefab.")]
     public ResourceManager resourceManager;
@@ -159,14 +161,14 @@ public class TileSelector : MonoBehaviour
         {
             resourceManager.UseMove("Right");
 
-            /*
+            
             if (gridManager == null)
             {
                 gridManager = selectedTile.gridManager;
             }
 
             gridManager.ApplyGusts();
-            */
+            
         }
     }
 
@@ -203,14 +205,14 @@ public class TileSelector : MonoBehaviour
         {
             resourceManager.UseMove("Left");
 
-            /*
+            
             if (gridManager == null)
             {
                 gridManager = selectedTile.gridManager;
             }
 
             gridManager.ApplyGusts();
-            */
+            
         }
     }
 
@@ -251,14 +253,14 @@ public class TileSelector : MonoBehaviour
             {
                 resourceManager.UseMove("Forward");
 
-                /*
+                
                 if (gridManager == null)
                 {
                     gridManager = selectedTile.gridManager;
                 }
 
                 gridManager.ApplyGusts();
-                */
+                
             }
         }
     }
@@ -293,14 +295,14 @@ public class TileSelector : MonoBehaviour
         {
             resourceManager.UseMove("Back");
 
-            /*
+            
             if (gridManager == null)
             {
                 gridManager = selectedTile.gridManager;
             }
 
             gridManager.ApplyGusts();
-            */
+            
         }
     }
 }
