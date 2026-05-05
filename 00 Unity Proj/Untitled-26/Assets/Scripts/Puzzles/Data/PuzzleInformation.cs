@@ -15,5 +15,6 @@ public class PuzzleInformation : MonoBehaviour
     public GameObject startTile;
     public GameObject endTile;
     public GameObject gridManager;
+    public GameObject resourceManager;
     public bool puzzleSolved; // Has the puzzle been solved?
 }

@@ -15,11 +15,23 @@ public class SelectableTile : MonoBehaviour
     {
         Normal,
         Ice,
-        ManaWell
+        ManaWell,
+        Gust
     }
 
     // Default tile type is Normal
     public TileType tileType = TileType.Normal;
+
+    public enum GustDirection
+{
+    Up,
+    Down,
+    Left,
+    Right
+}
+
+public GustDirection gustDirection;
+
 
     private int startingGridX;
     private int startingGridZ;
@@ -185,10 +197,14 @@ public class SelectableTile : MonoBehaviour
     /// </summary>
     private void ResetTiles()
     {
+        gridManager.ClearCell(gridX, gridZ);
+
         gridX = startingGridX;
         gridZ = startingGridZ;
 
         transform.localPosition = gridManager.GridToWorld(gridX, gridZ);
+
+        gridManager.PlaceTile(this, gridX, gridZ);
 
         // Reset tile color after reset
         if (tileType == TileType.ManaWell)

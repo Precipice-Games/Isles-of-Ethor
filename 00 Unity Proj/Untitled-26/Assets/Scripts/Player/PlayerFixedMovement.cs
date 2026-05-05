@@ -23,6 +23,7 @@ public class PlayerFixedMovement : MonoBehaviour
     private Vector3 startPosition;
     private Vector3 endPosition;
     private GridManager gridManager;
+    private ResourceManager resourceManager;
     private GameObject puzzleCam; // The camera object holds relevant scripts
     
     // Tile that the Player will start at
@@ -68,8 +69,8 @@ public class PlayerFixedMovement : MonoBehaviour
     // Player's Rigidbody
     private Rigidbody rb;
 
-    [Title("References")]
-    public ResourceManager resourceManager;
+    // Track status of ManaWell trigger to prevent multiple activations in one puzzle attempt.
+    private bool manaWellTriggeredThisEntry = false;
 
     [Space]
     [Title("Debugging Options", "Settings for quick debugging options.")]
@@ -93,9 +94,6 @@ public class PlayerFixedMovement : MonoBehaviour
     public UnityEvent puzzleCompleted;
 
     public static event Action<PuzzleInformation> updatePuzzleStatus;
-
-
-    private bool manaWellTriggeredThisEntry = false;
 
     private void Start()
     {
@@ -125,6 +123,7 @@ public class PlayerFixedMovement : MonoBehaviour
     {
         puzzleInfo = info;
         gridManager = puzzleInfo.gridManager.GetComponent<GridManager>();
+        resourceManager = puzzleInfo.resourceManager.GetComponent<ResourceManager>();
         startTile = puzzleInfo.startTile;
         endTile = puzzleInfo.endTile;
 
@@ -146,6 +145,8 @@ public class PlayerFixedMovement : MonoBehaviour
 
         destinationX = 0;
         destinationZ = 0;
+
+        manaWellTriggeredThisEntry = false;
 
         // After gathering data, move Player to the startTile
         SetPlayersYPosition(startTile);
@@ -371,7 +372,7 @@ public class PlayerFixedMovement : MonoBehaviour
 
         TryToMovePlayer(newDeltaX, newDeltaZ);
     }
-    
+
     /// <summary>
     /// Adjust the Player's Y position to be slightly above the tile's Y position.
     /// This is used to prevent the Player from being below the tile.
@@ -421,16 +422,16 @@ public class PlayerFixedMovement : MonoBehaviour
 
         if (tileType == SelectableTile.TileType.ManaWell)
         {
-            
-            if (manaWellTriggeredThisEntry)
-                return;
+            if (manaWellTriggeredThisEntry) return;
 
             manaWellTriggeredThisEntry = true;
 
             Debug.Log("PlayerFixedMovement.cs >> Player stepped on ManaWell! +2 Mana");
 
             if (resourceManager != null)
+            {
                 resourceManager.AddMana(2);
+            }
         }
     }
         
@@ -467,6 +468,8 @@ public class PlayerFixedMovement : MonoBehaviour
     /// </summary>
     private void ResetPlayerPosition()
     {
+        manaWellTriggeredThisEntry = false;
+
         // Get the grid coordinates of the starting tile
         startTileX = startTile.GetComponent<SelectableTile>().gridX;
         startTileZ = startTile.GetComponent<SelectableTile>().gridZ;
