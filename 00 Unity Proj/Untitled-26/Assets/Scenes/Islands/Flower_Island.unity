@@ -188,6 +188,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 663315550774590056, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1643421120, guid: bc12df7022e0fba4ba084522b6f4782f, type: 3}
     - target: {fileID: 772706793502206034, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_Name
       value: water_lily
@@ -196,6 +200,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1669348534}
+    - target: {fileID: 7507354175440329553, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 2058749361}
+    - target: {fileID: 7507354175440329553, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: destroyOnPickup
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.611
@@ -318,6 +330,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 663315550774590056, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1903852143, guid: d835c7295b8858b4fa0c651aef8e0a0d, type: 3}
     - target: {fileID: 772706793502206034, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_Name
       value: tulip
@@ -326,6 +342,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1669348534}
+    - target: {fileID: 7507354175440329553, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 2058749361}
+    - target: {fileID: 7507354175440329553, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: destroyOnPickup
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.746
@@ -707,6 +731,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 663315550774590056, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1942241340, guid: 8db4cee0429799641b2b755291010376, type: 3}
     - target: {fileID: 772706793502206034, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_Name
       value: dahlia_flower
@@ -715,6 +743,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1669348534}
+    - target: {fileID: 7507354175440329553, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 2058749361}
+    - target: {fileID: 7507354175440329553, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: destroyOnPickup
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.542
@@ -2087,6 +2123,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 663315550774590056, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1319403750, guid: 4332de8f218f50541872f06781a1b1ff, type: 3}
     - target: {fileID: 772706793502206034, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_Name
       value: rose
@@ -2095,6 +2135,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1669348534}
+    - target: {fileID: 7507354175440329553, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 2058749361}
+    - target: {fileID: 7507354175440329553, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: destroyOnPickup
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.702345
@@ -2344,6 +2392,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 663315550774590056, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1132872529, guid: ca64175ec47ee664c9d5abd937cf53ad, type: 3}
     - target: {fileID: 772706793502206034, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_Name
       value: sunflower
@@ -2356,9 +2408,13 @@ PrefabInstance:
       propertyPath: playerCam
       value: 
       objectReference: {fileID: 2058749361}
+    - target: {fileID: 7507354175440329553, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: destroyOnPickup
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.778
+      value: 7.464
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3050,6 +3106,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 663315550774590056, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -177373136, guid: abb6f64274cf3c448825b5dac268455f, type: 3}
     - target: {fileID: 772706793502206034, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_Name
       value: lily
@@ -3058,6 +3118,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1669348534}
+    - target: {fileID: 7507354175440329553, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 2058749361}
+    - target: {fileID: 7507354175440329553, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: destroyOnPickup
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.655
