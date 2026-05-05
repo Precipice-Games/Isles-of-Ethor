@@ -9,10 +9,10 @@
     <img src="02 Docs/00 Assets/precipice-games-logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Untitled-26</h3>
+<h3 align="center">Isles of Ethor</h3>
 
   <p align="center">
-    This is the repository for the untitled game of the 2026 Games Capping Team.
+    This is the repository for Isles of Ethor, the 2026 Games & Emerging Media capstone project.
     <br />
   </p>
 </div>
