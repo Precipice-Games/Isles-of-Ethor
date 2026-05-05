@@ -48,6 +48,7 @@ public class IceTrees : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.LookAt(player.transform.position);
+        if (player != null)
+            transform.LookAt(player.transform.position);
     }
 }

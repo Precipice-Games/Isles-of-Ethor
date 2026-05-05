@@ -16,8 +16,7 @@ public class SelectableTile : MonoBehaviour
         Normal,
         Ice,
         ManaWell,
-        Gust,
-
+        Gust
     }
 
     // Default tile type is Normal

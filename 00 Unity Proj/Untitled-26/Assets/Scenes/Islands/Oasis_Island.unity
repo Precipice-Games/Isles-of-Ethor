@@ -188,6 +188,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 5
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -365,6 +366,7 @@ MonoBehaviour:
   gridX: 3
   gridZ: 7
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -542,6 +544,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 6
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -809,6 +812,7 @@ MonoBehaviour:
   gridX: 3
   gridZ: 5
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -959,7 +963,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.739998
+      value: -6.89
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1413,31 +1417,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 91.04678
+      value: 216.48
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.25
+      value: -2.78
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 91.187416
+      value: 118.61
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.665491
+      value: -0.30203626
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.74640596
+      value: 0.9532965
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1445,7 +1449,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 96.56
+      value: 215.16
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1530,6 +1534,7 @@ MonoBehaviour:
   gridX: 8
   gridZ: 4
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -1740,15 +1745,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.9
+      value: -41.9
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.699997
+      value: -3.699997
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 201.1
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1820,6 +1825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: p1DriftIsland (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 140579135797805127, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: feedbackText
+      value: 
+      objectReference: {fileID: 1119333917}
     - target: {fileID: 563326666085521974, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
       value: 4
@@ -1843,6 +1852,10 @@ PrefabInstance:
     - target: {fileID: 942123610933921151, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: originalColor.g
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262616762910382214, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: Lens.FieldOfView
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1640623606830934790, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: width
@@ -1994,15 +2007,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 281.5
+      value: 256.5
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.23
+      value: 1.116
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 205.1
+      value: 129
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2120,6 +2133,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 5018615782271576797, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018615782271576797, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.9
+      objectReference: {fileID: 0}
     - target: {fileID: 5025002967551595757, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
       value: 1
@@ -2206,19 +2227,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: moveBackUses
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: moveLeftUses
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: startingMana
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: moveRightUses
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: moveForwardUses
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7295780280858452554, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2431,6 +2456,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 4
   gridManager: {fileID: 111690257}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -2608,6 +2634,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 7
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -2754,15 +2781,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -84.97002
+      value: -79.9
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.739998
+      value: -6.92
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 26.09
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2875,6 +2902,7 @@ MonoBehaviour:
   gridX: 3
   gridZ: 8
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3004,7 +3032,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -103.6
+      value: -32.42
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3012,7 +3040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 94
+      value: 80.11
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3045,6 +3073,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
       propertyPath: m_Name
       value: Sign3DVariation2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3125,6 +3157,7 @@ MonoBehaviour:
   gridX: 9
   gridZ: 7
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3415,6 +3448,7 @@ MonoBehaviour:
   gridX: 2
   gridZ: 2
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3557,15 +3591,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.86
+      value: -51.9
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.85
+      value: -3.73
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 104.5
+      value: 57.4
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3678,6 +3712,7 @@ MonoBehaviour:
   gridX: 7
   gridZ: 7
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3824,15 +3859,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -53.839996
+      value: -73.3
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.739998
+      value: -6.93
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.91
+      value: -5.3
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3945,6 +3980,7 @@ MonoBehaviour:
   gridX: 8
   gridZ: 7
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -4279,6 +4315,7 @@ MonoBehaviour:
   gridX: 7
   gridZ: 2
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -4696,6 +4733,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 8
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -4873,6 +4911,7 @@ MonoBehaviour:
   gridX: 9
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -5327,31 +5366,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 82.706
+      value: 106.75
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.25
+      value: -3.02
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 89.311
+      value: 43.3
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.665491
+      value: 0.6095561
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.74640596
+      value: 0.79274297
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5359,7 +5398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 96.56
+      value: 104.885
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -5449,6 +5488,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -5626,6 +5666,7 @@ MonoBehaviour:
   gridX: 5
   gridZ: 8
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -5803,6 +5844,7 @@ MonoBehaviour:
   gridX: 6
   gridZ: 4
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -5939,6 +5981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: p1DriftIsland (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 140579135797805127, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: feedbackText
+      value: 
+      objectReference: {fileID: 871566180}
     - target: {fileID: 563326666085521974, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: tileType
       value: 0
@@ -6105,15 +6151,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 202.5
+      value: 212.07
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.4
+      value: 1.16
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.5
+      value: -23.67
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6480,6 +6526,7 @@ MonoBehaviour:
   gridX: 5
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -6644,7 +6691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7298955605622718558, guid: 883f2f309a01da144b5bf7a5f9cdc71a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -125.82239
+      value: -55.4924
       objectReference: {fileID: 0}
     - target: {fileID: 7298955605622718558, guid: 883f2f309a01da144b5bf7a5f9cdc71a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6652,7 +6699,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7298955605622718558, guid: 883f2f309a01da144b5bf7a5f9cdc71a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -28.29316
+      value: 180.11984
       objectReference: {fileID: 0}
     - target: {fileID: 7298955605622718558, guid: 883f2f309a01da144b5bf7a5f9cdc71a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6756,6 +6803,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 3
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -7045,6 +7093,7 @@ MonoBehaviour:
   gridX: 8
   gridZ: 3
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -7226,15 +7275,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.3
+      value: -53.300003
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.7
+      value: -3.6999998
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 222.6
+      value: 146.5
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7369,7 +7418,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79bd227f3829b9045953bd09f2ea77da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Deathbox
-  respawnLocations: []
+  respawnLocations:
+  - {fileID: 340828971}
+  - {fileID: 0}
   puzzlesComplete: 0
 --- !u!65 &551090612
 BoxCollider:
@@ -7476,6 +7527,7 @@ MonoBehaviour:
   gridX: 7
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -7622,15 +7674,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -157.7
+      value: -141.71
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.0700073
+      value: -6.5
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 107.3
+      value: 104.1
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7743,6 +7795,7 @@ MonoBehaviour:
   gridX: 8
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -7920,6 +7973,7 @@ MonoBehaviour:
   gridX: 8
   gridZ: 1
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8053,7 +8107,7 @@ Transform:
   m_GameObject: {fileID: 612413730}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 129.62, y: 2.16, z: 121.36}
+  m_LocalPosition: {x: 147.53998, y: 2.16, z: 68.99751}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8128,6 +8182,7 @@ MonoBehaviour:
   gridX: 3
   gridZ: 6
   gridManager: {fileID: 111690257}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8305,6 +8360,7 @@ MonoBehaviour:
   gridX: 6
   gridZ: 9
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8423,15 +8479,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -65.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.74
+      value: -5.97
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -40.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8464,6 +8520,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
       propertyPath: m_Name
       value: Sign3DVariation2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8544,6 +8604,7 @@ MonoBehaviour:
   gridX: 9
   gridZ: 4
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8721,6 +8782,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 5
   gridManager: {fileID: 111690257}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -9185,6 +9247,7 @@ MonoBehaviour:
   gridX: 6
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -9475,6 +9538,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 2
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -9652,6 +9716,7 @@ MonoBehaviour:
   gridX: 3
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -10037,6 +10102,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 3
   gridManager: {fileID: 111690257}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -10173,6 +10239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: p1DriftIsland (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 140579135797805127, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: feedbackText
+      value: 
+      objectReference: {fileID: 1195085907}
     - target: {fileID: 563326666085521974, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
       value: 1
@@ -10355,7 +10425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 148.3
+      value: 166.21999
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10363,7 +10433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 105
+      value: 52.637512
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10760,15 +10830,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.699997
+      value: -3.699997
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 243.5
+      value: 167.4
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11050,7 +11120,7 @@ Transform:
   m_GameObject: {fileID: 813844464}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 225.1, y: 2.16, z: 22.9}
+  m_LocalPosition: {x: 229.91, y: 2.16, z: -5.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11125,6 +11195,7 @@ MonoBehaviour:
   gridX: 7
   gridZ: 8
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11267,15 +11338,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.963348
+      value: -37.96335
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.699997
+      value: -3.699997
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 212.25722
+      value: 136.15721
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11388,6 +11459,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 5
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11565,6 +11637,7 @@ MonoBehaviour:
   gridX: 9
   gridZ: 2
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11742,6 +11815,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 5
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11850,6 +11924,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871273191}
   m_Mesh: {fileID: -6209912238109660980, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
+--- !u!1 &871566180 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4455366089648708046, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+  m_PrefabInstance: {fileID: 391274070}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &875459047
 GameObject:
   m_ObjectHideFlags: 0
@@ -11919,6 +11998,7 @@ MonoBehaviour:
   gridX: 5
   gridZ: 3
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -12903,6 +12983,7 @@ MonoBehaviour:
   gridX: 6
   gridZ: 5
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -13701,31 +13782,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 92.73
+      value: 159.78
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.25
+      value: -2.68
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 89.38
+      value: -29.52
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.665491
+      value: -0.2222147
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.74640596
+      value: 0.97499776
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13733,7 +13814,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 96.56
+      value: 205.678
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -13931,6 +14012,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 6
   gridManager: {fileID: 111690257}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -14108,6 +14190,7 @@ MonoBehaviour:
   gridX: 9
   gridZ: 9
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -14285,6 +14368,7 @@ MonoBehaviour:
   gridX: 7
   gridZ: 6
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -14777,6 +14861,7 @@ MonoBehaviour:
   gridX: 2
   gridZ: 3
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -14951,6 +15036,11 @@ GameObject:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7298955605622718558, guid: 883f2f309a01da144b5bf7a5f9cdc71a, type: 3}
   m_PrefabInstance: {fileID: 414320508}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1119333917 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4455366089648708046, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+  m_PrefabInstance: {fileID: 111690256}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1121161247
 GameObject:
@@ -15316,19 +15406,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 88.35
+      value: 208.6
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.66
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 94.81
+      value: 122.27
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6477112
+      value: 0.04818985
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.x
@@ -15336,7 +15426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.761886
+      value: 0.99883825
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.z
@@ -15348,7 +15438,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 99.262
+      value: 174.476
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -15400,7 +15490,7 @@ Transform:
   m_GameObject: {fileID: 1164520297}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -165.70003, y: -10.8, z: 82.899994}
+  m_LocalPosition: {x: -147.78004, y: -10.8, z: 30.537506}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15437,7 +15527,7 @@ Transform:
   m_GameObject: {fileID: 1164607160}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.5, y: 43.72, z: 274.76}
+  m_LocalPosition: {x: -5.580017, y: 43.72, z: 222.39752}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15512,6 +15602,7 @@ MonoBehaviour:
   gridX: 2
   gridZ: 8
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -15824,7 +15915,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 45922031430906625, guid: ff16e4e71610ade4bb5e6805e7db56e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -125.82239
+      value: -55.4924
       objectReference: {fileID: 0}
     - target: {fileID: 45922031430906625, guid: ff16e4e71610ade4bb5e6805e7db56e3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15832,7 +15923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 45922031430906625, guid: ff16e4e71610ade4bb5e6805e7db56e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -28.29316
+      value: 180.11984
       objectReference: {fileID: 0}
     - target: {fileID: 45922031430906625, guid: ff16e4e71610ade4bb5e6805e7db56e3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15891,6 +15982,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 45922031430906625, guid: ff16e4e71610ade4bb5e6805e7db56e3, type: 3}
   m_PrefabInstance: {fileID: 1189490650}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1195085907 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4455366089648708046, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+  m_PrefabInstance: {fileID: 788873473}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1197702378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15929,15 +16025,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -44.9
+      value: -72.42
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.0700073
+      value: -5.92
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 21.43
+      value: -14.56
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16003,15 +16099,15 @@ PrefabInstance:
       objectReference: {fileID: 706432708}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 196.35
+      value: 197.12
       objectReference: {fileID: 0}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.9733858
+      value: 0.892
       objectReference: {fileID: 0}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -23.42
+      value: -24.14
       objectReference: {fileID: 0}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16118,6 +16214,7 @@ MonoBehaviour:
   gridX: 6
   gridZ: 3
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -16236,15 +16333,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -130.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.74
+      value: -6.43
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 19.17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16277,6 +16374,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
       propertyPath: m_Name
       value: Sign3DVariation2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c07a0d58bafa5584abba97249afb7a70, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16357,6 +16458,7 @@ MonoBehaviour:
   gridX: 5
   gridZ: 6
   gridManager: {fileID: 788873474}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -16534,6 +16636,7 @@ MonoBehaviour:
   gridX: 6
   gridZ: 6
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -16711,6 +16814,7 @@ MonoBehaviour:
   gridX: 2
   gridZ: 9
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -16851,6 +16955,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: p1DriftIsland (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 140579135797805127, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: feedbackText
+      value: 
+      objectReference: {fileID: 1354910272}
     - target: {fileID: 563326666085521974, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
       value: 6
@@ -17049,7 +17157,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.5
+      value: 0.4199829
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17057,7 +17165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 239.9
+      value: 187.5375
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17951,31 +18059,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 87.8416
+      value: 203.1
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.25
+      value: -1.96
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 90.70314
+      value: 119.45
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.665491
+      value: 0.071721725
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.74640596
+      value: 0.99742466
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -17983,7 +18091,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 96.56
+      value: 171.774
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -18037,11 +18145,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -104.7
+      value: -115.11
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.0700073
+      value: -6.07
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18244,6 +18352,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1342209234}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1354910272 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4455366089648708046, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+  m_PrefabInstance: {fileID: 1274900496}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1372375590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18460,15 +18573,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.436584
+      value: -57.476593
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.850006
+      value: -3.7300062
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 91.52771
+      value: 44.427708
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18546,15 +18659,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -38.73178
+      value: -67.77179
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.850006
+      value: -3.7300062
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 99.13476
+      value: 52.034756
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18640,7 +18753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.07
+      value: -5.58
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18757,6 +18870,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 4
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -18875,7 +18989,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 137271524649294906, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 205.67
+      value: 276
       objectReference: {fileID: 0}
     - target: {fileID: 137271524649294906, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18883,7 +18997,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 137271524649294906, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -24.913
+      value: 183.5
       objectReference: {fileID: 0}
     - target: {fileID: 137271524649294906, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19411,6 +19525,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 6
   gridManager: {fileID: 111690257}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -19745,6 +19860,7 @@ MonoBehaviour:
   gridX: 9
   gridZ: 6
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -24733,15 +24849,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -139.41
+      value: -117.71
       objectReference: {fileID: 0}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.2
+      value: -8.58
       objectReference: {fileID: 0}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 91.79
+      value: 40.74
       objectReference: {fileID: 0}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalRotation.w
@@ -24857,6 +24973,7 @@ MonoBehaviour:
   gridX: 3
   gridZ: 2
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -25034,6 +25151,7 @@ MonoBehaviour:
   gridX: 5
   gridZ: 4
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -25368,6 +25486,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 6
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -25614,7 +25733,7 @@ Transform:
   m_GameObject: {fileID: 1892284747}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 308.91, y: 0.63, z: 212.28}
+  m_LocalPosition: {x: 281.34, y: 0.63, z: 136.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -25662,7 +25781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.739998
+      value: -6.75
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25779,6 +25898,7 @@ MonoBehaviour:
   gridX: 8
   gridZ: 8
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -26045,7 +26165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.0700073
+      value: -5.91
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26275,7 +26395,7 @@ Transform:
   m_GameObject: {fileID: 2005465197}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -219.72998, y: -2.677124, z: 148.99873}
+  m_LocalPosition: {x: -200.6, y: -2.677124, z: 100.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26351,6 +26471,7 @@ MonoBehaviour:
   gridX: 3
   gridZ: 6
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -26493,15 +26614,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -35.462433
+      value: -64.50244
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.850006
+      value: -3.7300062
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 113.44652
+      value: 66.34651
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26614,6 +26735,7 @@ MonoBehaviour:
   gridX: 7
   gridZ: 4
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -26802,6 +26924,7 @@ MonoBehaviour:
   gridX: 2
   gridZ: 6
   gridManager: {fileID: 111690257}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -26948,15 +27071,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -133.9
+      value: -131.5
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.0700073
+      value: -6.36
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 154.3
+      value: 113.7
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -27042,7 +27165,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.0700073
+      value: -6.26
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27159,6 +27282,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 9
   gridManager: {fileID: 1274900497}
+  selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -27305,15 +27429,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -53.839996
+      value: -67.81
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.739998
+      value: -6.78
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.91
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -27444,6 +27568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RopeBridge
       objectReference: {fileID: 0}
+    - target: {fileID: 8081119525466462380, guid: 282e0d0bc9f8b47458787f8303d58b00, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27467,16 +27595,28 @@ PrefabInstance:
       value: MainOasisIsland
       objectReference: {fileID: 0}
     - target: {fileID: 8018856711836101734, guid: bec21f328b9e5e640b0afd85547c1025, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8018856711836101734, guid: bec21f328b9e5e640b0afd85547c1025, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8018856711836101734, guid: bec21f328b9e5e640b0afd85547c1025, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8018856711836101734, guid: bec21f328b9e5e640b0afd85547c1025, type: 3}
       propertyPath: m_LocalPosition.x
       value: -116.84857
       objectReference: {fileID: 0}
     - target: {fileID: 8018856711836101734, guid: bec21f328b9e5e640b0afd85547c1025, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.2
+      value: -11.5
       objectReference: {fileID: 0}
     - target: {fileID: 8018856711836101734, guid: bec21f328b9e5e640b0afd85547c1025, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 106.11463
+      value: 58.4
       objectReference: {fileID: 0}
     - target: {fileID: 8018856711836101734, guid: bec21f328b9e5e640b0afd85547c1025, type: 3}
       propertyPath: m_LocalRotation.w
@@ -27535,7 +27675,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1562532093982906886, guid: ce5fb46def1204e41901117282703312, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -315.91998
+      value: -298
       objectReference: {fileID: 0}
     - target: {fileID: 1562532093982906886, guid: ce5fb46def1204e41901117282703312, type: 3}
       propertyPath: m_LocalPosition.y
@@ -27543,7 +27683,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1562532093982906886, guid: ce5fb46def1204e41901117282703312, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 229.9625
+      value: 177.6
       objectReference: {fileID: 0}
     - target: {fileID: 1562532093982906886, guid: ce5fb46def1204e41901117282703312, type: 3}
       propertyPath: m_LocalRotation.w
@@ -27592,15 +27732,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7306501694993207284, guid: b9390f6ae2b784147aa63217cb70c386, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9630127
+      value: -25.963013
       objectReference: {fileID: 0}
     - target: {fileID: 7306501694993207284, guid: b9390f6ae2b784147aa63217cb70c386, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -35.5
+      value: -34.5
       objectReference: {fileID: 0}
     - target: {fileID: 7306501694993207284, guid: b9390f6ae2b784147aa63217cb70c386, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 223.57414
+      value: 147.47414
       objectReference: {fileID: 0}
     - target: {fileID: 7306501694993207284, guid: b9390f6ae2b784147aa63217cb70c386, type: 3}
       propertyPath: m_LocalRotation.w

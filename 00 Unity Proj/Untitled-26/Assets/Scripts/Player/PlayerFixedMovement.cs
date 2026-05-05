@@ -23,6 +23,7 @@ public class PlayerFixedMovement : MonoBehaviour
     private Vector3 startPosition;
     private Vector3 endPosition;
     private GridManager gridManager;
+    private ResourceManager resourceManager;
     private GameObject puzzleCam; // The camera object holds relevant scripts
     
     // Tile that the Player will start at
@@ -67,9 +68,6 @@ public class PlayerFixedMovement : MonoBehaviour
 
     // Player's Rigidbody
     private Rigidbody rb;
-
-    [Title("References")]
-    public ResourceManager resourceManager;
 
     [Space]
     [Title("Debugging Options", "Settings for quick debugging options.")]
@@ -125,6 +123,7 @@ public class PlayerFixedMovement : MonoBehaviour
     {
         puzzleInfo = info;
         gridManager = puzzleInfo.gridManager.GetComponent<GridManager>();
+        resourceManager = puzzleInfo.resourceManager.GetComponent<ResourceManager>();
         startTile = puzzleInfo.startTile;
         endTile = puzzleInfo.endTile;
 
@@ -371,7 +370,7 @@ public class PlayerFixedMovement : MonoBehaviour
 
         TryToMovePlayer(newDeltaX, newDeltaZ);
     }
-    
+
     /// <summary>
     /// Adjust the Player's Y position to be slightly above the tile's Y position.
     /// This is used to prevent the Player from being below the tile.
@@ -406,6 +405,7 @@ public class PlayerFixedMovement : MonoBehaviour
             lastTileX = coordX;
             lastTileZ = coordZ;
             // Handle tile effects (ManaWell, etc.)
+            Debug.Log("Checkpoint Reached");
             CheckTileEffects(coordX, coordZ);
         }
 
@@ -419,18 +419,20 @@ public class PlayerFixedMovement : MonoBehaviour
     {
         SelectableTile.TileType tileType = gridManager.GetTileType(coordX, coordZ);
 
+        Debug.Log("Checkpoint reached: manaWellTriggeredThisEntry = " + manaWellTriggeredThisEntry);
+
         if (tileType == SelectableTile.TileType.ManaWell)
         {
-            
-            if (manaWellTriggeredThisEntry)
-                return;
+            if (manaWellTriggeredThisEntry) return;
 
             manaWellTriggeredThisEntry = true;
 
             Debug.Log("PlayerFixedMovement.cs >> Player stepped on ManaWell! +2 Mana");
 
             if (resourceManager != null)
+            {
                 resourceManager.AddMana(2);
+            }
         }
     }
         

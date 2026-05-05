@@ -1936,6 +1936,7 @@ MonoBehaviour:
   startTile: {fileID: 3796191418792194300}
   endTile: {fileID: 3427067941324799217}
   gridManager: {fileID: 4785314922009797101}
+  resourceManager: {fileID: 7600570827429529725}
   puzzleSolved: 0
 --- !u!1 &7264184287714543087
 GameObject:
