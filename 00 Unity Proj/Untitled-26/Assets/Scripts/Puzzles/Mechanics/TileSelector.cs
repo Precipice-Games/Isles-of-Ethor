@@ -4,8 +4,6 @@ using UnityEngine.InputSystem;
 
 public class TileSelector : MonoBehaviour
 {
-    public GridManager gridManager;
-
     [Title("Tile Selector Variables", "Variables used in the Tile Selection process.")]
     [PropertyTooltip("Please assign the ResourceManager for this specific puzzle prefab.")]
     public ResourceManager resourceManager;
@@ -142,14 +140,25 @@ public class TileSelector : MonoBehaviour
         if (PlayerOnSelectedTile()) return;
         if (SelectedTileIsStartOrEnd()) return;
 
-        // Ensure there are enough resources before attempting the move.
-        if (resourceManager.GetRightUses() <= 0 || resourceManager.GetMana() <= 0)
+        // If we're out of Mana
+        if (resourceManager.GetMana() <= 0)
+        {
+            resourceManager.OutOfMana();
             return;
+        }
+
+        // If we don't have enough Right move cards
+        if (resourceManager.GetRightUses() <= 0)
+        {
+            resourceManager.NoMoreCardUses("Right");
+            return;
+        }
 
         // Only spend mana if the move actually succeeds
         if (selectedTile.TryMove(1, 0))
         {
             resourceManager.UseMove("Right");
+<<<<<<< issue/590-block-off-island-areas
 
             if (gridManager == null)
             {
@@ -157,6 +166,8 @@ public class TileSelector : MonoBehaviour
             }
 
             gridManager.ApplyGusts();
+=======
+>>>>>>> dev
         }
     }
 
@@ -173,11 +184,11 @@ public class TileSelector : MonoBehaviour
 
         // Ensure there are enough resources before attempting the move.
         Debug.Log("TileSelector.cs >> Attempting to move left. Remaining uses: " + resourceManager.moveLeftUses + ", Remaining mana: " + resourceManager.GetMana());
-        if (resourceManager.GetLeftUses() <= 0 || resourceManager.GetMana() <= 0) return;
 
-        // Only spend mana if the move actually succeeds
-        if (selectedTile.TryMove(-1, 0))
+        // If we're out of Mana
+        if (resourceManager.GetMana() <= 0)
         {
+<<<<<<< issue/590-block-off-island-areas
             resourceManager.UseMove("Left");
 
             if (gridManager == null)
@@ -186,6 +197,23 @@ public class TileSelector : MonoBehaviour
             }
 
             gridManager.ApplyGusts();
+=======
+            resourceManager.OutOfMana();
+            return;
+        }
+
+        // If we don't have enough Left move cards
+        if (resourceManager.GetLeftUses() <= 0)
+        {
+            resourceManager.NoMoreCardUses("Left");
+            return;
+        }
+
+        // Only spend mana if the move actually succeeds
+        if (selectedTile.TryMove(-1, 0))
+        {
+            resourceManager.UseMove("Left");
+>>>>>>> dev
         }
     }
 
@@ -199,6 +227,7 @@ public class TileSelector : MonoBehaviour
         if (selectedTile == null) return;
         if (PlayerOnSelectedTile()) return;
         if (SelectedTileIsStartOrEnd()) return;
+<<<<<<< issue/590-block-off-island-areas
 
         // Ensure there are enough resources before attempting the move.
         if (resourceManager.GetForwardUses() <= 0 || resourceManager.GetMana() <= 0) return;
@@ -214,6 +243,27 @@ public class TileSelector : MonoBehaviour
             }
 
             gridManager.ApplyGusts();
+=======
+        
+        // If we're out of Mana
+        if (resourceManager.GetMana() <= 0)
+        {
+            resourceManager.OutOfMana();
+            return;
+        }
+
+        // If we don't have enough Forward/Up move cards
+        if (resourceManager.GetForwardUses() <= 0)
+        {
+            resourceManager.NoMoreCardUses("Up");
+            return;
+        }
+
+        // Only spend mana if the move actually succeeds
+        if (selectedTile.TryMove(0, 1))
+        {
+            resourceManager.UseMove("Forward");
+>>>>>>> dev
         }
     }
 
@@ -227,15 +277,26 @@ public class TileSelector : MonoBehaviour
         if (selectedTile == null) return;
         if (PlayerOnSelectedTile()) return;
         if (SelectedTileIsStartOrEnd()) return;
-
-        // Ensure there are enough resources before attempting the move.
-        if (resourceManager.GetBackUses() <= 0 || resourceManager.GetMana() <= 0)
+        
+        // If we're out of Mana
+        if (resourceManager.GetMana() <= 0)
+        {
+            resourceManager.OutOfMana();
             return;
+        }
+
+        // If we don't have enough Back/Down move cards
+        if (resourceManager.GetBackUses() <= 0)
+        {
+            resourceManager.NoMoreCardUses("Down");
+            return;
+        }
 
         // Only spend mana if the move actually succeeds
         if (selectedTile.TryMove(0, -1))
         {
             resourceManager.UseMove("Back");
+<<<<<<< issue/590-block-off-island-areas
 
             if (gridManager == null)
             {
@@ -243,6 +304,8 @@ public class TileSelector : MonoBehaviour
             }
 
             gridManager.ApplyGusts();
+=======
+>>>>>>> dev
         }
     }
 }
