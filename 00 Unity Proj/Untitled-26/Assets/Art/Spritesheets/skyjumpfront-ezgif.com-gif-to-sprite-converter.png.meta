@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -93,6 +93,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -100,10 +139,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_0
       rect:
         serializedVersion: 2
-        x: 565
-        y: 6196
-        width: 614
-        height: 1003
+        x: 570
+        y: 6198
+        width: 605
+        height: 998
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,10 +161,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_1
       rect:
         serializedVersion: 2
-        x: 2487
-        y: 6196
-        width: 614
-        height: 1003
+        x: 2490
+        y: 6198
+        width: 606
+        height: 998
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +183,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_2
       rect:
         serializedVersion: 2
-        x: 4404
-        y: 6191
-        width: 627
-        height: 1008
+        x: 4408
+        y: 6195
+        width: 619
+        height: 1001
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +205,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_3
       rect:
         serializedVersion: 2
-        x: 6321
-        y: 6187
-        width: 647
-        height: 1012
+        x: 6325
+        y: 6188
+        width: 640
+        height: 1008
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +227,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_4
       rect:
         serializedVersion: 2
-        x: 8234
-        y: 6173
-        width: 703
-        height: 1026
+        x: 8238
+        y: 6177
+        width: 697
+        height: 1020
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +249,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_5
       rect:
         serializedVersion: 2
-        x: 551
-        y: 4246
-        width: 740
-        height: 1036
+        x: 556
+        y: 4249
+        width: 734
+        height: 1029
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +271,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_6
       rect:
         serializedVersion: 2
-        x: 2468
-        y: 4237
-        width: 769
-        height: 1045
+        x: 2473
+        y: 4242
+        width: 761
+        height: 1036
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +293,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_7
       rect:
         serializedVersion: 2
-        x: 4378
-        y: 4232
-        width: 799
-        height: 1047
+        x: 4382
+        y: 4237
+        width: 792
+        height: 1039
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +315,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_8
       rect:
         serializedVersion: 2
-        x: 6289
-        y: 4232
-        width: 820
-        height: 1045
+        x: 6294
+        y: 4237
+        width: 813
+        height: 1039
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +337,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_9
       rect:
         serializedVersion: 2
-        x: 8205
-        y: 4236
-        width: 830
-        height: 1041
+        x: 8208
+        y: 4237
+        width: 824
+        height: 1038
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,10 +359,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_10
       rect:
         serializedVersion: 2
-        x: 523
-        y: 2314
-        width: 834
-        height: 1045
+        x: 525
+        y: 2319
+        width: 827
+        height: 1035
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +381,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_11
       rect:
         serializedVersion: 2
-        x: 2505
-        y: 2356
-        width: 830
-        height: 1041
+        x: 2508
+        y: 2359
+        width: 826
+        height: 1037
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,10 +403,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_12
       rect:
         serializedVersion: 2
-        x: 4498
-        y: 2403
-        width: 834
-        height: 1041
+        x: 4500
+        y: 2407
+        width: 829
+        height: 1034
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +425,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_13
       rect:
         serializedVersion: 2
-        x: 6457
-        y: 2426
-        width: 834
-        height: 1046
+        x: 6460
+        y: 2431
+        width: 827
+        height: 1037
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,10 +447,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_14
       rect:
         serializedVersion: 2
-        x: 8379
-        y: 2426
-        width: 830
-        height: 1046
+        x: 8380
+        y: 2431
+        width: 827
+        height: 1037
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -430,10 +469,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_15
       rect:
         serializedVersion: 2
-        x: 720
-        y: 513
-        width: 834
-        height: 1041
+        x: 723
+        y: 515
+        width: 826
+        height: 1038
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,10 +491,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_16
       rect:
         serializedVersion: 2
-        x: 2749
-        y: 533
-        width: 835
-        height: 1045
+        x: 2753
+        y: 537
+        width: 827
+        height: 1039
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -474,10 +513,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_17
       rect:
         serializedVersion: 2
-        x: 4706
-        y: 542
-        width: 832
-        height: 1045
+        x: 4710
+        y: 547
+        width: 825
+        height: 1039
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,10 +535,10 @@ TextureImporter:
       name: skyjumpfront-ezgif.com-gif-to-sprite-converter_18
       rect:
         serializedVersion: 2
-        x: 6626
-        y: 542
-        width: 834
-        height: 1045
+        x: 6630
+        y: 547
+        width: 825
+        height: 1039
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,7 +567,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":4.0},"gridSpriteSize":{"x":1920.0,"y":1920.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       skyjumpfront-ezgif.com-gif-to-sprite-converter_0: 1003553703
       skyjumpfront-ezgif.com-gif-to-sprite-converter_1: -531897593
