@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -93,6 +93,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -100,10 +139,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_0
       rect:
         serializedVersion: 2
-        x: 542
-        y: 8039
-        width: 670
-        height: 1118
+        x: 0
+        y: 7680
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,10 +161,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_1
       rect:
         serializedVersion: 2
-        x: 2463
-        y: 8037
-        width: 666
-        height: 1120
+        x: 1920
+        y: 7680
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +183,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_2
       rect:
         serializedVersion: 2
-        x: 4381
-        y: 8037
-        width: 670
-        height: 1120
+        x: 3840
+        y: 7680
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +205,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_3
       rect:
         serializedVersion: 2
-        x: 6302
-        y: 8037
-        width: 671
-        height: 1122
+        x: 5760
+        y: 7680
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +227,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_4
       rect:
         serializedVersion: 2
-        x: 8220
-        y: 8037
-        width: 673
-        height: 1125
+        x: 7680
+        y: 7680
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +249,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_5
       rect:
         serializedVersion: 2
-        x: 541
-        y: 6120
-        width: 671
-        height: 1120
+        x: 0
+        y: 5760
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +271,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_6
       rect:
         serializedVersion: 2
-        x: 2459
-        y: 6120
-        width: 675
-        height: 1124
+        x: 1920
+        y: 5760
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +293,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_7
       rect:
         serializedVersion: 2
-        x: 4380
-        y: 6120
-        width: 675
-        height: 1124
+        x: 3840
+        y: 5760
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +315,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_8
       rect:
         serializedVersion: 2
-        x: 6298
-        y: 6120
-        width: 679
-        height: 1125
+        x: 5760
+        y: 5760
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +337,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_9
       rect:
         serializedVersion: 2
-        x: 8220
-        y: 6120
-        width: 679
-        height: 1127
+        x: 7680
+        y: 5760
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,10 +359,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_10
       rect:
         serializedVersion: 2
-        x: 537
-        y: 4198
-        width: 684
-        height: 1129
+        x: 0
+        y: 3840
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +381,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_11
       rect:
         serializedVersion: 2
-        x: 2459
-        y: 4198
-        width: 684
-        height: 1129
+        x: 1920
+        y: 3840
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,10 +403,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_12
       rect:
         serializedVersion: 2
-        x: 4376
-        y: 4198
-        width: 687
-        height: 1129
+        x: 3840
+        y: 3840
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +425,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_13
       rect:
         serializedVersion: 2
-        x: 6298
-        y: 4198
-        width: 684
-        height: 1129
+        x: 5760
+        y: 3840
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,10 +447,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_14
       rect:
         serializedVersion: 2
-        x: 8220
-        y: 4198
-        width: 679
-        height: 1129
+        x: 7680
+        y: 3840
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -430,10 +469,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_15
       rect:
         serializedVersion: 2
-        x: 537
-        y: 2276
-        width: 679
-        height: 1129
+        x: 0
+        y: 1920
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,10 +491,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_16
       rect:
         serializedVersion: 2
-        x: 2459
-        y: 2277
-        width: 675
-        height: 1124
+        x: 1920
+        y: 1920
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -474,10 +513,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_17
       rect:
         serializedVersion: 2
-        x: 4381
-        y: 2280
-        width: 670
-        height: 1121
+        x: 3840
+        y: 1920
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,10 +535,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_18
       rect:
         serializedVersion: 2
-        x: 6302
-        y: 2280
-        width: 670
-        height: 1116
+        x: 5760
+        y: 1920
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,10 +557,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_19
       rect:
         serializedVersion: 2
-        x: 8224
-        y: 2280
-        width: 666
-        height: 1116
+        x: 7680
+        y: 1920
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,10 +579,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_20
       rect:
         serializedVersion: 2
-        x: 546
-        y: 359
-        width: 665
-        height: 1115
+        x: 0
+        y: 0
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,10 +601,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_21
       rect:
         serializedVersion: 2
-        x: 2463
-        y: 359
-        width: 666
-        height: 1115
+        x: 1920
+        y: 0
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,10 +623,10 @@ TextureImporter:
       name: skyfrontidle-ezgif.com-gif-to-sprite-converter_22
       rect:
         serializedVersion: 2
-        x: 4385
-        y: 359
-        width: 666
-        height: 1115
+        x: 3840
+        y: 0
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -616,7 +655,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":5.0},"gridSpriteSize":{"x":1920.0,"y":1920.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       skyfrontidle-ezgif.com-gif-to-sprite-converter_0: 746386416
       skyfrontidle-ezgif.com-gif-to-sprite-converter_1: 1929900118
