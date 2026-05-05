@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: da1bb569674b8384d80a286a4d05b42f
+timeCreated: 1767144151
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/Scripts/ReadOnlyDictionaryExample.cs
+  uploadId: 867794

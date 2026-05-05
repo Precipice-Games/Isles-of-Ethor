@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 08fa3e71195fe81428873c3e80c73ef3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/ScriptableEnums/example_enum_fire.asset
+  uploadId: 867794

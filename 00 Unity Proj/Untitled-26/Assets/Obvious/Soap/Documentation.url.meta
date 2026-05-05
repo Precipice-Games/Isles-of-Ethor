@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8e3d7589d2e266049bb73a951d261f44
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Documentation.url
+  uploadId: 867794

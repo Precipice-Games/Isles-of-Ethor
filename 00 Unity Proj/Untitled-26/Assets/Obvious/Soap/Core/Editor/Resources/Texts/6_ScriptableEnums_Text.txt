@@ -1,0 +1,4 @@
+In this scene, you will learn more about how to use and create ScriptableEnums. The scene content goes hands in hand with the documentation, discover them together to learn:
+-how to use ScriptableEnums
+-how to add additional data to them
+-how to create new ones

@@ -1,0 +1,4 @@
+This scene showcases a practical example on how to use a Scriptable Singleton. The scene content goes hands in hand with the documentation, discover them together to learn:
+-how to access the Scriptable Singleton by code
+-how to use the Scriptable Singleton in the Inspector
+-how to use the [ResourcePath] attribute to create a Scriptable Singleton asset automatically 

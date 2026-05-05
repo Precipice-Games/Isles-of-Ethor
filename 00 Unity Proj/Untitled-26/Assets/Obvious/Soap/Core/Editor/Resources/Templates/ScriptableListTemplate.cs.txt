@@ -1,0 +1,13 @@
+﻿using UnityEngine;
+using Obvious.Soap;
+
+[CreateAssetMenu(fileName = "scriptable_list_" + nameof($TYPE$), menuName = "Soap/ScriptableLists/"+ nameof($TYPE$))]
+public class ScriptableList$TYPENAME$ : ScriptableList<$TYPE$>
+{
+    
+}
+
+[System.Serializable]
+public class ScriptableList$TYPENAME$ReadOnly : ScriptableListReadOnly<ScriptableList$TYPENAME$, $TYPE$>
+{
+}

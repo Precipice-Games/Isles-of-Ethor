@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 030fc3f2736a428c99c03e8f1ce1a19f
+timeCreated: 1736297901
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Editor/Attributes/EndDisabledGroupDrawer.cs
+  uploadId: 867794

@@ -1,0 +1,9 @@
+﻿using System;
+using UnityEngine;
+using Obvious.Soap;
+
+[CreateAssetMenu(fileName = "ScriptableSave" + nameof($TYPE$), menuName = "Soap/ScriptableSaves/ScriptableSave" + nameof($TYPE$))]
+public class ScriptableSave$TYPENAME$ : ScriptableSave<$TYPE$>
+{
+    
+}

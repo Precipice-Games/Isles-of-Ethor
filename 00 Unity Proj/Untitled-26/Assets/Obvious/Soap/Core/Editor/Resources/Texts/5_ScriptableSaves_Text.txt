@@ -1,0 +1,6 @@
+In this scene, you will learn more about the ScriptableSave. The scene content goes hands in hand with the documentation, discover them together to learn:
+-how to save a lot of data in a single file
+-how to save data in a way that is easy to read and edit
+-how to add custom methods to the save
+-how to save/load and delete the save
+-how to combine scriptable save and other soap scriptable objects

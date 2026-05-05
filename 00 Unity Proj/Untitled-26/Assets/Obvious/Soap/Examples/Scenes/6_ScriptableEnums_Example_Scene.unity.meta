@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2937963cc2c342e42b42b6a907ccc469
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Scenes/6_ScriptableEnums_Example_Scene.unity
+  uploadId: 867794

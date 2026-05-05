@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 20f1ea5b050953a43a4f999867c05334
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/Prefabs/UI/prefab_ui_header.prefab
+  uploadId: 867794

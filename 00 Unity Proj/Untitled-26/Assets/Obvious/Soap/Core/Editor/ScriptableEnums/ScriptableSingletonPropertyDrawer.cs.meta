@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: cf83efaf1b008064b88aa78a7d6e7150
+timeCreated: 1715257990
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Editor/ScriptableEnums/ScriptableSingletonPropertyDrawer.cs
+  uploadId: 867794

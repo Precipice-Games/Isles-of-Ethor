@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 24c4af42bed07564ca5b965a62b3b6ca
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Runtime/ScriptableVariables/VariableReferences/Vector3Reference.cs
+  uploadId: 867794

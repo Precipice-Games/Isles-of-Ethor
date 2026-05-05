@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3b8773243501dc24692b437353e716eb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/Prefabs/prefab_vfx_onSpawn.prefab
+  uploadId: 867794

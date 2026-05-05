@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6e14cb066ca1f0f4e9d36e9d029ab335
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Editor/Resources/Texts/2_Bindings_Text.txt
+  uploadId: 867794

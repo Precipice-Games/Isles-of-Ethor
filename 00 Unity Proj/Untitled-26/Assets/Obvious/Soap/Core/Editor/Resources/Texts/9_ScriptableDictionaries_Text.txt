@@ -1,0 +1,3 @@
+This scene showcases a practical example on how to use a Scriptable Dictionary. The scene content goes hands in hand with the documentation, discover them together to learn:
+-how to register to the dictionary events (OnItemAdded, OnItemRemoved, Modified)
+-how to add/remove and update items in the dictionary

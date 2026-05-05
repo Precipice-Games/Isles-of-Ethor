@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8346c92632f71f04d81b5df6ca17ebb6
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Editor/Resources/Texts/7_ScriptableSubAssets_Text.txt
+  uploadId: 867794

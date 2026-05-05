@@ -1,0 +1,15 @@
+﻿using UnityEngine;
+using Obvious.Soap;
+
+public class $TYPE$ : MonoBehaviour
+{
+    void Start()
+    {
+        
+    }
+
+    void Update()
+    {
+        
+    }
+}

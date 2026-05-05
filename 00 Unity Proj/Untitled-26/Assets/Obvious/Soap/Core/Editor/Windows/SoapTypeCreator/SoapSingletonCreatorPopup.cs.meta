@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7b0b14bdc194d094eb5c2fb9c5f1b9bd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Editor/Windows/SoapTypeCreator/SoapSingletonCreatorPopup.cs
+  uploadId: 867794

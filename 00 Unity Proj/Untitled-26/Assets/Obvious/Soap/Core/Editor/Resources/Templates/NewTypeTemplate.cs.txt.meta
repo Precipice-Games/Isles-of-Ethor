@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7c53ec3fecc362c408a1380b5a75953b
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Editor/Resources/Templates/NewTypeTemplate.cs.txt
+  uploadId: 867794

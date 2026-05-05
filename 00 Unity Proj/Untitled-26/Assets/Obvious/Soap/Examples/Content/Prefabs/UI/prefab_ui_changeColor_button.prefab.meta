@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2e24e5d08f768694a820bc2b2882dcd8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/Prefabs/UI/prefab_ui_changeColor_button.prefab
+  uploadId: 867794

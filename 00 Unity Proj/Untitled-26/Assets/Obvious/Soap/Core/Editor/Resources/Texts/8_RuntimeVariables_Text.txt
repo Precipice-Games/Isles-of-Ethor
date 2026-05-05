@@ -1,0 +1,7 @@
+This scene showcases a practical example on how to create and use Runtime variables. The scene content goes hands in hand with the documentation, discover them together to learn:
+-how to create an instance of a scriptable variable at runtime
+-how to inject manually a runtime variable in other components
+-how to use the RuntimeInjectors to inject automatically a runtime variable in other components 
+
+Note: this is a more advanced feature of Soap. You might want to get use to Soap first before using this type of pattern.
+

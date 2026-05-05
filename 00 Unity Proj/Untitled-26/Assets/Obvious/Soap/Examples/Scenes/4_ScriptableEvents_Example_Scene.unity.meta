@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6b42a419a2962674c9babc6addcb21d2
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Scenes/4_ScriptableEvents_Example_Scene.unity
+  uploadId: 867794

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: a06f8d87f78f41c58710679bdd408208
+timeCreated: 1736292515
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Runtime/RuntimeInjectors/RuntimeGameObjectVariableInjector.cs
+  uploadId: 867794

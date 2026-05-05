@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 04cd28045cfa5ca40b0c1811c7de86af
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Runtime/ScriptableVariables/VariableReferences/BoolReference.cs
+  uploadId: 867794

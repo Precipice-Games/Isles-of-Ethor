@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 911286e00f665dc4aa3915bd1fbfb766
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/Editor/ScriptableSaveExampleEditor.cs
+  uploadId: 867794

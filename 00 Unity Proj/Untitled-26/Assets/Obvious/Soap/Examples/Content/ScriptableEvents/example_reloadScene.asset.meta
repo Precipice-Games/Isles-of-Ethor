@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 91803624f3bcac240a834f04fcd56022
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/ScriptableEvents/example_reloadScene.asset
+  uploadId: 867794

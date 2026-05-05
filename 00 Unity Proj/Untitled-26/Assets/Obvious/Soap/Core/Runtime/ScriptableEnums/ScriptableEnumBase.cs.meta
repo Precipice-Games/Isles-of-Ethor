@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a968fca847314c5285a5b1586b1ad1c5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Runtime/ScriptableEnums/ScriptableEnumBase.cs
+  uploadId: 867794

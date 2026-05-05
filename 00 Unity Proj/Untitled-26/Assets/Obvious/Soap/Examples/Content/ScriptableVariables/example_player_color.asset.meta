@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e41cb1a09a2ee243b5bc12fc79fc070
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/ScriptableVariables/example_player_color.asset
+  uploadId: 867794

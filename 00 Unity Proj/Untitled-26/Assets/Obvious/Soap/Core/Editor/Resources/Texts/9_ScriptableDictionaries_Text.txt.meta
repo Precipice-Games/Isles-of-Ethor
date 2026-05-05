@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6f273c77bf8ccb84f8c9aef016c11f8e
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Editor/Resources/Texts/9_ScriptableDictionaries_Text.txt
+  uploadId: 867794

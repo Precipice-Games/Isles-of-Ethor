@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ee6baafdecd94804a8714654c4bd097f
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Runtime/Obvious.Soap.asmdef
+  uploadId: 867794

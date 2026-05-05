@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a3e26a8dc6e389440b4325590ebf1859
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Editor/Resources/Templates/1_EventListenerTemplate.cs.txt
+  uploadId: 867794

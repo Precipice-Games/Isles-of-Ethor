@@ -1,0 +1,9 @@
+﻿using UnityEngine;
+using Obvious.Soap;
+
+[CreateAssetMenu(fileName ="ScriptableEnum$TYPE$", menuName = "Soap/ScriptableEnums/$TYPE$")]
+public class ScriptableEnum$TYPENAME$ : ScriptableEnumBase
+{
+        
+}
+

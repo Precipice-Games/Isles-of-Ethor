@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 4309fbcdc5d9498fb9e078a7613db029
+timeCreated: 1736292511
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Runtime/RuntimeInjectors/RuntimeColorVariableInjector.cs
+  uploadId: 867794

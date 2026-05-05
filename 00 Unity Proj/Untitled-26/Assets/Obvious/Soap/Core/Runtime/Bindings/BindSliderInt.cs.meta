@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2f637bcca09b49b4d91ff8c9f18d3b15
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 8fafaa2b606c8174d9bbe26515992389, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Runtime/Bindings/BindSliderInt.cs
+  uploadId: 867794

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 40d0c0a08b9b8bc47bda34c6a9315a8b
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Editor/Resources/Templates/ScriptableEnumTemplate.cs.txt
+  uploadId: 867794

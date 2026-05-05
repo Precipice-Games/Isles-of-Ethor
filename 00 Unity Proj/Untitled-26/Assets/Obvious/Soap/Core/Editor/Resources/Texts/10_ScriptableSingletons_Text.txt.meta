@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b9714f1518d3ec5468d0ecd697819cc2
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Editor/Resources/Texts/10_ScriptableSingletons_Text.txt
+  uploadId: 867794

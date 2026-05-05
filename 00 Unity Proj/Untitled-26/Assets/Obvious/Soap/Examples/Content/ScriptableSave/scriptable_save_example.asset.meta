@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f2fcbeeffa98a143937da4d38be2bc7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/ScriptableSave/scriptable_save_example.asset
+  uploadId: 867794

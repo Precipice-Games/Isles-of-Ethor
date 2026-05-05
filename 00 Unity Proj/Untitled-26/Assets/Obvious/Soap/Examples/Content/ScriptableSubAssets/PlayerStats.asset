@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7494678335964545613
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9978ce9c8bdc724896114c9952c52ea, type: 3}
+  m_Name: Health
+  m_EditorClassIdentifier: 
+  TagIndex: 0
+  Description: 
+  _guid: 44b7ad22e3f4f7e468f62aa4e623efde-7494
+  _saveGuid: 0
+  _value: 0
+  _debugLogEnabled: 0
+  _saved: 0
+  _defaultValue: 0
+  _resetOn: 0
+  _runtimeValue: 0
+  _isClamped: 0
+  _min:
+    UseLocal: 1
+    LocalValue: 0
+    Variable: {fileID: 0}
+  _max:
+    UseLocal: 1
+    LocalValue: 3.4028235e+38
+    Variable: {fileID: 0}
+--- !u!114 &-3856768904149576566
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9978ce9c8bdc724896114c9952c52ea, type: 3}
+  m_Name: MaxHealth
+  m_EditorClassIdentifier: 
+  TagIndex: 0
+  Description: 
+  _guid: 44b7ad22e3f4f7e468f62aa4e623efde-3856
+  _saveGuid: 0
+  _value: 100
+  _debugLogEnabled: 0
+  _saved: 0
+  _defaultValue: 0
+  _resetOn: 0
+  _runtimeValue: 0
+  _isClamped: 0
+  _min:
+    UseLocal: 1
+    LocalValue: 0
+    Variable: {fileID: 0}
+  _max:
+    UseLocal: 1
+    LocalValue: 3.4028235e+38
+    Variable: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e164c585022d1ad40be6edb2ea60864d, type: 3}
+  m_Name: PlayerStats
+  m_EditorClassIdentifier: 
+  _speed: {fileID: 7398432759180287494}
+  Health: {fileID: -7494678335964545613}
+  MaxHealth: {fileID: -3856768904149576566}
+--- !u!114 &7398432759180287494
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9978ce9c8bdc724896114c9952c52ea, type: 3}
+  m_Name: _speed
+  m_EditorClassIdentifier: 
+  TagIndex: 0
+  Description: The move speed of the player
+  _guid: 44b7ad22e3f4f7e468f62aa4e623efde73984
+  _saveGuid: 0
+  _value: 5
+  _debugLogEnabled: 0
+  _saved: 0
+  _defaultValue: 0
+  _resetOn: 0
+  _runtimeValue: 0
+  _isClamped: 0
+  _min:
+    UseLocal: 1
+    LocalValue: 0
+    Variable: {fileID: 0}
+  _max:
+    UseLocal: 1
+    LocalValue: 3.4028235e+38
+    Variable: {fileID: 0}

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b08cb27373ceb6145928118d45e09460
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/ScriptableVariables/example_int_level.asset
+  uploadId: 867794

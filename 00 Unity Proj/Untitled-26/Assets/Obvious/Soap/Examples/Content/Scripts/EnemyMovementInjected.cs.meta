@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: ff3b678bcac6497fbbe09654154142f0
+timeCreated: 1736517559
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/Scripts/EnemyMovementInjected.cs
+  uploadId: 867794

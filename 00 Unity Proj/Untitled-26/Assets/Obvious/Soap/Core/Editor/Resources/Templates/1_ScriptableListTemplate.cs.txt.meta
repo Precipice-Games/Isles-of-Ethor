@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 266f8c7d17950374e9eff0d222d7a0b5
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Editor/Resources/Templates/1_ScriptableListTemplate.cs.txt
+  uploadId: 867794

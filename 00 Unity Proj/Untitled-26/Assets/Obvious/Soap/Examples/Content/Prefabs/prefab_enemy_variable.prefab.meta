@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bcd93c3c7464b974499d569fce8594f3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/Prefabs/prefab_enemy_variable.prefab
+  uploadId: 867794

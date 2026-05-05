@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 06b02d4a34c26934d8c7a03789142ddf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/ScriptableEnums/example_enum_air.asset
+  uploadId: 867794

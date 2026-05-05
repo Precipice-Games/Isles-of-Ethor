@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4203086613181210815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2a53a13d3e4066b3ccfe94e017a207, type: 3}
+  m_Name: _onDamaged
+  m_EditorClassIdentifier: 
+  TagIndex: 0
+  Description: 
+  _debugLogEnabled: 0
+  _debugValue: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46c5bf15c65a44a2b0dd7e12cfccb0fc, type: 3}
+  m_Name: PlayerEvents
+  m_EditorClassIdentifier: 
+  _onDamaged: {fileID: -4203086613181210815}
+  _onHealed: {fileID: 769645553601730620}
+  _onDeath: {fileID: 3668189497678090764}
+--- !u!114 &769645553601730620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2a53a13d3e4066b3ccfe94e017a207, type: 3}
+  m_Name: _onHealed
+  m_EditorClassIdentifier: 
+  TagIndex: 0
+  Description: 
+  _debugLogEnabled: 0
+  _debugValue: 0
+--- !u!114 &3668189497678090764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49b7e678b3ebb7418adb84806d24646, type: 3}
+  m_Name: _onDeath
+  m_EditorClassIdentifier: 
+  TagIndex: 0
+  Description: 
+  _debugLogEnabled: 0

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bc13e50625e4feb42a5521ab8dd26d36
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/Prefabs/prefab_enemy_event.prefab
+  uploadId: 867794

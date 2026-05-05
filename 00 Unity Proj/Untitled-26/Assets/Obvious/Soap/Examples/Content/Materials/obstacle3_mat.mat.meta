@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 44182b698b966ef4582eb1e2a30f8f6e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/Materials/obstacle3_mat.mat
+  uploadId: 867794

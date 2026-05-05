@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 64da989ddcb70fb4c9bd8d3f3ffbb8c8
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/README.md
+  uploadId: 867794

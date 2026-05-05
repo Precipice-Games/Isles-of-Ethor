@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c4cc1452b2a48a7418e288ece61fe687
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Scenes/10_ScriptableSingletons_Example_Scene.unity
+  uploadId: 867794

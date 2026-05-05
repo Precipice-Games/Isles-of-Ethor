@@ -1,0 +1,13 @@
+﻿using UnityEngine;
+using Obvious.Soap;
+
+[CreateAssetMenu(fileName = "ScriptableVariable" + nameof($TYPE$), menuName = "Soap/ScriptableVariables/"+ nameof($TYPE$))]
+public class $TYPENAME$Variable : ScriptableVariable<$TYPE$>
+{
+        
+}
+
+[System.Serializable]
+public class $TYPENAME$VariableReadOnly : ScriptableVariableReadOnly<$TYPENAME$Variable, $TYPE$>
+{
+}

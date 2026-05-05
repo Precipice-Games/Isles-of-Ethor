@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 29b102a4c47519b45a04c971d2f6dc24
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Editor/Resources/Texts/6_ScriptableEnums_Text.txt
+  uploadId: 867794

@@ -1,0 +1,17 @@
+{
+    "name": "Obvious.Soap.Editor",
+    "references": [
+        "GUID:ee6baafdecd94804a8714654c4bd097f"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

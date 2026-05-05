@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8d6db96846126544eaaae48ea12d027d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/Prefabs/prefab_game_manager.prefab
+  uploadId: 867794

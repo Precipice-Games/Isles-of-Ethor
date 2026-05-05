@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a5b21c4cddc13864e8ea4a832b960c95
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Scenes/5_ScriptableSaves_Example_Scene.unity
+  uploadId: 867794

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e076084365e2e4d4da8a333f1aa6c06d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/ScriptableCollections/example_dictionary_elementInt.asset
+  uploadId: 867794

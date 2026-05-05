@@ -1,0 +1,9 @@
+﻿using UnityEngine;
+using Obvious.Soap;
+using Obvious.Soap.Attributes;
+
+[CreateAssetMenu(fileName = nameof($TYPENAME$), menuName = "Soap/ScriptableSingletons/"+ nameof($TYPENAME$))] 
+public class $TYPENAME$ : ScriptableSingleton<$TYPENAME$>
+{
+    
+}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1300736a6c75069498acdad864241816, type: 3}
+  m_Name: example_vector3_player_position
+  m_EditorClassIdentifier: 
+  TagIndex: 0
+  Description: 
+  _guid: 0cc87064c35209041b219350ef5f4fd1
+  _saveGuid: 0
+  _value: {x: 0, y: 0, z: 0}
+  _debugLogEnabled: 0
+  _saved: 1
+  _defaultValue: {x: 0, y: 0, z: 0}
+  _resetOn: 0
+  _runtimeValue: {x: 0, y: 0, z: 0}

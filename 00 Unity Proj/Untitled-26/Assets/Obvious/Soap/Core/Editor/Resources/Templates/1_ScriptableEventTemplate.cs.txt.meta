@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 16e841f65f1a69d49af3eaf320b5d5f9
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Editor/Resources/Templates/1_ScriptableEventTemplate.cs.txt
+  uploadId: 867794

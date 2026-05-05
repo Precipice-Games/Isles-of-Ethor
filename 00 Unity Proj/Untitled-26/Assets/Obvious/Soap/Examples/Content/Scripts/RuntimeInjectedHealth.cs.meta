@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 90c1d0975e41490e842db574d2fb29b9
+timeCreated: 1736038800
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/Scripts/RuntimeInjectedHealth.cs
+  uploadId: 867794

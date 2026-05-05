@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 0feea8ee55364f4b9683b75d66c3f37c
+timeCreated: 1737327539
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Runtime/ScriptableDictionary/ScriptableCollection.cs
+  uploadId: 867794

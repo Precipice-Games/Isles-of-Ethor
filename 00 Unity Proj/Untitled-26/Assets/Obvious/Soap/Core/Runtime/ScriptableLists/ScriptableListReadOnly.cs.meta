@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 13f7dc8b5c5f4d4495f1899b75f4ebc6
+timeCreated: 1742135008
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Runtime/ScriptableLists/ScriptableListReadOnly.cs
+  uploadId: 867794

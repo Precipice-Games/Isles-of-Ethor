@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: e498e4adf2f54a88b454f5402fb01d7f
+timeCreated: 1656086814
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Core/Runtime/ScriptableBase/IDrawObjectsInInspector.cs
+  uploadId: 867794

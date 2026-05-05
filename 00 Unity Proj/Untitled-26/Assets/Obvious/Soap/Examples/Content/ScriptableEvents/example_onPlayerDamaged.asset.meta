@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c7763aedbe7be0c40a542b792395a449
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 232107
+  packageName: Soap - ScriptableObject Architecture Pattern
+  packageVersion: 3.8.0
+  assetPath: Assets/Obvious/Soap/Examples/Content/ScriptableEvents/example_onPlayerDamaged.asset
+  uploadId: 867794
