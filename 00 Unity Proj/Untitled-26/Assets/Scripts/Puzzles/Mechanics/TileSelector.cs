@@ -249,19 +249,12 @@ public class TileSelector : MonoBehaviour
         {
             resourceManager.UseMove("Forward");
 
-            if (selectedTile.TryMove(0, 1))
+            if (gridManager == null)
             {
-                resourceManager.UseMove("Forward");
-
-                
-                if (gridManager == null)
-                {
-                    gridManager = selectedTile.gridManager;
-                }
-
-                gridManager.ApplyGusts();
-                
+                gridManager = selectedTile.gridManager;
             }
+
+            gridManager.ApplyGusts();
         }
     }
 
