@@ -197,10 +197,14 @@ public GustDirection gustDirection;
     /// </summary>
     private void ResetTiles()
     {
+        gridManager.ClearCell(gridX, gridZ);
+
         gridX = startingGridX;
         gridZ = startingGridZ;
 
         transform.localPosition = gridManager.GridToWorld(gridX, gridZ);
+
+        gridManager.PlaceTile(this, gridX, gridZ);
 
         // Reset tile color after reset
         if (tileType == TileType.ManaWell)
