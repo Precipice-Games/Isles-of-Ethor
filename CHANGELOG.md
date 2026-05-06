@@ -7,6 +7,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Put any unreleased features here.
 
+## [v2.2.3] - 2026-05-05
+
+### Added
+* Added baseline weather particle systems for Ice Island and Oasis Island.
+* Added some scene barriers to Ice Island and Oasis Island to prevent the Player from walking directly past the puzzles.
+
+### Fixed
+* Fixed a bug where the feedback system was broken after 0c3f7f3.
+
+### Changed
+* Updated the rotation of a few Oasis Island puzzles.
+* Restored feedback system for all islands' puzzle prefabs.
+* Restored in-progress gust mechanic code.
+
 ## [v2.2.2] - 2026-05-04
 
 ### Added
