@@ -40,57 +40,77 @@ Dahlia: There’s six flowers that are perfectly in bloom right now. A sunflower
 Sky: Okay, but–
 
 Dahlia: Go on! We can talk about that crystal when you’re done.
+<<declare $flowers = 0>>
 ===
 
 title: sunflower
 ---
+<<once>>
 Sky: It’s a sunflower! 
 Sky: Wow they’re pretty! It’s such a shame they make my allergies act up…
 Sky: Oh well! At least the seeds are delicious!
 Sky: But enough of that, I’ve got a crystal to retrieve!
+<<set $flowers += 1>>    
+<<endonce>>
 ===
 
 title: tulip
 ---
+<<once>>
 Sky: This must be one of Dahlia’s flowers!
 Sky: Tulips are so pretty! I could sit here and look at them all day.
 Sky: I should probably go… but one sniff shouldn’t hurt.
 Sky: Sometimes you gotta stop and smell the flo– ACHOO!!
 Sky: *Sniffle* So pretty… onto the next…
+<<set $flowers += 1>>    
+<<endonce>>
 ===
 
 title: rose
 ---
+<<once>>
 //Sky walks to the small field of Roses
 Sky: Wow! What’s this one? It’s gorgeous!
 Sky: Ouch! Oh right, thorns. I should be more careful.
-Sky: Better see if there are any more flowers to find. I hope they’re less dangerous. 
+Sky: Better see if there are any more flowers to find. I hope they’re less dangerous.
+<<set $flowers += 1>>    
+<<endonce>>
 ===
 
 title: lily
 ---
+<<once>>
 Sky: Wow, such a pretty Lily! This has to be one of Dahlia’s flowers!
 Sky: It’s really got me wondering, though…
 Sky: Like the chicken and the egg dilemma, which got named first? The flower or a person?
 Sky: Ahh who cares! There’s a crystal waiting for me!
+<<set $flowers += 1>>    
+<<endonce>>
+
 ===
 
 title: water_lily
 ---
+<<once>>
 Sky: A flower! And, it’s right next to the water; this MUST be the waterlily. 
 Sky: I bet it’s nice to be right next to the water as a flower…
 Sky: You never get thirsty!
 Sky: Okay, let’s continue on.
+<<set $flowers += 1>>    
+<<endonce>>
 ===
 
 title: dahlia_flower
 ---
+<<once>>
 Sky: I bet this is Dahlia’s dahlia. Ha. 
 Sky: I can see the resemblance! 
 Sky: It’s amazing that it can grow here in these ruins, and that it’s stayed so beautiful after all this time…
 Sky: I think this one is my favorite. 
 Sky: …
 Sky: Alright…I’d love to stay here longer, but it’s time to go.
+<<set $flowers += 1>>
+<<endonce>>
 ===
 
 title: returnToDahliaDialogue
