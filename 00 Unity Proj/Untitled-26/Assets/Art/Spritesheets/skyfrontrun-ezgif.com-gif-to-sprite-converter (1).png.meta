@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -93,6 +93,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -100,10 +139,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_0
       rect:
         serializedVersion: 2
-        x: 565
-        y: 10105
-        width: 714
-        height: 1035
+        x: 0
+        y: 9600
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -122,10 +161,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_1
       rect:
         serializedVersion: 2
-        x: 2483
-        y: 10100
-        width: 703
-        height: 1040
+        x: 1920
+        y: 9600
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +183,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_2
       rect:
         serializedVersion: 2
-        x: 4395
-        y: 10083
-        width: 681
-        height: 1057
+        x: 3840
+        y: 9600
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +205,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_3
       rect:
         serializedVersion: 2
-        x: 6307
-        y: 10062
-        width: 703
-        height: 1078
+        x: 5760
+        y: 9600
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +227,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_4
       rect:
         serializedVersion: 2
-        x: 8225
-        y: 10069
-        width: 714
-        height: 1071
+        x: 7680
+        y: 9600
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +249,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_5
       rect:
         serializedVersion: 2
-        x: 537
-        y: 8182
-        width: 737
-        height: 1040
+        x: 0
+        y: 7680
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,10 +271,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_6
       rect:
         serializedVersion: 2
-        x: 2455
-        y: 8227
-        width: 787
-        height: 995
+        x: 1920
+        y: 7680
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +293,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_7
       rect:
         serializedVersion: 2
-        x: 4378
-        y: 8206
-        width: 770
-        height: 1016
+        x: 3840
+        y: 7680
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +315,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_8
       rect:
         serializedVersion: 2
-        x: 6297
-        y: 8182
-        width: 736
-        height: 1040
+        x: 5760
+        y: 7680
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +337,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_9
       rect:
         serializedVersion: 2
-        x: 8225
-        y: 8148
-        width: 714
-        height: 1074
+        x: 7680
+        y: 7680
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,10 +359,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_10
       rect:
         serializedVersion: 2
-        x: 548
-        y: 6224
-        width: 698
-        height: 1080
+        x: 0
+        y: 5760
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +381,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_11
       rect:
         serializedVersion: 2
-        x: 2473
-        y: 6241
-        width: 685
-        height: 1063
+        x: 1920
+        y: 5760
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,10 +403,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_12
       rect:
         serializedVersion: 2
-        x: 4401
-        y: 6258
-        width: 691
-        height: 1040
+        x: 3840
+        y: 5760
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +425,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_13
       rect:
         serializedVersion: 2
-        x: 6324
-        y: 6263
-        width: 697
-        height: 1035
+        x: 5760
+        y: 5760
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,10 +447,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_14
       rect:
         serializedVersion: 2
-        x: 8236
-        y: 6247
-        width: 680
-        height: 1057
+        x: 7680
+        y: 5760
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -430,10 +469,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_15
       rect:
         serializedVersion: 2
-        x: 550
-        y: 4306
-        width: 695
-        height: 1074
+        x: 0
+        y: 3840
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,10 +491,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_16
       rect:
         serializedVersion: 2
-        x: 2466
-        y: 4300
-        width: 708
-        height: 1080
+        x: 1920
+        y: 3840
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -474,10 +513,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_17
       rect:
         serializedVersion: 2
-        x: 4384
-        y: 4317
-        width: 719
-        height: 1063
+        x: 3840
+        y: 3840
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,10 +535,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_18
       rect:
         serializedVersion: 2
-        x: 6296
-        y: 4351
-        width: 782
-        height: 1029
+        x: 5760
+        y: 3840
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,10 +557,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_19
       rect:
         serializedVersion: 2
-        x: 8215
-        y: 4385
-        width: 825
-        height: 995
+        x: 7680
+        y: 3840
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,10 +579,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_20
       rect:
         serializedVersion: 2
-        x: 537
-        y: 2450
-        width: 799
-        height: 1012
+        x: 0
+        y: 1920
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,10 +601,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_21
       rect:
         serializedVersion: 2
-        x: 2460
-        y: 2433
-        width: 770
-        height: 1029
+        x: 1920
+        y: 1920
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,10 +623,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_22
       rect:
         serializedVersion: 2
-        x: 4384
-        y: 2395
-        width: 714
-        height: 1067
+        x: 3840
+        y: 1920
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -606,10 +645,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_23
       rect:
         serializedVersion: 2
-        x: 6313
-        y: 2377
-        width: 697
-        height: 1085
+        x: 5760
+        y: 1920
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,10 +667,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_24
       rect:
         serializedVersion: 2
-        x: 8236
-        y: 2371
-        width: 686
-        height: 1091
+        x: 7680
+        y: 1920
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -650,10 +689,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_25
       rect:
         serializedVersion: 2
-        x: 560
-        y: 464
-        width: 674
-        height: 1074
+        x: 0
+        y: 0
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -672,10 +711,10 @@ TextureImporter:
       name: skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_26
       rect:
         serializedVersion: 2
-        x: 2489
-        y: 492
-        width: 658
-        height: 1046
+        x: 1920
+        y: 0
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -704,7 +743,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":6.0},"gridSpriteSize":{"x":1920.0,"y":1920.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_0: 1590391106
       skyfrontrun-ezgif.com-gif-to-sprite-converter (1)_1: 821851732

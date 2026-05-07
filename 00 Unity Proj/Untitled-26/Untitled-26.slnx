@@ -1,0 +1,13 @@
+﻿<Solution>
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Unity.InputSystem.csproj" />
+  <Project Path="Sirenix.OdinInspector.Modules.UnityLocalization.Editor.csproj" />
+  <Project Path="Unity.InputSystem.ForUI.csproj" />
+  <Project Path="Unity.InputSystem.TestFramework.csproj" />
+  <Project Path="Sirenix.OdinInspector.Modules.Unity.Addressables.csproj" />
+  <Project Path="InputSystem.Samples.Visualizers.csproj" />
+  <Project Path="Unity.InputSystem.DocCodeSamples.csproj" />
+  <Project Path="Sirenix.OdinInspector.Modules.UnityMathematics.csproj" />
+  <Project Path="Sirenix.OdinInspector.Modules.UnityLocalization.csproj" />
+  <Project Path="Unity.InputSystem.IntegrationTests.csproj" />
+</Solution>
