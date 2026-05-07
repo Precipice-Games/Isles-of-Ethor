@@ -4,11 +4,19 @@ public class PuzzleBlocker : MonoBehaviour
 {
 
     public GameStateManager StateManager;
+    public bool puzzleMode = false;
 
-    private void Start()
+    private void OnEnable()
     {
 
-        
+        GameStateManager.transitionedToNewState += CheckPuzzleState;
+
+    }
+
+    private void OnDisable()
+    {
+
+        GameStateManager.transitionedToNewState -= CheckPuzzleState;
 
     }
 
@@ -16,9 +24,9 @@ public class PuzzleBlocker : MonoBehaviour
     void Update()
     {
 
-        //Debug.Log(StateManager.gameState == GameStateManager.GameState.Puzzle);
+        Debug.Log(StateManager.gameState == GameStateManager.GameState.Puzzle);
 
-        if (StateManager != null && StateManager.gameState == GameStateManager.GameState.Puzzle)
+        if (StateManager != null && puzzleMode)
         //if (GameStateManager.Instance != null && GameStateManager.Instance.gameState == GameStateManager.GameState.Puzzle)
         {
             GetComponent<BoxCollider>().enabled = false;
@@ -29,4 +37,15 @@ public class PuzzleBlocker : MonoBehaviour
         }
 
     }
+
+    void CheckPuzzleState(GameStateManager.GameState state)
+    {
+
+        if (state == GameStateManager.GameState.Puzzle)
+        {
+            puzzleMode = true;
+        }
+
+    }
+
 }
