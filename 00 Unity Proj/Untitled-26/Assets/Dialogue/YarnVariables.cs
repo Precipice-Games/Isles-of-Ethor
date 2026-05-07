@@ -4,6 +4,18 @@ namespace Yarn.Unity.Variables {
 
     [System.CodeDom.Compiler.GeneratedCode("YarnSpinner", "3.1.3.0")]
     public partial class YarnVariables : Yarn.Unity.InMemoryVariableStorage, Yarn.Unity.IGeneratedVariableStorage {
+        // Accessor for Number $flowers
+        public float Flowers {
+            get => this.GetValueOrDefault<float>("$flowers");
+            set => this.SetValue<float>("$flowers", value);
+        }
+
+        // Accessor for Bool $flowerFinished
+        public bool FlowerFinished {
+            get => this.GetValueOrDefault<bool>("$flowerFinished");
+            set => this.SetValue<bool>("$flowerFinished", value);
+        }
+
         // Accessor for Bool $iceFinished
         public bool IceFinished {
             get => this.GetValueOrDefault<bool>("$iceFinished");
