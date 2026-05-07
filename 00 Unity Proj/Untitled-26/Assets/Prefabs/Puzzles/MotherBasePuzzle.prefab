@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &136645902339605885
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &703785744850392240
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &1712450131070757306
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,7 +778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &1872530666423440456
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,7 +955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &2050086839141752138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1203,7 +1203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &2595629101245525352
 GameObject:
   m_ObjectHideFlags: 0
@@ -1380,7 +1380,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &3427067941324799217
 GameObject:
   m_ObjectHideFlags: 0
@@ -1558,7 +1558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &3796191418792194300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1736,7 +1736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &3816189780632181019
 GameObject:
   m_ObjectHideFlags: 0
@@ -1913,7 +1913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &4656988786971474924
 GameObject:
   m_ObjectHideFlags: 0
@@ -2229,7 +2229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &5169605109640841623
 GameObject:
   m_ObjectHideFlags: 0
@@ -2406,7 +2406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &6337408609227900163
 GameObject:
   m_ObjectHideFlags: 0
@@ -2583,7 +2583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &6609728866790066902
 GameObject:
   m_ObjectHideFlags: 0
@@ -2760,7 +2760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &6722711722673865938
 GameObject:
   m_ObjectHideFlags: 0
@@ -3119,7 +3119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &7199852587322879966
 GameObject:
   m_ObjectHideFlags: 0
@@ -3428,7 +3428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1 &7600570827429529725
 GameObject:
   m_ObjectHideFlags: 0
@@ -3679,7 +3679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotherTexturing
   normalTexture: {fileID: 2100000, guid: 1a91fe6d0b2b6ef41b024d8f27ee4456, type: 2}
-  manaWellTexture: {fileID: 0}
+  manaWellTexture: {fileID: 2100000, guid: 3a4430d9dc592f644b43aacbab1371c9, type: 2}
 --- !u!1001 &1452176004927795202
 PrefabInstance:
   m_ObjectHideFlags: 0
