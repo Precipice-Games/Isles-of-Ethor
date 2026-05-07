@@ -365,9 +365,9 @@ GameObject:
   - component: {fileID: 7321162161942524934}
   - component: {fileID: 6825509473540728000}
   - component: {fileID: 6284629459955097238}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: End Rune
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -790,9 +790,9 @@ GameObject:
   - component: {fileID: 3624906698350998147}
   - component: {fileID: 5019277549151866532}
   - component: {fileID: 3625183002538320219}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: StartRune
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1709,7 +1709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3942273821399491795}
   - component: {fileID: 5218340796993907333}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RuneSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1800,7 +1800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7325537039630228397}
   - component: {fileID: 2821830542318120351}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RuneSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2328,6 +2328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Model (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dedef1882a78850498d9dc638d6cb5cb, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2669,6 +2673,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: dedef1882a78850498d9dc638d6cb5cb, type: 3}
       propertyPath: m_Name
       value: Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: dedef1882a78850498d9dc638d6cb5cb, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

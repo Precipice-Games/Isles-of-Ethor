@@ -68,7 +68,10 @@ public class PlayerMovement : MonoBehaviour
     public float JumpTimeout = 0.50f;
     [Tooltip("Time required to pass before entering the fall state. Useful for walking down stairs")]
     public float FallTimeout = 0.15f;
-    
+
+    // Track moving platform for parkour
+    private MovingPlatform currentPlatform; 
+
     // Subscribe to events
     private void OnEnable()
     {
@@ -112,6 +115,12 @@ public class PlayerMovement : MonoBehaviour
         // Keep a direct sync to avoid one-frame event timing differences on fast machines.
         currentGameState = GameStateManager.CurrentGameState;
         ConfigurePlayerOnGameState();
+
+        if(currentPlatform != null && !IsStandingOn(currentPlatform))
+        {
+            currentPlatform.Clear(charController);
+            currentPlatform = null;
+        }
     }
 
     private void FixedUpdate()
@@ -294,5 +303,36 @@ public class PlayerMovement : MonoBehaviour
         {
             _verticalVelocity += Gravity * Time.fixedDeltaTime;
         }
+    }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.normal.y < .5f) return;
+
+        var platform = hit.collider.GetComponent<MovingPlatform>();
+        if (platform == null) return;
+        
+        if(currentPlatform != platform)
+        {
+            if (currentPlatform != null)
+            {
+                currentPlatform.Clear(charController);
+            }
+
+            currentPlatform = platform;
+            currentPlatform.Set(charController);
+        }
+    }
+
+    private bool IsStandingOn(MovingPlatform platform)
+    {
+        float checkDistance = 1.1f;
+        RaycastHit hit;
+        Vector3 origin = transform.position + Vector3.up * 0.1f;
+        if (Physics.Raycast(origin, Vector3.down, out hit, checkDistance))
+        {
+            return (hit.collider != null && hit.collider.transform.IsChildOf(platform.transform));
+        }
+        return false;
     }
 }

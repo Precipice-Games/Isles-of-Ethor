@@ -6,13 +6,18 @@ public class MovingPlatform : MonoBehaviour
     public float moveDistance = 15f; // how far it travels
     public float speed = 12f; // speed
 
-    public bool isActive = false; 
+    public bool isActive = false;
 
     private Vector3 startPos;
+    private Vector3 lastPos;
+
+    [SerializeField]
+    private CharacterController charController;
 
     void Start()
     {
         startPos = transform.position;
+        lastPos = transform.position;
     }
 
     void Update()
@@ -23,24 +28,56 @@ public class MovingPlatform : MonoBehaviour
         transform.position = startPos + moveDirection.normalized * movement;
     }
 
+    // Move the player along with platform after platform has moved this frame
+    void LateUpdate()
+    {
+        Vector3 delta = transform.position - lastPos;
+        if (delta != Vector3.zero)
+        {
+            if (charController != null)
+            {
+                charController.Move(delta);
+            }
+        }
+
+        lastPos = transform.position;
+    }
+
     public void ActivatePlatform() //Attach player to platform
     {
         isActive = true;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    // Note: parenting the moving platform to the object is not ideal because it interferes with characterController behavior
+    private void OnCollisionEnter(Collision other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            collision.transform.SetParent(transform);
+            charController = other.gameObject.GetComponent<CharacterController>();
         }
     }
 
-    private void OnCollisionExit(Collision collision) //Detach player when leaving
+    private void OnCollisionExit(Collision other) //Detach player when leaving
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            collision.transform.SetParent(null);
+            if (charController != null)
+            {
+                charController = null;
+            }
+        }
+    }
+
+    public void Set(CharacterController controller)
+    {
+        charController = controller;
+    }
+
+    public void Clear(CharacterController controller)
+    {
+        if (charController == controller)
+        {
+            charController = null;
         }
     }
 }
