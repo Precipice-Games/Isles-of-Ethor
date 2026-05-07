@@ -64,7 +64,7 @@ public class IslandManager : MonoBehaviour
                 break;
             case IslandName.FlowerIsland:
                 Debug.Log("IslandManager.cs >> Flower Island puzzles completed!");
-                // variableStorage.SetValue("$flowerFinished", true);
+                variableStorage.SetValue("$flowerFinished", true);
                 allPuzzlesCompleted = true;
                 break;
             
