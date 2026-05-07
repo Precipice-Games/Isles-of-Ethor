@@ -7,6 +7,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Put any unreleased features here.
 
+## [v2.2.4] - 2026-05-07
+
+### Added
+* Implemented Flower Island NPC dialogue.
+* Added logic for flower pickups on Flower Island. 
+
+### Fixed
+* Fixed a bug where the Player was not moving with the moving parkour platforms on Oasis Island.
+
+### Changed
+* Updated the rotation of Oasis Island puzzle 3.
+
 ## [v2.2.3] - 2026-05-05
 
 ### Added
