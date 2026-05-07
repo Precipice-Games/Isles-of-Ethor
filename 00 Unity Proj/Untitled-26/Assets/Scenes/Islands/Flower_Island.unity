@@ -2931,63 +2931,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9102834559974394949, guid: ff16e4e71610ade4bb5e6805e7db56e3, type: 3}
   m_PrefabInstance: {fileID: 2058749360}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &8711111878109155628
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6218283691713006406, guid: d0815304b49484d4da00b7e2291c0b26, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218283691713006406, guid: d0815304b49484d4da00b7e2291c0b26, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -29
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218283691713006406, guid: d0815304b49484d4da00b7e2291c0b26, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218283691713006406, guid: d0815304b49484d4da00b7e2291c0b26, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218283691713006406, guid: d0815304b49484d4da00b7e2291c0b26, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218283691713006406, guid: d0815304b49484d4da00b7e2291c0b26, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218283691713006406, guid: d0815304b49484d4da00b7e2291c0b26, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218283691713006406, guid: d0815304b49484d4da00b7e2291c0b26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218283691713006406, guid: d0815304b49484d4da00b7e2291c0b26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6218283691713006406, guid: d0815304b49484d4da00b7e2291c0b26, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8334467856561820445, guid: d0815304b49484d4da00b7e2291c0b26, type: 3}
-      propertyPath: m_Name
-      value: FlowerIsland
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d0815304b49484d4da00b7e2291c0b26, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3011,4 +2954,3 @@ SceneRoots:
   - {fileID: 818928133}
   - {fileID: 1518863139}
   - {fileID: 1351292434}
-  - {fileID: 8711111878109155628}
