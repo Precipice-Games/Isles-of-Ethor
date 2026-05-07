@@ -13790,7 +13790,7 @@ MonoBehaviour:
   moveDirection: {x: 0, y: 1, z: 0}
   moveDistance: 15
   speed: 6
-  isActive: 1
+  isActive: 0
   charController: {fileID: 0}
 --- !u!65 &1060740126
 BoxCollider:
@@ -16896,19 +16896,19 @@ PrefabInstance:
     - target: {fileID: 3432335786353409372, guid: cd77f075d3ae50f43890f44b657a1a52, type: 3}
       propertyPath: 'respawnLocations.Array.data[0]'
       value: 
-      objectReference: {fileID: 612413731}
+      objectReference: {fileID: 340828971}
     - target: {fileID: 3432335786353409372, guid: cd77f075d3ae50f43890f44b657a1a52, type: 3}
       propertyPath: 'respawnLocations.Array.data[1]'
       value: 
-      objectReference: {fileID: 340828971}
+      objectReference: {fileID: 813844465}
     - target: {fileID: 3432335786353409372, guid: cd77f075d3ae50f43890f44b657a1a52, type: 3}
       propertyPath: 'respawnLocations.Array.data[2]'
       value: 
-      objectReference: {fileID: 813844465}
+      objectReference: {fileID: 1892284748}
     - target: {fileID: 3432335786353409372, guid: cd77f075d3ae50f43890f44b657a1a52, type: 3}
       propertyPath: 'respawnLocations.Array.data[3]'
       value: 
-      objectReference: {fileID: 1892284748}
+      objectReference: {fileID: 612413731}
     - target: {fileID: 3432335786353409372, guid: cd77f075d3ae50f43890f44b657a1a52, type: 3}
       propertyPath: 'respawnLocations.Array.data[4]'
       value: 
@@ -18695,7 +18695,7 @@ MonoBehaviour:
   moveDirection: {x: 1, y: 0, z: 1}
   moveDistance: 15
   speed: 8.57
-  isActive: 1
+  isActive: 0
   charController: {fileID: 0}
 --- !u!65 &1728649765
 BoxCollider:
@@ -24299,7 +24299,7 @@ MonoBehaviour:
   moveDirection: {x: 1, y: 0, z: 1}
   moveDistance: 15
   speed: 8
-  isActive: 1
+  isActive: 0
   charController: {fileID: 0}
 --- !u!65 &1783707276
 BoxCollider:
@@ -25140,7 +25140,7 @@ MonoBehaviour:
   moveDirection: {x: 1, y: 1, z: 1}
   moveDistance: 14.01
   speed: 9
-  isActive: 1
+  isActive: 0
   charController: {fileID: 0}
 --- !u!65 &1982907263
 BoxCollider:
