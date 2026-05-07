@@ -10,6 +10,12 @@ namespace Yarn.Unity.Variables {
             set => this.SetValue<float>("$flowers", value);
         }
 
+        // Accessor for Bool $flowerFinished
+        public bool FlowerFinished {
+            get => this.GetValueOrDefault<bool>("$flowerFinished");
+            set => this.SetValue<bool>("$flowerFinished", value);
+        }
+
         // Accessor for Bool $iceFinished
         public bool IceFinished {
             get => this.GetValueOrDefault<bool>("$iceFinished");

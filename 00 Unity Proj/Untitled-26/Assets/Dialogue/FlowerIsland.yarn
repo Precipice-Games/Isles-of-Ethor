@@ -41,6 +41,7 @@ Sky: Okay, but–
 
 Dahlia: Go on! We can talk about that crystal when you’re done.
 <<declare $flowers = 0>>
+<<declare $flowerFinished = false>>
 ===
 
 title: sunflower
@@ -113,8 +114,15 @@ Sky: Alright…I’d love to stay here longer, but it’s time to go.
 <<endonce>>
 ===
 
-title: returnToDahliaDialogue
+title: Dahlia
 ---
+<<if $flowers<6>>
+Dahlia: Hey, what are you doing back so soon?! You still have more flowers to see!
+
+Sky: But, Dahlia, I really need to–
+
+Dahlia: I told you, we’ll talk about that when you’re done. Just enjoy yourself for right now!
+<<else>>
 Sky: Dahlia, I’m back!
 
 Dahlia: Hey! How’d it go? Did you see all the flowers?
@@ -135,10 +143,9 @@ Sky: Dahlia, I’m here to help. That’s why I’m looking for the crystal. I h
 Dahlia: What?! Really?! I mean, that would be great if you could…it’s just right over there.
 
 Sky: Thanks! Just give me a moment.
-===
-
-title: afterActivatingCrystalDialogue
----
+<<endif>>
+<<if $flowerFinished == true>>
+<<once>>
 Sky: Alright, there we go. Your pesky crystal problem is taken care of.
 
 Dahlia: Oh, thank you Sky! Thank you so much!
@@ -156,9 +163,11 @@ Dahlia: And…I can’t thank you enough. Please come back and see me! There’s
 Sky: Absolutely! I can’t wait to come back. Bye, Dahlia, I’ll see you soon!
 
 Dahlia: Bye! And take care!
+<<endonce>>
+<<endif>>
 ===
 
-title: flowerOutroDialogue
+title: CompletionCrystal
 ---
 Mother Crystal: My child…can you hear me?
 
@@ -172,7 +181,11 @@ Mother Crystal: Fear not. Nothing is amiss. You are doing amazing, Sky.
 Mother Crystal: My powers have just grown weary. I need to rest, as do you. We can talk more when you return.  
 
 Sky: Roger that! I’ll head back right now!
+
+<b>Return to the Mother Crystal</b>
+
 //(The player goes to the skyship, which takes them to the Mother Island.)
+
 ===
 
 title: Bee
@@ -192,6 +205,23 @@ title: Bee
 
 =>Bee: Bzzt. Bzzt? (So, you like Jazz?)
     Sky: Oh my Mother Crystal! A bee!
+===
+
+title: mechanicBee
+---
+//NPC to explain the mechanics (at first or fourth puzzle - whichever one the player goes to first, triggered when either interacted with or when puzzle is started - whichever happens first)
+
+Bee: Hey, you! I’ve never seen you buzzing around here before.
+
+Sky: I’m new here! My name’s Sky, and I’m from the Mother Island!
+
+Bee: The Mother Island izzzz it? I haven’t heard of anybody coming from there, let me fill you in on the buzz around the island!
+Bee: That windmill over there can get quite restless. Better make sure to watch your step when trying to get acrozzzz, well, anywhere!
+Bee: According to my Grandpoppy, it’s been acting this way since The Fracture! 
+Bee: Just be careful of violent gusts of wind that will blow anything in its path as far forward as possible! 
+Bee: I’m Tutorial Bee, and you’re up-to-date! Bzzzt of luck on your travels on Flower Island!
+
+Sky: Aww you’re sweeter than honey! Thank you so much!
 ===
 
 
