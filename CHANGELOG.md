@@ -7,6 +7,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Put any unreleased features here.
 
+## [v2.2.5] - 2026-05-07
+
+### Added
+* Implemented Flower Island 3D model and texture.
+* Created a new material named Snow_Island_Snow.mat that is exclusive to the Ice Island.
+
+### Fixed
+* Fixed a bug where the Ice Island snow material kept turning pink
+* Fixed a bug where the Player wasn't able to select tiles due to a collider blocking the operation.
+* Fixed the spawn points on Ice Island and Oasis Island.
+* Fixed a bug where the Player was unable to interact with the UI on Ice Island.
+
+### Changed
+* Improved tree and cactus visuals on Oasis Island.
+* Finalized the texture for "normal" tiles on Ice Island.
+* Updated references to ice tile textures on any puzzle prefabs requiring the ice tile.
+
+### Removed
+* Deleted original Snow.mat material.
+
 ## [v2.2.4] - 2026-05-07
 
 ### Added
