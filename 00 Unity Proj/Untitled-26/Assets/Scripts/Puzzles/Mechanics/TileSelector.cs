@@ -34,6 +34,7 @@ public class TileSelector : MonoBehaviour
         PlayerFixedMovement.playerMoved += UpdatePlayerCoordinates;
         RuneCircle.puzzleTriggered += AssignStartAndEndTiles;
         InputManager.leftClickEvent += ClickDetected;
+        InputManager.mousePointerMoved += HoverDetected;
     }
     
     // Unsubscribe from events
@@ -42,6 +43,7 @@ public class TileSelector : MonoBehaviour
         PlayerFixedMovement.playerMoved -= UpdatePlayerCoordinates;
         RuneCircle.puzzleTriggered -= AssignStartAndEndTiles;
         InputManager.leftClickEvent -= ClickDetected;
+        InputManager.mousePointerMoved -= HoverDetected;
     }
 
     /// <summary>
@@ -62,6 +64,19 @@ public class TileSelector : MonoBehaviour
 
                 selectedTile = tile;
                 selectedTile.Select();
+            }
+        }
+    }
+    
+    public void HoverDetected()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+        if (Physics.Raycast(ray, out RaycastHit hit))
+        {
+            SelectableTile tile = hit.collider.GetComponent<SelectableTile>();
+            if (tile != null)
+            {
+                Debug.Log("Hover detected at " + Time.time);
             }
         }
     }
