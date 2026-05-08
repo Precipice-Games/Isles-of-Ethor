@@ -1364,7 +1364,7 @@ MonoBehaviour:
   gridZ: 3
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
-  originalColor: {r: 1, g: 0, b: 1, a: 1}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
 --- !u!114 &8005034875218007865
@@ -2005,6 +2005,7 @@ MonoBehaviour:
   gridManager: {fileID: 0}
   resourceManager: {fileID: 7213066574574228598}
   printInvalidMoves: 1
+  printHoverDetection: 0
 --- !u!1 &4785314922009797101
 GameObject:
   m_ObjectHideFlags: 0
