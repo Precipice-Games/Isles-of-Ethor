@@ -189,9 +189,9 @@ GameObject:
   - component: {fileID: 1378665840093993186}
   - component: {fileID: 360987242656194842}
   - component: {fileID: 960244952172520306}
-  - component: {fileID: 5859655796164191847}
   - component: {fileID: 784895932242420204}
   - component: {fileID: 5050718577187051698}
+  - component: {fileID: 8931899725991205104}
   m_Layer: 0
   m_Name: DriftIsland (13)
   m_TagString: Untagged
@@ -292,33 +292,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.074758, y: 1, z: 1.600672}
   m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
---- !u!54 &8931899725991205104
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 225151031428616400}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 1
 --- !u!114 &784895932242420204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -354,6 +327,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IceTexturing
   normalTexture: {fileID: 2100000, guid: e1e9fbe58415931448eb637058308e9e, type: 2}
   iceTexture: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
+--- !u!54 &8931899725991205104
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225151031428616400}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 1
 --- !u!1 &703785744850392240
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,8 +538,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!54 &4492822595922475341
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -685,9 +685,9 @@ GameObject:
   - component: {fileID: 7864256643104578155}
   - component: {fileID: 2728539609950939218}
   - component: {fileID: 7565683673785624577}
-  - component: {fileID: 4224879193833587136}
   - component: {fileID: 1344775384500723362}
   - component: {fileID: 7135396562820834623}
+  - component: {fileID: 5645746178308066833}
   m_Layer: 0
   m_Name: DriftIsland (24)
   m_TagString: Untagged
@@ -788,33 +788,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.074758, y: 1, z: 1.600672}
   m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
---- !u!54 &5645746178308066833
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2126685781276121446}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 1
 --- !u!114 &1344775384500723362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -850,6 +823,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IceTexturing
   normalTexture: {fileID: 2100000, guid: e1e9fbe58415931448eb637058308e9e, type: 2}
   iceTexture: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
+--- !u!54 &5645746178308066833
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126685781276121446}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 1
 --- !u!1 &2524682778504701800
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,9 +862,9 @@ GameObject:
   - component: {fileID: 5972588475509273152}
   - component: {fileID: 749497437547680183}
   - component: {fileID: 582085830492309706}
-  - component: {fileID: 3201756411620267437}
   - component: {fileID: 3796382763560498757}
   - component: {fileID: 4478385118741317661}
+  - component: {fileID: 6530514183576964366}
   m_Layer: 0
   m_Name: DriftIsland (15)
   m_TagString: Untagged
@@ -965,33 +965,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.074758, y: 1, z: 1.600672}
   m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
---- !u!54 &6530514183576964366
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2524682778504701800}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 1
 --- !u!114 &3796382763560498757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1027,6 +1000,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IceTexturing
   normalTexture: {fileID: 2100000, guid: e1e9fbe58415931448eb637058308e9e, type: 2}
   iceTexture: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
+--- !u!54 &6530514183576964366
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2524682778504701800}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 1
 --- !u!1 &2577284448364438631
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,8 +1140,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!54 &1743054792978616935
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1495,8 +1495,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!54 &4032435998986204252
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1850,8 +1850,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!54 &5587551864201160417
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2005,6 +2005,7 @@ MonoBehaviour:
   gridManager: {fileID: 0}
   resourceManager: {fileID: 7213066574574228598}
   printInvalidMoves: 1
+  printHoverDetection: 0
 --- !u!1 &4785314922009797101
 GameObject:
   m_ObjectHideFlags: 0
@@ -2065,9 +2066,9 @@ GameObject:
   - component: {fileID: 5449713438673511361}
   - component: {fileID: 9091283281314612238}
   - component: {fileID: 5079975898010996879}
-  - component: {fileID: 4590116433291426207}
   - component: {fileID: 2871519572657891850}
   - component: {fileID: 8662780416711325245}
+  - component: {fileID: 3685197665221182148}
   m_Layer: 0
   m_Name: DriftIsland (26)
   m_TagString: Untagged
@@ -2168,33 +2169,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.074758, y: 1, z: 1.600672}
   m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
---- !u!54 &3685197665221182148
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5080878199402023990}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 1
 --- !u!114 &2871519572657891850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2230,6 +2204,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IceTexturing
   normalTexture: {fileID: 2100000, guid: e1e9fbe58415931448eb637058308e9e, type: 2}
   iceTexture: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
+--- !u!54 &3685197665221182148
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5080878199402023990}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 1
 --- !u!1 &5097847396279483357
 GameObject:
   m_ObjectHideFlags: 0
@@ -2242,9 +2243,9 @@ GameObject:
   - component: {fileID: 8859994586762000178}
   - component: {fileID: 1378498313878550522}
   - component: {fileID: 6963255002592748553}
-  - component: {fileID: 3926829912868130130}
   - component: {fileID: 5921957352069976693}
   - component: {fileID: 4081225216420380269}
+  - component: {fileID: 7523907909368201943}
   m_Layer: 0
   m_Name: DriftIsland (23)
   m_TagString: Untagged
@@ -2345,33 +2346,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.074758, y: 1, z: 1.600672}
   m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
---- !u!54 &7523907909368201943
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5097847396279483357}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 1
 --- !u!114 &5921957352069976693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2407,6 +2381,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IceTexturing
   normalTexture: {fileID: 2100000, guid: e1e9fbe58415931448eb637058308e9e, type: 2}
   iceTexture: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
+--- !u!54 &7523907909368201943
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5097847396279483357}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 1
 --- !u!1 &5580642490615983705
 GameObject:
   m_ObjectHideFlags: 0
@@ -2520,8 +2521,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!54 &3550091522097683866
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2697,8 +2698,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!54 &6992456806793505326
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3112,8 +3113,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!54 &6691504754687487944
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3289,8 +3290,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!54 &1439336969047550197
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3544,8 +3545,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!54 &6619495523677199268
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3694,9 +3695,9 @@ GameObject:
   - component: {fileID: 6050645625258403731}
   - component: {fileID: 2777444040621187252}
   - component: {fileID: 2493606204869937822}
-  - component: {fileID: 5708536883836797087}
   - component: {fileID: 442145163085813134}
   - component: {fileID: 7003937666151645875}
+  - component: {fileID: 2308668415581002923}
   m_Layer: 0
   m_Name: DriftIsland (22)
   m_TagString: Untagged
@@ -3797,33 +3798,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.074758, y: 1, z: 1.600672}
   m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
---- !u!54 &2308668415581002923
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8017764773597339536}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 1
 --- !u!114 &442145163085813134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3859,6 +3833,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::IceTexturing
   normalTexture: {fileID: 2100000, guid: e1e9fbe58415931448eb637058308e9e, type: 2}
   iceTexture: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
+--- !u!54 &2308668415581002923
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8017764773597339536}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 1
 --- !u!1 &8913518149335676893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3972,8 +3973,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!54 &8188022752651437583
 Rigidbody:
   m_ObjectHideFlags: 0
