@@ -36,7 +36,7 @@ Transform:
   m_GameObject: {fileID: 5438321986708604092}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.04, z: 0}
+  m_LocalPosition: {x: 18.6, y: 42.5, z: 194.36}
   m_LocalScale: {x: 1.5122, y: 1.4211, z: 0.057936}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -114,7 +114,6 @@ MonoBehaviour:
   moveSpeed: 5
   sprintSpeed: 7
   RotationSmoothTime: 0.12
-  SpeedChangeRate: 10
   turnSpeed: 120
   jumpPower: 4
   maxJumps: 1
@@ -138,7 +137,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerFixedMovement
   playerGridX: 0
   playerGridZ: 0
-  resourceManager: {fileID: 0}
   printMoveAction: 1
   printPlayerGridCoords: 1
   printPlayerVector3: 0

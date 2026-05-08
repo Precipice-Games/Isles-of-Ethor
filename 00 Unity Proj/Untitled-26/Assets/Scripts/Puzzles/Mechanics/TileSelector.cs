@@ -27,6 +27,8 @@ public class TileSelector : MonoBehaviour
     [Title("Debugging Options", "Settings for quick debugging options.")]
     [PropertyTooltip("Prints out invalid moves. True by default.")]
     public bool printInvalidMoves = true;
+    [PropertyTooltip("Prints out when the mouse is hovering over a tile. False by default.")]
+    public bool printHoverDetection = false;
 
     // Subscribe to events
     private void OnEnable()
@@ -34,6 +36,7 @@ public class TileSelector : MonoBehaviour
         PlayerFixedMovement.playerMoved += UpdatePlayerCoordinates;
         RuneCircle.puzzleTriggered += AssignStartAndEndTiles;
         InputManager.leftClickEvent += ClickDetected;
+        InputManager.mousePointerMoved += HoverDetected;
     }
     
     // Unsubscribe from events
@@ -42,6 +45,7 @@ public class TileSelector : MonoBehaviour
         PlayerFixedMovement.playerMoved -= UpdatePlayerCoordinates;
         RuneCircle.puzzleTriggered -= AssignStartAndEndTiles;
         InputManager.leftClickEvent -= ClickDetected;
+        InputManager.mousePointerMoved -= HoverDetected;
     }
 
     /// <summary>
@@ -62,6 +66,26 @@ public class TileSelector : MonoBehaviour
 
                 selectedTile = tile;
                 selectedTile.Select();
+            }
+        }
+    }
+    
+    /// <summary>
+    /// This method is subscribed to the mousePointerMoved invoked by InputManager.cs.
+    /// This is because there is one TileSelector.cs per puzzle rather than one for
+    /// the entire scene, so it cannot be subscribed explicitly. When the Player hovers
+    /// their mouse over a selectable tile, it should create a glow around the tile as
+    /// visual feedback of this action.
+    /// </summary>
+    public void HoverDetected()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+        if (Physics.Raycast(ray, out RaycastHit hit))
+        {
+            SelectableTile tile = hit.collider.GetComponent<SelectableTile>();
+            if (tile != null)
+            {
+                if (printHoverDetection) Debug.Log("TileSelector.cs >> Hover detected at " + Time.time);
             }
         }
     }

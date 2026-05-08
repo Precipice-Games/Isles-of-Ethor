@@ -98,9 +98,10 @@ public GustDirection gustDirection;
 
         // Changed to rend.SharedMaterial to prevent memory leaks
         // in the scene since this script is using [ExecuteAlways].
-        originalColor = rend.sharedMaterial.color;
-        rend.sharedMaterial.color = originalColor;
-
+        
+        // originalColor = rend.sharedMaterial.color;
+        // rend.sharedMaterial.color = originalColor;
+        
         startingGridX = gridX;
         startingGridZ = gridZ;
 

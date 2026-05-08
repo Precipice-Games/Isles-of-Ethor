@@ -188,7 +188,7 @@ MonoBehaviour:
   gridX: 2
   gridZ: 3
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 788873477}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -238,8 +238,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &22306281
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -366,7 +366,7 @@ MonoBehaviour:
   gridX: 3
   gridZ: 7
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -416,8 +416,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &32274493
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -544,7 +544,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 6
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 788873477}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -594,8 +594,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &62297705
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -812,7 +812,7 @@ MonoBehaviour:
   gridX: 3
   gridZ: 5
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 788873477}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -862,8 +862,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &73144711
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -937,6 +937,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 0766ae306318b0c4d9acbbbb22e2098c, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 0766ae306318b0c4d9acbbbb22e2098c, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 0766ae306318b0c4d9acbbbb22e2098c, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1534,7 +1546,7 @@ MonoBehaviour:
   gridX: 8
   gridZ: 4
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -1584,8 +1596,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &86506676
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1727,6 +1739,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -2139,11 +2163,11 @@ PrefabInstance:
       objectReference: {fileID: 410468428}
     - target: {fileID: 5018615782271576797, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.9
+      value: 6.98
       objectReference: {fileID: 0}
     - target: {fileID: 5018615782271576797, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.9
+      value: 11.15
       objectReference: {fileID: 0}
     - target: {fileID: 5025002967551595757, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
@@ -2398,6 +2422,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7199852587322879966, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
   m_PrefabInstance: {fileID: 111690256}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &111690260 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2792611444543776699, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+  m_PrefabInstance: {fileID: 111690256}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169a640392ed4572949cb0c8fa80e788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SelectableTilesParent
 --- !u!1 &120266135
 GameObject:
   m_ObjectHideFlags: 0
@@ -2467,7 +2502,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 4
   gridManager: {fileID: 111690257}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 111690260}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -2517,8 +2552,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &120266141
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2645,7 +2680,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 7
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -2695,8 +2730,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &129042664
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2770,6 +2805,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 0766ae306318b0c4d9acbbbb22e2098c, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 0766ae306318b0c4d9acbbbb22e2098c, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 0766ae306318b0c4d9acbbbb22e2098c, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -2913,7 +2960,7 @@ MonoBehaviour:
   gridX: 3
   gridZ: 8
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -2963,8 +3010,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &162013013
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3168,7 +3215,7 @@ MonoBehaviour:
   gridX: 9
   gridZ: 7
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3218,8 +3265,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &188855113
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3346,7 +3393,7 @@ MonoBehaviour:
   gridX: 2
   gridZ: 2
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3396,8 +3443,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &217052971
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3471,6 +3518,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3614,7 +3673,7 @@ MonoBehaviour:
   gridX: 7
   gridZ: 7
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3664,8 +3723,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &263677127
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3739,6 +3798,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 0766ae306318b0c4d9acbbbb22e2098c, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 0766ae306318b0c4d9acbbbb22e2098c, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 0766ae306318b0c4d9acbbbb22e2098c, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3882,7 +3953,7 @@ MonoBehaviour:
   gridX: 8
   gridZ: 7
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -3932,8 +4003,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &309023800
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4218,7 +4289,7 @@ MonoBehaviour:
   gridX: 7
   gridZ: 2
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -4268,8 +4339,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &321353821
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4636,7 +4707,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 8
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -4686,8 +4757,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &370350302
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4814,7 +4885,7 @@ MonoBehaviour:
   gridX: 9
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -4864,8 +4935,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &378908124
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5391,7 +5462,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -5441,8 +5512,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &386154996
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5569,7 +5640,7 @@ MonoBehaviour:
   gridX: 5
   gridZ: 8
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -5619,8 +5690,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &386709264
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5747,7 +5818,7 @@ MonoBehaviour:
   gridX: 5
   gridZ: 4
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 788873477}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -5797,8 +5868,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &389455277
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6433,7 +6504,7 @@ MonoBehaviour:
   gridX: 5
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -6483,8 +6554,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &392594921
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6598,15 +6669,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7298955605622718558, guid: 883f2f309a01da144b5bf7a5f9cdc71a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -128.72238
+      value: -132.13239
       objectReference: {fileID: 0}
     - target: {fileID: 7298955605622718558, guid: 883f2f309a01da144b5bf7a5f9cdc71a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -155.663
+      value: -155.63199
       objectReference: {fileID: 0}
     - target: {fileID: 7298955605622718558, guid: 883f2f309a01da144b5bf7a5f9cdc71a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -29.110159
+      value: -32.690155
       objectReference: {fileID: 0}
     - target: {fileID: 7298955605622718558, guid: 883f2f309a01da144b5bf7a5f9cdc71a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6710,7 +6781,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 3
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -6760,8 +6831,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &428582385
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6888,7 +6959,7 @@ MonoBehaviour:
   gridX: 8
   gridZ: 3
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -6938,8 +7009,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &498357361
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7126,6 +7197,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -7330,7 +7413,7 @@ MonoBehaviour:
   gridX: 7
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -7380,8 +7463,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &587412820
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7455,6 +7538,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -7598,7 +7693,7 @@ MonoBehaviour:
   gridX: 8
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -7648,8 +7743,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &604282075
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7776,7 +7871,7 @@ MonoBehaviour:
   gridX: 8
   gridZ: 1
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -7826,8 +7921,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &606257973
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7985,7 +8080,7 @@ MonoBehaviour:
   gridX: 3
   gridZ: 7
   gridManager: {fileID: 111690257}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 111690260}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8035,8 +8130,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &648112095
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8163,7 +8258,7 @@ MonoBehaviour:
   gridX: 6
   gridZ: 9
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8213,8 +8308,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &648925160
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8407,7 +8502,7 @@ MonoBehaviour:
   gridX: 9
   gridZ: 4
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8457,8 +8552,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &692042321
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8585,7 +8680,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 4
   gridManager: {fileID: 111690257}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 111690260}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8635,8 +8730,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &706295976
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8863,6 +8958,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7369719981292622885, guid: 75f929da6991db4438cb51a68aa3a685, type: 3}
   m_PrefabInstance: {fileID: 351107574}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &732417351 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2792611444543776699, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+  m_PrefabInstance: {fileID: 1274900496}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274900500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169a640392ed4572949cb0c8fa80e788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SelectableTilesParent
 --- !u!1 &740714156
 GameObject:
   m_ObjectHideFlags: 0
@@ -8932,7 +9038,7 @@ MonoBehaviour:
   gridX: 6
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -8982,8 +9088,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &740714162
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9110,7 +9216,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 2
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -9160,8 +9266,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &747594074
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9288,7 +9394,7 @@ MonoBehaviour:
   gridX: 3
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -9338,8 +9444,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &764915467
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9674,7 +9780,7 @@ MonoBehaviour:
   gridX: 2
   gridZ: 3
   gridManager: {fileID: 111690257}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 111690260}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -9724,8 +9830,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &779035490
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10392,6 +10498,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7199852587322879966, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
   m_PrefabInstance: {fileID: 788873473}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &788873477 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2792611444543776699, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+  m_PrefabInstance: {fileID: 788873473}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169a640392ed4572949cb0c8fa80e788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SelectableTilesParent
 --- !u!1001 &796736234
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10408,6 +10525,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -10500,15 +10629,15 @@ PrefabInstance:
       objectReference: {fileID: 2029060176}
     - target: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
       propertyPath: destination.x
-      value: 205.67
+      value: 199.36
       objectReference: {fileID: 0}
     - target: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
       propertyPath: destination.y
-      value: 1.677
+      value: 1.708
       objectReference: {fileID: 0}
     - target: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
       propertyPath: destination.z
-      value: -24.913
+      value: -29.31
       objectReference: {fileID: 0}
     - target: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
       propertyPath: crystalCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -10683,7 +10812,7 @@ MonoBehaviour:
   gridX: 7
   gridZ: 8
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -10733,8 +10862,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &821285924
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10808,6 +10937,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -10951,7 +11092,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 5
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11001,8 +11142,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &849067811
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11129,7 +11270,7 @@ MonoBehaviour:
   gridX: 9
   gridZ: 2
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11179,8 +11320,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &863695838
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11307,7 +11448,7 @@ MonoBehaviour:
   gridX: 2
   gridZ: 6
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 788873477}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11357,8 +11498,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &871273197
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11485,7 +11626,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 2
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 788873477}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -11535,8 +11676,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &875459053
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12357,7 +12498,7 @@ MonoBehaviour:
   gridX: 6
   gridZ: 5
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 788873477}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -12407,8 +12548,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &902964702
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13274,7 +13415,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 7
   gridManager: {fileID: 111690257}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 111690260}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -13324,8 +13465,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1049313798
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13452,7 +13593,7 @@ MonoBehaviour:
   gridX: 9
   gridZ: 9
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -13502,8 +13643,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1053114242
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13630,7 +13771,7 @@ MonoBehaviour:
   gridX: 7
   gridZ: 6
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -13680,8 +13821,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1054600204
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14055,7 +14196,7 @@ MonoBehaviour:
   gridX: 2
   gridZ: 3
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -14105,8 +14246,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1103179047
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14791,7 +14932,7 @@ MonoBehaviour:
   gridX: 2
   gridZ: 8
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -14841,8 +14982,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1167788899
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15104,15 +15245,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 45922031430906625, guid: ff16e4e71610ade4bb5e6805e7db56e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -128.72238
+      value: -132.13239
       objectReference: {fileID: 0}
     - target: {fileID: 45922031430906625, guid: ff16e4e71610ade4bb5e6805e7db56e3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -155.663
+      value: -155.63199
       objectReference: {fileID: 0}
     - target: {fileID: 45922031430906625, guid: ff16e4e71610ade4bb5e6805e7db56e3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -29.110159
+      value: -32.690155
       objectReference: {fileID: 0}
     - target: {fileID: 45922031430906625, guid: ff16e4e71610ade4bb5e6805e7db56e3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15187,6 +15328,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -15398,7 +15551,7 @@ MonoBehaviour:
   gridX: 6
   gridZ: 3
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -15448,8 +15601,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1212971317
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15642,7 +15795,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 6
   gridManager: {fileID: 788873474}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 788873477}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -15692,8 +15845,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1231519507
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15820,7 +15973,7 @@ MonoBehaviour:
   gridX: 6
   gridZ: 6
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -15870,8 +16023,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1262902553
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15998,7 +16151,7 @@ MonoBehaviour:
   gridX: 2
   gridZ: 9
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -16048,8 +16201,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1274075238
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16473,7 +16626,7 @@ PrefabInstance:
       objectReference: {fileID: 410468428}
     - target: {fileID: 5018615782271576797, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -82.9
+      value: 10.7
       objectReference: {fileID: 0}
     - target: {fileID: 5018615782271576797, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16481,7 +16634,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5018615782271576797, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -29.1
+      value: 15.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018615782271576797, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70709974
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018615782271576797, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.70709974
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018615782271576797, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0031661834
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018615782271576797, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0031661983
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018615782271576797, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.513
       objectReference: {fileID: 0}
     - target: {fileID: 5025002967551595757, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
@@ -16838,7 +17011,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 588839293333666835, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       insertIndex: 51
       addedObject: {fileID: 1053114237}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7264184287714543087, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1274900501}
+    - targetCorrespondingSourceObject: {fileID: 7264184287714543087, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1274900502}
   m_SourcePrefab: {fileID: 100100000, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
 --- !u!114 &1274900497 stripped
 MonoBehaviour:
@@ -16861,6 +17040,46 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7199852587322879966, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
   m_PrefabInstance: {fileID: 1274900496}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1274900500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7264184287714543087, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
+  m_PrefabInstance: {fileID: 1274900496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1274900501
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274900500}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 28.7701, y: 1, z: 26.81207}
+  m_Center: {x: 13.88503, y: 0, z: 14.790192}
+--- !u!114 &1274900502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274900500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1808c420607c4f4c8e16816b2303385, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleBlocker
+  StateManager: {fileID: 895975378}
+  puzzleMode: 0
 --- !u!1001 &1298792204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17364,6 +17583,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -17637,6 +17868,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -17727,6 +17970,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -17822,6 +18077,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -17965,7 +18232,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 4
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -18015,8 +18282,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1597430618
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18084,15 +18351,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 137271524649294906, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 202.77
+      value: 199.36
       objectReference: {fileID: 0}
     - target: {fileID: 137271524649294906, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.677
+      value: 1.708
       objectReference: {fileID: 0}
     - target: {fileID: 137271524649294906, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -25.73
+      value: -29.31
       objectReference: {fileID: 0}
     - target: {fileID: 137271524649294906, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18508,7 +18775,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 7
   gridManager: {fileID: 111690257}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 111690260}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -18558,8 +18825,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1709062926
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18844,7 +19111,7 @@ MonoBehaviour:
   gridX: 9
   gridZ: 6
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -18894,8 +19161,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1733261148
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23961,7 +24228,7 @@ MonoBehaviour:
   gridX: 3
   gridZ: 2
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -24011,8 +24278,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1760505305
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24139,7 +24406,7 @@ MonoBehaviour:
   gridX: 5
   gridZ: 4
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -24189,8 +24456,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1776042003
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24475,7 +24742,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 6
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -24525,8 +24792,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1800276766
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24631,6 +24898,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 0766ae306318b0c4d9acbbbb22e2098c, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 0766ae306318b0c4d9acbbbb22e2098c, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 0766ae306318b0c4d9acbbbb22e2098c, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -24774,7 +25053,7 @@ MonoBehaviour:
   gridX: 8
   gridZ: 8
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -24824,8 +25103,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &1916586431
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25015,6 +25294,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -25348,7 +25639,7 @@ MonoBehaviour:
   gridX: 3
   gridZ: 6
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -25398,8 +25689,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &2007446758
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25473,6 +25764,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 494927e1fc0348641a5924c0422426f9, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -25616,7 +25919,7 @@ MonoBehaviour:
   gridX: 7
   gridZ: 4
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -25666,8 +25969,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &2018630498
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25805,7 +26108,7 @@ MonoBehaviour:
   gridX: 2
   gridZ: 7
   gridManager: {fileID: 111690257}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 111690260}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -25855,8 +26158,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &2054633378
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25930,6 +26233,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -26020,6 +26335,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f7f1dfa4a1e5e042981fa3c4b04ef15, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -26163,7 +26490,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 9
   gridManager: {fileID: 1274900497}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 732417351}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -26213,8 +26540,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &2090135197
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26288,6 +26615,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 410468428}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: tallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 0766ae306318b0c4d9acbbbb22e2098c, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: smallTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 0766ae306318b0c4d9acbbbb22e2098c, type: 2}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: defaultTree
+      value: 
+      objectReference: {fileID: 2100000, guid: 0766ae306318b0c4d9acbbbb22e2098c, type: 2}
     - target: {fileID: 4299322720258093954, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -26466,7 +26805,7 @@ MonoBehaviour:
   gridX: 4
   gridZ: 6
   gridManager: {fileID: 111690257}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 111690260}
   originalColor: {r: 1, g: 0, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -26516,8 +26855,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.0026207}
-  m_Center: {x: 0, y: 0, z: -0.0013104619}
+  m_Size: {x: 2.074758, y: 1, z: 1.600672}
+  m_Center: {x: -0.2600222, y: 0, z: -0.1356552}
 --- !u!23 &2131217177
 MeshRenderer:
   m_ObjectHideFlags: 0
