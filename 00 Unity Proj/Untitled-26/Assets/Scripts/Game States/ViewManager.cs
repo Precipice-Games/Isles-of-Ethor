@@ -47,7 +47,8 @@ public class ViewManager : MonoBehaviour
     public UnityEvent loadingComplete;
 
     // Static event to notify subscribers of game state changes
-    public static event Action<bool> togglePostProcessor;
+    public static event Action<bool> toggleDepthOfField;
+    public static event Action<bool> toggleBloom;
     
     [Space]
     [Title("Debugging Options", "Settings for quick debugging options.")]
@@ -60,6 +61,7 @@ public class ViewManager : MonoBehaviour
 
     private void Awake()
     {
+        
         // Initialize cameras list if null
         if (cameras == null)
         {
@@ -258,14 +260,56 @@ public class ViewManager : MonoBehaviour
     /// <param name="newState"></param>
     private void HandlePostProcessor(GameStateManager.GameState newState)
     {
-        if (newState == GameStateManager.GameState.Paused)
+        // Set the post processing effects based on the new game state
+        switch (newState)
         {
-            togglePostProcessor?.Invoke(true);
+            case GameStateManager.GameState.MainMenu:
+                toggleDepthOfField?.Invoke(false);
+                toggleBloom?.Invoke(false);
+                break;
+            case GameStateManager.GameState.Exploration:
+                toggleDepthOfField?.Invoke(false);
+                toggleBloom?.Invoke(false);
+                break;
+            case GameStateManager.GameState.Puzzle:
+                toggleDepthOfField?.Invoke(false);
+                toggleBloom?.Invoke(true);
+                break;
+            case GameStateManager.GameState.Dialogue:
+                toggleDepthOfField?.Invoke(false);
+                toggleBloom?.Invoke(false);
+                break;
+            case GameStateManager.GameState.Paused:
+                toggleDepthOfField?.Invoke(true);
+                toggleBloom?.Invoke(false);
+                break;
+            case GameStateManager.GameState.Settings:
+                toggleDepthOfField?.Invoke(false);
+                toggleBloom?.Invoke(false);
+                break;
+            case GameStateManager.GameState.Loading:
+                toggleDepthOfField?.Invoke(false);
+                toggleBloom?.Invoke(false);
+                break;
         }
-        else
-        {
-            togglePostProcessor?.Invoke(false);
-        }
+        
+        // if (newState == GameStateManager.GameState.Paused)
+        // {
+        //     toggleDepthOfField?.Invoke(true);
+        // }
+        // else
+        // {
+        //     toggleBloom?.Invoke(false);
+        // }
+        //
+        // if (newState == GameStateManager.GameState.Puzzle)
+        // {
+        //     toggleBloom.Invoke(true);
+        // }
+        // else
+        // {
+        //     toggleBloom.Invoke(false);
+        // }
     }
     
     /// <summary>

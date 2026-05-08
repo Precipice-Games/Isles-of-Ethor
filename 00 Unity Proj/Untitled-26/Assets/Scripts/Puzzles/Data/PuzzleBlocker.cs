@@ -23,11 +23,7 @@ public class PuzzleBlocker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        Debug.Log(StateManager.gameState == GameStateManager.GameState.Puzzle);
-
         if (StateManager != null && puzzleMode)
-        //if (GameStateManager.Instance != null && GameStateManager.Instance.gameState == GameStateManager.GameState.Puzzle)
         {
             GetComponent<BoxCollider>().enabled = false;
         }

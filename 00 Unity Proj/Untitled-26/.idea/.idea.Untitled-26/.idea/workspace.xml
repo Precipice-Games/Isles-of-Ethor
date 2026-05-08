@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fbef25c7-7cea-4452-bcf0-670b2112a0f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-26/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-26/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerFixedMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerFixedMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Puzzles/Data/PuzzleFeedback.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Puzzles/Data/PuzzleFeedback.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Puzzles/Mechanics/SelectableTilesParent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Puzzles/Mechanics/SelectableTilesParent.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,44 +39,13 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18b3b31e3d8341f487466ebb6800bc67212400/06/f645a54f/Color.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18b3b31e3d8341f487466ebb6800bc67212400/d0/c3c08ed9/Ray.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3fdb1449b6bf4282995fdc1be91d92042b400/2e/7d44226a/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ef4cbb5132194ba69d778e8ce57723f234200/59/fe3f9ca2/GUIStyle.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ef4cbb5132194ba69d778e8ce57723f234200/70/3b6f2d3e/GUIStyleState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Prefabs/Puzzles/IceBasePuzzle.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Prefabs/Puzzles/IceBasePuzzle.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Puzzles/IceBasePuzzle.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Prefabs/UI/PuzzleCanvas.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/UI/PuzzleCanvas.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Misc/DevBuildGameObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Data/PuzzleFeedback.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Data/PuzzleFeedback.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Data/PuzzleFeedback.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Data/PuzzleFeedback.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="vcs://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Data/PuzzleFeedback.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Data/PuzzleFeedback.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Data/ResourceManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Data/ResourceManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Data/ResourceManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Data/ResourceManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Data/ResourceManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Data/ResourceManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Mechanics/GridManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Mechanics/GridManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Mechanics/GridManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Mechanics/GridManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Mechanics/GridManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Mechanics/GridManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Mechanics/GridManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Mechanics/GridManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Mechanics/GridManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Mechanics/SelectableTile.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Mechanics/SelectableTile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzles/Mechanics/SelectableTilesParent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Mechanics/SelectableTilesParent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Mechanics/SelectableTilesParent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/nikki/untitled-26/00 Unity Proj/Untitled-26/Assets/Scripts/Puzzles/Mechanics/TileSelector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cdm.figma.ui@dd99ee4699bf/Runtime/Styles/CanvasGroupStyleSetter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cdm.figma.ui@dd99ee4699bf/Runtime/Styles/ImageStyleSetter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cdm.figma.ui@dd99ee4699bf/Runtime/Styles/StyleSetterWithSelectors.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -85,17 +56,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;Standalone Player.Start Unity.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;issue/564-pre-beta-character-controller-physics&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Standalone Player.Start Unity.executor": "Run",
+    "git-widget-placeholder": "issue/574-add-hover-vfx-to-puzzle-tiles",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Standalone Player.Start Unity">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$USER_HOME$/Desktop/v2.0.4\Isles of Ethor.exe" />
@@ -127,7 +99,7 @@
       <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" useMixedMode="false">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -138,6 +110,7 @@
       <option name="selectedOptions">
         <list />
       </option>
+      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
@@ -152,6 +125,8 @@
       <option name="presentableId" value="Default" />
       <updated>1777145648004</updated>
       <workItem from="1777145649271" duration="2672000" />
+      <workItem from="1778197320533" duration="1927000" />
+      <workItem from="1778272602642" duration="3152000" />
     </task>
     <servers />
   </component>

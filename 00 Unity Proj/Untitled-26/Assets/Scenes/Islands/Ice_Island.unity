@@ -1770,13 +1770,25 @@ PrefabInstance:
       value: 'Puzzle/PuzzleReset[/Keyboard/r]'
       objectReference: {fileID: 0}
     - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
+      propertyPath: m_ActionEvents.Array.data[32].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_ActionEvents.Array.data[42].m_PersistentCalls.m_Calls.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
+      propertyPath: m_ActionEvents.Array.data[32].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_ActionEvents.Array.data[42].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
+      propertyPath: m_ActionEvents.Array.data[32].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1604888280}
     - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_ActionEvents.Array.data[33].m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1786,16 +1798,32 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 74840993}
     - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
+      propertyPath: m_ActionEvents.Array.data[32].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_ActionEvents.Array.data[42].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
+      propertyPath: m_ActionEvents.Array.data[32].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PointerMovementDetected
       objectReference: {fileID: 0}
     - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_ActionEvents.Array.data[42].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PuzzleReset
       objectReference: {fileID: 0}
     - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
+      propertyPath: m_ActionEvents.Array.data[32].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: InputManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_ActionEvents.Array.data[42].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PlayerFixedMovement, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
+      propertyPath: m_ActionEvents.Array.data[32].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_ActionEvents.Array.data[42].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -92557,7 +92585,7 @@ MonoBehaviour:
   gridX: 5
   gridZ: 5
   gridManager: {fileID: 1800943169}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 8739545680216347642}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -111084,7 +111112,7 @@ MonoBehaviour:
   gridX: 1
   gridZ: 2
   gridManager: {fileID: 1800943169}
-  selectableTilesParent: {fileID: 0}
+  selectableTilesParent: {fileID: 8739545680216347642}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
@@ -113734,6 +113762,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 588839293333666835, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
   m_PrefabInstance: {fileID: 8739545680216347640}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8739545680216347642 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1284802655190286773, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
+  m_PrefabInstance: {fileID: 8739545680216347640}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169a640392ed4572949cb0c8fa80e788, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SelectableTilesParent
 --- !u!1001 &9067963015163853163
 PrefabInstance:
   m_ObjectHideFlags: 0
