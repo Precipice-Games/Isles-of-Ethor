@@ -43,6 +43,16 @@ public class PuzzleFeedback : MonoBehaviour
         // Hide popup text at start
         feedbackText.SetActive(false);
     }
+
+    private void OnEnable()
+    {
+        PlayerFixedMovement.playerInvalidMove += DisplayFeedback;
+    }
+    
+    private void OnDisable()
+    {
+        PlayerFixedMovement.playerInvalidMove -= DisplayFeedback;
+    }
     
     /// <summary>
     /// General method to show feedback on screen and flash the tile. If it's a resource-related

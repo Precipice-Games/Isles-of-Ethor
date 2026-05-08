@@ -98,8 +98,10 @@ public class PlayerFixedMovement : MonoBehaviour
     [Space]
     [Title("Puzzle Completion Event", "Event fired when Player reaches the end tile of the puzzle.")]
     public UnityEvent puzzleCompleted;
-
     public static event Action<PuzzleInformation> updatePuzzleStatus;
+    
+    // This event is fired when the Player attempts an invalid move.
+    public static event Action<string, SelectableTile> playerInvalidMove;
 
     private void Start()
     {
@@ -322,10 +324,14 @@ public class PlayerFixedMovement : MonoBehaviour
             if (IsComingFromIceTile(coordX, coordZ))
             {
                 Debug.Log($"PlayerFixedMovement.cs >> Ice slide ended: No tile at ({coordX},{coordZ})");
+                string message = "You can't slide there! There is no Normal tile to stop your slide.";
+                playerInvalidMove?.Invoke(message, null);
             }
             else
             {
                 Debug.Log($"PlayerFixedMovement.cs >> There is no tile to jump to at: ({coordX},{coordZ})");
+                string message = "There's no tile to move to!";
+                playerInvalidMove?.Invoke(message, null);
             }
             return true;
         }

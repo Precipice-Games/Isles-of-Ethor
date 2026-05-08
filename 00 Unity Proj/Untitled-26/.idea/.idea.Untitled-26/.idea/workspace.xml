@@ -7,6 +7,8 @@
     <list default="true" id="fbef25c7-7cea-4452-bcf0-670b2112a0f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Untitled-26/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Untitled-26/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerFixedMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerFixedMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Puzzles/Data/PuzzleFeedback.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Puzzles/Data/PuzzleFeedback.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Puzzles/Mechanics/SelectableTilesParent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Puzzles/Mechanics/SelectableTilesParent.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +126,7 @@
       <updated>1777145648004</updated>
       <workItem from="1777145649271" duration="2672000" />
       <workItem from="1778197320533" duration="1927000" />
-      <workItem from="1778272602642" duration="1076000" />
+      <workItem from="1778272602642" duration="3152000" />
     </task>
     <servers />
   </component>

@@ -8,6 +8,6 @@ using UnityEngine.Events;
 
 public class SelectableTilesParent : MonoBehaviour
 {
-    [Title("Lacking Resources", "This event is fired when the a move is blocked due to grid-related variables.")]
+    [Title("Invalid Grid Move", "This event is fired when the a move is blocked due to grid-related variables.")]
     public UnityEvent<string, SelectableTile> gridMoveBlocked;
 }
