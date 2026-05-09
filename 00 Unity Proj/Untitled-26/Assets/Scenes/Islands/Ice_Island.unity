@@ -14460,11 +14460,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ef1bdd940628342a145208fb55a5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IceTreeManager
-  maxDefaultTrees: 0
+  maxDefaultTrees: 44
   currentDefaultTrees: 0
-  maxSmallTrees: 0
+  maxSmallTrees: 43
   currentSmallTrees: 0
-  maxTallTrees: 0
+  maxTallTrees: 43
   currentTallTrees: 0
 --- !u!1001 &567092688
 PrefabInstance:
@@ -73341,11 +73341,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ef1bdd940628342a145208fb55a5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IceTreeManager
-  maxDefaultTrees: 0
+  maxDefaultTrees: 30
   currentDefaultTrees: 0
-  maxSmallTrees: 0
+  maxSmallTrees: 30
   currentSmallTrees: 0
-  maxTallTrees: 0
+  maxTallTrees: 30
   currentTallTrees: 0
 --- !u!114 &1508110539 stripped
 MonoBehaviour:
