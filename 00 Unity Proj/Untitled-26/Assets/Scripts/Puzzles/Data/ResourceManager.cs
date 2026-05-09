@@ -42,8 +42,6 @@ public class ResourceManager : MonoBehaviour
 
     [Space]
     [Title("UI Data", "Attach the UI elements for this puzzle.")]
-    [PropertyTooltip("Game object that holds the PuzzleFeedback script.")]
-    public PuzzleFeedback puzzleFeedback;
     public TMP_Text manaLabel;
     public TMP_Text leftLabel;
     public TMP_Text rightLabel;
@@ -78,11 +76,6 @@ public class ResourceManager : MonoBehaviour
 
     void Start()
     {
-        if (puzzleFeedback == null)
-        {
-            Debug.LogError("ResourceManager.cs >> PuzzleFeedback reference is missing!");
-        }
-        
         currentMana = startingMana;
         currentLeftUses = moveLeftUses;
         currentRightUses = moveRightUses;
