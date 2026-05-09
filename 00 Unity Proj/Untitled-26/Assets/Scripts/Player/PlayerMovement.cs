@@ -25,10 +25,7 @@ public class PlayerMovement : MonoBehaviour
     // ==== Movement ====
     [Title("Movement", "Variables used for the Player's movement mechanic.")]
     [SerializeField] private float moveSpeed = 5.0f; //speed coefficient
-    [SerializeField] private float sprintSpeed = 7.0f;
-    [Tooltip("How fast the character turns to face movement direction")]
-    [Range(0.0f, 0.3f)]
-    public float RotationSmoothTime = 0.12f;
+    [SerializeField] private float sprintSpeed = 7.2f;
     private Vector3 inputDirection;
     private float speedOffset = 0.1f;
     private float playerTargetYaw;
@@ -48,18 +45,12 @@ public class PlayerMovement : MonoBehaviour
     // ========== Jumping ==========
     [Space]
     [Title("Jump", "Variables used for the Player's jumping mechanic.")]
-    
-    // UNDER CONSTRUCTION
-    // Working on jump functionality. -- Nikki
-    
-    public float jumpPower = 4.0f; // How strong the jump force is
-    public int maxJumps = 1;
-    public int jumpsRemaining;
-    [Space(10)]
+    private int maxJumps = 1;
     [Tooltip("The height the player can jump")]
     public float JumpHeight = 1.2f;
     [Tooltip("The character uses its own gravity value. The engine default is -9.81f")]
     public float Gravity = -15.0f;
+    
     [Space]
     [Title("Ground Check", "Variables used to perform ground checks for jumping.")]
     [SerializeField] private bool isGrounded;
@@ -241,7 +232,7 @@ public class PlayerMovement : MonoBehaviour
         if (grounded)
         {
             isGrounded = true; // Player is on the ground
-            jumpsRemaining = maxJumps; // Reset the jumps
+            // jumpsRemaining = maxJumps; // Reset the jumps
         }
         else
         {

@@ -21,6 +21,13 @@ public class PlayerControlsInputs : MonoBehaviour
 		move = context.ReadValue<Vector2>();
 	}
 	
+	/// <summary>
+	/// Takes in the Player's sprint input to determine the speed of the Player
+	/// inside PlayerMovement.cs. If nothing is detected from here, then the Player
+	/// defaults to walking speed. However, if sprint is true, then the speed is
+	/// changed to sprintSpeed.
+	/// </summary>
+	/// <param name="context"></param>
 	public void PlayerSprint(InputAction.CallbackContext context)
 	{
 		if (context.performed)
