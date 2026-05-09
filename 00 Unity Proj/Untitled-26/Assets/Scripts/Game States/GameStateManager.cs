@@ -212,7 +212,7 @@ public class GameStateManager : MonoSingleton<GameStateManager>
         {
             // As of now this should only return to Exploration state. However,
             // this accounts for if future dialogue is triggered in a puzzle state.
-            TransitionToState(prevState);
+            TransitionToState(GameState.Exploration);
         }
         else
         {
