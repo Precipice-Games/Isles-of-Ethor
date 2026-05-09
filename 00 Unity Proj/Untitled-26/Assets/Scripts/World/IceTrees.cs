@@ -48,7 +48,7 @@ public class IceTrees : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (player != null)
+        if (player != null && GameStateManager.CurrentGameState != GameStateManager.GameState.Puzzle)
             transform.LookAt(player.transform.position);
     }
 }

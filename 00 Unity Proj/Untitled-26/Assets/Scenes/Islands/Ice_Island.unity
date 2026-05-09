@@ -1369,6 +1369,10 @@ PrefabInstance:
       propertyPath: gridZ
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 9059629293011494203, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
+      propertyPath: tileType
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2595629101245525352, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
@@ -2145,7 +2149,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+  - {fileID: 2100000, guid: 4ce63ff84f51dcd438ed5ba02c9d8f95, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2274,7 +2278,7 @@ GameObject:
   - component: {fileID: 157486491}
   - component: {fileID: 157486490}
   - component: {fileID: 157486489}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2451,7 +2455,7 @@ GameObject:
   - component: {fileID: 158666394}
   - component: {fileID: 158666393}
   - component: {fileID: 158666392}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2874,7 +2878,7 @@ GameObject:
   - component: {fileID: 164438371}
   - component: {fileID: 164438370}
   - component: {fileID: 164438369}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3297,7 +3301,7 @@ GameObject:
   - component: {fileID: 203640133}
   - component: {fileID: 203640132}
   - component: {fileID: 203640131}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3608,7 +3612,7 @@ PrefabInstance:
     - target: {fileID: -3291061267519868054, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+      objectReference: {fileID: 2100000, guid: 4ce63ff84f51dcd438ed5ba02c9d8f95, type: 2}
     - target: {fileID: 919132149155446097, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: m_Name
       value: IcePuzzlePiece (4)
@@ -9235,7 +9239,7 @@ GameObject:
   - component: {fileID: 263533505}
   - component: {fileID: 263533504}
   - component: {fileID: 263533503}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9412,7 +9416,7 @@ GameObject:
   - component: {fileID: 263677645}
   - component: {fileID: 263677644}
   - component: {fileID: 263677643}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9753,7 +9757,7 @@ GameObject:
   - component: {fileID: 272242140}
   - component: {fileID: 272242139}
   - component: {fileID: 272242138}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10228,7 +10232,7 @@ PrefabInstance:
     - target: {fileID: -3291061267519868054, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+      objectReference: {fileID: 2100000, guid: 4ce63ff84f51dcd438ed5ba02c9d8f95, type: 2}
     - target: {fileID: 919132149155446097, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: m_Name
       value: IcePuzzlePiece (3)
@@ -11116,22 +11120,6 @@ PrefabInstance:
       propertyPath: startingGridZ
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 563326666085521974, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 563326666085521974, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 563326666085521974, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 563326666085521974, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 588839293333666835, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.72
@@ -11175,22 +11163,6 @@ PrefabInstance:
     - target: {fileID: 942123610933921151, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: startingGridZ
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 942123610933921151, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 942123610933921151, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 942123610933921151, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 942123610933921151, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1373633058433270611, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11240,22 +11212,6 @@ PrefabInstance:
       propertyPath: startingGridZ
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 1788808401797866365, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1788808401797866365, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1788808401797866365, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1788808401797866365, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2275969997962342486, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: gridX
       value: 4
@@ -11275,22 +11231,6 @@ PrefabInstance:
     - target: {fileID: 2275969997962342486, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: startingGridZ
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2275969997962342486, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2275969997962342486, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2275969997962342486, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2275969997962342486, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2392832193953854197, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: m_LocalScale.x
@@ -11364,22 +11304,6 @@ PrefabInstance:
       propertyPath: startingGridZ
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 2543200966874335288, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2543200966874335288, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2543200966874335288, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2543200966874335288, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2722518522013452351, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -11410,18 +11334,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3034548341052867213, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: startingGridZ
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3034548341052867213, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3034548341052867213, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3034548341052867213, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3072390140186109677, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
@@ -11576,22 +11488,6 @@ PrefabInstance:
       propertyPath: startingGridZ
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 4064603128251208255, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4064603128251208255, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4064603128251208255, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4064603128251208255, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4272864839946960334, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: gridX
       value: 1
@@ -11612,22 +11508,6 @@ PrefabInstance:
       propertyPath: startingGridZ
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 4272864839946960334, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4272864839946960334, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4272864839946960334, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4272864839946960334, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4441267795168363193, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: gridX
       value: 2
@@ -11642,22 +11522,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4441267795168363193, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: startingGridZ
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4441267795168363193, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4441267795168363193, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4441267795168363193, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4441267795168363193, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4472860653813335475, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
@@ -11703,22 +11567,6 @@ PrefabInstance:
     - target: {fileID: 4759651532516943100, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: startingGridX
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4759651532516943100, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4759651532516943100, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4759651532516943100, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4759651532516943100, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4943596135170749970, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: player
@@ -11776,22 +11624,6 @@ PrefabInstance:
       propertyPath: startingGridZ
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5025002967551595757, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5025002967551595757, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5025002967551595757, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5025002967551595757, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5689756566394007165, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: gridX
       value: 2
@@ -11811,22 +11643,6 @@ PrefabInstance:
     - target: {fileID: 5689756566394007165, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: startingGridZ
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5689756566394007165, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5689756566394007165, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5689756566394007165, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5689756566394007165, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5982847078855375376, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -11868,22 +11684,6 @@ PrefabInstance:
       propertyPath: startingGridZ
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 6321783586416998415, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6321783586416998415, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6321783586416998415, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6321783586416998415, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6625943618315678091, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: gridX
       value: 4
@@ -11899,22 +11699,6 @@ PrefabInstance:
     - target: {fileID: 6625943618315678091, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: startingGridZ
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6625943618315678091, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6625943618315678091, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6625943618315678091, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6625943618315678091, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7012397342193439338, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: gridX
@@ -11931,18 +11715,6 @@ PrefabInstance:
     - target: {fileID: 7012397342193439338, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: startingGridZ
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7012397342193439338, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7012397342193439338, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7012397342193439338, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7032101937263023470, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12100,18 +11872,6 @@ PrefabInstance:
       propertyPath: startingGridZ
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 8509538877335474834, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8509538877335474834, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8509538877335474834, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9007823278109169485, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9
@@ -12143,22 +11903,6 @@ PrefabInstance:
     - target: {fileID: 9059629293011494203, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: startingGridZ
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 9059629293011494203, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9059629293011494203, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9059629293011494203, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9059629293011494203, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12414,7 +12158,7 @@ GameObject:
   - component: {fileID: 408128072}
   - component: {fileID: 408128071}
   - component: {fileID: 408128070}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12673,7 +12417,7 @@ GameObject:
   - component: {fileID: 412733695}
   - component: {fileID: 412733694}
   - component: {fileID: 412733693}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13161,7 +12905,7 @@ GameObject:
   - component: {fileID: 439973541}
   - component: {fileID: 439973540}
   - component: {fileID: 439973539}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14456,11 +14200,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ef1bdd940628342a145208fb55a5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IceTreeManager
-  maxDefaultTrees: 0
+  maxDefaultTrees: 44
   currentDefaultTrees: 0
-  maxSmallTrees: 0
+  maxSmallTrees: 43
   currentSmallTrees: 0
-  maxTallTrees: 0
+  maxTallTrees: 43
   currentTallTrees: 0
 --- !u!1001 &567092688
 PrefabInstance:
@@ -14677,7 +14421,7 @@ GameObject:
   - component: {fileID: 579522412}
   - component: {fileID: 579522411}
   - component: {fileID: 579522410}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19744,7 +19488,7 @@ GameObject:
   - component: {fileID: 586997847}
   - component: {fileID: 586997846}
   - component: {fileID: 586997845}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20495,7 +20239,7 @@ GameObject:
   - component: {fileID: 642285749}
   - component: {fileID: 642285748}
   - component: {fileID: 642285747}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20785,7 +20529,7 @@ GameObject:
   - component: {fileID: 673375102}
   - component: {fileID: 673375101}
   - component: {fileID: 673375100}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21049,7 +20793,7 @@ GameObject:
   - component: {fileID: 688277787}
   - component: {fileID: 688277786}
   - component: {fileID: 688277785}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21637,7 +21381,7 @@ PrefabInstance:
     - target: {fileID: -3291061267519868054, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+      objectReference: {fileID: 2100000, guid: 4ce63ff84f51dcd438ed5ba02c9d8f95, type: 2}
     - target: {fileID: 919132149155446097, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: m_Name
       value: IcePuzzlePiece (1)
@@ -22186,7 +21930,7 @@ GameObject:
   - component: {fileID: 763619293}
   - component: {fileID: 763619292}
   - component: {fileID: 763619291}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23005,7 +22749,7 @@ PrefabInstance:
     - target: {fileID: -3291061267519868054, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+      objectReference: {fileID: 2100000, guid: 4ce63ff84f51dcd438ed5ba02c9d8f95, type: 2}
     - target: {fileID: 919132149155446097, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: m_Name
       value: IcePuzzlePiece (4)
@@ -23498,7 +23242,7 @@ PrefabInstance:
     - target: {fileID: -3291061267519868054, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+      objectReference: {fileID: 2100000, guid: 4ce63ff84f51dcd438ed5ba02c9d8f95, type: 2}
     - target: {fileID: 919132149155446097, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: m_Name
       value: IcePuzzlePiece (1)
@@ -23707,7 +23451,7 @@ GameObject:
   - component: {fileID: 836370568}
   - component: {fileID: 836370567}
   - component: {fileID: 836370566}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29449,7 +29193,7 @@ PrefabInstance:
     - target: {fileID: -3291061267519868054, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+      objectReference: {fileID: 2100000, guid: 4ce63ff84f51dcd438ed5ba02c9d8f95, type: 2}
     - target: {fileID: 919132149155446097, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: m_Name
       value: IcePuzzlePiece
@@ -34742,7 +34486,7 @@ GameObject:
   - component: {fileID: 917827692}
   - component: {fileID: 917827691}
   - component: {fileID: 917827690}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40114,7 +39858,7 @@ GameObject:
   - component: {fileID: 978787497}
   - component: {fileID: 978787496}
   - component: {fileID: 978787495}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40348,7 +40092,7 @@ PrefabInstance:
     - target: {fileID: -3291061267519868054, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+      objectReference: {fileID: 2100000, guid: 4ce63ff84f51dcd438ed5ba02c9d8f95, type: 2}
     - target: {fileID: 919132149155446097, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: m_Name
       value: IcePuzzlePiece
@@ -51145,7 +50889,7 @@ GameObject:
   - component: {fileID: 1180868106}
   - component: {fileID: 1180868105}
   - component: {fileID: 1180868104}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56463,7 +56207,7 @@ GameObject:
   - component: {fileID: 1226919609}
   - component: {fileID: 1226919608}
   - component: {fileID: 1226919607}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56804,7 +56548,7 @@ GameObject:
   - component: {fileID: 1242479835}
   - component: {fileID: 1242479834}
   - component: {fileID: 1242479833}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58675,7 +58419,7 @@ GameObject:
   - component: {fileID: 1325243683}
   - component: {fileID: 1325243682}
   - component: {fileID: 1325243681}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58934,7 +58678,7 @@ GameObject:
   - component: {fileID: 1337261722}
   - component: {fileID: 1337261721}
   - component: {fileID: 1337261720}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60375,7 +60119,7 @@ GameObject:
   - component: {fileID: 1351079587}
   - component: {fileID: 1351079586}
   - component: {fileID: 1351079585}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65851,7 +65595,7 @@ GameObject:
   - component: {fileID: 1408586506}
   - component: {fileID: 1408586505}
   - component: {fileID: 1408586504}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66028,7 +65772,7 @@ GameObject:
   - component: {fileID: 1415632378}
   - component: {fileID: 1415632377}
   - component: {fileID: 1415632376}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71276,7 +71020,7 @@ GameObject:
   - component: {fileID: 1424054410}
   - component: {fileID: 1424054409}
   - component: {fileID: 1424054408}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71453,7 +71197,7 @@ GameObject:
   - component: {fileID: 1428293206}
   - component: {fileID: 1428293205}
   - component: {fileID: 1428293204}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71719,22 +71463,6 @@ PrefabInstance:
       propertyPath: startingGridZ
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 1788808401797866365, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1788808401797866365, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1788808401797866365, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1788808401797866365, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1872530666423440456, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: m_Name
       value: p2DriftIsland (15)
@@ -71762,22 +71490,6 @@ PrefabInstance:
     - target: {fileID: 2275969997962342486, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: startingGridZ
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2275969997962342486, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2275969997962342486, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2275969997962342486, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2275969997962342486, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
-      propertyPath: originalColor.r
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2410265237940801771, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -72063,6 +71775,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 5018615782271576797, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.6
+      objectReference: {fileID: 0}
     - target: {fileID: 5025002967551595757, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: gridX
       value: 3
@@ -72694,7 +72410,7 @@ GameObject:
   - component: {fileID: 1456490991}
   - component: {fileID: 1456490990}
   - component: {fileID: 1456490989}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73192,7 +72908,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+  - {fileID: 2100000, guid: 4ce63ff84f51dcd438ed5ba02c9d8f95, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -73333,11 +73049,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ef1bdd940628342a145208fb55a5bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IceTreeManager
-  maxDefaultTrees: 0
+  maxDefaultTrees: 30
   currentDefaultTrees: 0
-  maxSmallTrees: 0
+  maxSmallTrees: 30
   currentSmallTrees: 0
-  maxTallTrees: 0
+  maxTallTrees: 30
   currentTallTrees: 0
 --- !u!114 &1508110539 stripped
 MonoBehaviour:
@@ -83119,7 +82835,7 @@ GameObject:
   - component: {fileID: 1541993807}
   - component: {fileID: 1541993806}
   - component: {fileID: 1541993805}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83741,7 +83457,7 @@ GameObject:
   - component: {fileID: 1571330268}
   - component: {fileID: 1571330267}
   - component: {fileID: 1571330266}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91246,7 +90962,7 @@ PrefabInstance:
     - target: {fileID: -3291061267519868054, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+      objectReference: {fileID: 2100000, guid: 4ce63ff84f51dcd438ed5ba02c9d8f95, type: 2}
     - target: {fileID: 919132149155446097, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: m_Name
       value: IcePuzzlePiece (2)
@@ -91370,7 +91086,7 @@ GameObject:
   - component: {fileID: 1726927088}
   - component: {fileID: 1726927087}
   - component: {fileID: 1726927086}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91629,7 +91345,7 @@ GameObject:
   - component: {fileID: 1739471988}
   - component: {fileID: 1739471987}
   - component: {fileID: 1739471986}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: p2DriftIsland (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92168,7 +91884,7 @@ PrefabInstance:
     - target: {fileID: -3291061267519868054, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+      objectReference: {fileID: 2100000, guid: 4ce63ff84f51dcd438ed5ba02c9d8f95, type: 2}
     - target: {fileID: 919132149155446097, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: m_Name
       value: IcePuzzlePiece (2)
@@ -92486,7 +92202,7 @@ GameObject:
   - component: {fileID: 1827881781}
   - component: {fileID: 1827881780}
   - component: {fileID: 1827881779}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92663,7 +92379,7 @@ GameObject:
   - component: {fileID: 1837369718}
   - component: {fileID: 1837369717}
   - component: {fileID: 1837369722}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92840,7 +92556,7 @@ GameObject:
   - component: {fileID: 1844928702}
   - component: {fileID: 1844928701}
   - component: {fileID: 1844928700}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97825,7 +97541,7 @@ GameObject:
   - component: {fileID: 1849428741}
   - component: {fileID: 1849428740}
   - component: {fileID: 1849428739}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98428,7 +98144,7 @@ GameObject:
   - component: {fileID: 1890701369}
   - component: {fileID: 1890701368}
   - component: {fileID: 1890701367}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99026,7 +98742,7 @@ GameObject:
   - component: {fileID: 1942289031}
   - component: {fileID: 1942289030}
   - component: {fileID: 1942289029}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99565,7 +99281,7 @@ GameObject:
   - component: {fileID: 1997892752}
   - component: {fileID: 1997892751}
   - component: {fileID: 1997892750}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100448,7 +100164,7 @@ GameObject:
   - component: {fileID: 2059943333}
   - component: {fileID: 2059943332}
   - component: {fileID: 2059943331}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105513,7 +105229,7 @@ PrefabInstance:
     - target: {fileID: -3291061267519868054, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+      objectReference: {fileID: 2100000, guid: 4ce63ff84f51dcd438ed5ba02c9d8f95, type: 2}
     - target: {fileID: 919132149155446097, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
       propertyPath: m_Name
       value: IcePuzzlePiece (3)
@@ -111201,7 +110917,7 @@ GameObject:
   - component: {fileID: 2129601381}
   - component: {fileID: 2129601380}
   - component: {fileID: 2129601385}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: p1DriftIsland (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111643,7 +111359,7 @@ GameObject:
   - component: {fileID: 2141377683}
   - component: {fileID: 2141377682}
   - component: {fileID: 2141377681}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: p2DriftIsland (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

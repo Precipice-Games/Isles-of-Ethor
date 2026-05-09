@@ -1,3 +1,4 @@
+using System;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -12,6 +13,10 @@ public class TileSelector : MonoBehaviour
     
     // Reference to the currently selected tile
     private SelectableTile selectedTile;
+    
+    // Reference to the layer that the tiles are on to ensure
+    // the raycast only detects tiles and not other objects
+    private LayerMask layerMask;
     
     // Reference to the Player's coordinates on the grid
     private int playerGridX;
@@ -29,6 +34,11 @@ public class TileSelector : MonoBehaviour
     public bool printInvalidMoves = true;
     [PropertyTooltip("Prints out when the mouse is hovering over a tile. False by default.")]
     public bool printHoverDetection = false;
+
+    private void Awake()
+    {
+        layerMask = LayerMask.GetMask("Tiles");
+    }
 
     // Subscribe to events
     private void OnEnable()
@@ -56,7 +66,7 @@ public class TileSelector : MonoBehaviour
     public void ClickDetected()
     {
         Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
-        if (Physics.Raycast(ray, out RaycastHit hit))
+        if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, layerMask))
         {
             SelectableTile tile = hit.collider.GetComponent<SelectableTile>();
             if (tile != null)
@@ -80,7 +90,7 @@ public class TileSelector : MonoBehaviour
     public void HoverDetected()
     {
         Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
-        if (Physics.Raycast(ray, out RaycastHit hit))
+        if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, layerMask))
         {
             SelectableTile tile = hit.collider.GetComponent<SelectableTile>();
             if (tile != null)

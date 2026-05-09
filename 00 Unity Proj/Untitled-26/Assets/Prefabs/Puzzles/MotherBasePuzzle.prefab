@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5542912942022859257}
   - component: {fileID: 4272864839946960334}
   - component: {fileID: 1361485055277093178}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 8931899725991205104}
   - component: {fileID: 5025002967551595757}
   - component: {fileID: 674050429062326758}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,7 +337,7 @@ MonoBehaviour:
   gridZ: 1
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 4712742159807781497}
-  originalColor: {r: 1, g: 0, b: 1, a: 1}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
 --- !u!114 &674050429062326758
@@ -365,7 +365,7 @@ GameObject:
   - component: {fileID: 7321162161942524934}
   - component: {fileID: 6825509473540728000}
   - component: {fileID: 6284629459955097238}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: End Rune
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 5645746178308066833}
   - component: {fileID: 9059629293011494203}
   - component: {fileID: 5668346888246670449}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -617,7 +617,7 @@ GameObject:
   - component: {fileID: 7045734070655998070}
   - component: {fileID: 7012397342193439338}
   - component: {fileID: 7049456268961169745}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -794,7 +794,7 @@ GameObject:
   - component: {fileID: 6530514183576964366}
   - component: {fileID: 5689756566394007165}
   - component: {fileID: 1527905477152698449}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -967,7 +967,7 @@ GameObject:
   - component: {fileID: 3624906698350998147}
   - component: {fileID: 5019277549151866532}
   - component: {fileID: 3625183002538320219}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: StartRune
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1042,7 +1042,7 @@ GameObject:
   - component: {fileID: 4406865920393537666}
   - component: {fileID: 4064603128251208255}
   - component: {fileID: 3146548009398657931}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1187,7 +1187,7 @@ MonoBehaviour:
   gridZ: 2
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 4712742159807781497}
-  originalColor: {r: 1, g: 0, b: 1, a: 1}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
 --- !u!114 &3146548009398657931
@@ -1219,7 +1219,7 @@ GameObject:
   - component: {fileID: 453642476825720023}
   - component: {fileID: 8509538877335474834}
   - component: {fileID: 4641199904726581519}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1396,7 +1396,7 @@ GameObject:
   - component: {fileID: 5231381797051820232}
   - component: {fileID: 1788808401797866365}
   - component: {fileID: 1303838987071360981}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EndTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1542,7 +1542,7 @@ MonoBehaviour:
   gridZ: 6
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 4712742159807781497}
-  originalColor: {r: 0.6981132, g: 0.6981132, b: 0.6981132, a: 1}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
 --- !u!114 &1303838987071360981
@@ -1574,7 +1574,7 @@ GameObject:
   - component: {fileID: 309107811372590528}
   - component: {fileID: 4759651532516943100}
   - component: {fileID: 7421929144077174582}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: StartTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1720,7 +1720,7 @@ MonoBehaviour:
   gridZ: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 4712742159807781497}
-  originalColor: {r: 1, g: 0, b: 1, a: 1}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
 --- !u!114 &7421929144077174582
@@ -1752,7 +1752,7 @@ GameObject:
   - component: {fileID: 3261880673261627557}
   - component: {fileID: 2275969997962342486}
   - component: {fileID: 1692342746788151541}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1897,7 +1897,7 @@ MonoBehaviour:
   gridZ: 2
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 4712742159807781497}
-  originalColor: {r: 1, g: 0, b: 1, a: 1}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
 --- !u!114 &1692342746788151541
@@ -2069,7 +2069,7 @@ GameObject:
   - component: {fileID: 8734686047623891108}
   - component: {fileID: 6321783586416998415}
   - component: {fileID: 373656486766559563}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2246,7 +2246,7 @@ GameObject:
   - component: {fileID: 3685197665221182148}
   - component: {fileID: 563326666085521974}
   - component: {fileID: 2640555398377000108}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2391,7 +2391,7 @@ MonoBehaviour:
   gridZ: 2
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 4712742159807781497}
-  originalColor: {r: 1, g: 0, b: 1, a: 1}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
 --- !u!114 &2640555398377000108
@@ -2423,7 +2423,7 @@ GameObject:
   - component: {fileID: 7523907909368201943}
   - component: {fileID: 6625943618315678091}
   - component: {fileID: 8781985787554735920}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2600,7 +2600,7 @@ GameObject:
   - component: {fileID: 5886979120025315524}
   - component: {fileID: 942123610933921151}
   - component: {fileID: 7914251024003687447}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2772,7 +2772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3942273821399491795}
   - component: {fileID: 5218340796993907333}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: RuneSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2863,7 +2863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7325537039630228397}
   - component: {fileID: 2821830542318120351}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: RuneSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2959,7 +2959,7 @@ GameObject:
   - component: {fileID: 1780069663387497229}
   - component: {fileID: 3034548341052867213}
   - component: {fileID: 8632020953357628628}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3104,7 +3104,7 @@ MonoBehaviour:
   gridZ: 1
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 4712742159807781497}
-  originalColor: {r: 1, g: 0, b: 1, a: 1}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
 --- !u!114 &8632020953357628628
@@ -3268,7 +3268,7 @@ GameObject:
   - component: {fileID: 8379635494583041761}
   - component: {fileID: 4441267795168363193}
   - component: {fileID: 6447627335958466952}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3413,7 +3413,7 @@ MonoBehaviour:
   gridZ: 1
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 4712742159807781497}
-  originalColor: {r: 1, g: 0, b: 1, a: 1}
+  originalColor: {r: 1, g: 1, b: 1, a: 1}
   highlightColor: {r: 1, g: 0.9810541, b: 0.015686274, a: 1}
   printStartingPosition: 0
 --- !u!114 &6447627335958466952
@@ -3494,7 +3494,6 @@ MonoBehaviour:
   moveRightUses: 2
   moveForwardUses: 2
   moveBackUses: 2
-  puzzleFeedback: {fileID: 0}
   manaLabel: {fileID: 4244620660118580199}
   leftLabel: {fileID: 1230731256228544730}
   rightLabel: {fileID: 4912949784702118134}
@@ -3519,7 +3518,7 @@ GameObject:
   - component: {fileID: 2308668415581002923}
   - component: {fileID: 2543200966874335288}
   - component: {fileID: 9192580670938830888}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3755,7 +3754,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dedef1882a78850498d9dc638d6cb5cb, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4101,7 +4100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: dedef1882a78850498d9dc638d6cb5cb, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
