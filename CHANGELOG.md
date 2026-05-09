@@ -5,7 +5,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-* Put any unreleased features here.
+* Tile hovering VFX.
+
+## [v2.2.5] - 2026-05-08
+
+### Added
+* Added puzzle feedback for empty cells and the ice tile mechanic.
+* Created the framework for a tile hovering VFX (not yet implemented).
+* Implemented Flower Island skybox.
+* Created Flower Island puzzle 1.
+* Added temporary floating island to Flower Island.
+* Added finalized Flower Island music.
+
+### Fixed
+* Fixed a bug where the Player was getting soft locked in paused mode on Ice Island between entering and exiting puzzles.
+* Fixed a bug where the exit button was not working on Flower Island puzzles.
+* Fixed a bug where the SelectableTilesParent.cs script was not attached to some tiles (Ice, Mother, Oasis).
+* Fixed a bug where some tiles kept changing color when resetting a puzzle.
+* Fixed a bug where the game was unexpectedly pausing during/after dialogue sequences.
+
+### Changed
+* Increased the raycasting tile selectable tile area.
+* Restored a Player reference for the exit button in RuneCircle.cs.
+* Recreated the EventSystem object in Ice_Island.unity.
+* Finalized the Main Menu navigation SFX.
+* Improved the organization and positioning of NPCs and items on Flower Island.
+* Enhanced the animated loading screen transition to ensure it fits on all screen resolutions.
 
 ## [v2.2.5] - 2026-05-07
 
