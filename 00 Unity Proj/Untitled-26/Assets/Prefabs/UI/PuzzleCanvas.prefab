@@ -592,7 +592,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0.133744}
-  m_AnchoredPosition: {x: 0, y: 5.5599976}
+  m_AnchoredPosition: {x: 0, y: 5.5600586}
   m_SizeDelta: {x: 200, y: 11.119995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1824577235510706642
@@ -670,7 +670,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 825.53094, y: -0.19024658}
+  m_AnchoredPosition: {x: 825.531, y: -0.19018555}
   m_SizeDelta: {x: -1651.0619, y: 0.3806}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3387392447223787824
@@ -1000,7 +1000,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.93600005}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.00031089783, y: -3.1177673}
+  m_AnchoredPosition: {x: 0.00031089783, y: -3.1177979}
   m_SizeDelta: {x: 227.71, y: -7.2411003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4893179568191272323
@@ -1255,7 +1255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4846095183904175599, guid: b2467d0f5cc7a224ca285f266f255307, type: 3}
       propertyPath: m_fontSize
-      value: 47.15
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 4846095183904175599, guid: b2467d0f5cc7a224ca285f266f255307, type: 3}
       propertyPath: m_fontSizeBase
@@ -1401,7 +1401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4846095183904175599, guid: b2467d0f5cc7a224ca285f266f255307, type: 3}
       propertyPath: m_fontSize
-      value: 47.15
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 4846095183904175599, guid: b2467d0f5cc7a224ca285f266f255307, type: 3}
       propertyPath: m_fontSizeBase
@@ -1555,7 +1555,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4846095183904175599, guid: b2467d0f5cc7a224ca285f266f255307, type: 3}
       propertyPath: m_fontSize
-      value: 47.15
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 4846095183904175599, guid: b2467d0f5cc7a224ca285f266f255307, type: 3}
       propertyPath: m_fontSizeBase
@@ -1721,7 +1721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4846095183904175599, guid: b2467d0f5cc7a224ca285f266f255307, type: 3}
       propertyPath: m_fontSize
-      value: 47.15
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 4846095183904175599, guid: b2467d0f5cc7a224ca285f266f255307, type: 3}
       propertyPath: m_fontSizeBase
