@@ -37,6 +37,9 @@ public GustDirection gustDirection;
     private int startingGridZ;
     public int gridX;
     public int gridZ;
+
+    public bool slideTile = false;
+
     public Tuple<int, int> coordinates => Tuple.Create(gridX, gridZ);
 
     // Reference to the GridManager for this specific puzzle
@@ -149,7 +152,14 @@ public GustDirection gustDirection;
 
         gridManager.PlaceTile(this, gridX, gridZ);
 
-        transform.localPosition = gridManager.GridToWorld(gridX, gridZ);
+        //transform.localPosition = gridManager.GridToWorld(gridX, gridZ);
+        if(transform.localPosition != gridManager.GridToWorld(gridX, gridZ))
+        {
+            //Debug.Log(transform.localPosition != gridManager.GridToWorld(gridX, gridZ));
+            //transform.localPosition = Vector3.Lerp(transform.localPosition, gridManager.GridToWorld(gridX, gridZ), 10f * Time.deltaTime);
+            slideTile = true;
+        }
+
 
         Debug.Log($"SelectableTile.cs >> {name} moved to: ({gridX},{gridZ})");
 
@@ -220,5 +230,26 @@ public GustDirection gustDirection;
         }
 
         rend.material.color = originalColor;
+    }
+
+    private void FixedUpdate()
+    {
+        
+        if (slideTile)
+        {
+
+            if (transform.localPosition != gridManager.GridToWorld(gridX, gridZ))
+            {
+                //Debug.Log(transform.localPosition != gridManager.GridToWorld(gridX, gridZ));
+                transform.localPosition = Vector3.Lerp(transform.localPosition, gridManager.GridToWorld(gridX, gridZ), 2.5f * Time.deltaTime);
+                slideTile = true;
+            }
+            else
+            {
+                slideTile = false;
+            }
+
+        }
+
     }
 }
