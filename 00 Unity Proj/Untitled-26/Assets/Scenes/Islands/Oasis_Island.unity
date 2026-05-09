@@ -5988,10 +5988,6 @@ PrefabInstance:
       propertyPath: tileType
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 563326666085521974, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
-      propertyPath: originalColor.g
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 925581002351369635, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -6020,18 +6016,6 @@ PrefabInstance:
       propertyPath: gridZ
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 1788808401797866365, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
-      propertyPath: originalColor.b
-      value: 0.6981132
-      objectReference: {fileID: 0}
-    - target: {fileID: 1788808401797866365, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
-      propertyPath: originalColor.g
-      value: 0.6981132
-      objectReference: {fileID: 0}
-    - target: {fileID: 1788808401797866365, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
-      propertyPath: originalColor.r
-      value: 0.6981132
-      objectReference: {fileID: 0}
     - target: {fileID: 1872530666423440456, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -6050,10 +6034,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2275969997962342486, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: tileType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2275969997962342486, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
-      propertyPath: originalColor.g
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2410265237940801771, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
@@ -6092,10 +6072,6 @@ PrefabInstance:
       propertyPath: gridZ
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 2543200966874335288, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
-      propertyPath: originalColor.g
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2595629101245525352, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -6115,10 +6091,6 @@ PrefabInstance:
     - target: {fileID: 3034548341052867213, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3034548341052867213, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
-      propertyPath: originalColor.g
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3072390140186109677, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -6228,17 +6200,9 @@ PrefabInstance:
       propertyPath: tileType
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4064603128251208255, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
-      propertyPath: originalColor.g
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4272864839946960334, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: tileType
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4272864839946960334, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
-      propertyPath: originalColor.g
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4441267795168363193, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
@@ -6252,20 +6216,12 @@ PrefabInstance:
       propertyPath: tileType
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4441267795168363193, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
-      propertyPath: originalColor.g
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4759651532516943100, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4759651532516943100, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4759651532516943100, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
-      propertyPath: originalColor.g
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4943596135170749970, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
@@ -6279,10 +6235,6 @@ PrefabInstance:
     - target: {fileID: 5018615782271576797, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 7.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5025002967551595757, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
-      propertyPath: originalColor.g
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5059960743704218579, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_IsActive
@@ -6323,10 +6275,6 @@ PrefabInstance:
     - target: {fileID: 6625943618315678091, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6625943618315678091, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
-      propertyPath: originalColor.g
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6919531168105839388, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_Name
