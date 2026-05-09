@@ -1752,6 +1752,18 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: -1.6499999
       objectReference: {fileID: 0}
+    - target: {fileID: 8899465276041152975, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8899465276041152975, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8899465276041152975, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8933626370553578036, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 8.640686
@@ -2181,6 +2193,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3715649125927333295, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
+      propertyPath: selectableTilesParent
+      value: 
+      objectReference: {fileID: 1351292435}
     - target: {fileID: 3796382763560498757, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: selectableTilesParent
       value: 
@@ -2209,11 +2225,19 @@ PrefabInstance:
       propertyPath: selectableTilesParent
       value: 
       objectReference: {fileID: 1351292435}
+    - target: {fileID: 5351886452548070166, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
+      propertyPath: selectableTilesParent
+      value: 
+      objectReference: {fileID: 1351292435}
     - target: {fileID: 5921957352069976693, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: selectableTilesParent
       value: 
       objectReference: {fileID: 1351292435}
     - target: {fileID: 6223559183217687897, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
+      propertyPath: selectableTilesParent
+      value: 
+      objectReference: {fileID: 1351292435}
+    - target: {fileID: 7093079210516756760, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: selectableTilesParent
       value: 
       objectReference: {fileID: 1351292435}
