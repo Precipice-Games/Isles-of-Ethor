@@ -57,6 +57,12 @@ public class PlayerFixedMovement : MonoBehaviour
 
     private int deltaX;
     private int deltaZ;
+    
+    private int newDeltaX;
+    private int newDeltaZ;
+    
+    private int attemptedDestX;
+    private int attemptedDestZ;
 
     private int landingX = 0;
     private int landingZ = 0;
@@ -92,8 +98,10 @@ public class PlayerFixedMovement : MonoBehaviour
     [Space]
     [Title("Puzzle Completion Event", "Event fired when Player reaches the end tile of the puzzle.")]
     public UnityEvent puzzleCompleted;
-
     public static event Action<PuzzleInformation> updatePuzzleStatus;
+    
+    // This event is fired when the Player attempts an invalid move.
+    public static event Action<string, SelectableTile> playerInvalidMove;
 
     private void Start()
     {
@@ -251,8 +259,8 @@ public class PlayerFixedMovement : MonoBehaviour
         
         // Calculate the attempted destination based on a move.
         // This is used just for the first tile.
-        int attemptedDestX = playerGridX + destinationX;
-        int attemptedDestZ = playerGridZ + destinationZ;
+        attemptedDestX = playerGridX + destinationX;
+        attemptedDestZ = playerGridZ + destinationZ;
 
         Debug.Log($"PlayerFixedMovement.cs >> Attempted Destination Coordinates: ({attemptedDestX},{attemptedDestZ})");
         
@@ -309,10 +317,43 @@ public class PlayerFixedMovement : MonoBehaviour
     /// <param name="coordZ"></param>
     private bool CheckForEmptyCell(int coordX, int coordZ)
     {
+        // Check if this cell is empty
         if (gridManager.IsCellEmpty(coordX, coordZ))
         {
-            Debug.Log($"PlayerFixedMovement.cs >> There is no tile to jump to at: ({coordX},{coordZ})");
+            // Check if the Player attempted to slide over ice tiles without a normal tile at the end
+            if (IsComingFromIceTile(coordX, coordZ))
+            {
+                Debug.Log($"PlayerFixedMovement.cs >> Ice slide ended: No tile at ({coordX},{coordZ})");
+                string message = "You can't slide there! There is no Normal tile to stop your slide.";
+                playerInvalidMove?.Invoke(message, null);
+            }
+            else
+            {
+                Debug.Log($"PlayerFixedMovement.cs >> There is no tile to jump to at: ({coordX},{coordZ})");
+                string message = "There's no tile to move to!";
+                playerInvalidMove?.Invoke(message, null);
+            }
             return true;
+        }
+
+        return false;
+    }
+    
+    /// <summary>
+    /// This method assumes the Player tried to move into an empty cell. Its purpose is to specifically
+    /// check if the tile before the empty cell was an ice tile.
+    /// </summary>
+    /// <param name="coordX"></param>
+    /// <param name="coordZ"></param>
+    private bool IsComingFromIceTile(int coordX, int coordZ)
+    {
+        // Check the previous tile based on current direction
+        int prevTileX = coordX - deltaX;
+        int prevTileZ = coordZ - deltaZ;
+
+        if (gridManager.IsInsideGridPlayer(prevTileX, prevTileZ) && !gridManager.IsCellEmpty(prevTileX, prevTileZ))
+        {
+            return gridManager.GetTileType(prevTileX, prevTileZ) == SelectableTile.TileType.Ice;
         }
 
         return false;
@@ -365,8 +406,8 @@ public class PlayerFixedMovement : MonoBehaviour
         // without affecting the original destination coordinates. This is
         // necessary to ensure that the Player continues to slide in the
         // correct direction until they reach a non-ice tile or an obstacle.
-        int newDeltaX = deltaX;
-        int newDeltaZ = deltaZ;
+        newDeltaX = deltaX;
+        newDeltaZ = deltaZ;
 
         Debug.Log($"PlayerFixedMovement.cs >> newDeltaX/Z Coordinates: ({newDeltaX},{newDeltaZ})");
 

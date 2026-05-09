@@ -23,12 +23,12 @@ public class SelectableTile : MonoBehaviour
     public TileType tileType = TileType.Normal;
 
     public enum GustDirection
-{
-    Up,
-    Down,
-    Left,
-    Right
-}
+    {
+        Up,
+        Down,
+        Left,
+        Right
+    }
 
 public GustDirection gustDirection;
 
@@ -90,17 +90,24 @@ public GustDirection gustDirection;
 
         // Set color based on tile type
         // For now, ManaWell tiles are purple so we can test them visually.
-        if (tileType == TileType.ManaWell)
-        {
-            // rend.material.color = Color.magenta;
-            rend.sharedMaterial.color = Color.magenta;
-        }
+        // if (tileType == TileType.ManaWell)
+        // {
+        //     // rend.material.color = Color.magenta;
+        //     rend.sharedMaterial.color = Color.magenta;
+        // }
 
         // Changed to rend.SharedMaterial to prevent memory leaks
         // in the scene since this script is using [ExecuteAlways].
-        originalColor = rend.sharedMaterial.color;
-        rend.sharedMaterial.color = originalColor;
-
+        
+        // originalColor = rend.sharedMaterial.color;
+        // rend.sharedMaterial.color = originalColor;
+        if (originalColor != null)
+        {
+            Debug.Log("SelectableTile.cs >> The original color of this tile is: " + originalColor);
+        }
+        // originalColor = rend.sharedMaterial.color;
+        // rend.sharedMaterial.color = originalColor;
+        
         startingGridX = gridX;
         startingGridZ = gridZ;
 

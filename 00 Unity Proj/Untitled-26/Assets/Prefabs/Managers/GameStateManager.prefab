@@ -900,6 +900,7 @@ GameObject:
   - component: {fileID: 8899465276041152975}
   - component: {fileID: 8495046186675826557}
   - component: {fileID: 8747315435895204631}
+  - component: {fileID: 4905127156376709452}
   m_Layer: 5
   m_Name: Screen
   m_TagString: Untagged
@@ -921,10 +922,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2063920651495869894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8495046186675826557
 CanvasRenderer:
@@ -961,6 +962,20 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &4905127156376709452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1457109897492507040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.AspectRatioFitter
+  m_AspectMode: 4
+  m_AspectRatio: 1.7776374
 --- !u!1 &2068437426746606134
 GameObject:
   m_ObjectHideFlags: 0
@@ -2280,7 +2295,7 @@ VideoPlayer:
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
-  m_AspectRatio: 2
+  m_AspectRatio: 0
   m_DataSource: 0
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
@@ -2591,7 +2606,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2063920651495869894
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7774,7 +7789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -710062627823724503, guid: 1cd89ea0c609ae947bf781193be976c9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -13
+      value: -12.999817
       objectReference: {fileID: 0}
     - target: {fileID: -689116485894050861, guid: 1cd89ea0c609ae947bf781193be976c9, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -9282,7 +9297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5388299929507472894, guid: 1cd89ea0c609ae947bf781193be976c9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -13
+      value: -12.999817
       objectReference: {fileID: 0}
     - target: {fileID: 5403565477278769898, guid: 1cd89ea0c609ae947bf781193be976c9, type: 3}
       propertyPath: m_AnchorMax.x
