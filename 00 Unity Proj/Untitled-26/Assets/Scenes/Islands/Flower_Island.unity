@@ -390,7 +390,7 @@ GameObject:
   - component: {fileID: 293097771}
   - component: {fileID: 293097770}
   - component: {fileID: 293097769}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -823,7 +823,7 @@ GameObject:
   - component: {fileID: 625986850}
   - component: {fileID: 625986849}
   - component: {fileID: 625986848}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3031,7 +3031,7 @@ GameObject:
   - component: {fileID: 1429059494}
   - component: {fileID: 1429059493}
   - component: {fileID: 1429059492}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3208,7 +3208,7 @@ GameObject:
   - component: {fileID: 1485800572}
   - component: {fileID: 1485800571}
   - component: {fileID: 1485800570}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DriftIsland (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
