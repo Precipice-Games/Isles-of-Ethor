@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Tile hovering VFX.
 
-## [v2.2.5] - 2026-05-08
+## [v2.3.0] - 2026-05-08
 
 ### Added
 * Added puzzle feedback for empty cells and the ice tile mechanic.
