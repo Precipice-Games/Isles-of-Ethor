@@ -72063,6 +72063,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 5018615782271576797, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.6
+      objectReference: {fileID: 0}
     - target: {fileID: 5025002967551595757, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: gridX
       value: 3
