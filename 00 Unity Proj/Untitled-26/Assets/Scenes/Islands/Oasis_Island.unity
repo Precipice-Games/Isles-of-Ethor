@@ -16366,7 +16366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1788808401797866365, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1788808401797866365, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
@@ -16630,7 +16630,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
     - target: {fileID: 4759651532516943100, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4759651532516943100, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
@@ -16778,7 +16778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: moveLeftUses
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: startingMana
