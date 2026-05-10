@@ -1,5 +1,4 @@
 using Sirenix.OdinInspector;
-using Sirenix.OdinInspector.Editor.Internal;
 using UnityEngine;
 using UnityEngine.Events;
 using Yarn.Unity;
@@ -76,7 +75,7 @@ public class InteractableCrystal : MonoBehaviour, IInteractable
             else
             {
                 // When the final puzzle is completed, ensure it rises up from the ground
-                if (transform.position.y < 3.2)
+                if (transform.position.y < minHeight)
                 {
                     transform.position = new UnityEngine.Vector3(transform.position.x, transform.position.y + Time.deltaTime, transform.position.z);
                 }
