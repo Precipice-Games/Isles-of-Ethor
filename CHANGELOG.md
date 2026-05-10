@@ -7,6 +7,31 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Tile hovering VFX.
 
+## [v2.4.0] - 2026-05-09
+
+### Added
+* Added a spring mechanic for movement (must hold shift).
+* Added a smooth sliding VFX when moving a tile in puzzle mode.
+* Added layer mask parsing into the TileSelector.cs raycast system.
+* Added finalized UI assets (made by @bobbysaville18-beep).
+* Added final Mother Island model (made by @torialle).
+* Merged the final updates of the 01 Assets directory.
+
+### Fixed
+* Fixed a bug where the Player was not able to click any tiles on the Mother Island puzzles.
+* Fixed a bug where some tiles were still changing to different colors upon resetting a puzzle.
+* Fixed a bug where the varying tree heights for Ice Island trees was not appearing.
+* Fixed a bug where the parkour tiles on Ice Island were bright pink.
+* Fixed an incorrect tile on Ice Island puzzle 4.
+* Fixed resource values and start/end tiles placement on Oasis Island puzzle 4.
+
+### Changed
+* Improved the camera views of a few puzzles between Ice and Oasis.
+* Changed originalColor property of all tiles to be white.
+
+### Removed
+* Deleted the old fbx files of Mother Island from the Unity project itself.
+
 ## [v2.3.0] - 2026-05-08
 
 ### Added
