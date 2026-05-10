@@ -2181,6 +2181,118 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120437113}
   m_Mesh: {fileID: -6209912238109660980, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
+--- !u!1 &124669590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 124669591}
+  - component: {fileID: 124669594}
+  - component: {fileID: 124669593}
+  - component: {fileID: 124669592}
+  m_Layer: 0
+  m_Name: Cube (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &124669591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124669590}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0.30075365, w: 0.9537019}
+  m_LocalPosition: {x: -0.378, y: -0.622, z: 0}
+  m_LocalScale: {x: 0.7006843, y: 4.309287, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1704004406}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -35.006}
+--- !u!65 &124669592
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124669590}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &124669593
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124669590}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c3b69e1c6a99daa4199915d141c20920, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &124669594
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124669590}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &151438758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2330,6 +2442,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 5
   gridZ: 5
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2507,6 +2620,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 8
   gridZ: 4
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2930,6 +3044,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 1
   gridZ: 5
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3353,6 +3468,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 3
   gridZ: 4
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9291,6 +9407,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 7
   gridZ: 5
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9468,6 +9585,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 9
   gridZ: 8
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9809,6 +9927,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 2
   gridZ: 5
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -10165,6 +10284,118 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
   m_PrefabInstance: {fileID: 280777658}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &291301645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 291301646}
+  - component: {fileID: 291301649}
+  - component: {fileID: 291301648}
+  - component: {fileID: 291301647}
+  m_Layer: 0
+  m_Name: Cube (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &291301646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291301645}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0.14846, w: 0.9889185}
+  m_LocalPosition: {x: -0.378, y: -0.622, z: 0}
+  m_LocalScale: {x: 0.7006843, y: 4.309287, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1704004406}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -17.075}
+--- !u!65 &291301647
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291301645}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &291301648
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291301645}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c3b69e1c6a99daa4199915d141c20920, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &291301649
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291301645}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &296829059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12210,6 +12441,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 9
   gridZ: 4
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -12469,6 +12701,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 5
   gridZ: 3
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -12957,6 +13190,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 9
   gridZ: 7
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -14473,6 +14707,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 4
   gridZ: 8
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -19540,6 +19775,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 3
   gridZ: 6
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -20291,6 +20527,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 4
   gridZ: 7
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -20581,6 +20818,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 3
   gridZ: 7
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -20845,6 +21083,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 6
   gridZ: 4
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -21982,6 +22221,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 5
   gridZ: 4
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -23503,6 +23743,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 8
   gridZ: 6
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -23678,7 +23919,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+  - {fileID: 2100000, guid: c3b69e1c6a99daa4199915d141c20920, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34538,6 +34779,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 4
   gridZ: 5
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -39910,6 +40152,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 5
   gridZ: 6
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -50941,6 +51184,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 7
   gridZ: 2
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -56259,6 +56503,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 7
   gridZ: 4
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -56600,6 +56845,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 8
   gridZ: 5
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -58471,6 +58717,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 1
   gridZ: 8
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -58730,6 +58977,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 9
   gridZ: 3
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -60170,6 +60418,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 4
   gridZ: 6
+  slideTile: 0
   gridManager: {fileID: 1508110539}
   selectableTilesParent: {fileID: 784155936}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -65647,6 +65896,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 7
   gridZ: 6
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -65824,6 +66074,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 1
   gridZ: 6
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -71072,6 +71323,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 8
   gridZ: 3
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -71249,6 +71501,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 6
   gridZ: 7
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -72462,6 +72715,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 9
   gridZ: 5
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -82887,6 +83141,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 4
   gridZ: 6
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -83144,7 +83399,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+  - {fileID: 2100000, guid: c3b69e1c6a99daa4199915d141c20920, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83509,6 +83764,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 6
   gridZ: 5
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -83766,7 +84022,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+  - {fileID: 2100000, guid: c3b69e1c6a99daa4199915d141c20920, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -90886,6 +91142,8 @@ Transform:
   m_Children:
   - {fileID: 1580286370}
   - {fileID: 1825036770}
+  - {fileID: 291301646}
+  - {fileID: 124669591}
   - {fileID: 839635644}
   - {fileID: 1546078601}
   m_Father: {fileID: 1396652548}
@@ -91138,6 +91396,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 7
   gridZ: 3
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -91396,6 +91655,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 1
   gridZ: 1
+  slideTile: 0
   gridManager: {fileID: 89625282}
   selectableTilesParent: {fileID: 1437640445}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -92058,7 +92318,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+  - {fileID: 2100000, guid: c3b69e1c6a99daa4199915d141c20920, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -92098,13 +92358,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825036766}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0739975, y: -0.62700003, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.100798406, w: 0.9949069}
+  m_LocalPosition: {x: -0.15, y: -0.81, z: 0}
   m_LocalScale: {x: 1.2129282, y: 4.309287, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1704004406}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -11.57}
 --- !u!1001 &1827589371
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92254,6 +92514,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 6
   gridZ: 6
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -92417,6 +92678,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 5
   gridZ: 5
+  slideTile: 0
   gridManager: {fileID: 1800943169}
   selectableTilesParent: {fileID: 8739545680216347642}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -92608,6 +92870,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 1
   gridZ: 7
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -97593,6 +97856,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 8
   gridZ: 7
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -98196,6 +98460,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 6
   gridZ: 3
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -98794,6 +99059,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 6
   gridZ: 8
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -99333,6 +99599,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 5
   gridZ: 7
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -100216,6 +100483,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 2
   gridZ: 8
+  slideTile: 0
   gridManager: {fileID: 51436021}
   selectableTilesParent: {fileID: 1932135444}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -110955,6 +111223,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 1
   gridZ: 2
+  slideTile: 0
   gridManager: {fileID: 1800943169}
   selectableTilesParent: {fileID: 8739545680216347642}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -111410,6 +111679,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 4
   gridZ: 5
+  slideTile: 0
   gridManager: {fileID: 89625282}
   selectableTilesParent: {fileID: 1437640445}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
