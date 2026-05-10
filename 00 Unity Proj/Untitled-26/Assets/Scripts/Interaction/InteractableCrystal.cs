@@ -1,4 +1,5 @@
 using Sirenix.OdinInspector;
+using Sirenix.OdinInspector.Editor.Internal;
 using UnityEngine;
 using UnityEngine.Events;
 using Yarn.Unity;
@@ -17,13 +18,79 @@ public class InteractableCrystal : MonoBehaviour, IInteractable
     public UnityEvent crystalCollected;
     private bool finalPuzzleCompleted;
 
+    public bool revealed = false;
+    public bool bobUp = false;
+
     private void FixedUpdate()
     {
-        // When the final puzzle is completed, ensure it rises up from the ground
-        if (finalPuzzleCompleted && this.transform.position.y < 3.2)
+
+        Debug.Log("Height: " + transform.position.y);
+
+        if (transform.position.y >= 4.8)
         {
-            this.transform.position = new UnityEngine.Vector3(transform.position.x, transform.position.y + Time.deltaTime, transform.position.z);
+
+            bobUp = false;
+
         }
+        else if (transform.position.y <= 3.2)
+        { 
+        
+            bobUp = true;
+        
+        }
+
+        if (finalPuzzleCompleted)
+        {
+
+            if (revealed)
+            {
+                Debug.Log("Revealed");
+                if (bobUp)
+                {
+
+                    if (transform.position.y <= 4.8)
+                    {
+
+                        transform.position = new UnityEngine.Vector3(transform.position.x, transform.position.y + (0.5f * Time.deltaTime), transform.position.z);
+
+                    }
+
+                }
+                if(!bobUp)
+                {
+
+                    if (transform.position.y >= 3.2)
+                    {
+
+                        transform.position = new UnityEngine.Vector3(transform.position.x, transform.position.y - (0.5f * Time.deltaTime), transform.position.z);
+
+                    }
+
+                }
+
+
+            }
+            else
+            {
+                // When the final puzzle is completed, ensure it rises up from the ground
+                if (transform.position.y < 3.2)
+                {
+                    transform.position = new UnityEngine.Vector3(transform.position.x, transform.position.y + Time.deltaTime, transform.position.z);
+                }
+                else
+                {
+                    revealed = true;
+                }
+                /*else if (transform.position.y >= 3.2)
+                {
+                    revealed = true;
+                    bobUp = true;
+                }*/
+            }
+        }
+
+        
+        
     }
 
     /// <summary>
