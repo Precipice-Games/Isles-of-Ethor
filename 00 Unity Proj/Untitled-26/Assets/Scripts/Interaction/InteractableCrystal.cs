@@ -21,18 +21,21 @@ public class InteractableCrystal : MonoBehaviour, IInteractable
     public bool revealed = false;
     public bool bobUp = false;
 
+    public float maxHeight = 4.8f;
+    public float minHeight = 3.2f;
+
     private void FixedUpdate()
     {
 
         Debug.Log("Height: " + transform.position.y);
 
-        if (transform.position.y >= 4.8)
+        if (transform.position.y >= maxHeight)
         {
 
             bobUp = false;
 
         }
-        else if (transform.position.y <= 3.2)
+        else if (transform.position.y <= minHeight)
         { 
         
             bobUp = true;
@@ -48,7 +51,7 @@ public class InteractableCrystal : MonoBehaviour, IInteractable
                 if (bobUp)
                 {
 
-                    if (transform.position.y <= 4.8)
+                    if (transform.position.y <= maxHeight)
                     {
 
                         transform.position = new UnityEngine.Vector3(transform.position.x, transform.position.y + (0.5f * Time.deltaTime), transform.position.z);
@@ -59,7 +62,7 @@ public class InteractableCrystal : MonoBehaviour, IInteractable
                 if(!bobUp)
                 {
 
-                    if (transform.position.y >= 3.2)
+                    if (transform.position.y >= minHeight)
                     {
 
                         transform.position = new UnityEngine.Vector3(transform.position.x, transform.position.y - (0.5f * Time.deltaTime), transform.position.z);
