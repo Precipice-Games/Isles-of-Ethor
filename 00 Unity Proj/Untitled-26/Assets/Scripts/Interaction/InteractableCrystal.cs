@@ -17,13 +17,82 @@ public class InteractableCrystal : MonoBehaviour, IInteractable
     public UnityEvent crystalCollected;
     private bool finalPuzzleCompleted;
 
+    public bool revealed = false;
+    public bool bobUp = false;
+
+    public float maxHeight = 4.8f;
+    public float minHeight = 3.2f;
+
     private void FixedUpdate()
     {
-        // When the final puzzle is completed, ensure it rises up from the ground
-        if (finalPuzzleCompleted && this.transform.position.y < 3.2)
+
+        Debug.Log("Height: " + transform.position.y);
+
+        if (transform.position.y >= maxHeight)
         {
-            this.transform.position = new UnityEngine.Vector3(transform.position.x, transform.position.y + Time.deltaTime, transform.position.z);
+
+            bobUp = false;
+
         }
+        else if (transform.position.y <= minHeight)
+        { 
+        
+            bobUp = true;
+        
+        }
+
+        if (finalPuzzleCompleted)
+        {
+
+            if (revealed)
+            {
+                Debug.Log("Revealed");
+                if (bobUp)
+                {
+
+                    if (transform.position.y <= maxHeight)
+                    {
+
+                        transform.position = new UnityEngine.Vector3(transform.position.x, transform.position.y + (0.5f * Time.deltaTime), transform.position.z);
+
+                    }
+
+                }
+                if(!bobUp)
+                {
+
+                    if (transform.position.y >= minHeight)
+                    {
+
+                        transform.position = new UnityEngine.Vector3(transform.position.x, transform.position.y - (0.5f * Time.deltaTime), transform.position.z);
+
+                    }
+
+                }
+
+
+            }
+            else
+            {
+                // When the final puzzle is completed, ensure it rises up from the ground
+                if (transform.position.y < minHeight)
+                {
+                    transform.position = new UnityEngine.Vector3(transform.position.x, transform.position.y + Time.deltaTime, transform.position.z);
+                }
+                else
+                {
+                    revealed = true;
+                }
+                /*else if (transform.position.y >= 3.2)
+                {
+                    revealed = true;
+                    bobUp = true;
+                }*/
+            }
+        }
+
+        
+        
     }
 
     /// <summary>

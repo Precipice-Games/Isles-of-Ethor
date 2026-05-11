@@ -9,6 +9,7 @@ using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using Vector3 = UnityEngine.Vector3;
+using UnityEngine.PlayerLoop;
 
 // This script is used to snap the Player in a fixed movement style during puzzle mode.
 // It is similar to the PlayerMovement.cs script, but it is used to snap the player to
@@ -25,7 +26,7 @@ public class PlayerFixedMovement : MonoBehaviour
     private GridManager gridManager;
     private ResourceManager resourceManager;
     private GameObject puzzleCam; // The camera object holds relevant scripts
-    
+
     // Tile that the Player will start at
     // (Not necessarily within the grid)
     private GameObject startTile;
@@ -34,7 +35,7 @@ public class PlayerFixedMovement : MonoBehaviour
     [Title("Player's Grid Coordinates")]
     [SerializeField] private int playerGridX;
     [SerializeField] private int playerGridZ;
-    
+
     // The starting and ending tile's coordinates
     private int startTileX;
     private int startTileZ;
@@ -57,10 +58,10 @@ public class PlayerFixedMovement : MonoBehaviour
 
     private int deltaX;
     private int deltaZ;
-    
+
     private int newDeltaX;
     private int newDeltaZ;
-    
+
     private int attemptedDestX;
     private int attemptedDestZ;
 
@@ -91,7 +92,7 @@ public class PlayerFixedMovement : MonoBehaviour
 
     [PropertyTooltip("Print out the tile type of the attempted tile the Player tried to move to. False by default.")]
     public bool printAttemptedTileType = false;
-    
+
     // Static event to notify subscribers of the Player's movement
     public static event Action<int, int> playerMoved;
 
@@ -99,15 +100,19 @@ public class PlayerFixedMovement : MonoBehaviour
     [Title("Puzzle Completion Event", "Event fired when Player reaches the end tile of the puzzle.")]
     public UnityEvent puzzleCompleted;
     public static event Action<PuzzleInformation> updatePuzzleStatus;
-    
+
     // This event is fired when the Player attempts an invalid move.
     public static event Action<string, SelectableTile> playerInvalidMove;
+
+    public float maxTime = 0.5f;
+    public float currTime = 0.0f;
+    public bool runTimer = false;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
     }
-    
+
     // Subscribe to events
     private void OnEnable()
     {
@@ -120,7 +125,7 @@ public class PlayerFixedMovement : MonoBehaviour
         RuneCircle.puzzleTriggered -= UpdatePuzzleInformation;
         ResetPuzzle.resetPuzzle -= ResetPlayerPosition;
     }
-    
+
     /// <summary>
     /// This method is called on the puzzleTriggered event. It receives data
     /// regarding the current puzzle, such as the starting and ending tiles.
@@ -142,7 +147,7 @@ public class PlayerFixedMovement : MonoBehaviour
         startTileZ = startTile.GetComponent<SelectableTile>().gridZ;
 
         Debug.Log($"PlayerFixedMovement.cs >> Starting X,Z: ({startTileX},{startTileZ})");
-        
+
         // Get the grid coordinates of the end tile
         endTileX = endTile.GetComponent<SelectableTile>().gridX;
         endTileZ = endTile.GetComponent<SelectableTile>().gridZ;
@@ -174,7 +179,7 @@ public class PlayerFixedMovement : MonoBehaviour
         Debug.Log($"PlayerFixedMovement.cs >> Moving Player to the starting tile ({startX},{startZ})...");
         SnapPlayerToTile(startX, startZ);
     }
-    
+
     // The following methods listen to callback events from the Puzzle map from the
     // PlayerControls.inputactions asset. They are subscribed to these events via
     // the PlayerInput component in the Inspector menu of the Unity Editor. This is
@@ -184,34 +189,34 @@ public class PlayerFixedMovement : MonoBehaviour
     {
         // Ensures that the action is only performed once per key press.
         if (!context.performed) return;
-        
+
         if (printMoveAction) Debug.Log("PlayerFixedMovement.cs >> MoveUp performed.");
         MoveDirection(0, 1);
     }
-    
+
     public void MoveDown(InputAction.CallbackContext context)
     {
         // Ensures that the action is only performed once per key press.
         if (!context.performed) return;
-        
+
         if (printMoveAction) Debug.Log("PlayerFixedMovement.cs >> MoveDown called.");
         MoveDirection(0, -1);
     }
-    
+
     public void MoveLeft(InputAction.CallbackContext context)
     {
         // Ensures that the action is only performed once per key press.
         if (!context.performed) return;
-        
+
         if (printMoveAction) Debug.Log("PlayerFixedMovement.cs >> MoveLeft called.");
         MoveDirection(-1, 0);
     }
-    
+
     public void MoveRight(InputAction.CallbackContext context)
     {
         // Ensures that the action is only performed once per key press.
         if (!context.performed) return;
-        
+
         if (printMoveAction) Debug.Log("PlayerFixedMovement.cs >> MoveRight called.");
         MoveDirection(1, 0);
     }
@@ -256,20 +261,20 @@ public class PlayerFixedMovement : MonoBehaviour
 
         destinationX += deltaX;
         destinationZ += deltaZ;
-        
+
         // Calculate the attempted destination based on a move.
         // This is used just for the first tile.
         attemptedDestX = playerGridX + destinationX;
         attemptedDestZ = playerGridZ + destinationZ;
 
         Debug.Log($"PlayerFixedMovement.cs >> Attempted Destination Coordinates: ({attemptedDestX},{attemptedDestZ})");
-        
+
         // Before anything, check to see if the attempted move is valid. This is performed
         // as though the Player is only traveling one tile. We want to ensure that first
         // tile is not empty and is within the bounds before doing anything else.
         if (CheckForOutOfBounds(attemptedDestX, attemptedDestZ)) return;
-        if (CheckForEmptyCell(attemptedDestX, attemptedDestZ)) return;
-        
+        if (CheckForEmptyCell(attemptedDestX, attemptedDestZ)) SnapPlayerToTile(startTileX, startTileZ);
+
         // If the move is valid, we've reached this part of the code.
         // Check what type of tile the Player is attempting to move to.
         // The tile type determines the behavior of this move.
@@ -299,7 +304,7 @@ public class PlayerFixedMovement : MonoBehaviour
         Debug.Log($"PlayerFixedMovement.cs >> Current coordinates: ({playerGridX},{playerGridZ})");
         Debug.Log($"PlayerFixedMovement.cs >> The Player wants to move to: ({coordX},{coordZ})");
         Debug.Log("PlayerFixedMovement.cs >> Checking the type of tile at the attempted destination...");
-        
+
         // Print out the type of tile that the Player is attempting to move to. This will
         // be used to determine how the Player should move and interact with the tile.
         SelectableTile.TileType tileType = gridManager.GetTileType(coordX, coordZ);
@@ -309,7 +314,7 @@ public class PlayerFixedMovement : MonoBehaviour
 
         return tileType;
     }
-    
+
     /// <summary>
     /// Checks for an empty cell.
     /// </summary>
@@ -325,6 +330,7 @@ public class PlayerFixedMovement : MonoBehaviour
             {
                 Debug.Log($"PlayerFixedMovement.cs >> Ice slide ended: No tile at ({coordX},{coordZ})");
                 string message = "You can't slide there! There is no Normal tile to stop your slide.";
+                SnapPlayerToTile(startTileX, startTileZ);
                 playerInvalidMove?.Invoke(message, null);
             }
             else
@@ -338,7 +344,7 @@ public class PlayerFixedMovement : MonoBehaviour
 
         return false;
     }
-    
+
     /// <summary>
     /// This method assumes the Player tried to move into an empty cell. Its purpose is to specifically
     /// check if the tile before the empty cell was an ice tile.
@@ -358,7 +364,7 @@ public class PlayerFixedMovement : MonoBehaviour
 
         return false;
     }
-    
+
     /// <summary>
     /// Checks that a tile is out of bounds of the grid. If it's
     /// out of bounds, return true.
@@ -376,7 +382,7 @@ public class PlayerFixedMovement : MonoBehaviour
 
         return false;
     }
-    
+
     /// <summary>
     /// Used to handle movement on normal tiles. This is the default tile type, so it is used as
     /// a baseline for the other tile types and mechanics. It simply checks for an empty cell and
@@ -393,7 +399,7 @@ public class PlayerFixedMovement : MonoBehaviour
 
         SnapPlayerToTile(landingX, landingZ);
     }
-    
+
     /// <summary>
     /// Used to handle movement on ice tiles. This differs in that
     /// it handles recursion for the ice sliding mechanic.
@@ -401,7 +407,7 @@ public class PlayerFixedMovement : MonoBehaviour
     private void IceTile(int coordX, int coordZ)
     {
         Debug.Log($"PlayerFixedMovement.cs >> Recursively checking through ice tiles. Currently at ({coordX},{coordZ}).");
-        
+
         // Create new values that can be passed into TryToMovePlayer()
         // without affecting the original destination coordinates. This is
         // necessary to ensure that the Player continues to slide in the
@@ -411,7 +417,17 @@ public class PlayerFixedMovement : MonoBehaviour
 
         Debug.Log($"PlayerFixedMovement.cs >> newDeltaX/Z Coordinates: ({newDeltaX},{newDeltaZ})");
 
-        TryToMovePlayer(newDeltaX, newDeltaZ);
+        newCoords = gridManager.GridToWorld(coordX, coordZ);
+        newPosition = new Vector3(newCoords.x, transform.localPosition.y, newCoords.z);
+
+        transform.localPosition = newPosition;
+
+        Debug.Log("Run Timer");
+
+        runTimer = true;
+
+        //TryToMovePlayer(newDeltaX, newDeltaZ);
+        
     }
 
     /// <summary>
@@ -425,13 +441,13 @@ public class PlayerFixedMovement : MonoBehaviour
         newYAxis = new Vector3(transform.position.x, newY, transform.position.z);
         transform.position = newYAxis;
     }
-    
+
     /// <summary>
     /// Snaps a Player to a tile based on the grid coordinates.
     /// </summary>
     /// <param name="coordX"></param>
     /// <param name="coordZ"></param>
-    public void SnapPlayerToTile(int coordX, int coordZ) 
+    public void SnapPlayerToTile(int coordX, int coordZ)
     {
         // Grab the X and Z coordinates in Vector3 from the GridManager
         newCoords = gridManager.GridToWorld(coordX, coordZ);
@@ -453,10 +469,10 @@ public class PlayerFixedMovement : MonoBehaviour
 
         IsPlayerOnEndTile();
     }
-    
-        /// <summary>
-        /// Handles special tile effects such as ManaWell.
-        /// </summary>
+
+    /// <summary>
+    /// Handles special tile effects such as ManaWell.
+    /// </summary>
     private void CheckTileEffects(int coordX, int coordZ)
     {
         SelectableTile.TileType tileType = gridManager.GetTileType(coordX, coordZ);
@@ -469,13 +485,23 @@ public class PlayerFixedMovement : MonoBehaviour
 
             Debug.Log("PlayerFixedMovement.cs >> Player stepped on ManaWell! +2 Mana");
 
+            if (gridManager.GetTile(coordX, coordZ).GetComponentInChildren<ParticleSystem>() != null)
+            {
+
+                gridManager.GetTile(coordX, coordZ).GetComponentInChildren<ParticleSystem>().Stop();
+                gridManager.GetTile(coordX, coordZ).GetComponentInChildren<ParticleSystem>().Clear();
+
+            }
+
+            gridManager.GetTile(coordX, coordZ).GetComponent<MeshRenderer>().material = gridManager.GetTile(coordX, coordZ).GetComponent<OasisTexturing>().oasisNormalTexture;
+
             if (resourceManager != null)
             {
                 resourceManager.AddMana(2);
             }
         }
     }
-        
+
     /// <summary>
     /// Used to check if the Player has reached the end tile. If so, the puzzle
     /// has been completed and the appropriate events can be triggered.
@@ -499,7 +525,7 @@ public class PlayerFixedMovement : MonoBehaviour
             puzzleCompleted.Invoke(); // For the GameStateManager
             updatePuzzleStatus?.Invoke(puzzleInfo); // For the IslandPuzzleManager
         }
-        
+
         playerMoved?.Invoke(playerGridX, playerGridZ);
     }
 
@@ -520,4 +546,27 @@ public class PlayerFixedMovement : MonoBehaviour
         // After gathering data, move Player to the startTile
         SnapPlayerToTile(startTileX, startTileZ);
     }
+
+    private void FixedUpdate()
+    {
+        if (runTimer)
+        {
+            if (currTime < maxTime)
+            {
+
+                currTime += Time.deltaTime;
+
+            }
+            else
+            {
+
+                runTimer = false;
+                currTime = 0;
+                TryToMovePlayer(newDeltaX, newDeltaZ);
+
+            }
+        }
+
+    }
+
 }

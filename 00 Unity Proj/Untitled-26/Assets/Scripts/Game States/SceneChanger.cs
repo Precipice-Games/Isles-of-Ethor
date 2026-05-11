@@ -1,6 +1,8 @@
 using System;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 // This script is used for toggling the loading screen and triggering
 // scene changes. It can be used for button presses, airship boarding,
@@ -26,5 +28,15 @@ public class SceneChanger :  MonoBehaviour
         // so that it can set the scene variable accordingly.
         GameManager.Instance.IncomingScene(nextDestination);
         queueLoadingScreen?.Invoke();
+    }
+    
+    /// <summary>
+    /// Load a scene raw, without the strongly typed Enum and without the loading screen.
+    /// Currently only used to transition from the splash screen to the main menu.
+    /// </summary>
+    /// <param name="sceneName"></param>
+    public void LoadSceneRaw(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
 }

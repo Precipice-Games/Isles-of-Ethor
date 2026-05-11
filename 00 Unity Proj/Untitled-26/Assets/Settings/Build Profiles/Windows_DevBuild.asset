@@ -21,6 +21,8 @@ MonoBehaviour:
   m_OverrideGlobalSceneList: 1
   m_Scenes:
   - m_enabled: 1
+    m_path: Assets/Scenes/SplashScreen.unity
+  - m_enabled: 1
     m_path: Assets/Scenes/MainMenu.unity
   - m_enabled: 1
     m_path: Assets/Scenes/Islands/Mother_Island.unity
@@ -30,6 +32,8 @@ MonoBehaviour:
     m_path: Assets/Scenes/Islands/Oasis_Island.unity
   - m_enabled: 1
     m_path: Assets/Scenes/Islands/Flower_Island.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/Credits.unity
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
