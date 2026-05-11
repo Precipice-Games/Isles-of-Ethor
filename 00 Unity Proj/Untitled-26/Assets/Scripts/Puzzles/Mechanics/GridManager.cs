@@ -11,7 +11,10 @@ using UnityEngine;
 //
 //[ExecuteAlways]
 public class GridManager : MonoBehaviour
-{
+{   
+    [Title("Blocked Cells")]
+    public Vector2Int[] blockedCells;
+
     [Title("Grid Settings", "Settings for the puzzle grid.")]
     [PropertyTooltip("Grid Width.")]
     public int width = 4;
@@ -30,6 +33,7 @@ public class GridManager : MonoBehaviour
 
     // Grid of selectable tiles
     private SelectableTile[,] grid;
+
 
     // Subscribe to events
     private void OnEnable()
@@ -269,5 +273,17 @@ private void PushTile(SelectableTile tile, int dirX, int dirZ)
         nextX += dirX;
         nextZ += dirZ;
     }
+}
+    public bool IsBlockedCell(int x, int z)
+{
+    foreach (Vector2Int blocked in blockedCells)
+    {
+        if (blocked.x == x && blocked.y == z)
+        {
+            return true;
+        }
+    }
+
+    return false;
 }
 }
