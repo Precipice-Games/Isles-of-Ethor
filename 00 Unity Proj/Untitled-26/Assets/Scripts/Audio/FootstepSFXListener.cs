@@ -8,7 +8,7 @@ using UnityEngine;
 /// </summary>
 public class FootstepSFXListener : MonoBehaviour
 {
-    [SerializeField] private SFXManager.FootstepSFX footstepSFX;
+    [SerializeField] private SFXManager.FootstepSFX islandFootstepSFX;
     
     private void OnEnable()
     {
@@ -26,7 +26,7 @@ public class FootstepSFXListener : MonoBehaviour
     {
         if (SFXManager.Instance != null)
         {
-            SFXManager.Instance.SetFootstepSFX(footstepSFX);
+            SFXManager.Instance.SetFootstepSFX(islandFootstepSFX);
         }
     }
 
@@ -45,7 +45,7 @@ public class FootstepSFXListener : MonoBehaviour
         }
         else
         {
-            SFXManager.Instance.SetFootstepSFX(footstepSFX);
+            SFXManager.Instance.SetFootstepSFX(islandFootstepSFX);
         }
     }
 }

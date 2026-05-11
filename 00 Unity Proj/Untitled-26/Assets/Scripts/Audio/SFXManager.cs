@@ -121,8 +121,18 @@ public class SFXManager : MonoBehaviour
 
     public void SetFootstepSFX(FootstepSFX newSFX)
     {
+        if (currentFootstepSFX == newSFX)
+        {
+            return;
+        }
+
         Debug.Log("Footstep area changed to: " + newSFX);
         currentFootstepSFX = newSFX;
+
+        if (footstepSource != null)
+        {
+            footstepSource.Stop();
+        }
     }
 
     public void PlayFootstep()
@@ -170,5 +180,5 @@ public class SFXManager : MonoBehaviour
             return;
 
         sfxSource.PlayOneShot(clip);
-    }
+    }  
 }
