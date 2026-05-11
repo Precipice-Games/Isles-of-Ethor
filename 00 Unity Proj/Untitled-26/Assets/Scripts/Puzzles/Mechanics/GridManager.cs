@@ -9,7 +9,7 @@ using UnityEngine;
 // the puzzle system, this could be commented out since it affects the resource
 // system and other data.
 //
-// [ExecuteAlways]
+//[ExecuteAlways]
 public class GridManager : MonoBehaviour
 {
     [Title("Grid Settings", "Settings for the puzzle grid.")]
