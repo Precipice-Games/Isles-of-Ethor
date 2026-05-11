@@ -24,6 +24,7 @@ public class SFXManager : MonoBehaviour
     //Unity inspector field for the audio source that will play the SFX
     [Header("Audio Source")]
     [SerializeField] private AudioSource sfxSource;
+    [SerializeField] private AudioSource footstepSource;
 
     //Unity inspector field for the audio mixer group to route the SFX through
     [Header("Mixer Routing")]
@@ -65,6 +66,11 @@ public class SFXManager : MonoBehaviour
         if (sfxSource != null && sfxMixerGroup != null)
         {
             sfxSource.outputAudioMixerGroup = sfxMixerGroup;
+        }
+
+        if (footstepSource != null && sfxMixerGroup != null)
+        {
+            footstepSource.outputAudioMixerGroup = sfxMixerGroup;
         }
     }
     
@@ -115,6 +121,7 @@ public class SFXManager : MonoBehaviour
 
     public void SetFootstepSFX(FootstepSFX newSFX)
     {
+        Debug.Log("Footstep area changed to: " + newSFX);
         currentFootstepSFX = newSFX;
     }
 
@@ -143,7 +150,18 @@ public class SFXManager : MonoBehaviour
             clipToPlay = airshipFootstepSFX;
         }
 
-        PlayClip(clipToPlay);
+        if (footstepSource == null || clipToPlay == null)
+        {
+            return;
+        }
+
+        if (footstepSource.isPlaying)
+        {
+            return;
+        }
+
+        footstepSource.clip = clipToPlay;
+        footstepSource.Play();
     }
 
     public void PlayClip(AudioClip clip)
