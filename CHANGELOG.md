@@ -7,6 +7,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Tile hovering VFX.
 
+## [v2.5.0] - 2026-05-10
+
+### Added
+* Added Player sliding across ice tiles VFX.
+* Added collectable crystal bobbing VFX.
+* Added particle effect VFX for mana tiles.
+* Created Precipice Games splash screen.
+* Created baseline credits sequence.
+* Added a button in MainMenu.unity to navigate to Credits.unity.
+
+### Fixed
+* Fixed a bug where the collectable crystal wasn't rising up from the ground.
+* Fixed a bug where a sectioned off area of Ice Island was bright pink.
+
 ## [v2.4.0] - 2026-05-09
 
 ### Added
