@@ -158,6 +158,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 2
   gridZ: 3
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -335,6 +336,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 1
   gridZ: 1
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -583,6 +585,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 3
   gridZ: 5
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -760,6 +763,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 1
   gridZ: 4
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -937,6 +941,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 1
   gridZ: 5
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1185,6 +1190,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 3
   gridZ: 2
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1362,6 +1368,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 5
   gridZ: 3
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1540,6 +1547,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 1
   gridZ: 6
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1718,6 +1726,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 3
   gridZ: 0
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1895,6 +1904,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 2
   gridZ: 2
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2212,6 +2222,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 4
   gridZ: 4
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2389,6 +2400,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 4
   gridZ: 2
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2566,6 +2578,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 1
   gridZ: 3
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2743,6 +2756,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 3
   gridZ: 3
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3102,6 +3116,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 4
   gridZ: 1
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3411,6 +3426,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 3
   gridZ: 1
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3503,6 +3519,9 @@ MonoBehaviour:
   printManaDeductions: 1
   printCardDeductions: 1
   printCardDrainage: 1
+  flashOutOfMana: 0
+  maxflashDelay: 0.25
+  currentFlashDelay: 0
 --- !u!1 &8066876773405094797
 GameObject:
   m_ObjectHideFlags: 0
@@ -3661,6 +3680,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 5
   gridZ: 2
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 1284802655190286773}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3818,9 +3838,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: UpUsageNumber
       objectReference: {fileID: 0}
+    - target: {fileID: 2828014900578341920, guid: 6112f478f7cbb684481585851a3c27ae, type: 3}
+      propertyPath: m_fontSize
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 3125944435565750978, guid: 6112f478f7cbb684481585851a3c27ae, type: 3}
       propertyPath: m_Name
       value: RightUsageNumber
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237676273918566950, guid: 6112f478f7cbb684481585851a3c27ae, type: 3}
+      propertyPath: m_fontSize
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4783832343663389757, guid: 6112f478f7cbb684481585851a3c27ae, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3846,9 +3874,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8215976202641521676, guid: 6112f478f7cbb684481585851a3c27ae, type: 3}
+      propertyPath: m_fontSize
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 8293636499145607950, guid: 6112f478f7cbb684481585851a3c27ae, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 22.750977
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401797740659830497, guid: 6112f478f7cbb684481585851a3c27ae, type: 3}
+      propertyPath: m_fontSize
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8703096262885363715, guid: 6112f478f7cbb684481585851a3c27ae, type: 3}
       propertyPath: m_Name
