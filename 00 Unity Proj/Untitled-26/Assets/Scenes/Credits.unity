@@ -258,14 +258,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 55540752}
         m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 1
+        m_MethodName: LoadSceneRaw
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MainMenu
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 55540753}
@@ -975,8 +975,8 @@ MonoBehaviour:
     Milinazzo\nDiego Monge\n\n<size=80>Tools</size>\nAdobe Photoshop\nBandlab\nBlender\nC#
     & .NET\nFigma\nGameCI Workflows\nGit\nGitHub\nGitKraken\nJetBrains Rider\nMaya\nOdin
     Inspector\nProcreate\nUnity Engine\nVisual Studio Code\nVisual Studio Community\n\"Simple
-    Timer for Unity\" by TheShroom on Github\nDialogue powered by Yarn Spinner \u2014
-    https://yarnspinner.dev"
+    Timer for Unity\" by TheShroom on Github\n\"Unity Singleton\" by UnityCommunity
+    on Github\nDialogue powered by Yarn Spinner \u2014 https://yarnspinner.dev"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6342e50e65c90b54fa63ed40acd73da2, type: 2}
   m_sharedMaterial: {fileID: 7083143465805762537, guid: 6342e50e65c90b54fa63ed40acd73da2, type: 2}
@@ -2649,50 +2649,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
   nextDestination: 0
---- !u!1 &1645420683
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1645420684}
-  - component: {fileID: 1645420685}
-  m_Layer: 0
-  m_Name: SplashScreenSettings
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1645420684
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1645420683}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 691.67017, y: 207.04684, z: -681.1328}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1645420685
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1645420683}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f70564289a820774aa694e399747f388, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!114 &1706599773 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 981305624135228025, guid: 75f929da6991db4438cb51a68aa3a685, type: 3}
@@ -3202,4 +3158,3 @@ SceneRoots:
   - {fileID: 2043760337}
   - {fileID: 249802719616461138}
   - {fileID: 512842614}
-  - {fileID: 1645420684}
