@@ -33,7 +33,6 @@ public class FootstepSFXListener : MonoBehaviour
     //Calls SFXManager to change SFX when the player enters or exits the airship
     private void OnPlayerOnAirship(bool isOnAirship)
     {
-        Debug.Log("FootstepAreaListener received Airship event. isOnAirship = " + isOnAirship); 
         if (SFXManager.Instance == null)
         {
             return;

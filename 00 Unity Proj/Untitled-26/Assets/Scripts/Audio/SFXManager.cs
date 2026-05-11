@@ -126,7 +126,6 @@ public class SFXManager : MonoBehaviour
             return;
         }
 
-        Debug.Log("Footstep area changed to: " + newSFX);
         currentFootstepSFX = newSFX;
 
         if (footstepSource != null)

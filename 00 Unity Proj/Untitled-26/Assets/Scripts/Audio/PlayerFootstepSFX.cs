@@ -37,7 +37,6 @@ public class PlayerFootstepSFX : MonoBehaviour
 
             if (stepTimer <= 0f)
             {
-                Debug.Log("Footstep played. Step Interval = " + stepInterval);
                 if (SFXManager.Instance != null)
                 {
                     SFXManager.Instance.PlayFootstep();
