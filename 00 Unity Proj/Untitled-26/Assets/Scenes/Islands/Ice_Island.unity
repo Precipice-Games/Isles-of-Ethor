@@ -119,6 +119,71 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &1968794
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.58777
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.21744
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.58777
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3597797149310254809, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: footstepSFX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3597797149310254809, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: islandFootstepSFX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4016593330015843277, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_Name
+      value: 'FootstepSFXListener '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 030419057d935451f83ca478f106f896, type: 3}
 --- !u!1001 &18878671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1858,6 +1923,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5438321986708604092, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1045250818}
     - targetCorrespondingSourceObject: {fileID: 8155853496490942509, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1468164701}
@@ -40838,6 +40906,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 137271524649294906, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
   m_PrefabInstance: {fileID: 74840992}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1045250818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045250814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1f23b406b404e0da760fc99fb390d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerFootstepSFX
+  stepInterval: 0.45
+  minMoveSpeed: 0.1
 --- !u!1001 &1053499943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -113740,3 +113822,4 @@ SceneRoots:
   - {fileID: 2095135721}
   - {fileID: 3981474138339879985}
   - {fileID: 1663831791}
+  - {fileID: 1968794}

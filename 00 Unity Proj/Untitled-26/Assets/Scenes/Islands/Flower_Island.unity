@@ -119,6 +119,71 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &118509675
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.13291
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.40278
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.13291
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852023379058175289, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3597797149310254809, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: footstepSFX
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3597797149310254809, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: islandFootstepSFX
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4016593330015843277, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: m_Name
+      value: 'FootstepSFXListener '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 030419057d935451f83ca478f106f896, type: 3}
 --- !u!1001 &188764031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -442,6 +507,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 3
   gridZ: 3
+  slideTile: 0
   gridManager: {fileID: 1351292436}
   selectableTilesParent: {fileID: 1351292435}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -875,6 +941,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 2
   gridZ: 6
+  slideTile: 0
   gridManager: {fileID: 1351292436}
   selectableTilesParent: {fileID: 1351292435}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3083,6 +3150,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 3
   gridZ: 4
+  slideTile: 0
   gridManager: {fileID: 1351292436}
   selectableTilesParent: {fileID: 1351292435}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3260,6 +3328,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 1
   gridZ: 4
+  slideTile: 0
   gridManager: {fileID: 1351292436}
   selectableTilesParent: {fileID: 1351292435}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4107,6 +4176,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5438321986708604092, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1669348536}
     - targetCorrespondingSourceObject: {fileID: 8155853496490942509, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1669348535}
@@ -4151,6 +4223,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RunningEffect
   playerAnimations: {fileID: 0}
   _particleSystems: {fileID: 0}
+--- !u!114 &1669348536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669348534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1f23b406b404e0da760fc99fb390d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerFootstepSFX
+  stepInterval: 0.45
+  minMoveSpeed: 0.1
 --- !u!1001 &1690014131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5298,3 +5384,4 @@ SceneRoots:
   - {fileID: 2063982780}
   - {fileID: 3962018025246773768}
   - {fileID: 764336898}
+  - {fileID: 118509675}

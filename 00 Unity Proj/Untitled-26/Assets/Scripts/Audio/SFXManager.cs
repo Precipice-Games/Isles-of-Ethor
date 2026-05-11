@@ -12,9 +12,19 @@ public class SFXManager : MonoBehaviour
 {
     public static SFXManager Instance {get; private set;}    
 
+    public enum FootstepSFX
+    {
+        Mother,
+        Ice,
+        Oasis,
+        Flower,
+        Airship
+    }
+
     //Unity inspector field for the audio source that will play the SFX
     [Header("Audio Source")]
     [SerializeField] private AudioSource sfxSource;
+    [SerializeField] private AudioSource footstepSource;
 
     //Unity inspector field for the audio mixer group to route the SFX through
     [Header("Mixer Routing")]
@@ -29,9 +39,19 @@ public class SFXManager : MonoBehaviour
     [SerializeField] private AudioClip menuSFX;
     [SerializeField] private AudioClip exitButtonSFX;
 
+    //Inspector Fields for the different footstep SFX for each island and airship
+    [Header("Footstep SFX")]
+    [SerializeField] private AudioClip motherFootstepSFX;
+    [SerializeField] private AudioClip iceFootstepSFX;
+    [SerializeField] private AudioClip oasisFootstepSFX;
+    [SerializeField] private AudioClip flowerFootstepSFX;
+    [SerializeField] private AudioClip airshipFootstepSFX;
+
     private bool suppressNextCardClick = false;
 
-    
+    //This will be used to determine which footstep SFX to play based on the current island the player is on
+    private FootstepSFX currentFootstepSFX = FootstepSFX.Mother;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -46,6 +66,11 @@ public class SFXManager : MonoBehaviour
         if (sfxSource != null && sfxMixerGroup != null)
         {
             sfxSource.outputAudioMixerGroup = sfxMixerGroup;
+        }
+
+        if (footstepSource != null && sfxMixerGroup != null)
+        {
+            footstepSource.outputAudioMixerGroup = sfxMixerGroup;
         }
     }
     
@@ -94,11 +119,65 @@ public class SFXManager : MonoBehaviour
         PlayClip(puzzleResetSFX);
     }
 
+    public void SetFootstepSFX(FootstepSFX newSFX)
+    {
+        if (currentFootstepSFX == newSFX)
+        {
+            return;
+        }
+
+        currentFootstepSFX = newSFX;
+
+        if (footstepSource != null)
+        {
+            footstepSource.Stop();
+        }
+    }
+
+    public void PlayFootstep()
+    {
+        AudioClip clipToPlay = null;
+
+        if (currentFootstepSFX == FootstepSFX.Mother)
+        {
+            clipToPlay = motherFootstepSFX;
+        }
+        else if (currentFootstepSFX == FootstepSFX.Ice)
+        {
+            clipToPlay = iceFootstepSFX;
+        }
+        else if (currentFootstepSFX == FootstepSFX.Oasis)
+        {
+            clipToPlay = oasisFootstepSFX;
+        }
+        else if (currentFootstepSFX == FootstepSFX.Flower)
+        {
+            clipToPlay = flowerFootstepSFX;
+        }
+        else if (currentFootstepSFX == FootstepSFX.Airship)
+        {
+            clipToPlay = airshipFootstepSFX;
+        }
+
+        if (footstepSource == null || clipToPlay == null)
+        {
+            return;
+        }
+
+        if (footstepSource.isPlaying)
+        {
+            return;
+        }
+
+        footstepSource.clip = clipToPlay;
+        footstepSource.Play();
+    }
+
     public void PlayClip(AudioClip clip)
     {
         if (sfxSource == null || clip == null)
             return;
 
         sfxSource.PlayOneShot(clip);
-    }
+    }  
 }
