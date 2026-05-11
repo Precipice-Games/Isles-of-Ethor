@@ -442,6 +442,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 3
   gridZ: 3
+  slideTile: 0
   gridManager: {fileID: 1351292436}
   selectableTilesParent: {fileID: 1351292435}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -875,6 +876,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 2
   gridZ: 6
+  slideTile: 0
   gridManager: {fileID: 1351292436}
   selectableTilesParent: {fileID: 1351292435}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1179,15 +1181,15 @@ PrefabInstance:
       objectReference: {fileID: 1766300490}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.19
+      value: 24.41
       objectReference: {fileID: 0}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.136
+      value: -17.82
       objectReference: {fileID: 0}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 27.12
+      value: 26.48
       objectReference: {fileID: 0}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3083,6 +3085,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 3
   gridZ: 4
+  slideTile: 0
   gridManager: {fileID: 1351292436}
   selectableTilesParent: {fileID: 1351292435}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3260,6 +3263,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 1
   gridZ: 4
+  slideTile: 0
   gridManager: {fileID: 1351292436}
   selectableTilesParent: {fileID: 1351292435}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3936,7 +3940,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_ActionEvents.Array.size
-      value: 43
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_ActionEvents.Array.data[29].m_ActionId
@@ -3995,6 +3999,10 @@ PrefabInstance:
       value: 4d3d3456-9e44-43f8-8754-4f9ab377d117
       objectReference: {fileID: 0}
     - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
+      propertyPath: m_ActionEvents.Array.data[43].m_ActionId
+      value: 1694367b-9415-45f5-8579-c9feb700c32b
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_ActionEvents.Array.data[29].m_ActionName
       value: 'Puzzle/Submit[/Keyboard/enter]'
       objectReference: {fileID: 0}
@@ -4049,6 +4057,10 @@ PrefabInstance:
     - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_ActionEvents.Array.data[42].m_ActionName
       value: 'Puzzle/PuzzleReset[/Keyboard/r]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
+      propertyPath: m_ActionEvents.Array.data[43].m_ActionName
+      value: 'Player/DevShortcut[/Keyboard/9,/Keyboard/numpad9]'
       objectReference: {fileID: 0}
     - target: {fileID: 6922169669516928053, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_ActionEvents.Array.data[42].m_PersistentCalls.m_Calls.Array.size
