@@ -326,4 +326,16 @@ public class PlayerMovement : MonoBehaviour
         }
         return false;
     }
+
+    public float CurrentSpeed
+    {
+        get { return _speed; }
+    }
+
+    public bool IsGrounded
+    {
+        get { return isGrounded; }
+    }
+
 }
+

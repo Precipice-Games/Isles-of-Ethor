@@ -9,28 +9,35 @@ public class PlayerFootstepSFX : MonoBehaviour
     [SerializeField] private float stepInterval = 0.45f;
     [SerializeField] private float minMoveSpeed = 0.1f;
 
-    //Stores players position each frame to determine move speed
-    private Vector3 lastPosition;
+    private PlayerMovement playerMovement;
 
     //Timer tracks when to play next step sound
     private float stepTimer;
 
+    private void Awake()
+    {
+        playerMovement = GetComponent<PlayerMovement>();
+    }
+
     private void Start()
     {
-        lastPosition = transform.position;
+        stepTimer = stepInterval;
     }
 
     private void Update()
     {
-        //Calculates move speed based on how far the player moved since last frame
-        float moveSpeed = (transform.position - lastPosition).magnitude / Time.deltaTime;
+        if (playerMovement == null)
+        {
+            return;
+        }
 
-        if (moveSpeed > minMoveSpeed)
+        if (playerMovement.IsGrounded && playerMovement.CurrentSpeed > minMoveSpeed)
         {
             stepTimer -= Time.deltaTime;
 
             if (stepTimer <= 0f)
             {
+                Debug.Log("Footstep played. Step Interval = " + stepInterval);
                 if (SFXManager.Instance != null)
                 {
                     SFXManager.Instance.PlayFootstep();
@@ -42,9 +49,7 @@ public class PlayerFootstepSFX : MonoBehaviour
         else
         {
             //Timer is reset if standing still
-            stepTimer = 0f;
+            stepTimer = stepInterval;
         }
-
-        lastPosition = transform.position;
     }
 }
