@@ -2186,19 +2186,23 @@ PrefabInstance:
     - target: {fileID: 1635173186092592187, guid: 5858535fd836441539595eabd4f0bdab, type: 3}
       propertyPath: iceFootstepSFX
       value: 
-      objectReference: {fileID: 8300000, guid: 88a51c16d84784e97b1086ecf21270bd, type: 3}
+      objectReference: {fileID: 8300000, guid: 0f60038ada0234793bfc1596f9cf5042, type: 3}
     - target: {fileID: 1635173186092592187, guid: 5858535fd836441539595eabd4f0bdab, type: 3}
       propertyPath: oasisFootstepSFX
       value: 
-      objectReference: {fileID: 8300000, guid: d0fd1c24f47ac44b1b3fa07f73d9843f, type: 3}
+      objectReference: {fileID: 8300000, guid: 889c4484c34b5486c947a731e74970b0, type: 3}
+    - target: {fileID: 1635173186092592187, guid: 5858535fd836441539595eabd4f0bdab, type: 3}
+      propertyPath: flowerFootstepSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 86ac26030023b4ee5996dfdafe7cef8d, type: 3}
     - target: {fileID: 1635173186092592187, guid: 5858535fd836441539595eabd4f0bdab, type: 3}
       propertyPath: motherFootstepSFX
       value: 
-      objectReference: {fileID: 8300000, guid: 17d00421c920d45e0ba103cc3f6556a1, type: 3}
+      objectReference: {fileID: 8300000, guid: c2dbbeaeab43a4b668e4778add2a2d41, type: 3}
     - target: {fileID: 1635173186092592187, guid: 5858535fd836441539595eabd4f0bdab, type: 3}
       propertyPath: airshipFootstepSFX
       value: 
-      objectReference: {fileID: 8300000, guid: 341fc4024e17c4e059024c34d8593197, type: 3}
+      objectReference: {fileID: 8300000, guid: bd953ae87292f4942ae4211b4e72d093, type: 3}
     - target: {fileID: 3041187211409281293, guid: 5858535fd836441539595eabd4f0bdab, type: 3}
       propertyPath: m_Name
       value: SFXManager
