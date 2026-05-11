@@ -2183,6 +2183,22 @@ PrefabInstance:
       propertyPath: exitButtonSFX
       value: 
       objectReference: {fileID: 8300000, guid: 21e631d0474fd4925a924a9a056da767, type: 3}
+    - target: {fileID: 1635173186092592187, guid: 5858535fd836441539595eabd4f0bdab, type: 3}
+      propertyPath: iceFootstepSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 88a51c16d84784e97b1086ecf21270bd, type: 3}
+    - target: {fileID: 1635173186092592187, guid: 5858535fd836441539595eabd4f0bdab, type: 3}
+      propertyPath: oasisFootstepSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: d0fd1c24f47ac44b1b3fa07f73d9843f, type: 3}
+    - target: {fileID: 1635173186092592187, guid: 5858535fd836441539595eabd4f0bdab, type: 3}
+      propertyPath: motherFootstepSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 17d00421c920d45e0ba103cc3f6556a1, type: 3}
+    - target: {fileID: 1635173186092592187, guid: 5858535fd836441539595eabd4f0bdab, type: 3}
+      propertyPath: airshipFootstepSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 341fc4024e17c4e059024c34d8593197, type: 3}
     - target: {fileID: 3041187211409281293, guid: 5858535fd836441539595eabd4f0bdab, type: 3}
       propertyPath: m_Name
       value: SFXManager
