@@ -171,6 +171,10 @@ PrefabInstance:
       propertyPath: footstepSFX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3597797149310254809, guid: 030419057d935451f83ca478f106f896, type: 3}
+      propertyPath: islandFootstepSFX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4016593330015843277, guid: 030419057d935451f83ca478f106f896, type: 3}
       propertyPath: m_Name
       value: 'FootstepSFXListener '
