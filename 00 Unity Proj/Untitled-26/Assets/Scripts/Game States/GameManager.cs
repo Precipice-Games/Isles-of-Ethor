@@ -11,7 +11,8 @@ public class GameManager : MonoSingleton<GameManager>
         MotherIsland,
         IceIsland,
         OasisIsland,
-        FlowerIsland
+        FlowerIsland,
+        Credits
     }
     
     // Placeholder string
