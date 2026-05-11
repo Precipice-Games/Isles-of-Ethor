@@ -270,4 +270,12 @@ private void PushTile(SelectableTile tile, int dirX, int dirZ)
         nextZ += dirZ;
     }
 }
+
+    public SelectableTile GetTile(int gridX, int gridZ)
+    {
+
+        return grid[gridX,gridZ];
+
+    }
+
 }
