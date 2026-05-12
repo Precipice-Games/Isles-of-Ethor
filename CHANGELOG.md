@@ -7,6 +7,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Tile hovering VFX.
 
+## [v2.6.0] - 2026-05-11
+
+### Added
+* Added a fade in and out feature for transitioning to and from puzzle mode.
+* Added a fade in and out feature for puzzle resetting.
+* Added a dynamic footsteps SFX system.
+* Added a feature to make the mana UI text flash red when the Player runs out of mana.
+* Added a new developer shortcut to the Player input action map for the puzzle cheat system.
+* Added all baseline Flower Island puzzles.
+* Added the new floating mini-island model to Flower Island (made by @torialle).
+
+### Fixed
+* Fixed a bug where the Player wasn't able to exit or skip the credits sequence.
+
+### Changed
+* Moved the puzzle cheat signs on all islands out of view of the Player.
+
+### Removed
+* Deleted a series of old and unused files/assets from the Unity project folder.
+
 ## [v2.5.0] - 2026-05-10
 
 ### Added
