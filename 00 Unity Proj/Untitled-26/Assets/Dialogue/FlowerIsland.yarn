@@ -167,7 +167,7 @@ Dahlia: Bye! And take care!
 <<endif>>
 ===
 
-title: CompletionCrystal
+title: flowerCompletionCrystal
 ---
 Mother Crystal: My child…can you hear me?
 
@@ -192,17 +192,14 @@ title: Bee
 ---
 =>Bee: Bzzt!! (Back off!! This pollen is mine! MINE!)
     Sky: Alright Mr. Bee. I didn’t want it anyway.
-
 =>Bee: Bzz Bzz Bzz! (Float like a bee, sting like allergies!)
     Sky: That’s not how the saying goes, little buddy.
     Bee: Bzzz! (You know what really makes me want to sting people? WHEN THEY CORRECT ME!)
     Sky: Ack!! I’m sorry! Please don’t sting me!!
-
 =>Bee: Bzzzzzzzzzzt! (Watch where you’re stepping!)
     Sky: Hey, little guy! Could you help me find a flower?
     Bee: Bzzt! Bzzt!! Bzzt!!! (No! This is my garden! Stay away!)
     Sky: Okay, okay. I’ll find it myself.
-
 =>Bee: Bzzt. Bzzt? (So, you like Jazz?)
     Sky: Oh my Mother Crystal! A bee!
 ===
@@ -210,7 +207,7 @@ title: Bee
 title: mechanicBee
 ---
 //NPC to explain the mechanics (at first or fourth puzzle - whichever one the player goes to first, triggered when either interacted with or when puzzle is started - whichever happens first)
-
+<<once>>
 Bee: Hey, you! I’ve never seen you buzzing around here before.
 
 Sky: I’m new here! My name’s Sky, and I’m from the Mother Island!
@@ -222,6 +219,9 @@ Bee: Just be careful of violent gusts of wind that will blow anything in its pat
 Bee: I’m Tutorial Bee, and you’re up-to-date! Bzzzt of luck on your travels on Flower Island!
 
 Sky: Aww you’re sweeter than honey! Thank you so much!
+<<else>>
+<<jump Bee>>
+<<endonce>>
 ===
 
 

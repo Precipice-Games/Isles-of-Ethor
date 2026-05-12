@@ -8,7 +8,7 @@ using UnityEngine;
 // the puzzle system, this could be commented out since it affects the resource
 // system and other data.
 //
-// [ExecuteAlways]
+//[ExecuteAlways]
 public class SelectableTile : MonoBehaviour
 {
     public enum TileType
@@ -143,6 +143,7 @@ public GustDirection gustDirection;
 
         // Before anything, check to see if the attempted move is valid.
         if (CheckForOutOfBounds(newX, newZ)) return false; // Must be inside the grid
+        if (gridManager.IsBlockedCell(newX, newZ)) return false; // New blockedCells
         if (!CheckForEmptyCell(newX, newZ)) return false; // Must be an empty cell
 
         gridManager.ClearCell(gridX, gridZ);
