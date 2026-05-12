@@ -7,6 +7,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Tile hovering VFX.
 
+## [v2.6.1] - 2026-05-12
+
+### Added
+* Added some NPC artworks and foliage to Mother Island (made by @torialle).
+* Added wind particles to Flower Island scene.
+
+### Changed
+* Finalized Flower Island puzzles.
+
 ## [v2.6.0] - 2026-05-11
 
 ### Added
