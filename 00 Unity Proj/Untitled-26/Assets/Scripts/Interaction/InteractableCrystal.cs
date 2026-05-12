@@ -26,7 +26,7 @@ public class InteractableCrystal : MonoBehaviour, IInteractable
     private void FixedUpdate()
     {
 
-        Debug.Log("Height: " + transform.position.y);
+        // Debug.Log("Height: " + transform.position.y);
 
         if (transform.position.y >= maxHeight)
         {

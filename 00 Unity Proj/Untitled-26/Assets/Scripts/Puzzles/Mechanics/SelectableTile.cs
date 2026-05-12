@@ -228,6 +228,12 @@ public GustDirection gustDirection;
         if (tileType == TileType.ManaWell)
         {
             originalColor = Color.magenta;
+            if (GetComponentInChildren<ParticleSystem>() != null)
+            {
+
+                GetComponentInChildren<ParticleSystem>().Play();
+
+            }
         }
 
         rend.material.color = originalColor;

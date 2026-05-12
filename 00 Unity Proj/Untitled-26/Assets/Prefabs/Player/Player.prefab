@@ -113,11 +113,7 @@ MonoBehaviour:
   charController: {fileID: 2122942772023879459}
   moveSpeed: 5
   sprintSpeed: 7
-  RotationSmoothTime: 0.12
   turnSpeed: 120
-  jumpPower: 4
-  maxJumps: 1
-  jumpsRemaining: 0
   JumpHeight: 1.2
   Gravity: -15
   isGrounded: 0
@@ -156,6 +152,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  maxTime: 0.5
+  currTime: 0
+  runTimer: 0
 --- !u!114 &6739596773503058293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -546,7 +545,19 @@ MonoBehaviour:
     m_ActionId: 5d6c1e9f-b067-423b-86d8-bba0b5b8b0c9
     m_ActionName: 'Puzzle/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6211892080048543029}
+        m_TargetAssemblyTypeName: PlayerControlsInputs, Assembly-CSharp
+        m_MethodName: DevShortcutTriggered
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: db106398-fb81-4813-aa82-32b1cfa8ffec
     m_ActionName: 'Puzzle/Cancel[/Keyboard/l]'
   - m_PersistentCalls:
@@ -617,6 +628,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 4d3d3456-9e44-43f8-8754-4f9ab377d117
     m_ActionName: 'Puzzle/PuzzleReset[/Keyboard/r]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6211892080048543029}
+        m_TargetAssemblyTypeName: PlayerControlsInputs, Assembly-CSharp
+        m_MethodName: DevShortcutTriggered
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 1694367b-9415-45f5-8579-c9feb700c32b
+    m_ActionName: 'Player/DevShortcut[/Keyboard/9,/Keyboard/numpad9]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player

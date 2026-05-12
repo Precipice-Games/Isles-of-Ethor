@@ -6,6 +6,7 @@ using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using UnityEngine.Video;
 
 /// <summary>
@@ -58,6 +59,11 @@ public class ViewManager : MonoBehaviour
     public bool printCanvasUpdate = false;
     [PropertyTooltip("Print out camera updates. False by default.")]
     public bool printCameraUpdate = false;
+
+    public bool fadePuzzleTransition = false;
+    public Image transitionCanvasColor;
+    public float fadeInFadeOutInBetween = 0.5f;
+    public float currentFadeInFadeOutTime = 0f;
 
     private void Awake()
     {
@@ -135,9 +141,9 @@ public class ViewManager : MonoBehaviour
         cameras.Add(puzzleCamera);
         puzzleUI = puzzleInfo.canvas;
         uiCanvases.Add(puzzleUI);
-        
-        // Notify GameStateManager that we've detected a puzzle switch.
-        puzzleSwitchDetected.Invoke();
+
+        fadePuzzleTransition = true;
+
     }
 
     /// <summary>
@@ -324,4 +330,61 @@ public class ViewManager : MonoBehaviour
         loadingVideoPlayer.time = 0;
         loadingComplete?.Invoke();
     }
+
+    private void FixedUpdate()
+    {
+
+        if (fadePuzzleTransition)
+        {
+            //transitionCanvasColor = GameObject.Find("TransitionCanvas").GetComponent<Image>();
+            transitionCanvasColor.gameObject.SetActive(true);
+
+            if (transitionCanvasColor != null && transitionCanvasColor.color.a < 1)
+            {
+                Color newColor = transitionCanvasColor.color;
+
+                newColor.a = newColor.a + Time.deltaTime;
+
+                transitionCanvasColor.color = newColor; //fade in over time
+
+            }
+            else
+            {
+                //timer in between fade in and out to give some visual rest
+                if (currentFadeInFadeOutTime < fadeInFadeOutInBetween)
+                {
+                    currentFadeInFadeOutTime += Time.deltaTime;
+                }
+                else
+                {
+                    fadePuzzleTransition = false;
+                    // Notify GameStateManager that we've detected a puzzle switch.
+                    puzzleSwitchDetected.Invoke();
+                }
+
+            }
+
+        }
+        else
+        {
+
+            if (transitionCanvasColor != null && transitionCanvasColor.color.a >= 0)
+            {
+
+                Color newColor = transitionCanvasColor.color;
+
+                newColor.a = newColor.a - Time.deltaTime;
+
+                transitionCanvasColor.color = newColor; //fade out over time
+
+            }
+            else if (transitionCanvasColor.gameObject.activeInHierarchy && transitionCanvasColor.color.a <= 0)
+            {
+                transitionCanvasColor.gameObject.SetActive(false);
+                currentFadeInFadeOutTime = 0;
+            }
+        }
+
+    }
+
 }

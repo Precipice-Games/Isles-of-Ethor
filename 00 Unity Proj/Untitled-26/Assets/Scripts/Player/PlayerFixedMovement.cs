@@ -485,6 +485,16 @@ public class PlayerFixedMovement : MonoBehaviour
 
             Debug.Log("PlayerFixedMovement.cs >> Player stepped on ManaWell! +2 Mana");
 
+            if (gridManager.GetTile(coordX, coordZ).GetComponentInChildren<ParticleSystem>() != null)
+            {
+
+                gridManager.GetTile(coordX, coordZ).GetComponentInChildren<ParticleSystem>().Stop();
+                gridManager.GetTile(coordX, coordZ).GetComponentInChildren<ParticleSystem>().Clear();
+
+            }
+
+            gridManager.GetTile(coordX, coordZ).GetComponent<MeshRenderer>().material = gridManager.GetTile(coordX, coordZ).GetComponent<OasisTexturing>().oasisNormalTexture;
+
             if (resourceManager != null)
             {
                 resourceManager.AddMana(2);
