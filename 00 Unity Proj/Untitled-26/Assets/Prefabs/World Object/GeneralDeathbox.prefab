@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1280493287402637539}
   - component: {fileID: 3432335786353409372}
   m_Layer: 0
-  m_Name: Deathbox
+  m_Name: GeneralDeathbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
