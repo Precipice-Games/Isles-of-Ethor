@@ -40,7 +40,7 @@ with safe passage. #line:03ef148
 Sky: Thank you, King Julien. I appreciate your…kindness. #line:0353b66 
 
 Julien: Now GO! May Karkinos bless your venture! #line:09fc12e
-<<disableInvisWall OasisIsland>>
+<<disableInvisWall HotSandWall>>
 <<activatePlatforms OasisIsland>>
 <<set $talkedWithJulien = true>>
 <<else>>
