@@ -350,6 +350,7 @@ public class ViewManager : MonoBehaviour
             }
             else
             {
+
                 //timer in between fade in and out to give some visual rest
                 if (currentFadeInFadeOutTime < fadeInFadeOutInBetween)
                 {
