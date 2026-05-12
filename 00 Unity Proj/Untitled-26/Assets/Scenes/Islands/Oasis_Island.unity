@@ -27339,6 +27339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1386789060}
   - component: {fileID: 1386789061}
+  - component: {fileID: 1386789062}
   m_Layer: 0
   m_Name: OasisIsland
   m_TagString: Untagged
@@ -27389,7 +27390,19 @@ MonoBehaviour:
   - {fileID: 1982907262}
   - {fileID: 1783707275}
   - {fileID: 1060740125}
-  boxColliderToDisable: {fileID: 1450941471}
+--- !u!114 &1386789062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386789059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2663ad638b569d843a68221794e3b9d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::YarnInvisibleWall
+  colliderToDisable: {fileID: 1450941471}
 --- !u!1 &1450941469
 GameObject:
   m_ObjectHideFlags: 0
