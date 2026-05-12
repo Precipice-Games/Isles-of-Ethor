@@ -978,6 +978,10 @@ PrefabInstance:
       propertyPath: gridZ
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2275969997962342486, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
+      propertyPath: tileType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2392832193953854197, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.37486
