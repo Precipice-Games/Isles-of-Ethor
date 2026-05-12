@@ -15,6 +15,17 @@ public class PuzzleCheatSign : MonoBehaviour, IInteractable
     
     public static event Action allPuzzlesComplete;
 
+    private void OnEnable()
+    {
+        PlayerControlsInputs.devShortcutTriggered  += Interaction;
+    }
+
+    private void OnDisable()
+    {
+        PlayerControlsInputs.devShortcutTriggered  -= Interaction;
+    }
+    
+
     private void Awake()
     {
         // Get the puzzle prefabs

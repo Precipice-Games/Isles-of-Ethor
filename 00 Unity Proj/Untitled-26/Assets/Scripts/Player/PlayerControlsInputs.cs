@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
@@ -10,6 +11,7 @@ public class PlayerControlsInputs : MonoBehaviour
 	public Vector2 look;
 	public bool jump;
 	public bool sprint;
+	public static event Action devShortcutTriggered;
 
 	/// <summary>
 	/// Takes the player's keyboard input in context as a Vector2 and
@@ -73,6 +75,19 @@ public class PlayerControlsInputs : MonoBehaviour
 		{
 			jump = false;
 			Debug.Log("PlayerControlsInputs.cs >> Jump canceled.");
+		}
+	}
+	
+	public void DevShortcutTriggered(InputAction.CallbackContext context)
+	{
+		if (context.performed)
+		{
+			devShortcutTriggered?.Invoke();
+			Debug.Log("PlayerControlsInputs.cs >> devShortcut performed.");
+		}
+		else if (context.canceled)
+		{
+			Debug.Log("PlayerControlsInputs.cs >> devShortcut canceled.");
 		}
 	}
 }
