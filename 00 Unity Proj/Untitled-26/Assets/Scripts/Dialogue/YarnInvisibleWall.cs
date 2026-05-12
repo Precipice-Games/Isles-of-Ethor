@@ -4,15 +4,28 @@ using Yarn.Unity;
 
 public class YarnInvisibleWall : MonoBehaviour
 {
-    public Collider colliderToDisable;
+    public YarnInvisibleWall invisWall;
 
     [YarnCommand("disableInvisWall")]
     public void DisableInvisWall()
     {
         // Disable collider
-        if (colliderToDisable != null)
+        if (invisWall != null)
         {
-            colliderToDisable.enabled = false;
+            for(int i = 0; i < invisWall.GetComponents<BoxCollider>().Length; i++)
+            {
+                invisWall.GetComponents<BoxCollider>()[i].enabled = false;
+            }
+        }
+    }
+
+    [YarnCommand("enableInvisWall")]
+    public void EnableInvisWall()
+    {
+        // Enable collider
+        for (int i = 0; i < invisWall.GetComponents<BoxCollider>().Length; i++)
+        {
+            invisWall.GetComponents<BoxCollider>()[i].enabled = true;
         }
     }
 }

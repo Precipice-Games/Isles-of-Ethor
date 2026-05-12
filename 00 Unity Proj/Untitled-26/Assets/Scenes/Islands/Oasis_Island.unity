@@ -27402,7 +27402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2663ad638b569d843a68221794e3b9d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::YarnInvisibleWall
-  colliderToDisable: {fileID: 1450941471}
+  colliderToToggle: {fileID: 1450941471}
 --- !u!1 &1450941469
 GameObject:
   m_ObjectHideFlags: 0
