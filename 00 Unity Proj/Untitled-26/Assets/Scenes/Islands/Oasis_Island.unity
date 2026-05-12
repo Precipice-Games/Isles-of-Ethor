@@ -19852,7 +19852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4441267795168363193, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridX
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4441267795168363193, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: gridZ
@@ -19944,7 +19944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7032101937263023470, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7032101937263023470, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26096,7 +26096,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2722518522013452351, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2722518522013452351, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26404,7 +26404,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: moveRightUses
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 4392a357293f4ce42b6966a489db6a4e, type: 3}
       propertyPath: moveForwardUses
@@ -27402,7 +27402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2663ad638b569d843a68221794e3b9d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::YarnInvisibleWall
-  colliderToToggle: {fileID: 1450941471}
+  invisWall: {fileID: 0}
 --- !u!1 &1450941469
 GameObject:
   m_ObjectHideFlags: 0
@@ -38913,7 +38913,7 @@ Transform:
   m_GameObject: {fileID: 1776041997}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15, y: 0, z: 12}
+  m_LocalPosition: {x: 12, y: 0, z: 12}
   m_LocalScale: {x: 1.37486, y: 0.019305578, z: 1.37486}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -38949,7 +38949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SelectableCube
   tileType: 1
   gustDirection: 0
-  gridX: 5
+  gridX: 4
   gridZ: 4
   slideTile: 0
   gridManager: {fileID: 1274900497}
