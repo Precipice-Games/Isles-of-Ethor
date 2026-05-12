@@ -1416,7 +1416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b14d420945b46a7912d6e122fbdd172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IceTexturing
-  normalTexture: {fileID: 2100000, guid: e1e9fbe58415931448eb637058308e9e, type: 2}
+  normalTexture: {fileID: 2100000, guid: 9760765c787703944a585c3ef7762f7f, type: 2}
   iceTexture: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
 --- !u!114 &293097770
 MonoBehaviour:
@@ -3699,7 +3699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b14d420945b46a7912d6e122fbdd172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IceTexturing
-  normalTexture: {fileID: 2100000, guid: e1e9fbe58415931448eb637058308e9e, type: 2}
+  normalTexture: {fileID: 2100000, guid: 9760765c787703944a585c3ef7762f7f, type: 2}
   iceTexture: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
 --- !u!114 &625986849
 MonoBehaviour:
@@ -10078,6 +10078,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2549888048032672565, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
+      propertyPath: normalTexture
+      value: 
+      objectReference: {fileID: 2100000, guid: 9760765c787703944a585c3ef7762f7f, type: 2}
     - target: {fileID: 2722518522013452351, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -10190,6 +10194,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3479704110299356731, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
+      propertyPath: normalTexture
+      value: 
+      objectReference: {fileID: 2100000, guid: 9760765c787703944a585c3ef7762f7f, type: 2}
     - target: {fileID: 3624906698350998147, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10274,6 +10282,10 @@ PrefabInstance:
       propertyPath: selectableTilesParent
       value: 
       objectReference: {fileID: 1351292435}
+    - target: {fileID: 6389536348917577084, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
+      propertyPath: normalTexture
+      value: 
+      objectReference: {fileID: 2100000, guid: 9760765c787703944a585c3ef7762f7f, type: 2}
     - target: {fileID: 7093079210516756760, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: gridX
       value: 1
@@ -11406,7 +11418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b14d420945b46a7912d6e122fbdd172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IceTexturing
-  normalTexture: {fileID: 2100000, guid: e1e9fbe58415931448eb637058308e9e, type: 2}
+  normalTexture: {fileID: 2100000, guid: 9760765c787703944a585c3ef7762f7f, type: 2}
   iceTexture: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
 --- !u!114 &1429059493
 MonoBehaviour:
@@ -11940,7 +11952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b14d420945b46a7912d6e122fbdd172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IceTexturing
-  normalTexture: {fileID: 2100000, guid: e1e9fbe58415931448eb637058308e9e, type: 2}
+  normalTexture: {fileID: 2100000, guid: 9760765c787703944a585c3ef7762f7f, type: 2}
   iceTexture: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
 --- !u!114 &1485800571
 MonoBehaviour:
