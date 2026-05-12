@@ -16871,8 +16871,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1320544404}
   - component: {fileID: 1320544405}
+  - component: {fileID: 1320544407}
+  - component: {fileID: 1320544406}
+  - component: {fileID: 1320544408}
   m_Layer: 0
-  m_Name: CumulusBlocker
+  m_Name: CumulusWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16914,6 +16917,54 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10.08226, y: 7.5704956, z: 1.441925}
   m_Center: {x: 0.22784042, y: -0.7968774, z: 0.22096252}
+--- !u!114 &1320544406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320544403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2663ad638b569d843a68221794e3b9d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::YarnInvisibleWall
+  colliderToDisable: {fileID: 1320544405}
+--- !u!65 &1320544407
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320544403}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.08226, y: 7.5704966, z: 1.7117767}
+  m_Center: {x: 0.22784042, y: -0.7968774, z: 0.08603668}
+--- !u!114 &1320544408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320544403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9e7cc6e7ee93e4694ab711a8da986f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InvisWallTrigger
+  runner: {fileID: 1401920747}
+  nodeToRun: TalkToDad
 --- !u!1001 &1356831573
 PrefabInstance:
   m_ObjectHideFlags: 0
