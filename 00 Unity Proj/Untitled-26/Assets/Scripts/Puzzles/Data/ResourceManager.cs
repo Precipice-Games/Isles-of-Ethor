@@ -62,6 +62,10 @@ public class ResourceManager : MonoBehaviour
     [PropertyTooltip("Print out when a specific movement card has no uses left. True by default.")]
     public bool printCardDrainage = true;
 
+    public bool flashOutOfMana = false;
+    public float maxflashDelay = 0.4f;
+    public float currentFlashDelay = 0.0f;
+
     // Subscribe to events
     private void OnEnable()
     {
@@ -222,6 +226,11 @@ public class ResourceManager : MonoBehaviour
         manaLabel.text = $"Mana\n{amount}";
     }
 
+    private void UpdateManaTextColor(Color color)
+    {
+        manaLabel.color = color;
+    }
+
     /// <summary>
     /// Updates the Left card uses text on the UI.
     /// </summary>
@@ -261,6 +270,7 @@ public class ResourceManager : MonoBehaviour
     private void ResetResources()
     {
         currentMana = startingMana;
+        flashOutOfMana = false;
 
         currentLeftUses = moveLeftUses;
         currentRightUses = moveRightUses;
@@ -268,9 +278,40 @@ public class ResourceManager : MonoBehaviour
         currentBackUses = moveBackUses;
 
         UpdateManaText(currentMana);
+        UpdateManaTextColor(Color.white);
         UpdateLeftText(moveLeftUses);
         UpdateRightText(moveRightUses);
         UpdateUpText(moveForwardUses);
         UpdateDownText(moveBackUses);
+    }
+
+    private void FixedUpdate()
+    {
+
+        if (currentMana <= 0)
+        {
+            flashOutOfMana = true;
+        }
+
+        if (flashOutOfMana)
+        {
+            if (currentFlashDelay < maxflashDelay)
+            {
+                currentFlashDelay += Time.deltaTime;
+            }
+            else
+            {
+                if (manaLabel.color == Color.white)
+                {
+                    UpdateManaTextColor(Color.red);
+                }
+                else if (manaLabel.color == Color.red)
+                {
+                    UpdateManaTextColor(Color.white);
+                }
+
+                currentFlashDelay = 0;
+            }
+        }
     }
 }
