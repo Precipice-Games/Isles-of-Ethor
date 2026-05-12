@@ -14,6 +14,7 @@ public class InteractableNPC : MonoBehaviour, IInteractable
     //   ==== Interaction Variables ====
     bool interactedWith = false;
     DialogueRunner runner;
+    public GameObject exclamationPoint;
 
     [SerializeField]
     GameObject player;
@@ -58,5 +59,18 @@ public class InteractableNPC : MonoBehaviour, IInteractable
     public void Interaction()
     {
         interactedWith = true;
+    }
+
+    /// <summary>
+    /// Toggles visibility of exclamation point above NPC's head.
+    /// The exclamation point should be visible for [TalkToMe] NPCS.
+    /// </summary>
+    [YarnCommand("toggleExclamation")]
+    public void ToggleExclamation()
+    {
+        if (exclamationPoint != null)
+        {
+            exclamationPoint.SetActive(!exclamationPoint.activeSelf);
+        }
     }
 }

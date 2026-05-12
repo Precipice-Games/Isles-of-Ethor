@@ -54,6 +54,7 @@ Sky: I need to talk to Dad first!
 title: Cumulus
 position: -117,10
 ---
+<<toggleExclamation Cumulus>>
 Cumulus: “What’s up, kiddo? You’re up early.” #line:0cb9aac 
 
 //(Cumulus looks up at Sky, properly noting her expression)
