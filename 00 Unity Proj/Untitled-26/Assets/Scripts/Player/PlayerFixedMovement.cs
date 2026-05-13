@@ -273,7 +273,11 @@ public class PlayerFixedMovement : MonoBehaviour
         // as though the Player is only traveling one tile. We want to ensure that first
         // tile is not empty and is within the bounds before doing anything else.
         if (CheckForOutOfBounds(attemptedDestX, attemptedDestZ)) return;
-        if (CheckForEmptyCell(attemptedDestX, attemptedDestZ)) SnapPlayerToTile(startTileX, startTileZ);
+        if (CheckForEmptyCell(attemptedDestX, attemptedDestZ))
+        {
+            SnapPlayerToTile(startTileX, startTileZ);
+            return;
+        }
 
         // If the move is valid, we've reached this part of the code.
         // Check what type of tile the Player is attempting to move to.
