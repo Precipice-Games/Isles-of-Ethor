@@ -49,6 +49,7 @@ public class IceTrees : MonoBehaviour
     void FixedUpdate()
     {
         if (player != null && GameStateManager.CurrentGameState != GameStateManager.GameState.Puzzle)
-            transform.LookAt(player.transform.position);
+            transform.LookAt(player.transform.position, Vector3.up);
+            transform.Rotate(0, 180, 0);
     }
 }

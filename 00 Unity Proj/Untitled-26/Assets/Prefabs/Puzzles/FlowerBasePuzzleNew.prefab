@@ -158,6 +158,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 1
   gridZ: 0
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 8418384996975918478}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -335,6 +336,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 0
   gridZ: 1
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 8418384996975918478}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -352,7 +354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b14d420945b46a7912d6e122fbdd172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IceTexturing
-  normalTexture: {fileID: 2100000, guid: e1e9fbe58415931448eb637058308e9e, type: 2}
+  normalTexture: {fileID: 2100000, guid: 9760765c787703944a585c3ef7762f7f, type: 2}
   iceTexture: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
 --- !u!1 &703785744850392240
 GameObject:
@@ -583,6 +585,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 2
   gridZ: 1
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 8418384996975918478}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -600,7 +603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b14d420945b46a7912d6e122fbdd172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IceTexturing
-  normalTexture: {fileID: 2100000, guid: e1e9fbe58415931448eb637058308e9e, type: 2}
+  normalTexture: {fileID: 2100000, guid: 9760765c787703944a585c3ef7762f7f, type: 2}
   iceTexture: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
 --- !u!1 &2050086839141752138
 GameObject:
@@ -831,6 +834,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 2
   gridZ: 1
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 8418384996975918478}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -848,7 +852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b14d420945b46a7912d6e122fbdd172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IceTexturing
-  normalTexture: {fileID: 2100000, guid: e1e9fbe58415931448eb637058308e9e, type: 2}
+  normalTexture: {fileID: 2100000, guid: 9760765c787703944a585c3ef7762f7f, type: 2}
   iceTexture: {fileID: 2100000, guid: 0b06b7f862134ee4fb3d76e6fc3e66a5, type: 2}
 --- !u!1 &3427067941324799217
 GameObject:
@@ -1009,6 +1013,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 1
   gridZ: 7
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1187,6 +1192,7 @@ MonoBehaviour:
   gustDirection: 0
   gridX: 2
   gridZ: 0
+  slideTile: 0
   gridManager: {fileID: 1640623606830934790}
   selectableTilesParent: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1342,6 +1348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14eb0a16258e2034d9bb137e1435805f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
+  blockedCells: []
   width: 4
   height: 8
   tileSize: 3
@@ -1722,6 +1729,9 @@ MonoBehaviour:
   printManaDeductions: 1
   printCardDeductions: 1
   printCardDrainage: 1
+  flashOutOfMana: 0
+  maxflashDelay: 0.4
+  currentFlashDelay: 0
 --- !u!1001 &1452176004927795202
 PrefabInstance:
   m_ObjectHideFlags: 0

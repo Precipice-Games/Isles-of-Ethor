@@ -15,6 +15,7 @@ public class InteractableNPC : MonoBehaviour, IInteractable
     bool interactedWith = false;
     DialogueRunner runner;
     public GameObject exclamationPoint;
+    public GameObject crystal;
 
     [SerializeField]
     GameObject player;
@@ -39,7 +40,7 @@ public class InteractableNPC : MonoBehaviour, IInteractable
     private void FixedUpdate()
     {
         //Vector3 targetPosition = new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z);
-        transform.LookAt(playerCam.transform.position);
+        transform.LookAt(playerCam.transform.position, Vector3.up);
         transform.Rotate(0, 180, 0);
         
         
@@ -71,6 +72,15 @@ public class InteractableNPC : MonoBehaviour, IInteractable
         if (exclamationPoint != null)
         {
             exclamationPoint.SetActive(!exclamationPoint.activeSelf);
+        }
+    }
+
+    [YarnCommand("toggleCrystal")]
+    public void ToggleCrystal()
+    {
+        if (crystal != null)
+        {
+            crystal.SetActive(!crystal.activeSelf);
         }
     }
 }
