@@ -17068,10 +17068,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cumulus
       objectReference: {fileID: 0}
-    - target: {fileID: 1188732380355989547, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2453805659328566245, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: _idleSprites.Array.size
       value: 47
@@ -28535,7 +28531,7 @@ PrefabInstance:
     - target: {fileID: 5556794971271523548, guid: 6eabaf5c0997b8f4bab5793606edd47f, type: 3}
       propertyPath: transitionCanvasColor
       value: 
-      objectReference: {fileID: 1687485649}
+      objectReference: {fileID: 0}
     - target: {fileID: 5556794971271523548, guid: 6eabaf5c0997b8f4bab5793606edd47f, type: 3}
       propertyPath: doorEntered.m_PersistentCalls.m_Calls.Array.size
       value: 1
