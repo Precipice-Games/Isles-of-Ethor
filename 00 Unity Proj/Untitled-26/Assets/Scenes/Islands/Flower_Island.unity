@@ -12350,6 +12350,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: CardClickSFX, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 8403321909210574967, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 802530321869446213, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
