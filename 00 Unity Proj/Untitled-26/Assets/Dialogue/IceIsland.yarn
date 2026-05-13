@@ -67,7 +67,7 @@ Judith: Do you really think that you can fix all the islands from the fracture? 
 
 Sky: I know I can. Come on, don't you trust me at this point? #line:04b9a10 
 
-Judith: Well…thanks to I've got my island back to normal. I’m afraid to say that I do. I trust you Sky. And I thank you. #line:03f729f 
+Judith: Well… thanks to you, I've got my island back to normal. I’m afraid to say that I do. I trust you Sky. And I thank you. #line:03f729f 
 
 Sky: Of course, Judith. I’m glad I was able to help you. Now, I'd better get going on those islands! They aren't going to fix themselves. #line:02c7354 
 
@@ -87,6 +87,7 @@ Judith: Best of luck on your journey. I’m sure you’re gonna need it. #line:0
 title: MountainJudith
 // Occurs after you have taken some kind of action towards the completion of the puzzle but haven't completed it
 ---
+<<toggleExclamation MountainJudith>>
 <<once>>
     Judith: Oh look who it is, the mysterious traveler has arrived. Thought you'd got yourself lost in the snow. #line:00a2771 
     Sky: You still don't believe I'm from the Mother Island? #line:078422c 
@@ -101,8 +102,6 @@ title: MountainJudith
     Sky: Wow, some endorsement that is. You really know how to give a girl some encouragement. #line:0cf74f3 
     Sky: Anyway, I better get going. That crystal isn't going to free itself. #line:0b05b79 
     Judith: I'll be here if you need me. #line:090ce9c 
-
-    <<toggleExclamation MountainJudith>>
 <<else>>
 =>Sky: So what's the deal with the penguins on this island? #line:0ebc06b 
     Judith: The penguins? You came all the way up here to ask me about penguins? #line:05ab11f 
