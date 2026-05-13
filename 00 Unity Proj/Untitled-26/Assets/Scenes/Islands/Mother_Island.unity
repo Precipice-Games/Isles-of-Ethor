@@ -1597,7 +1597,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6271573414225017425, guid: 84a2efad5a4897447a287122cef1c0ce, type: 3}
+  - {fileID: 2100000, guid: 33bb73e6f4f42194091573759cf2d364, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13850,6 +13850,7 @@ MonoBehaviour:
   runner: {fileID: 1401920747}
   enterNode: tutorialPuzzle2Dialogue
   exitNode: postPuzzle2Dialogue
+  exitDelay: 1
 --- !u!1001 &1026563871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15652,6 +15653,7 @@ MonoBehaviour:
   runner: {fileID: 1401920747}
   enterNode: tutorialPuzzle1Dialogue
   exitNode: postPuzzle1Dialogue
+  exitDelay: 1
 --- !u!1 &1156146457
 GameObject:
   m_ObjectHideFlags: 0
