@@ -35,6 +35,7 @@ public class SFXManager : MonoBehaviour
     [SerializeField] private AudioClip cardClickSFX;
     [SerializeField] private AudioClip invalidMoveSFX;
     [SerializeField] private AudioClip puzzleResetSFX;
+    [SerializeField] private AudioClip puzzleCompleteSFX;
     [SerializeField] private AudioClip runeCircleSFX;
     [SerializeField] private AudioClip menuSFX;
     [SerializeField] private AudioClip exitButtonSFX;
@@ -119,6 +120,13 @@ public class SFXManager : MonoBehaviour
         PlayClip(puzzleResetSFX);
     }
 
+    public void PlayPuzzleComplete()
+    {
+        if (puzzleCompleteSFX != null)
+        {
+            sfxSource.PlayOneShot(puzzleCompleteSFX);
+        }
+    }
     public void SetFootstepSFX(FootstepSFX newSFX)
     {
         if (currentFootstepSFX == newSFX)

@@ -39,6 +39,7 @@ public class InputManager : MonoBehaviour
         // Always subscribe to the event, we'll check for null in FindCorrectActionMap
         GameStateManager.transitionedToNewState += FindCorrectActionMap;
         GameStateManager.transitionedToNewState += ChangeCursorFunctionality;
+        GameStateManager.dialogueToggled += OnDialogueOverlayToggled;
     }
 
     // Unsubscribe from events
@@ -46,8 +47,28 @@ public class InputManager : MonoBehaviour
     {
         GameStateManager.transitionedToNewState -= FindCorrectActionMap;
         GameStateManager.transitionedToNewState -= ChangeCursorFunctionality;
+        GameStateManager.dialogueToggled -= OnDialogueOverlayToggled;
     }
     
+    private void OnDialogueOverlayToggled(bool active)
+    {
+        if(playerInput == null) return;
+
+        var uiActionMap = playerInput.actions?.FindActionMap("UI");
+        if (uiActionMap == null) return;
+
+        if (active)
+        {
+            uiActionMap.Enable();
+            cursorChanged?.Invoke(CursorLockMode.None, true);
+        }
+        else
+        {
+            uiActionMap.Disable();
+            cursorChanged?.Invoke(CursorLockMode.None, true);
+        }
+    }
+
     /// <summary>
     /// Gets the PlayerInput reference from the Player singleton instance.
     /// </summary>
