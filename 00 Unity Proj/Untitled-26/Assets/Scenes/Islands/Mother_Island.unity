@@ -2973,6 +2973,10 @@ PrefabInstance:
       propertyPath: printStateTransition
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 574728190119015343, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 617803613672485369, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
@@ -3019,7 +3023,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1100297765787535934, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 38.579468
+      value: 38.57953
       objectReference: {fileID: 0}
     - target: {fileID: 1100297765787535934, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3355,11 +3359,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5813188273321872142, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -12.999786
+      value: -12.999756
       objectReference: {fileID: 0}
     - target: {fileID: 6680628483434389340, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
       propertyPath: m_Name
       value: GameStateManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7224665778881506525, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
+      propertyPath: m_Name
+      value: 'Mother Outside Transition Canvas '
       objectReference: {fileID: 0}
     - target: {fileID: 7430200937986275721, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
       propertyPath: m_text
@@ -3399,7 +3407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7804412830963627737, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -12.999786
+      value: -12.999756
       objectReference: {fileID: 0}
     - target: {fileID: 7830017286838153912, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
       propertyPath: m_text
@@ -3495,7 +3503,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3705698002293044328, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 304425526}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1053923620404659715, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
       insertIndex: -1
@@ -4387,6 +4398,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
   m_PrefabInstance: {fileID: 271874093}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &304425525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 304425526}
+  - component: {fileID: 304425528}
+  - component: {fileID: 304425527}
+  m_Layer: 5
+  m_Name: 'Mother Inside Transition Canvas '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &304425526
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304425525}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1986080783}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &304425527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304425525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &304425528
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304425525}
+  m_CullTransparentMesh: 1
 --- !u!1001 &336113579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12029,6 +12115,10 @@ MonoBehaviour:
   doorEntered:
     m_PersistentCalls:
       m_Calls: []
+  fadePuzzleTransition: 0
+  transitionCanvasColor: {fileID: 304425527}
+  fadeInFadeOutInBetween: 0.5
+  currentFadeInFadeOutTime: 0
 --- !u!1001 &950813048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14237,7 +14327,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1280493287402637539, guid: cd77f075d3ae50f43890f44b657a1a52, type: 3}
       propertyPath: m_Center.z
-      value: 180.12692
+      value: 34.15
       objectReference: {fileID: 0}
     - target: {fileID: 3432335786353409372, guid: cd77f075d3ae50f43890f44b657a1a52, type: 3}
       propertyPath: respawnLocations.Array.size
@@ -14269,7 +14359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5833969095339330827, guid: cd77f075d3ae50f43890f44b657a1a52, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.4
+      value: 160.1
       objectReference: {fileID: 0}
     - target: {fileID: 5833969095339330827, guid: cd77f075d3ae50f43890f44b657a1a52, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14335,8 +14425,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 40.8667, y: 1.2635193, z: 75.15512}
-  m_Center: {x: -62.99337, y: -160.13707, z: 144.17351}
+  m_Size: {x: 54.879906, y: 7.1476746, z: 166.97644}
+  m_Center: {x: -77.7, y: -163.82185, z: 27.4}
 --- !u!114 &1074486373 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3432335786353409372, guid: cd77f075d3ae50f43890f44b657a1a52, type: 3}
@@ -21885,6 +21975,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
   m_PrefabInstance: {fileID: 1687449280}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1687485649 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 574728190119015343, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
+  m_PrefabInstance: {fileID: 238665716}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &1689626612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26100,6 +26201,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
   m_PrefabInstance: {fileID: 1984583842}
   m_PrefabAsset: {fileID: 0}
+--- !u!224 &1986080783 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3705698002293044328, guid: 1a8a3316ab81bd84499b9ca3304d85a2, type: 3}
+  m_PrefabInstance: {fileID: 238665716}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1986637042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28532,6 +28638,10 @@ PrefabInstance:
       propertyPath: teleportLocation.z
       value: 138
       objectReference: {fileID: 0}
+    - target: {fileID: 5556794971271523548, guid: 6eabaf5c0997b8f4bab5793606edd47f, type: 3}
+      propertyPath: transitionCanvasColor
+      value: 
+      objectReference: {fileID: 1687485649}
     - target: {fileID: 5556794971271523548, guid: 6eabaf5c0997b8f4bab5793606edd47f, type: 3}
       propertyPath: doorEntered.m_PersistentCalls.m_Calls.Array.size
       value: 1
