@@ -11,26 +11,26 @@ public class PuzzleDialogueTrigger : MonoBehaviour
 
     public void OnPuzzleEnter()
     {
-        StartCoroutine(WaitForPuzzleTransition(enterNode));
+        StartCoroutine(WaitForPuzzleTransition(enterNode, GameStateManager.GameState.Puzzle));
     }
 
     public void OnPuzzleExit()
     {
-        runner.StartDialogue(exitNode);
+        StartCoroutine(WaitForPuzzleTransition(exitNode, GameStateManager.GameState.Exploration));
     }
 
-    private IEnumerator WaitForPuzzleTransition(string node)
+    private IEnumerator WaitForPuzzleTransition(string node, GameStateManager.GameState targetState)
     {
         bool ready = false;
 
-        if (GameStateManager.CurrentGameState == GameStateManager.GameState.Puzzle)
+        if (GameStateManager.CurrentGameState == targetState)
         {
             ready = true;
         }
 
         System.Action<GameStateManager.GameState> callback = (newState) =>
         {
-            if (newState == GameStateManager.GameState.Puzzle)
+            if (newState == targetState)
             {
                 ready = true;
             }
