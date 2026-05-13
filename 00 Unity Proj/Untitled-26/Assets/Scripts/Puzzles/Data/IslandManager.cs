@@ -48,7 +48,7 @@ public class IslandManager : MonoBehaviour
         {
             case IslandName.MotherIsland:
                 Debug.Log("IslandManager.cs >> Mother Island puzzles completed!");
-                variableStorage.SetValue("motherFinished", true);
+                variableStorage.SetValue("$motherFinished", true);
                 allPuzzlesCompleted = true;
                 break;
             case IslandName.IceIsland:
