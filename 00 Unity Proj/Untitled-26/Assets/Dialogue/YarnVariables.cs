@@ -22,6 +22,18 @@ namespace Yarn.Unity.Variables {
             set => this.SetValue<bool>("$iceFinished", value);
         }
 
+        // Accessor for Bool $hasTalkedPenguin1
+        public bool HasTalkedPenguin1 {
+            get => this.GetValueOrDefault<bool>("$hasTalkedPenguin1");
+            set => this.SetValue<bool>("$hasTalkedPenguin1", value);
+        }
+
+        // Accessor for Bool $hasTalkedPenguin2
+        public bool HasTalkedPenguin2 {
+            get => this.GetValueOrDefault<bool>("$hasTalkedPenguin2");
+            set => this.SetValue<bool>("$hasTalkedPenguin2", value);
+        }
+
         // Accessor for Bool $motherFinished
         public bool MotherFinished {
             get => this.GetValueOrDefault<bool>("$motherFinished");
