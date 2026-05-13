@@ -50,6 +50,10 @@ public class GameManager : MonoSingleton<GameManager>
                 return "Oasis_Island";
             case SceneDestination.FlowerIsland:
                 return "Flower_Island";
+            case SceneDestination.Ending:
+                return "Ending";
+            case SceneDestination.Credits:
+                return "Credits";
             default:
                 return "MainMenu";
         }
