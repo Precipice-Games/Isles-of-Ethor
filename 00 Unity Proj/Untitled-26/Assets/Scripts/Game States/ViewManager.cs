@@ -343,7 +343,7 @@ public class ViewManager : MonoBehaviour
             {
                 Color newColor = transitionCanvasColor.color;
 
-                newColor.a = newColor.a + Time.deltaTime;
+                newColor.a = newColor.a + (2.5f * Time.deltaTime);
 
                 transitionCanvasColor.color = newColor; //fade in over time
 
@@ -354,7 +354,7 @@ public class ViewManager : MonoBehaviour
                 //timer in between fade in and out to give some visual rest
                 if (currentFadeInFadeOutTime < fadeInFadeOutInBetween)
                 {
-                    currentFadeInFadeOutTime += Time.deltaTime;
+                    currentFadeInFadeOutTime += (2.5f * Time.deltaTime);
                 }
                 else
                 {
