@@ -2307,6 +2307,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: c2dbbeaeab43a4b668e4778add2a2d41, type: 3}
     - target: {fileID: 1635173186092592187, guid: 5858535fd836441539595eabd4f0bdab, type: 3}
+      propertyPath: puzzleCompleteSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 7b93d544b714b4504be5a4bbaf591ce0, type: 3}
+    - target: {fileID: 1635173186092592187, guid: 5858535fd836441539595eabd4f0bdab, type: 3}
       propertyPath: airshipFootstepSFX
       value: 
       objectReference: {fileID: 8300000, guid: bd953ae87292f4942ae4211b4e72d093, type: 3}
