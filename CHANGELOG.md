@@ -5,7 +5,123 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-* Put any unreleased features here.
+* Tile hovering VFX.
+
+## [v2.7.0] - 2026-05-13
+
+### Added
+* Added ending dialogue to secondary Mother Island.
+* Implemented Mother Crystal in Mother Island interior.
+* Finalized Mother Island progression.
+* Added puzzle completion SFX.
+* Added world barriers to Ice Island.
+* Added floating NPC exclamation point over interactable NPCs.
+* Added sand storms to Oasis Island.
+* Added fade transition for teleporting into mother island.
+* Added soundtrack to credits sequence.
+* Imported and added Judith house to Ice Island.
+
+### Fixed
+* Fixed Sky's jumping animation to properly trigger when jumping and not just falling.
+* Fixed the mana tiles.
+* Fixed a bug where some SFX were not available on Flower Island.
+
+### Changed
+* Shortened fade in and out transition for many VFX.
+* Significantly improved Oasis Island decor and foliage.
+
+## [v2.6.1] - 2026-05-12
+
+### Added
+* Added some NPC artworks and foliage to Mother Island (made by @torialle).
+* Added wind particles to Flower Island scene.
+
+### Changed
+* Finalized Flower Island puzzles.
+
+## [v2.6.0] - 2026-05-11
+
+### Added
+* Added a fade in and out feature for transitioning to and from puzzle mode.
+* Added a fade in and out feature for puzzle resetting.
+* Added a dynamic footsteps SFX system.
+* Added a feature to make the mana UI text flash red when the Player runs out of mana.
+* Added a new developer shortcut to the Player input action map for the puzzle cheat system.
+* Added all baseline Flower Island puzzles.
+* Added the new floating mini-island model to Flower Island (made by @torialle).
+
+### Fixed
+* Fixed a bug where the Player wasn't able to exit or skip the credits sequence.
+
+### Changed
+* Moved the puzzle cheat signs on all islands out of view of the Player.
+
+### Removed
+* Deleted a series of old and unused files/assets from the Unity project folder.
+
+## [v2.5.0] - 2026-05-10
+
+### Added
+* Added Player sliding across ice tiles VFX.
+* Added collectable crystal bobbing VFX.
+* Added particle effect VFX for mana tiles.
+* Created Precipice Games splash screen.
+* Created baseline credits sequence.
+* Added a button in MainMenu.unity to navigate to Credits.unity.
+
+### Fixed
+* Fixed a bug where the collectable crystal wasn't rising up from the ground.
+* Fixed a bug where a sectioned off area of Ice Island was bright pink.
+
+## [v2.4.0] - 2026-05-09
+
+### Added
+* Added a spring mechanic for movement (must hold shift).
+* Added a smooth sliding VFX when moving a tile in puzzle mode.
+* Added layer mask parsing into the TileSelector.cs raycast system.
+* Added finalized UI assets (made by @bobbysaville18-beep).
+* Added final Mother Island model (made by @torialle).
+* Merged the final updates of the 01 Assets directory.
+
+### Fixed
+* Fixed a bug where the Player was not able to click any tiles on the Mother Island puzzles.
+* Fixed a bug where some tiles were still changing to different colors upon resetting a puzzle.
+* Fixed a bug where the varying tree heights for Ice Island trees was not appearing.
+* Fixed a bug where the parkour tiles on Ice Island were bright pink.
+* Fixed an incorrect tile on Ice Island puzzle 4.
+* Fixed resource values and start/end tiles placement on Oasis Island puzzle 4.
+
+### Changed
+* Improved the camera views of a few puzzles between Ice and Oasis.
+* Changed originalColor property of all tiles to be white.
+
+### Removed
+* Deleted the old fbx files of Mother Island from the Unity project itself.
+
+## [v2.3.0] - 2026-05-08
+
+### Added
+* Added puzzle feedback for empty cells and the ice tile mechanic.
+* Created the framework for a tile hovering VFX (not yet implemented).
+* Implemented Flower Island skybox.
+* Created Flower Island puzzle 1.
+* Added temporary floating island to Flower Island.
+* Added finalized Flower Island music.
+
+### Fixed
+* Fixed a bug where the Player was getting soft locked in paused mode on Ice Island between entering and exiting puzzles.
+* Fixed a bug where the exit button was not working on Flower Island puzzles.
+* Fixed a bug where the SelectableTilesParent.cs script was not attached to some tiles (Ice, Mother, Oasis).
+* Fixed a bug where some tiles kept changing color when resetting a puzzle.
+* Fixed a bug where the game was unexpectedly pausing during/after dialogue sequences.
+
+### Changed
+* Increased the raycasting tile selectable tile area.
+* Restored a Player reference for the exit button in RuneCircle.cs.
+* Recreated the EventSystem object in Ice_Island.unity.
+* Finalized the Main Menu navigation SFX.
+* Improved the organization and positioning of NPCs and items on Flower Island.
+* Enhanced the animated loading screen transition to ensure it fits on all screen resolutions.
 
 ## [v2.2.5] - 2026-05-07
 

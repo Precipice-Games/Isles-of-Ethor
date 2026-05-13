@@ -14,6 +14,8 @@ public class RuneCircle : MonoBehaviour
     /// </summary>
     public Transform otherRuneCircle;
 
+    public PuzzleDialogueTrigger puzzleDialogue;
+
     /// <summary>
     /// Tracks if player is standing on an active rune circle.
     /// </summary>
@@ -86,7 +88,8 @@ public class RuneCircle : MonoBehaviour
 
         // Play rune circle sound effect
         if (SFXManager.Instance != null) SFXManager.Instance.PlayRuneCircle();
-        
+
+
         // If the puzzle has already been completed, teleport to the other rune circle.
         if (puzzleInfo.puzzleSolved == true)
         {
@@ -102,6 +105,7 @@ public class RuneCircle : MonoBehaviour
         // If the puzzle has not been completed, trigger the
         // event to notify subscribers.
         puzzleTriggered.Invoke(puzzleInfo);
+        if (puzzleDialogue != null) puzzleDialogue.OnPuzzleEnter();
     }
 
     /// <summary>

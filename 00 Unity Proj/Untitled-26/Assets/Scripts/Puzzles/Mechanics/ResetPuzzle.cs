@@ -31,7 +31,7 @@ public class ResetPuzzle : MonoBehaviour
             {
                 Color newColor = resetCanvasColor.color;
 
-                newColor.a = newColor.a + Time.deltaTime;
+                newColor.a = newColor.a + (3 * Time.deltaTime);
 
                 resetCanvasColor.color = newColor; //fade in over time
 
@@ -41,7 +41,7 @@ public class ResetPuzzle : MonoBehaviour
                 //timer in between fade in and out to give some visual rest
                 if (currentFadeInFadeOutTime < fadeInFadeOutInBetween)
                 {
-                    currentFadeInFadeOutTime += Time.deltaTime;
+                    currentFadeInFadeOutTime += (3 * Time.deltaTime);
                 }
                 else
                 {

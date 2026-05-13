@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Islands/Flower_Island.unity
     guid: 7ff84d9375ae86042b60517c477b60ff
   - enabled: 1
+    path: Assets/Scenes/Islands/Ending.unity
+    guid: c8d8f3b96fac7e94eb427f59079c813d
+  - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 85b42a24e5c5fe04993030ce9d94505b
   m_configObjects:

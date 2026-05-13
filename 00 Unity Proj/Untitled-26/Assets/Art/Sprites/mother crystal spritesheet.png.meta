@@ -1,0 +1,1269 @@
+fileFormatVersion: 2
+guid: 5c9f5ec5521f2fe4eb2e29cd01f0e4c5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mother crystal spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 9848
+        width: 876
+        height: 870
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5245d86b84c75f54282a6d637d752b08
+      internalID: -348787076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 9848
+        width: 876
+        height: 870
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce2508cdc1f3124a9cd7ca394808d21
+      internalID: 1664518857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 4391
+        y: 9848
+        width: 876
+        height: 870
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25659250e9e17244a7aa6ae21bcb38c
+      internalID: -548461120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 6311
+        y: 9848
+        width: 876
+        height: 870
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25b310e141b24f4db0f9fd8a87007de
+      internalID: -607023151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 8231
+        y: 9848
+        width: 876
+        height: 870
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3553a560f260ae04785697bf00ad1229
+      internalID: -1202240845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 8767
+        width: 880
+        height: 870
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0f19b381a953e4097534db7d1a3210
+      internalID: -96664881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 8767
+        width: 880
+        height: 870
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec8c8f3084dd504eae2f5bdf86fcf02
+      internalID: 575815669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 4389
+        y: 8767
+        width: 878
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5446b237295cc9241b37d3ce2409478c
+      internalID: 2103560908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 6311
+        y: 8767
+        width: 876
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0545825b4ae6ab640bc6f375c5e52bc9
+      internalID: 740797656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 8231
+        y: 8762
+        width: 876
+        height: 880
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53827e6e3e29db428eb5b6cf1bb481f
+      internalID: -1930726000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 7686
+        width: 876
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08be1d4dc3f1844d95d1e824413db9f
+      internalID: 1428829035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 7681
+        width: 876
+        height: 886
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142460aa7ec07b549bdf45427b4561df
+      internalID: -609715480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 4391
+        y: 7681
+        width: 876
+        height: 886
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b86170ddb050140bcb29febb8dbea9
+      internalID: -793584660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 6311
+        y: 7681
+        width: 876
+        height: 886
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dda99b925e252941b0eeeedd232d729
+      internalID: 942889011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 8229
+        y: 7681
+        width: 878
+        height: 886
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09163c185486d64eb3d20093ba195a4
+      internalID: 1915519547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 6600
+        width: 876
+        height: 886
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75623f30930b4654c986817ef83768a0
+      internalID: -246512847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 6596
+        width: 876
+        height: 895
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b44d94f247c5c4999ef3cdcda3cbc4
+      internalID: 738871964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 4391
+        y: 6595
+        width: 876
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3394c218784412640bad45bfdcfd0913
+      internalID: -1278835795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 6311
+        y: 6595
+        width: 876
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e01d5cb70d51844b91249cae6b6160f
+      internalID: -865540776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 8231
+        y: 6595
+        width: 876
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071803c71ed3e2541966d593fa487d04
+      internalID: 1189559347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 5513
+        width: 876
+        height: 902
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7047d79124e96448d354544251bef4
+      internalID: -995282730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 5513
+        width: 876
+        height: 902
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8333f04f5aecd44ca8e554582f2ed09
+      internalID: -1866147480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 4391
+        y: 5513
+        width: 876
+        height: 902
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b81855c47be004a85d91dca1f66b5b
+      internalID: 106692877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 6309
+        y: 5513
+        width: 878
+        height: 902
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5795fb3b9f3ed1b478359df15530662a
+      internalID: 943874934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 8227
+        y: 5513
+        width: 880
+        height: 902
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa8f56f5a75b4f4cbbc28e2d64f979b
+      internalID: 599402053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 4432
+        width: 878
+        height: 902
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9810d4759f3cd7c4faa068e90903c8ec
+      internalID: -476059129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 4432
+        width: 878
+        height: 902
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ef305df34a2f24cae58acf36cdfe55
+      internalID: 1940454945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 4389
+        y: 4432
+        width: 878
+        height: 902
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021ce9607c14dd4408c32be8fef7ce66
+      internalID: -1471508848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 6309
+        y: 4432
+        width: 878
+        height: 902
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aecc6d9a2d89434d9921e1ef8080fb2
+      internalID: -1160352117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 8229
+        y: 4432
+        width: 878
+        height: 902
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10257f77bdc66649a8ab506f78f06c3
+      internalID: 1596397207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 3357
+        width: 876
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473c29ce98ad24d4cad8df880ab695d8
+      internalID: -1654654911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 3357
+        width: 876
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9459e2895f9cee749bc06a7a40c9afb1
+      internalID: -1966341215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 4391
+        y: 3357
+        width: 876
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9426f80c8e2789e43865b4639132f9a4
+      internalID: 1391780331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 6311
+        y: 3357
+        width: 876
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cb036249de12b479242bc003f8ed9c
+      internalID: -1004010879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 8231
+        y: 3357
+        width: 876
+        height: 891
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8d046e2b3fa0c45bcead1355b0ebde
+      internalID: -1440530873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 2281
+        width: 876
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f18351dc97010e489d269e879178521
+      internalID: 1365042684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 2281
+        width: 878
+        height: 886
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ee9bba5bb96ba4e87b580a8010f992
+      internalID: -605930003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 4387
+        y: 2281
+        width: 880
+        height: 886
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d70c3d63ddb4f14a8ec27ec01756ea9
+      internalID: -645826666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 6307
+        y: 2281
+        width: 880
+        height: 886
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de318cdb4cbf8b543b699ed2dfd943bb
+      internalID: 153918959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 8231
+        y: 2281
+        width: 876
+        height: 886
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a5327c65165174cb4ae7c203a35da9
+      internalID: -225750977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1205
+        width: 880
+        height: 881
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b847377c40a0f2448b0d1ac98612bb7c
+      internalID: -1663031261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 1205
+        width: 876
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9678f8ec55c9364383b3703f9cab4c7
+      internalID: -309062712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 4391
+        y: 1205
+        width: 876
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4125c2a458d6cb841af9822d371f5403
+      internalID: -1564393265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 6311
+        y: 1205
+        width: 876
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3479412280f04e647ae060f8febd01ef
+      internalID: 352582875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 8231
+        y: 1205
+        width: 876
+        height: 875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f668ea463090ed840a191fd1ff3cd824
+      internalID: -1440217345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 129
+        width: 876
+        height: 870
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9365486095f1e854f825332a59e3e037
+      internalID: -308128334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 129
+        width: 876
+        height: 870
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262c2435caf622a48a1263be299b3269
+      internalID: 135472876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 4391
+        y: 129
+        width: 876
+        height: 870
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2464aa9b375b2e4b8f6225df87c99a8
+      internalID: -866913889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 6311
+        y: 129
+        width: 876
+        height: 870
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f7508dbad51424583dbd84cea997a5
+      internalID: 2128957169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mother crystal spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 8231
+        y: 129
+        width: 876
+        height: 870
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ace1ea01f520f4e893fe3094fe4208
+      internalID: 1276544041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 460d202d5973fa6459caa519e3c4fa2e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      mother crystal spritesheet_0: -348787076
+      mother crystal spritesheet_1: 1664518857
+      mother crystal spritesheet_10: 1428829035
+      mother crystal spritesheet_11: -609715480
+      mother crystal spritesheet_12: -793584660
+      mother crystal spritesheet_13: 942889011
+      mother crystal spritesheet_14: 1915519547
+      mother crystal spritesheet_15: -246512847
+      mother crystal spritesheet_16: 738871964
+      mother crystal spritesheet_17: -1278835795
+      mother crystal spritesheet_18: -865540776
+      mother crystal spritesheet_19: 1189559347
+      mother crystal spritesheet_2: -548461120
+      mother crystal spritesheet_20: -995282730
+      mother crystal spritesheet_21: -1866147480
+      mother crystal spritesheet_22: 106692877
+      mother crystal spritesheet_23: 943874934
+      mother crystal spritesheet_24: 599402053
+      mother crystal spritesheet_25: -476059129
+      mother crystal spritesheet_26: 1940454945
+      mother crystal spritesheet_27: -1471508848
+      mother crystal spritesheet_28: -1160352117
+      mother crystal spritesheet_29: 1596397207
+      mother crystal spritesheet_3: -607023151
+      mother crystal spritesheet_30: -1654654911
+      mother crystal spritesheet_31: -1966341215
+      mother crystal spritesheet_32: 1391780331
+      mother crystal spritesheet_33: -1004010879
+      mother crystal spritesheet_34: -1440530873
+      mother crystal spritesheet_35: 1365042684
+      mother crystal spritesheet_36: -605930003
+      mother crystal spritesheet_37: -645826666
+      mother crystal spritesheet_38: 153918959
+      mother crystal spritesheet_39: -225750977
+      mother crystal spritesheet_4: -1202240845
+      mother crystal spritesheet_40: -1663031261
+      mother crystal spritesheet_41: -309062712
+      mother crystal spritesheet_42: -1564393265
+      mother crystal spritesheet_43: 352582875
+      mother crystal spritesheet_44: -1440217345
+      mother crystal spritesheet_45: -308128334
+      mother crystal spritesheet_46: 135472876
+      mother crystal spritesheet_47: -866913889
+      mother crystal spritesheet_48: 2128957169
+      mother crystal spritesheet_49: 1276544041
+      mother crystal spritesheet_5: -96664881
+      mother crystal spritesheet_6: 575815669
+      mother crystal spritesheet_7: 2103560908
+      mother crystal spritesheet_8: 740797656
+      mother crystal spritesheet_9: -1930726000
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

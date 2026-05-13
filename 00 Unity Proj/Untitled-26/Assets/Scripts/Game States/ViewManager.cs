@@ -115,6 +115,7 @@ public class ViewManager : MonoBehaviour
     {
         GameStateManager.transitionedToNewState += HandleViewChange;
         GameStateManager.transitionedToNewState += HandlePostProcessor;
+        GameStateManager.dialogueToggled += OnDialogueOverlayToggled;
         RuneCircle.puzzleTriggered += UpdatePuzzleInformation;
         loadingVideoPlayer.loopPointReached += OnLoadingVideoFinished;
     }
@@ -124,8 +125,25 @@ public class ViewManager : MonoBehaviour
     {
         GameStateManager.transitionedToNewState -= HandleViewChange;
         GameStateManager.transitionedToNewState -= HandlePostProcessor;
+        GameStateManager.dialogueToggled -= OnDialogueOverlayToggled;
         RuneCircle.puzzleTriggered -= UpdatePuzzleInformation;
         loadingVideoPlayer.loopPointReached -= OnLoadingVideoFinished;
+    }
+
+    private void OnDialogueOverlayToggled(bool active)
+    {
+        if (active)
+        {
+            // If the dialogue overlay is active, we want to switch to the dialogue camera and UI
+            dialogueUI.SetActive(true);
+            //HandleCameraChange(dialogueCamera);
+        }
+        else
+        {
+            // If the dialogue overlay is not active, we want to switch back to the exploration camera and UI
+            dialogueUI.SetActive(false);
+            //HandleCameraChange(playerCamera);
+        }
     }
 
     /// <summary>
@@ -343,17 +361,18 @@ public class ViewManager : MonoBehaviour
             {
                 Color newColor = transitionCanvasColor.color;
 
-                newColor.a = newColor.a + Time.deltaTime;
+                newColor.a = newColor.a + (2.5f * Time.deltaTime);
 
                 transitionCanvasColor.color = newColor; //fade in over time
 
             }
             else
             {
+
                 //timer in between fade in and out to give some visual rest
                 if (currentFadeInFadeOutTime < fadeInFadeOutInBetween)
                 {
-                    currentFadeInFadeOutTime += Time.deltaTime;
+                    currentFadeInFadeOutTime += (2.5f * Time.deltaTime);
                 }
                 else
                 {
