@@ -6390,7 +6390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: moveBackUses
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: moveLeftUses
@@ -6398,11 +6398,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: startingMana
-      value: 9
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213066574574228598, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
+      propertyPath: moveRightUses
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: moveForwardUses
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7800062998783284890, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: selectableTilesParent
