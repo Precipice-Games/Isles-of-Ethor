@@ -28531,7 +28531,7 @@ PrefabInstance:
     - target: {fileID: 5556794971271523548, guid: 6eabaf5c0997b8f4bab5793606edd47f, type: 3}
       propertyPath: transitionCanvasColor
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1687485649}
     - target: {fileID: 5556794971271523548, guid: 6eabaf5c0997b8f4bab5793606edd47f, type: 3}
       propertyPath: doorEntered.m_PersistentCalls.m_Calls.Array.size
       value: 1
