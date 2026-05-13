@@ -35102,6 +35102,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 715216098605879800, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 715216098605879800, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 715216098605879800, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 715216098605879800, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1173698383739407512, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: mainCamera
       value: 
@@ -35137,7 +35153,7 @@ PrefabInstance:
     - target: {fileID: 6254262242247927432, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ba3eb3c5b3d422c4a8455c2c2053758e, type: 2}
+      objectReference: {fileID: 2100000, guid: 18aa0e591b5a5f94392a2de245a8a273, type: 2}
     - target: {fileID: 6709136814799094051, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: printAttemptedTileType
       value: 1
