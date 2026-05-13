@@ -123,6 +123,7 @@ Sky: But, Dahlia, I really need to–
 
 Dahlia: I told you, we’ll talk about that when you’re done. Just enjoy yourself for right now!
 <<else>>
+<<once>>
 Sky: Dahlia, I’m back!
 
 Dahlia: Hey! How’d it go? Did you see all the flowers?
@@ -142,7 +143,8 @@ Sky: Dahlia, I’m here to help. That’s why I’m looking for the crystal. I h
 
 Dahlia: What?! Really?! I mean, that would be great if you could…it’s just right over there.
 
-Sky: Thanks! Just give me a moment.
+Sky: Thanks! Just give me a moment.    
+<<endonce>>
 <<endif>>
 <<if $flowerFinished == true>>
 <<once>>
