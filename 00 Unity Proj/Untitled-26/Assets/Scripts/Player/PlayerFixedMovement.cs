@@ -512,6 +512,11 @@ public class PlayerFixedMovement : MonoBehaviour
     /// </summary>
     private void IsPlayerOnEndTile()
     {
+        Debug.Log("PlayerFixedMovement.cs >> Checking if Player is on the end tile...");
+        Debug.Log($"PlayerFixedMovement.cs >> endTileX: {endTileX} | endTileZ: {endTileZ}");
+        Debug.Log($"PlayerFixedMovement.cs >> playerGridX: " + playerGridX + " | playerGridZ: " + playerGridZ);
+        
+        
         // Check if the Player's coordinates match the end tile's coordinates
         if (endTileX == playerGridX && endTileZ == playerGridZ)
         {
