@@ -71,7 +71,10 @@ public class GameStateManager : MonoSingleton<GameStateManager>
     
     // Static event to notify subscribers of game state changes
     public static event Action<GameState> transitionedToNewState;
-    
+
+    public static bool dialogueOverlayActive { get; private set; } = false;
+    public static event Action<bool> dialogueToggled;
+
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -208,6 +211,22 @@ public class GameStateManager : MonoSingleton<GameStateManager>
     /// </summary>
     public void onDialogueTrigger()
     {
+        if (dialogueOverlayActive)
+        {
+            dialogueOverlayActive = false;
+            dialogueToggled?.Invoke(false);
+            if(printStateTransition) Debug.Log("GameStateManager.cs >> Dialogue overlay deactivated.");
+            return;
+        }
+        // If in puzzle mode, activate dialogue as an overlay instead of transitioning to the dialogue state.
+        if(CurrentGameState == GameState.Puzzle)
+        {
+            dialogueOverlayActive = true;
+            dialogueToggled?.Invoke(true);
+            if(printStateTransition) Debug.Log("GameStateManager.cs >> Dialogue overlay activated.");
+            return;
+        }
+
         if (CurrentGameState == GameState.Dialogue)
         {
             // As of now this should only return to Exploration state. However,
