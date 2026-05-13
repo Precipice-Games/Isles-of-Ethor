@@ -153,4 +153,10 @@ public class PlayerGroundcast : MonoBehaviour
             groundcastHitInteractable?.Invoke(true);
         }
     }
+
+    public bool GetOnGrounded()
+    {
+        return onGround;
+    }
+
 }

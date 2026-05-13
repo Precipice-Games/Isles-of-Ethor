@@ -69,11 +69,13 @@ public class PlayerControlsInputs : MonoBehaviour
 		if (context.performed)
 		{
 			jump = true;
+			gameObject.GetComponentInChildren<Texture_Animation>()._isJumpingPerformed = true;
 			Debug.Log("PlayerControlsInputs.cs >> Jump performed.");
 		}
 		else if (context.canceled)
 		{
 			jump = false;
+			gameObject.GetComponentInChildren<Texture_Animation>()._isJumpingPerformed = false;
 			Debug.Log("PlayerControlsInputs.cs >> Jump canceled.");
 		}
 	}
