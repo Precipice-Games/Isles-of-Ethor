@@ -11,6 +11,11 @@ public class Texture_Animation : MonoBehaviour
     private float _frameCounter = 0.0f;
 
     [SerializeField]
+    private float lastVelocity;
+    [SerializeField]
+    private float currentVelocity;
+
+    [SerializeField]
     private Sprite[] _idleSprites = new Sprite[23];
     [SerializeField]
     private Sprite[] _runningSprites = new Sprite[27];
@@ -18,6 +23,8 @@ public class Texture_Animation : MonoBehaviour
     public bool _isRunning = false;
     [SerializeField]
     private Sprite[] _jumpingSprites = new Sprite[19];
+    [SerializeField]
+    public bool _isJumpingPerformed = false;
     [SerializeField]
     private bool _isJumping = false;
 
@@ -40,6 +47,9 @@ public class Texture_Animation : MonoBehaviour
     void FixedUpdate()
     {
 
+        lastVelocity = currentVelocity;
+        currentVelocity = transform.parent.GetComponent<CharacterController>().velocity.y;
+
         // Debug.Log(transform.parent.GetComponent<CharacterController>().velocity);
 
         // Debug.Log(transform.parent.GetComponent<CharacterController>().velocity);
@@ -54,12 +64,11 @@ public class Texture_Animation : MonoBehaviour
         {
             _isRunning = false;
         }
-
-        if (Math.Abs(transform.parent.GetComponent<CharacterController>().velocity.y) >= 1.75)
+        if (_isJumpingPerformed && lastVelocity > 0)
         {
             _isJumping = true;
         }
-        else
+        else if (_isJumping && lastVelocity < 0 && transform.parent.GetComponent<CharacterController>().velocity.y == 0f)
         {
             _isJumping = false;
         }
