@@ -33,6 +33,11 @@ public class IslandPuzzleManager : MonoBehaviour
     public void UpdateCompletionStatus(PuzzleInformation completedPuzzle)
     {
         // Update the puzzle's completion status
+        PuzzleDialogueTrigger dialogueTrigger = completedPuzzle.GetComponent<PuzzleDialogueTrigger>();
+        if (dialogueTrigger != null)
+        {
+            dialogueTrigger.OnPuzzleExit();
+        }
         completedPuzzle.puzzleSolved = true;
         CheckAllPuzzlesCompleted();
     }
