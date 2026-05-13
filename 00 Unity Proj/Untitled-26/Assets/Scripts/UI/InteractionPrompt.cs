@@ -14,6 +14,8 @@ public class InteractionPrompt : MonoBehaviour
 {
     public GameObject interactPromptText;
 
+    public bool isIslandComplete = false;
+
     /// <summary>
     /// Tracks if the player's raycast is currently hitting an interactable object.
     /// </summary>
@@ -63,7 +65,7 @@ public class InteractionPrompt : MonoBehaviour
             return;
         }
         
-        if(isRaycastHitting || isInCircle || isOnAirship)
+        if(isRaycastHitting || isInCircle || (isOnAirship && isIslandComplete))
         {
             interactPromptText.SetActive(true);
         }
@@ -105,5 +107,10 @@ public class InteractionPrompt : MonoBehaviour
     {
         isOnAirship = onAirship;
         TogglePrompt();
+    }
+
+    public void ToggleIslandComplete()
+    {
+        isIslandComplete = true;
     }
 }
