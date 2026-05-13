@@ -1727,7 +1727,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 715216098605879800, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 0.1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1173698383739407512, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: mainCamera
@@ -1767,7 +1767,7 @@ PrefabInstance:
       objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: 6254262242247927432, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_RenderMode
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6254262242247927432, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: m_MeshDistribution
@@ -1776,7 +1776,7 @@ PrefabInstance:
     - target: {fileID: 6254262242247927432, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d57ef13cf0af88a44b94bccaa8189b2b, type: 2}
+      objectReference: {fileID: 2100000, guid: 501b9b46b2b48224fb17c2c228982200, type: 2}
     - target: {fileID: 6709136814799094051, guid: 54c3cae06d7e2984c907b8af2732c354, type: 3}
       propertyPath: printAttemptedTileType
       value: 1
