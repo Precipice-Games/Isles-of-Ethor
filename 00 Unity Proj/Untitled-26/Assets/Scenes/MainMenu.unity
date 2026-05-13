@@ -678,6 +678,7 @@ MonoBehaviour:
   oasisIslandPuzzleTrack: {fileID: 0}
   iceIslandPuzzleTrack: {fileID: 8300000, guid: 61bc7a410ba3849d1a2eb2f44752f2c7, type: 3}
   flowerIslandPuzzleTrack: {fileID: 8300000, guid: 2f78499ac84f14eaa9aa07d3d3d3a3e5, type: 3}
+  creditsTrack: {fileID: 8300000, guid: 58dc229e0f6fc4a39804f59f6c056188, type: 3}
   fadeDuration: 1.05
   defaultVolume: 0.6
 --- !u!82 &816375123
