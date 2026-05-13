@@ -6,7 +6,7 @@ position: -92,80
 //(Sky arrives on the ice island, and can walk up to Judith and press E to interact with her, which will bring up the dialogue.)
 <<if $iceFinished == false>>
 <<once>>
-???: … #line:02e9f33 
+???: ...  #line:02e9f33 
 
 Sky: Hello! #line:0c4b355 
 
@@ -28,7 +28,7 @@ Sky: Like what? #line:052d7f2
 
 Judith: Look, I'm busy right now. If you want to talk, you’ll have to meet me on the other side of this river. Otherwise, just leave me be. #line:0d9245b 
 
-Sky: Okay! But…how do I get across? #line:0c2dec9 
+Sky: Okay! But... how do I get across? #line:0c2dec9 
 
 Judith: Not my problem. #line:06f83db 
 //Judith returns to mining the ice around her. You start on your journey toward the crystal.
@@ -55,7 +55,7 @@ Sky: Yeah, sorry about that. I didn't know the crystal would react like that. #l
 
 Judith: So what does that mean for the island? Are things going to go back to normal? #line:0781f29 
 
-Sky: Well your island is back to how it was before the fracture…but we have a long way to go before things can be normal again. #line:082277b 
+Sky: Well your island is back to how it was before the fracture... but we have a long way to go before things can be normal again. #line:082277b 
 
 Judith: What does that mean for you? #line:0da9b0e 
 
@@ -66,7 +66,7 @@ Judith: Do you really think that you can fix all the islands from the fracture? 
 
 Sky: I know I can. Come on, don't you trust me at this point? #line:04b9a10 
 
-Judith: Well…thanks to I've got my island back to normal. I’m afraid to say that I do. I trust you Sky. And I thank you. #line:03f729f 
+Judith: Well... thanks to you, I've got my island back to normal. I’m afraid to say that I do. I trust you Sky. And I thank you. #line:03f729f 
 
 Sky: Of course, Judith. I’m glad I was able to help you. Now, I'd better get going on those islands! They aren't going to fix themselves. #line:02c7354 
 
@@ -74,7 +74,7 @@ Judith: If you ever need anything don't hesitate to ask. It's the least we can d
 
 Sky: Absolutely. Maybe one day I can come back and visit? #line:0f9faa0 
 
-Judith: Let’s not get ahead of ourselves. Goodbye, Sky…and safe travels. #line:041bc2a 
+Judith: Let’s not get ahead of ourselves. Goodbye, Sky... and safe travels. #line:041bc2a 
 
 //Player can walk away. If they click on Judith again, it will say:
 <<else>>
@@ -108,7 +108,7 @@ title: MountainJudith
     Sky: Well they're weird they stare at me and squawk a bunch. It's like they're trying to tell me something. #line:0847fb8 
     Judith: Well, they are penguins after all, I always just kind of ignored them or gave them a quick 'hi' in passing. #line:0dee4f9 
     Sky: Do you think they're trying to talk to us? Maybe they know something about the crystal we don't. #line:0e05ddc 
-    Judith: I am curious what they would have to say for themselves if they could speak our language…but who knows. #line:03361ae 
+    Judith: I am curious what they would have to say for themselves if they could speak our language... but who knows. #line:03361ae 
     Judith: If there is anything that we don't have a shortage of around here, it is our penguins. You’ll never run out of conversation. #line:09c3f30 
     Sky: I'd bet they'd have some pretty good stories to tell about the island. #line:0f06a8f 
     Judith: Maybe. Anyway, let me get back to what I'm doing. See you later, Sky. #line:050e863 
@@ -121,9 +121,9 @@ title: MountainJudith
     Sky: Yeah, it is! I’m so excited to see the ways in which all the islands are different. Especially the weather! It’s only ever sunny and warm back home.  #line:024e4cc 
     Judith: Hm, yeah. I'm curious how the other islands are handling all of this. Wonder how their crystals reacted to the Fracture. #line:0746bf9 
     Sky: Each crystal is special in its own way, so I'd imagine the effects are different per island. At least, that’s what the Mother Crystal told me. #line:0f6276b 
-    Judith: If the crystal can affect the ice maybe it can affect the trees too… #line:0395f02 
+    Judith: If the crystal can affect the ice maybe it can affect the trees too...  #line:0395f02 
     Judith: Who knows? Maybe they can help you with getting the crystal free. #line:0095932 
-    Sky: Hm, that's possible…I'll keep it in mind. Thanks Judith. #line:0d41577 
+    Sky: Hm, that's possible... I'll keep it in mind. Thanks Judith. #line:0d41577 
     Judith: Hmph. You’re welcome. #line:0262019 
 <<endonce>>
 ===
