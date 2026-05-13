@@ -1597,7 +1597,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6271573414225017425, guid: 84a2efad5a4897447a287122cef1c0ce, type: 3}
+  - {fileID: 2100000, guid: 33bb73e6f4f42194091573759cf2d364, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17067,6 +17067,10 @@ PrefabInstance:
     - target: {fileID: 772706793502206034, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_Name
       value: Cumulus
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188732380355989547, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2453805659328566245, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: _idleSprites.Array.size
