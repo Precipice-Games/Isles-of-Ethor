@@ -427,6 +427,7 @@ MonoBehaviour:
   puzzleInfo: {fileID: 9191018659038673785}
   exitPuzzleButton: {fileID: 4943596135170749970}
   otherRuneCircle: {fileID: 3624906698350998147}
+  puzzleDialogue: {fileID: 0}
 --- !u!1 &925581002351369635
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,6 +1033,7 @@ MonoBehaviour:
   puzzleInfo: {fileID: 9191018659038673785}
   exitPuzzleButton: {fileID: 4943596135170749970}
   otherRuneCircle: {fileID: 7321162161942524934}
+  puzzleDialogue: {fileID: 1715532357556339542}
 --- !u!1 &2065247099526973384
 GameObject:
   m_ObjectHideFlags: 0
@@ -2060,6 +2062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14eb0a16258e2034d9bb137e1435805f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GridManager
+  blockedCells: []
   width: 9
   height: 9
   tileSize: 3
@@ -3146,6 +3149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3397337548393501967}
   - component: {fileID: 9191018659038673785}
+  - component: {fileID: 1715532357556339542}
   m_Layer: 0
   m_Name: IceBasePuzzle
   m_TagString: Untagged
@@ -3192,6 +3196,22 @@ MonoBehaviour:
   gridManager: {fileID: 4785314922009797101}
   resourceManager: {fileID: 7600570827429529725}
   puzzleSolved: 0
+--- !u!114 &1715532357556339542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7199852587322879966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdfff3539f15de84b9e1ff3ac3c6b839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleDialogueTrigger
+  runner: {fileID: 0}
+  enterNode: 
+  exitNode: 
+  exitDelay: 0.5
 --- !u!1 &7264184287714543087
 GameObject:
   m_ObjectHideFlags: 0
