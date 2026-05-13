@@ -11,9 +11,9 @@ public class Texture_Animation : MonoBehaviour
     private float _frameCounter = 0.0f;
 
     [SerializeField]
-    private float lastVelocity;
+    private float lastYVelocity;
     [SerializeField]
-    private float currentVelocity;
+    private float currentYVelocity;
 
     [SerializeField]
     private Sprite[] _idleSprites = new Sprite[23];
@@ -47,12 +47,12 @@ public class Texture_Animation : MonoBehaviour
     void FixedUpdate()
     {
 
-        lastVelocity = currentVelocity;
-        currentVelocity = transform.parent.GetComponent<CharacterController>().velocity.y;
+        lastYVelocity = currentYVelocity;
+        currentYVelocity = transform.parent.GetComponent<CharacterController>().velocity.y;
 
-        // Debug.Log(transform.parent.GetComponent<CharacterController>().velocity);
+        Debug.Log("LAST Y VELO" + lastYVelocity);
 
-        // Debug.Log(transform.parent.GetComponent<CharacterController>().velocity);
+        Debug.Log("CURRENT Y VELO" + currentYVelocity);
 
         if (transform.parent.GetComponent<CharacterController>().velocity.x != 0 || transform.parent.GetComponent<CharacterController>().velocity.z != 0)
         {
@@ -64,11 +64,11 @@ public class Texture_Animation : MonoBehaviour
         {
             _isRunning = false;
         }
-        if (_isJumpingPerformed && lastVelocity > 0)
+        if (_isJumpingPerformed && lastYVelocity > 0)
         {
             _isJumping = true;
         }
-        else if (_isJumping && lastVelocity < 0 && transform.parent.GetComponent<CharacterController>().velocity.y == 0f)
+        else if (transform.parent.GetComponent<PlayerGroundcast>().GetOnGrounded())
         {
             _isJumping = false;
         }
