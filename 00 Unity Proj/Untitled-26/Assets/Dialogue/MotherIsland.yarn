@@ -1,6 +1,7 @@
 ﻿title: IntroDialogue
 position: 138,-50
 ---
+<<declare $motherFinished = false>>
 //1 - Initiate dream sequence
 
 //*black screen, text fades in, mother crystal starts to fade in very slowly during the exposition*
@@ -54,7 +55,10 @@ Sky: <i>I need to talk to Dad first!</i>
 title: Cumulus
 position: -117,10
 ---
+<<if $motherFinished == false>>
+<<once>>
 <<toggleExclamation Cumulus>>
+
 Cumulus: “What’s up, kiddo? You’re up early.” #line:0cb9aac 
 
 //(Cumulus looks up at Sky, properly noting her expression)
@@ -86,6 +90,42 @@ Cumulus: And if you feel called… you should go see her.” #line:0757bfa
 <b>Go to Mother Crystal</b> #line:0a2c696 
 <<disableInvisWall CumulusWall>>
 <<enableInvisWall CrystalCallWall>>
+<<endonce>>
+
+<<else>>
+<<once>>
+<<toggleExclamation Cumulus>>
+Cumulus: Back so soon, kiddo? You look like you’ve seen a hurricane.
+
+Sky: Dad! You were right! Mother Crystal really did call me! She gave me her blessing!
+(Sky’s aura should light up here until the end of the interaction)
+
+Cumulus: So it’s time… 
+
+Cumulus: That aura… it carries the Mother Crystal’s power, correct?
+
+Sky: Yep! But I need a way to travel to the other islands. Mother Crystal says her powers are useless to me if I can’t travel across Ethor!
+
+Cumulus: Aha! You don’t even have to ask! After all, it’s my duty as your father to provide for you.
+
+Sky: Aww Dad!...
+
+Cumulus - Climb aboard, Sky! You’ll reach the closest island if you follow the wind!
+
+Cumulus: I hear this island is quite chilly. You’ll know you’re close when you begin to pass through the relentless frigid winds.
+
+Sky: Got it! Thanks, Dad!
+
+Sky: <i>Well…here goes nothing! I’ve got to save Ethor!</i>
+
+<<disableInvisWall AirshipColliderWall>>
+<<enableInvisWall AirshipDialogueWall>>
+
+<<endonce>>
+
+Cumulus: Go on kiddo, the ship’s all yours now!
+
+<<endif>>
 ===
 
 title: crystalCallDialogue
@@ -96,6 +136,7 @@ Sky: <i>The Mother Crystal called for me, I should probably go there.</i>
 title: tutorialStartDialogue
 position: -87,210
 ---
+<<once>>
 Mother Crystal: Child of the sky… so you’ve answered my plea.
 
 Sky: What’s this all about? What’s going on?
@@ -113,11 +154,12 @@ Mother Crystal: In order to traverse such obstacles, you will need to solve a pu
 Mother Crystal: Consider this first one a mere test of wits. If you may, please interact with the rune circle.
 
 <b>Interact with the Rune Circle</b>
-
+<<endonce>>
 ===
 
 title: tutorialPuzzle1Dialogue
 ---
+<<once>>
 Mother Crystal: Upon stepping inside a rune circle, you will enter a state which we shall call “Puzzle Mode.”
 
 Mother Crystal: Your view will shift, revealing what you need in order to proceed.
@@ -132,11 +174,13 @@ Mother Crystal: These Rune Cards carry the essence of my power, allowing you to 
 
 Mother Crystal: Now go on… select a Rune Card and forge your path.
 
-Mother Crystal: Now choose a tile to utilize its power. Pick the one that will help you form a bridge! If you mess up, you can always reset a puzzle by pressing the ‘R’ key.
+Mother Crystal: Then choose a tile to utilize its power. Pick the one that will help you form a bridge! If you mess up, you can always reset a puzzle.
+<<endonce>>
 ===
 
 title: postPuzzle1Dialogue
 ---
+<<once>>
 Mother Crystal: Splendid! Now, there’s a vital piece of information I must bestow upon you.
 
 Mother Crystal: Playing a Rune Card will expend a singular point of Mana, a finite resource representing your magical reserve for each puzzle.
@@ -148,10 +192,23 @@ Mother Crystal: In some instances, you may not even need to play every card!
 Mother Crystal: The next trial, albeit challenging, shall be done without my guidance.
 
 <b>Complete the next puzzle!</b>
+<<endonce>>
+===
+
+title: tutorialPuzzle2Dialogue
+---
+<<once>>
+Mother Crystal: Child, I forgot to tell you a couple things. 
+
+Mother Crystal: You may exit a puzzle whenever you please. However, doing so will revert all of your progress.
+
+Mother Crystal: (Most importantly, all of this information can be found in your Settings).
+<<endonce>>
 ===
 
 title: postPuzzle2Dialogue
 ---
+<<once>>
 Mother Crystal: Astonishing! Child, you truly have proven yourself worthy
 
 Sky: Piece of cake! Does this mean I’m worthy of answers?
@@ -204,38 +261,9 @@ Sky: <i>Transportation?</i>
 
 Sky: <i>Right! Dad’s airship! I’ve gotta go talk to him!</i>
 
-===
-
-title: returnToDadDialogue
----
-Cumulus: Back so soon, kiddo? You look like you’ve seen a hurricane.
-
-Sky: Dad! You were right! Mother Crystal really did call me! She gave me her blessing!
-(Sky’s aura should light up here until the end of the interaction)
-
-Cumulus: So it’s time… 
-
-Cumulus: That aura… it carries the Mother Crystal’s power, correct?
-
-Sky: Yep! But I need a way to travel to the other islands. Mother Crystal says her powers are useless to me if I can’t travel across Ethor!
-
-Cumulus: Aha! You don’t even have to ask! After all, it’s my duty as your father to provide for you.
-
-Sky: Aww Dad!...
-
-Cumulus - Climb aboard, Sky! You’ll reach the closest island if you follow the wind!
-
-Cumulus: I hear this island is quite chilly. You’ll know you’re close when you begin to pass through the relentless frigid winds.
-
-Sky: Got it! Thanks, Dad!
-
-Sky: <i>Well…here goes nothing! I’ve got to save Ethor!</i>
-
-===
-
-title: cumulusAfterAirshipDialogue
----
-Cumulus: Go on kiddo, the ship’s all yours now!
+<<toggleExclamation Cumulus>>
+<<enableInvisWall AirshipColliderWall>>
+<<endonce>>
 ===
 
 title: getSentOffDialogue
