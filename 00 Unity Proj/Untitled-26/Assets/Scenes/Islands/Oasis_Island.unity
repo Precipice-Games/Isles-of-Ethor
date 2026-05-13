@@ -28616,8 +28616,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 63.18451, y: 4.232563, z: 111.936806}
-  m_Center: {x: -53.53543, y: 31.616304, z: 61.56982}
+  m_Size: {x: 63.18451, y: 4.96611, z: 111.936806}
+  m_Center: {x: -53.53543, y: 31.983078, z: 61.56982}
 --- !u!1001 &1304818189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35335,7 +35335,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   moveDirection: {x: 1, y: 0, z: 1}
   moveDistance: 15
-  speed: 8.57
+  speed: 7
   isActive: 0
   charController: {fileID: 0}
 --- !u!65 &1728649765
@@ -40981,7 +40981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   moveDirection: {x: 1, y: 0, z: 1}
   moveDistance: 15
-  speed: 8
+  speed: 7.5
   isActive: 0
   charController: {fileID: 0}
 --- !u!65 &1783707276
@@ -42202,7 +42202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   moveDirection: {x: 1, y: 1, z: 1}
   moveDistance: 14.01
-  speed: 9
+  speed: 7
   isActive: 0
   charController: {fileID: 0}
 --- !u!65 &1982907263
