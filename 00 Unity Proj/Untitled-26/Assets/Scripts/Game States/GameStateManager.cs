@@ -254,7 +254,7 @@ public class GameStateManager : MonoSingleton<GameStateManager>
     public void onPuzzleCompleted()
     {
         TransitionToState(GameState.Exploration);
-        SFXManager.Instance.PlayPuzzleComplete();
+        if(SFXManager.Instance != null) SFXManager.Instance.PlayPuzzleComplete();
     }
     
     /// <summary>

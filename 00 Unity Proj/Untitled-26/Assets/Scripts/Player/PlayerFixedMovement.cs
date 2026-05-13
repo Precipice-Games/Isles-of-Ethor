@@ -273,7 +273,11 @@ public class PlayerFixedMovement : MonoBehaviour
         // as though the Player is only traveling one tile. We want to ensure that first
         // tile is not empty and is within the bounds before doing anything else.
         if (CheckForOutOfBounds(attemptedDestX, attemptedDestZ)) return;
-        if (CheckForEmptyCell(attemptedDestX, attemptedDestZ)) SnapPlayerToTile(startTileX, startTileZ);
+        if (CheckForEmptyCell(attemptedDestX, attemptedDestZ))
+        {
+            SnapPlayerToTile(startTileX, startTileZ);
+            return;
+        }
 
         // If the move is valid, we've reached this part of the code.
         // Check what type of tile the Player is attempting to move to.
@@ -508,6 +512,11 @@ public class PlayerFixedMovement : MonoBehaviour
     /// </summary>
     private void IsPlayerOnEndTile()
     {
+        Debug.Log("PlayerFixedMovement.cs >> Checking if Player is on the end tile...");
+        Debug.Log($"PlayerFixedMovement.cs >> endTileX: {endTileX} | endTileZ: {endTileZ}");
+        Debug.Log($"PlayerFixedMovement.cs >> playerGridX: " + playerGridX + " | playerGridZ: " + playerGridZ);
+        
+        
         // Check if the Player's coordinates match the end tile's coordinates
         if (endTileX == playerGridX && endTileZ == playerGridZ)
         {

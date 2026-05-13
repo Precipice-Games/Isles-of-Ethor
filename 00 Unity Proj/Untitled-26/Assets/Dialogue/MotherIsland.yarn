@@ -92,13 +92,14 @@ Cumulus: And if you feel called… you should go see her.” #line:0757bfa
 <<enableInvisWall CrystalCallWall>>
 <<endonce>>
 
+<b>Go to Mother Crystal</b>
+
 <<else>>
 <<once>>
 <<toggleExclamation Cumulus>>
 Cumulus: Back so soon, kiddo? You look like you’ve seen a hurricane.
 
 Sky: Dad! You were right! Mother Crystal really did call me! She gave me her blessing!
-(Sky’s aura should light up here until the end of the interaction)
 
 Cumulus: So it’s time… 
 
@@ -110,7 +111,7 @@ Cumulus: Aha! You don’t even have to ask! After all, it’s my duty as your fa
 
 Sky: Aww Dad!...
 
-Cumulus - Climb aboard, Sky! You’ll reach the closest island if you follow the wind!
+Cumulus: Climb aboard, Sky! You’ll reach the closest island if you follow the wind!
 
 Cumulus: I hear this island is quite chilly. You’ll know you’re close when you begin to pass through the relentless frigid winds.
 
