@@ -38,7 +38,7 @@ public class InteractableNPC : MonoBehaviour, IInteractable
     private void FixedUpdate()
     {
         //Vector3 targetPosition = new Vector3(player.transform.position.x, transform.position.y, player.transform.position.z);
-        transform.LookAt(playerCam.transform.position);
+        transform.LookAt(player.transform.position, Vector3.up);
         transform.Rotate(0, 180, 0);
         
         
