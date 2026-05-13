@@ -50,5 +50,6 @@ public class IceTrees : MonoBehaviour
     {
         if (player != null && GameStateManager.CurrentGameState != GameStateManager.GameState.Puzzle)
             transform.LookAt(player.transform.position);
+            transform.Rotate(0, 180, 0);
     }
 }

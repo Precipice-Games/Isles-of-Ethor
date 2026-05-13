@@ -73,6 +73,7 @@ public class TileSelector : MonoBehaviour
             {
                 if (selectedTile != null)
                     selectedTile.Deselect();
+            
 
                 selectedTile = tile;
                 selectedTile.Select();
