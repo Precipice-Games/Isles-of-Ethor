@@ -10843,7 +10843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60642b4dc867a2441a709bf5d508be9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChangerButton
-  nextDestination: 5
+  nextDestination: 6
 --- !u!224 &7598088730690286271 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8294034719170780239, guid: 1cd89ea0c609ae947bf781193be976c9, type: 3}
