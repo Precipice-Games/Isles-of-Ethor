@@ -7,6 +7,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Tile hovering VFX.
 
+## [v2.7.0] - 2026-05-13
+
+### Added
+* Added ending dialogue to secondary Mother Island.
+* Implemented Mother Crystal in Mother Island interior.
+* Finalized Mother Island progression.
+* Added puzzle completion SFX.
+* Added world barriers to Ice Island.
+* Added floating NPC exclamation point over interactable NPCs.
+* Added sand storms to Oasis Island.
+* Added fade transition for teleporting into mother island.
+* Added soundtrack to credits sequence.
+* Imported and added Judith house to Ice Island.
+
+### Fixed
+* Fixed Sky's jumping animation to properly trigger when jumping and not just falling.
+* Fixed the mana tiles.
+* Fixed a bug where some SFX were not available on Flower Island.
+
+### Changed
+* Shortened fade in and out transition for many VFX.
+* Significantly improved Oasis Island decor and foliage.
+
 ## [v2.6.1] - 2026-05-12
 
 ### Added
