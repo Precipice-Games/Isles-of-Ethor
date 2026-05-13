@@ -9,6 +9,9 @@ public class PuzzleDialogueTrigger : MonoBehaviour
     public string enterNode;
     public string exitNode;
 
+    [Tooltip("Time delay before dialogue starts after exiting the puzzle.")]
+    public float exitDelay = .5f;
+
     public void OnPuzzleEnter()
     {
         StartCoroutine(WaitForPuzzleTransition(enterNode, GameStateManager.GameState.Puzzle));
@@ -41,6 +44,12 @@ public class PuzzleDialogueTrigger : MonoBehaviour
         while (!ready) yield return null;
 
         GameStateManager.transitionedToNewState -= callback;
+
+        if(targetState == GameStateManager.GameState.Exploration && exitDelay > 0f)
+        {
+            yield return new WaitForSeconds(exitDelay);
+        }
+
         runner.StartDialogue(node);
     }
 }
