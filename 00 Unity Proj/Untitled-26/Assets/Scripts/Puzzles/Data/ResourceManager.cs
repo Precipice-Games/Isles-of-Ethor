@@ -236,7 +236,7 @@ public class ResourceManager : MonoBehaviour
     /// </summary>
     private void UpdateLeftText(int amount)
     {
-        leftLabel.text = amount.ToString();
+        leftLabel.text = ("x" + amount.ToString()); 
     }
 
     /// <summary>
@@ -244,7 +244,7 @@ public class ResourceManager : MonoBehaviour
     /// </summary>
     private void UpdateRightText(int amount)
     {
-        rightLabel.text = amount.ToString();
+        rightLabel.text = ("x" + amount.ToString());
     }
 
     /// <summary>
@@ -252,7 +252,7 @@ public class ResourceManager : MonoBehaviour
     /// </summary>
     private void UpdateUpText(int amount)
     {
-        upLabel.text = amount.ToString();
+        upLabel.text = ("x" + amount.ToString());
     }
 
     /// <summary>
@@ -260,7 +260,7 @@ public class ResourceManager : MonoBehaviour
     /// </summary>
     private void UpdateDownText(int amount)
     {
-        downLabel.text = amount.ToString();
+        downLabel.text = ("x" + amount.ToString());
     }
 
     /// <summary>
