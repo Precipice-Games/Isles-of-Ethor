@@ -36,6 +36,7 @@ public class IslandPuzzleManager : MonoBehaviour
         PuzzleDialogueTrigger dialogueTrigger = completedPuzzle.GetComponent<PuzzleDialogueTrigger>();
         if (dialogueTrigger != null)
         {
+            Debug.Log("Checkpoint reached");
             dialogueTrigger.OnPuzzleExit();
         }
         completedPuzzle.puzzleSolved = true;

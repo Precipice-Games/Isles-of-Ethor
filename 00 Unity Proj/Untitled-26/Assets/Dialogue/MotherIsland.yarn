@@ -92,6 +92,8 @@ Cumulus: And if you feel called… you should go see her.” #line:0757bfa
 <<enableInvisWall CrystalCallWall>>
 <<endonce>>
 
+<b>Go to Mother Crystal</b>
+
 <<else>>
 <<once>>
 <<toggleExclamation Cumulus>>
