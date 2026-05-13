@@ -1,10 +1,13 @@
 using System.Collections;
+using Sirenix.OdinInspector;
 using UnityEngine;
 using Yarn.Unity;
 
 public class PuzzleDialogueTrigger : MonoBehaviour
 {
     public DialogueRunner runner;
+    [PropertyTooltip("Attach the DialogueSystem object here, which contains the InMemoryVariableStorage.")]
+    public InMemoryVariableStorage variableStorage;
 
     public string enterNode;
     public string exitNode;
