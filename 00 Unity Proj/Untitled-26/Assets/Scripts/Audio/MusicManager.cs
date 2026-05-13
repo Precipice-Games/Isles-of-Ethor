@@ -22,6 +22,9 @@ public class MusicManager : MonoBehaviour
     [SerializeField] private AudioClip iceIslandPuzzleTrack;
     [SerializeField] private AudioClip flowerIslandPuzzleTrack;
 
+    [Header("Credits Track")]
+    [SerializeField] private AudioClip creditsTrack;
+
     [Header("Settings")]
     [SerializeField] private float fadeDuration = 0.75f;
     [SerializeField] private float defaultVolume = 0.6f;
@@ -138,6 +141,10 @@ public class MusicManager : MonoBehaviour
             case "Flower_Island":
                 currentSceneTrack = flowerIslandTrack;
                 currentPuzzleTrack = flowerIslandPuzzleTrack;
+                break;
+
+            case "Credits":
+                currentSceneTrack = creditsTrack;
                 break;
         }
     }
