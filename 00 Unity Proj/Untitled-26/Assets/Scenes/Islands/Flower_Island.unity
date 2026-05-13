@@ -13860,6 +13860,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 869085312}
     - target: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
+      propertyPath: destination.x
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
+      propertyPath: destination.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
+      propertyPath: destination.z
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
       propertyPath: crystalCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1766300491}
