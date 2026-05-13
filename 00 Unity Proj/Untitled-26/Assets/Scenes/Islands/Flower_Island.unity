@@ -2402,11 +2402,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7199852587322879966, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_Name
-      value: Puzzle3
+      value: Puzzle4
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: moveBackUses
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: moveLeftUses
@@ -2414,11 +2414,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: startingMana
-      value: 9
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213066574574228598, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
+      propertyPath: moveRightUses
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: moveForwardUses
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7800062998783284890, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: selectableTilesParent
@@ -5870,11 +5874,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7199852587322879966, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_Name
-      value: Puzzle4
+      value: Puzzle3
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: moveBackUses
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: moveLeftUses
@@ -5882,15 +5886,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: startingMana
-      value: 4
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: moveRightUses
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7213066574574228598, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: moveForwardUses
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7800062998783284890, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: selectableTilesParent
@@ -17310,8 +17314,8 @@ SceneRoots:
   - {fileID: 1514090928}
   - {fileID: 1351292434}
   - {fileID: 1358723268}
-  - {fileID: 425456940}
   - {fileID: 862610012}
+  - {fileID: 425456940}
   - {fileID: 3962018025246773768}
   - {fileID: 1699306488}
   - {fileID: 1690014131}
