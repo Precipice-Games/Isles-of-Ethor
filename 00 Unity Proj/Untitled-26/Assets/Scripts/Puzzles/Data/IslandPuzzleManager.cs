@@ -50,20 +50,24 @@ public class IslandPuzzleManager : MonoBehaviour
     {
         foreach (GameObject puzzlePrefab in puzzlePrefabs)
         {
+            Debug.Log("IslandPuzzleManager.cs >> Checking puzzle: " + puzzlePrefab.name);
+            Debug.Log($"{puzzlePrefab.name} solved status: {puzzlePrefab.GetComponent<PuzzleInformation>().puzzleSolved}");
+            
             PuzzleInformation puzzleInfo = puzzlePrefab.GetComponent<PuzzleInformation>();
-
+            
             // Exit if there's any puzzles unsolved
             if (puzzleInfo.puzzleSolved == false)
             {
                 return;
             }
             
-            Debug.Log("IslandPuzzleManager.cs >> All puzzles completed!");
-            
-            // This event is assigned in the Unity Editor. It notifies
-            // the IslandManager and the InteractableCrystal that all
-            // puzzles have been completed.
-            islandPuzzlesCompleted.Invoke();
+            Debug.Log("IslandPuzzleManager.cs >> There's still more puzzles to complete.");
         }
+        
+        // This event is assigned in the Unity Editor. It notifies
+        // the IslandManager and the InteractableCrystal that all
+        // puzzles have been completed.
+        islandPuzzlesCompleted.Invoke();
+        Debug.Log("IslandPuzzleManager.cs >> All puzzles completed!");
     }
 }

@@ -50,9 +50,9 @@ public class Texture_Animation : MonoBehaviour
         lastYVelocity = currentYVelocity;
         currentYVelocity = transform.parent.GetComponent<CharacterController>().velocity.y;
 
-        Debug.Log("LAST Y VELO" + lastYVelocity);
+        // Debug.Log("LAST Y VELO" + lastYVelocity);
 
-        Debug.Log("CURRENT Y VELO" + currentYVelocity);
+        // Debug.Log("CURRENT Y VELO" + currentYVelocity);
 
         if (transform.parent.GetComponent<CharacterController>().velocity.x != 0 || transform.parent.GetComponent<CharacterController>().velocity.z != 0)
         {
