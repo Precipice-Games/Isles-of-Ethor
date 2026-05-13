@@ -12,6 +12,7 @@ public class GameManager : MonoSingleton<GameManager>
         IceIsland,
         OasisIsland,
         FlowerIsland,
+        Ending,
         Credits
     }
     
