@@ -200,23 +200,25 @@ public class GridManager : MonoBehaviour
             }
         }
     }
+    
+    
     public void ApplyGusts()
-{
-    for (int x = 0; x < width; x++)
     {
-        for (int z = 0; z < height; z++)
+        for (int x = 0; x < width; x++)
         {
-            if (grid[x, z] == null) continue;
-
-            SelectableTile tile = grid[x, z];
-
-            if (tile.tileType == SelectableTile.TileType.Gust)
+            for (int z = 0; z < height; z++)
             {
-                ApplySingleGust(tile);
+                if (grid[x, z] == null) continue;
+
+                SelectableTile tile = grid[x, z];
+
+                if (tile.tileType == SelectableTile.TileType.Gust)
+                {
+                    ApplySingleGust(tile);
+                }
             }
         }
     }
-}
 
 private void ApplySingleGust(SelectableTile gustTile)
 {
@@ -254,36 +256,41 @@ private void ApplySingleGust(SelectableTile gustTile)
     }
 }
 
-private void PushTile(SelectableTile tile, int dirX, int dirZ)
-{
-    int nextX = tile.gridX + dirX;
-    int nextZ = tile.gridZ + dirZ;
-
-    // keep pushing until blocked
-    while (IsInsideGrid(nextX, nextZ) && IsCellEmpty(nextX, nextZ))
+    private void PushTile(SelectableTile tile, int dirX, int dirZ)
     {
-        ClearCell(tile.gridX, tile.gridZ);
+        int nextX = tile.gridX + dirX;
+        int nextZ = tile.gridZ + dirZ;
 
-        tile.gridX = nextX;
-        tile.gridZ = nextZ;
-
-        PlaceTile(tile, tile.gridX, tile.gridZ);
-        tile.transform.localPosition = GridToWorld(tile.gridX, tile.gridZ);
-
-        nextX += dirX;
-        nextZ += dirZ;
-    }
-}
-    public bool IsBlockedCell(int x, int z)
-{
-    foreach (Vector2Int blocked in blockedCells)
-    {
-        if (blocked.x == x && blocked.y == z)
+        // keep pushing until blocked
+        while (IsInsideGrid(nextX, nextZ) && IsCellEmpty(nextX, nextZ))
         {
-            return true;
+            ClearCell(tile.gridX, tile.gridZ);
+
+            tile.gridX = nextX;
+            tile.gridZ = nextZ;
+
+            PlaceTile(tile, tile.gridX, tile.gridZ);
+            tile.transform.localPosition = GridToWorld(tile.gridX, tile.gridZ);
+
+            nextX += dirX;
+            nextZ += dirZ;
         }
     }
+    public bool IsBlockedCell(int x, int z)
+    {
+        foreach (Vector2Int blocked in blockedCells)
+        {
+            if (blocked.x == x && blocked.y == z)
+            {
+                return true;
+            }
+        }
 
-    return false;
-}
+        return false;
+    }
+    
+    public SelectableTile GetTile(int gridX, int gridZ)
+    {
+        return grid[gridX,gridZ];
+    }
 }
