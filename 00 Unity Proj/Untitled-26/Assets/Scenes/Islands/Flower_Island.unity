@@ -1177,11 +1177,11 @@ PrefabInstance:
     - target: {fileID: 7507354175440329553, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1669348534}
     - target: {fileID: 7507354175440329553, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: playerCam
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2058749361}
     - target: {fileID: 7507354175440329553, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: destroyOnPickup
       value: 1
@@ -2810,11 +2810,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5018615782271576797, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.85
+      value: 7.68
       objectReference: {fileID: 0}
     - target: {fileID: 5018615782271576797, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.84
+      value: 14.31
       objectReference: {fileID: 0}
     - target: {fileID: 5136846172143782627, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: selectableTilesParent
@@ -11006,7 +11006,7 @@ PrefabInstance:
     - target: {fileID: 5785528264533770188, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: islandPuzzleManager
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1766300494}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.4
@@ -11287,7 +11287,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.8
+      value: -14.35
       objectReference: {fileID: 0}
     - target: {fileID: 9171193105649543790, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11646,7 +11646,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.97
+      value: 1.4199998
       objectReference: {fileID: 0}
     - target: {fileID: 3397337548393501967, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11686,7 +11686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3446106412191676171, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.08
       objectReference: {fileID: 0}
     - target: {fileID: 3446106412191676171, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11786,11 +11786,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5018615782271576797, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.85
+      value: 10.65
       objectReference: {fileID: 0}
     - target: {fileID: 5018615782271576797, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.84
+      value: 13.41
       objectReference: {fileID: 0}
     - target: {fileID: 5136846172143782627, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: selectableTilesParent
@@ -11826,7 +11826,7 @@ PrefabInstance:
       objectReference: {fileID: 862610013}
     - target: {fileID: 6989340596310776149, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.55
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7093079210516756760, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: gridX
@@ -16834,7 +16834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 75772128da683574b908344329f77190, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 27.19
+      value: 26.64
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 75772128da683574b908344329f77190, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20384,11 +20384,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151946770}
   m_Mesh: {fileID: -6209912238109660980, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
---- !u!1 &1202300102 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2868817455514224138, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
-  m_PrefabInstance: {fileID: 1766300489}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1230235740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21874,6 +21869,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4656988786971474924, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4696388456294716590, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -21897,6 +21896,14 @@ PrefabInstance:
     - target: {fileID: 4813514350580015279, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_LocalPosition.z
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018615782271576797, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018615782271576797, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.06
       objectReference: {fileID: 0}
     - target: {fileID: 5136846172143782627, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: selectableTilesParent
@@ -27337,8 +27344,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5018615782271576797, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018615782271576797, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.73
+      value: 14.51
       objectReference: {fileID: 0}
     - target: {fileID: 6989340596310776149, guid: 2beb2569991b6f547a7416fa63105736, type: 3}
       propertyPath: m_LocalRotation.w
@@ -33787,7 +33798,7 @@ PrefabInstance:
     - target: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
       propertyPath: crystalCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1766300496}
     - target: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
       propertyPath: crystalCollected.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: CrystalCollected
@@ -33846,6 +33857,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4445865944655362573, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
   m_PrefabInstance: {fileID: 1518863139}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1518863142 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
+  m_PrefabInstance: {fileID: 1518863139}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518863140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8618e9cc617733409d8d1c3d5b6565d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableCrystal
 --- !u!1001 &1522021811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34140,8 +34162,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1406799861}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8900017061af7ca4f854629ef259e79c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7273468
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8900017061af7ca4f854629ef259e79c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 51.798504
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8900017061af7ca4f854629ef259e79c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7273468
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8900017061af7ca4f854629ef259e79c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.23869951
+      value: -0.23869395
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8900017061af7ca4f854629ef259e79c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -34149,7 +34183,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8900017061af7ca4f854629ef259e79c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.04790915
+      value: 0.0479258
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8900017061af7ca4f854629ef259e79c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -34178,6 +34212,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8900017061af7ca4f854629ef259e79c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8900017061af7ca4f854629ef259e79c, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7470304220622018939, guid: 8900017061af7ca4f854629ef259e79c, type: 3}
       propertyPath: m_Convex
@@ -35013,7 +35051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.5737498
+      value: -2.634861
       objectReference: {fileID: 0}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -36713,7 +36751,7 @@ PrefabInstance:
       objectReference: {fileID: 335725830}
     - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzlesCompleted.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzlesCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
@@ -36726,11 +36764,11 @@ PrefabInstance:
     - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzlesCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1100038180}
+      objectReference: {fileID: 1518863142}
     - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzlesCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 1100038180}
+      objectReference: {fileID: 1766300496}
     - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzlesCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
@@ -36741,11 +36779,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzlesCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ToggleIslandComplete
+      value: FinalPuzzleCompleted
       objectReference: {fileID: 0}
     - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzlesCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: ToggleIslandComplete
+      value: IslandPuzzlesCompleted
       objectReference: {fileID: 0}
     - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzlesCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -36753,11 +36791,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzlesCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: InteractionPrompt, Assembly-CSharp
+      value: InteractableCrystal, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzlesCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: InteractionPrompt, Assembly-CSharp
+      value: IslandManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
+      propertyPath: islandPuzzlesCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzlesCompleted.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -36782,7 +36824,7 @@ PrefabInstance:
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzleManager
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1766300494}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -36875,45 +36917,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: IslandManager
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2868817455514224138, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1766300493}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
---- !u!114 &1766300493
+--- !u!114 &1766300494 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
+  m_PrefabInstance: {fileID: 1766300489}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202300102}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62cd73b7ed2e45aa99138775c422277a, type: 3}
+  m_Script: {fileID: 11500000, guid: fb892171356f48559a85e777724ac3d8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FlowerIslandManager
-  variableStorage: {fileID: 869085310}
-  islandCompleted:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 200873444}
-        m_TargetAssemblyTypeName: Airship, Assembly-CSharp
-        m_MethodName: IslandCompleted
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  allFlowersCollected: 0
-  crystalCollected: 0
+  m_EditorClassIdentifier: Assembly-CSharp::IslandPuzzleManager
+--- !u!114 &1766300496 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
+  m_PrefabInstance: {fileID: 1766300489}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc162eaf61f74473aa20c3e0fa3098ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IslandManager
 --- !u!1 &1775365275
 GameObject:
   m_ObjectHideFlags: 0

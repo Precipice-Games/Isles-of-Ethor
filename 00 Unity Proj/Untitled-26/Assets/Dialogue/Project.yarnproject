@@ -95,5 +95,5 @@
         }
     },
     "definitionsFiles": [],
-    "definitions": "Assembly-CSharp.ysls.json"
+    "definitions": "generated.ysls.json"
 }

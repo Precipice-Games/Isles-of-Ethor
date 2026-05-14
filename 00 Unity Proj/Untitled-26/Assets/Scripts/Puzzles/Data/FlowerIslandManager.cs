@@ -66,6 +66,7 @@ public class FlowerIslandManager : MonoBehaviour
     private void CheckIslandCompleted()
     {
         if (variableStorage.TryGetValue<int>("$flowers", out var flowersCollected)){
+            Debug.Log("flowers collected= " + flowersCollected);
             if (flowersCollected >= 6){
                 allFlowersCollected = true;
             }
