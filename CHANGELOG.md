@@ -7,6 +7,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Tile hovering VFX.
 
+## [v2.8.0] - 2026-05-13
+
+### Added
+* Added selective death boxes to Ice Island.
+
+### Fixed
+* Fixed an issue where the Oasis Island crystal was falling down instead of rising.
+
+### Changed
+* Finalized the end of Oasis Island progression.
+* Restored puzzle dialogue triggers.
+* Updated Ice Island puzzle 3.
+
 ## [v2.7.0] - 2026-05-13
 
 ### Added
