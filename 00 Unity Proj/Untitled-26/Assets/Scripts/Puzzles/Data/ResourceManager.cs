@@ -294,6 +294,7 @@ public class ResourceManager : MonoBehaviour
         }
         else
         {
+            UpdateManaTextColor(Color.white);
             flashOutOfMana = false;
         }
 
