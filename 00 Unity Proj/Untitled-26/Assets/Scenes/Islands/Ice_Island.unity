@@ -14780,6 +14780,8 @@ GameObject:
   m_Component:
   - component: {fileID: 562672765}
   - component: {fileID: 562672766}
+  - component: {fileID: 562672768}
+  - component: {fileID: 562672767}
   m_Layer: 0
   m_Name: Right Side Forest
   m_TagString: Untagged
@@ -14950,6 +14952,48 @@ MonoBehaviour:
   currentSmallTrees: 0
   maxTallTrees: 43
   currentTallTrees: 0
+--- !u!65 &562672767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562672764}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.241766, y: 41.61853, z: 25.269615}
+  m_Center: {x: 37.67029, y: -20.309265, z: 63.043835}
+--- !u!65 &562672768
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562672764}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 46.75711, y: 18.878122, z: 22.314888}
+  m_Center: {x: 32.025776, y: -8.939061, z: -2.2880728}
 --- !u!1001 &567092688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73632,6 +73676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1504941346}
   - component: {fileID: 1504941347}
+  - component: {fileID: 1504941348}
   m_Layer: 0
   m_Name: Left Side Forest
   m_TagString: Untagged
@@ -73726,6 +73771,27 @@ MonoBehaviour:
   currentSmallTrees: 0
   maxTallTrees: 30
   currentTallTrees: 0
+--- !u!65 &1504941348
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504941345}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 20.153095, y: 13.678797, z: 47.943634}
+  m_Center: {x: 9.576551, y: -6.3393984, z: 15.627144}
 --- !u!114 &1508110539 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1640623606830934790, guid: 0950a819356fd504a80677e1d46beb5a, type: 3}
