@@ -176,6 +176,7 @@ public class PlayerFixedMovement : MonoBehaviour
     /// <param name="startZ"></param>
     private void MovePlayerToStartTile(int startX, int startZ)
     {
+
         Debug.Log($"PlayerFixedMovement.cs >> Moving Player to the starting tile ({startX},{startZ})...");
         SnapPlayerToTile(startX, startZ);
     }
@@ -574,6 +575,15 @@ public class PlayerFixedMovement : MonoBehaviour
                 TryToMovePlayer(newDeltaX, newDeltaZ);
 
             }
+        }
+
+        if (GameStateManager.CurrentGameState == GameStateManager.GameState.Puzzle)
+        {
+            transform.rotation = Quaternion.Euler(90, 0, 0);
+        }
+        else
+        {
+            //transform.rotation = Quaternion.Euler(0,0,0);
         }
 
     }
