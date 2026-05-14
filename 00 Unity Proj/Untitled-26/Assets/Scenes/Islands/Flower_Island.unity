@@ -2037,8 +2037,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7917126275790959572, guid: cd77f075d3ae50f43890f44b657a1a52, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 951693998}
   m_SourcePrefab: {fileID: 100100000, guid: cd77f075d3ae50f43890f44b657a1a52, type: 3}
+--- !u!1 &324947169 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7917126275790959572, guid: cd77f075d3ae50f43890f44b657a1a52, type: 3}
+  m_PrefabInstance: {fileID: 324947168}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &325865087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17877,12 +17885,33 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3432335786353409372, guid: cd77f075d3ae50f43890f44b657a1a52, type: 3}
   m_PrefabInstance: {fileID: 324947168}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 324947169}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 79bd227f3829b9045953bd09f2ea77da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Deathbox
+--- !u!65 &951693998
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324947169}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 250, y: 1, z: 250}
+  m_Center: {x: 0.99015045, y: -10, z: 30.40934}
 --- !u!1001 &952028701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36827,7 +36856,7 @@ PrefabInstance:
       objectReference: {fileID: 1766300494}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -36844,7 +36873,7 @@ PrefabInstance:
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 951693997}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -36855,7 +36884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: 
+      value: OnCrystalCollect
       objectReference: {fileID: 0}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -36863,7 +36892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Airship, Assembly-CSharp
+      value: Deathbox, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -36871,7 +36900,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2606719747866598393, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: m_LocalPosition.x
