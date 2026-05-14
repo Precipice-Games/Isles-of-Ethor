@@ -126,7 +126,7 @@ public class Texture_Animation : MonoBehaviour
 
                 animationRendererSprite.sprite = _runningSprites[(int)_frameCounter];
 
-                _frameCounter += 15f * Time.deltaTime;
+                _frameCounter += 3f * transform.parent.GetComponent<CharacterController>().velocity.magnitude * Time.deltaTime;
 
 
             }
