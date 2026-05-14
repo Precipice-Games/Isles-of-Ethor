@@ -19,6 +19,8 @@ public class FlowerIslandManager : MonoBehaviour
     [SerializeField]private bool allFlowersCollected;
     [SerializeField]private bool crystalCollected;
 
+    private int flowersCollected;
+
     /// <summary>
     /// Used to verify that all the current island's puzzles have been completed. Also
     /// updates the variable for the specified island in the YarnSpinner variable storage.
@@ -53,9 +55,15 @@ public class FlowerIslandManager : MonoBehaviour
     /// </summary>
     private void CheckIslandCompleted()
     {
+        if (variableStorage.TryGetValue<int>("$flowers", out var flowersCollected)){
+            if (flowersCollected >= 6){
+                allFlowersCollected = true;
+            }
+        }
         if (allFlowersCollected && crystalCollected)
         {
             Debug.Log("FlowerIslandManager.cs >> Island completed!");
+            variableStorage.SetValue("$flowerFinished", true);
             islandCompleted.Invoke();
         }
     }

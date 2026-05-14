@@ -1,35 +1,99 @@
 {
-  "projectFileVersion": 3,
-  "sourceFiles": [
-    "**/*.yarn"
-  ],
-  "excludeFiles": [
-    "**/*~/*",
-    "./Samples/Yarn Spinner*/*"
-  ],
-  "localisation": {},
-  "baseLanguage": "en",
-  "compilerOptions": {
-    "yarnScriptEditor": {
-      "projectGraphPositions": {
-        "IceIsland.yarn": {
-          "x": 737,
-          "y": 12
-        },
-        "MotherIsland.yarn": {
-          "x": -13,
-          "y": 381
-        },
-        "OasisIsland.yarn": {
-          "x": 282,
-          "y": 12
-        },
-        "TestDialogue.yarn": {
-          "x": 12,
-          "y": 12
+    "projectFileVersion": 3,
+    "sourceFiles": [
+        "**/*.yarn"
+    ],
+    "excludeFiles": [
+        "**/*~/*",
+        "./Samples/Yarn Spinner*/*"
+    ],
+    "localisation": {},
+    "baseLanguage": "en",
+    "compilerOptions": {
+        "yarnScriptEditor": {
+            "projectGraphPositions": {
+                "IceIsland.yarn": {
+                    "x": 737,
+                    "y": 12
+                },
+                "MotherIsland.yarn": {
+                    "x": -13,
+                    "y": 381
+                },
+                "OasisIsland.yarn": {
+                    "x": 282,
+                    "y": 12
+                },
+                "TestDialogue.yarn": {
+                    "x": 12,
+                    "y": 12
+                }
+            },
+            "characters": [
+                {
+                    "name": "???",
+                    "colour": "#dc41c5"
+                },
+                {
+                    "name": "Bee",
+                    "colour": "#95af2c"
+                },
+                {
+                    "name": "Capsley",
+                    "colour": "#58c6b9"
+                },
+                {
+                    "name": "Crab Citizen",
+                    "colour": "#c8dd2c"
+                },
+                {
+                    "name": "Cumulus",
+                    "colour": "#a0dc4c"
+                },
+                {
+                    "name": "Dahlia",
+                    "colour": "#54b0cf"
+                },
+                {
+                    "name": "Helper Penguin",
+                    "colour": "#47dc8c"
+                },
+                {
+                    "name": "Judith",
+                    "colour": "#24b77c"
+                },
+                {
+                    "name": "Julien",
+                    "colour": "#3a4ca6"
+                },
+                {
+                    "name": "King Julien",
+                    "colour": "#2668d9"
+                },
+                {
+                    "name": "Mother Crystal",
+                    "colour": "#bdc922"
+                },
+                {
+                    "name": "Penguin",
+                    "colour": "#8148cb"
+                },
+                {
+                    "name": "Sign Crab",
+                    "colour": "#5537a9"
+                },
+                {
+                    "name": "Sky",
+                    "colour": "#dd229b"
+                },
+                {
+                    "name": "Supportive Penguin",
+                    "colour": "#83da49"
+                }
+            ],
+            "characterColourMode": "unique"
         }
-      }
-    }
-  },
-  "definitionsFiles": []
+    },
+    "definitionsFiles": [],
+    "definitions": "Assembly-CSharp.ysls.json"
 }
