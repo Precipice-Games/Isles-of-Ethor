@@ -87,12 +87,11 @@ Cumulus: And if you feel called… you should go see her.” #line:0757bfa
 
 //(Camera briefly pans to Mother Crystal’s Temple)
 
-<b>Go to Mother Crystal</b> #line:0a2c696 
 <<disableInvisWall CumulusWall>>
 <<enableInvisWall CrystalCallWall>>
 <<endonce>>
 
-<b>Go to Mother Crystal</b>
+<b>Go to Mother Crystal</b> #line:0a2c696 
 
 <<else>>
 <<once>>

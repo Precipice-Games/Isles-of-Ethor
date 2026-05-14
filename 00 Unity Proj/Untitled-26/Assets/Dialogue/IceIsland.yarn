@@ -1,12 +1,12 @@
-﻿title: Judith
+title: Judith
 position: -92,80
 ---
-<<declare $iceFinished = false>>
 // Has the player completed the ice island?
 //(Sky arrives on the ice island, and can walk up to Judith and press E to interact with her, which will bring up the dialogue.)
 <<if $iceFinished == false>>
 <<once>>
-???: ...  #line:02e9f33 
+<<toggleExclamation Judith>>
+???: … #line:02e9f33 
 
 Sky: Hello! #line:0c4b355 
 
@@ -31,6 +31,7 @@ Judith: Look, I'm busy right now. If you want to talk, you’ll have to meet me 
 Sky: Okay! But... how do I get across? #line:0c2dec9 
 
 Judith: Not my problem. #line:06f83db 
+
 //Judith returns to mining the ice around her. You start on your journey toward the crystal.
 
 //(If the character goes back to Judith before activating the Crystal, she will say this:)
@@ -66,7 +67,7 @@ Judith: Do you really think that you can fix all the islands from the fracture? 
 
 Sky: I know I can. Come on, don't you trust me at this point? #line:04b9a10 
 
-Judith: Well... thanks to you, I've got my island back to normal. I’m afraid to say that I do. I trust you Sky. And I thank you. #line:03f729f 
+Judith: Well… thanks to you, I've got my island back to normal. I’m afraid to say that I do. I trust you Sky. And I thank you. #line:03f729f 
 
 Sky: Of course, Judith. I’m glad I was able to help you. Now, I'd better get going on those islands! They aren't going to fix themselves. #line:02c7354 
 
@@ -86,8 +87,7 @@ Judith: Best of luck on your journey. I’m sure you’re gonna need it. #line:0
 title: MountainJudith
 // Occurs after you have taken some kind of action towards the completion of the puzzle but haven't completed it
 ---
-
-
+<<toggleExclamation MountainJudith>>
 <<once>>
     Judith: Oh look who it is, the mysterious traveler has arrived. Thought you'd got yourself lost in the snow. #line:00a2771 
     Sky: You still don't believe I'm from the Mother Island? #line:078422c 
@@ -160,3 +160,54 @@ position: -256,-126
     Sky: Awww look at this cute little fella! Not a single thought behind those eyes! #line:09af056 
     Penguin: Squuuaaawwk! (Your story will turn its final page one day whether you like it or not!) #line:0d2c4e4 
 ===
+
+title: Penguin1
+---
+<<declare $iceFinished = false>>
+<<declare $hasTalkedPenguin1 = false>>
+<<once>>
+<<toggleExclamation Penguin1>>
+Helper Penguin: Those blue tiles are slippery, make sure you have a normal tile at the end of your path to stop you from slipping into the river!
+<<endonce>>
+
+//<<if $hasTalkedPenguin1 == true>>
+//<<jump Penguin>>
+//<<endif>>
+
+<<set $hasTalkedPenguin1 = true>>
+
+===
+
+title: Puzzle1Exit
+---
+<<toggleExclamation Penguin2>>
+===
+
+title: Penguin2
+---
+<<declare $hasTalkedPenguin2 = false>>
+<<once>>
+<<toggleExclamation Penguin2>>
+Supportive Penguin: Wow good job! Can you solve this one?
+<<endonce>>
+
+//<<if $hasTalkedPenguin2 == true>>
+//<<jump Penguin>>
+//<<endif>>
+
+<<set $hasTalkedPenguin2 = true>>
+
+===
+
+title: Puzzle2Exit
+---
+<<toggleExclamation Penguin3>>
+===
+
+title: Penguin3
+---
+
+<<jump Penguin>>
+
+===
+

@@ -15,7 +15,8 @@ public class MusicManager : MonoBehaviour
     [SerializeField] private AudioClip oasisIslandTrack;
     [SerializeField] private AudioClip iceIslandTrack;
     [SerializeField] private AudioClip flowerIslandTrack;
-
+    [SerializeField] private AudioClip endingTrack;
+ 
     [Header("Puzzle Track Per Scene")]
     [SerializeField] private AudioClip motherIslandPuzzleTrack;
     [SerializeField] private AudioClip oasisIslandPuzzleTrack;
@@ -141,6 +142,10 @@ public class MusicManager : MonoBehaviour
             case "Flower_Island":
                 currentSceneTrack = flowerIslandTrack;
                 currentPuzzleTrack = flowerIslandPuzzleTrack;
+                break;
+
+            case "Ending":
+                currentSceneTrack = endingTrack;
                 break;
 
             case "Credits":
