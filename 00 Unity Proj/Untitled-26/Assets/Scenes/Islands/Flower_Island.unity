@@ -10950,7 +10950,7 @@ PrefabInstance:
     - target: {fileID: 5785528264533770188, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: islandPuzzleManager
       value: 
-      objectReference: {fileID: 1766300490}
+      objectReference: {fileID: 0}
     - target: {fileID: 6396842623713357803, guid: 690b6fb0a7864c84192e54b90ed456ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.4
@@ -20328,6 +20328,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151946770}
   m_Mesh: {fileID: -6209912238109660980, guid: 37d21edc3a321fe4fad3e34a472efe1d, type: 3}
+--- !u!1 &1202300102 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2868817455514224138, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
+  m_PrefabInstance: {fileID: 1766300489}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1230235740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33672,7 +33677,7 @@ PrefabInstance:
     - target: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
       propertyPath: crystalCollected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1766300491}
+      objectReference: {fileID: 0}
     - target: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
       propertyPath: crystalCollected.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: CrystalCollected
@@ -36606,6 +36611,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
+      propertyPath: islandPuzzlesCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzlesCompleted.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1518863141}
@@ -36652,7 +36661,7 @@ PrefabInstance:
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandPuzzleManager
       value: 
-      objectReference: {fileID: 1766300490}
+      objectReference: {fileID: 0}
     - target: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
       propertyPath: islandCompleted.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -36745,33 +36754,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: IslandManager
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
+    - {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2868817455514224138, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1766300493}
   m_SourcePrefab: {fileID: 100100000, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
---- !u!114 &1766300490 stripped
+--- !u!114 &1766300493
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 738195584239078228, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
-  m_PrefabInstance: {fileID: 1766300489}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1202300102}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb892171356f48559a85e777724ac3d8, type: 3}
+  m_Script: {fileID: 11500000, guid: 62cd73b7ed2e45aa99138775c422277a, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::IslandPuzzleManager
---- !u!114 &1766300491 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2256523913752244413, guid: 34e361e532974434c8ac75f1dc46faf2, type: 3}
-  m_PrefabInstance: {fileID: 1766300489}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc162eaf61f74473aa20c3e0fa3098ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::IslandManager
+  m_EditorClassIdentifier: Assembly-CSharp::FlowerIslandManager
+  variableStorage: {fileID: 869085310}
+  islandCompleted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 200873444}
+        m_TargetAssemblyTypeName: Airship, Assembly-CSharp
+        m_MethodName: IslandCompleted
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  allFlowersCollected: 0
+  crystalCollected: 0
 --- !u!1 &1775365275
 GameObject:
   m_ObjectHideFlags: 0
