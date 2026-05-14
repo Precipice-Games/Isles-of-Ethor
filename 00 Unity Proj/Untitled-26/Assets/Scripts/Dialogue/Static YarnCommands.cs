@@ -125,3 +125,14 @@ public class Animation
         }
     }
 }
+
+    public class CollectableFlower
+    {
+        public static event Action flowerCollected;
+
+        [YarnCommand("FlowerCollected")]
+        public static void FlowerCollected()
+        {
+            flowerCollected?.Invoke();
+        }
+    }

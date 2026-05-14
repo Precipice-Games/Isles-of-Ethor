@@ -21,6 +21,16 @@ public class FlowerIslandManager : MonoBehaviour
 
     private int flowersCollected;
 
+    private void OnEnable()
+    {
+        CollectableFlower.flowerCollected += CheckIslandCompleted;
+    }
+
+    private void OnDisable()
+    {
+        CollectableFlower.flowerCollected -= CheckIslandCompleted;
+    }
+
     /// <summary>
     /// Used to verify that all the current island's puzzles have been completed. Also
     /// updates the variable for the specified island in the YarnSpinner variable storage.
