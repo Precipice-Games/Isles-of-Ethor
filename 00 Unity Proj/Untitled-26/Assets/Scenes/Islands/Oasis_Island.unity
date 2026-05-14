@@ -36163,7 +36163,11 @@ PrefabInstance:
       objectReference: {fileID: 2029060176}
     - target: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
       propertyPath: maxHeight
-      value: 4.8
+      value: 48.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
+      propertyPath: minHeight
+      value: 45.59
       objectReference: {fileID: 0}
     - target: {fileID: 2326836619177372947, guid: fee1dd395f6065b4183aec3d2788d1cf, type: 3}
       propertyPath: destination.x
