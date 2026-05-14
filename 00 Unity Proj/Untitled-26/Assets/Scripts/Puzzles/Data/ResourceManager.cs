@@ -292,6 +292,10 @@ public class ResourceManager : MonoBehaviour
         {
             flashOutOfMana = true;
         }
+        else
+        {
+            flashOutOfMana = false;
+        }
 
         if (flashOutOfMana)
         {
