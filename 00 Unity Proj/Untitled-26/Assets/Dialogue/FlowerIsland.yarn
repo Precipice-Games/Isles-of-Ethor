@@ -51,7 +51,8 @@ Sky: It’s a sunflower!
 Sky: Wow they’re pretty! It’s such a shame they make my allergies act up…
 Sky: Oh well! At least the seeds are delicious!
 Sky: But enough of that, I’ve got a crystal to retrieve!
-<<set $flowers += 1>>    
+<<set $flowers += 1>>
+<<FlowerCollected>>    
 <<endonce>>
 ===
 
@@ -63,7 +64,8 @@ Sky: Tulips are so pretty! I could sit here and look at them all day.
 Sky: I should probably go… but one sniff shouldn’t hurt.
 Sky: Sometimes you gotta stop and smell the flo– ACHOO!!
 Sky: *Sniffle* So pretty… onto the next…
-<<set $flowers += 1>>    
+<<set $flowers += 1>>  
+<<FlowerCollected>>      
 <<endonce>>
 ===
 
@@ -75,6 +77,7 @@ Sky: Wow! What’s this one? It’s gorgeous!
 Sky: Ouch! Oh right, thorns. I should be more careful.
 Sky: Better see if there are any more flowers to find. I hope they’re less dangerous.
 <<set $flowers += 1>>    
+<<FlowerCollected>>    
 <<endonce>>
 ===
 
@@ -86,6 +89,7 @@ Sky: It’s really got me wondering, though…
 Sky: Like the chicken and the egg dilemma, which got named first? The flower or a person?
 Sky: Ahh who cares! There’s a crystal waiting for me!
 <<set $flowers += 1>>    
+<<FlowerCollected>>    
 <<endonce>>
 
 ===
@@ -97,7 +101,8 @@ Sky: A flower! And, it’s right next to the water; this MUST be the waterlily.
 Sky: I bet it’s nice to be right next to the water as a flower…
 Sky: You never get thirsty!
 Sky: Okay, let’s continue on.
-<<set $flowers += 1>>    
+<<set $flowers += 1>>  
+<<FlowerCollected>>      
 <<endonce>>
 ===
 
@@ -111,6 +116,7 @@ Sky: I think this one is my favorite.
 Sky: …
 Sky: Alright…I’d love to stay here longer, but it’s time to go.
 <<set $flowers += 1>>
+<<FlowerCollected>>    
 <<endonce>>
 ===
 
@@ -123,6 +129,7 @@ Sky: But, Dahlia, I really need to–
 
 Dahlia: I told you, we’ll talk about that when you’re done. Just enjoy yourself for right now!
 <<else>>
+<<once>>
 Sky: Dahlia, I’m back!
 
 Dahlia: Hey! How’d it go? Did you see all the flowers?
@@ -142,7 +149,8 @@ Sky: Dahlia, I’m here to help. That’s why I’m looking for the crystal. I h
 
 Dahlia: What?! Really?! I mean, that would be great if you could…it’s just right over there.
 
-Sky: Thanks! Just give me a moment.
+Sky: Thanks! Just give me a moment.    
+<<endonce>>
 <<endif>>
 <<if $flowerFinished == true>>
 <<once>>

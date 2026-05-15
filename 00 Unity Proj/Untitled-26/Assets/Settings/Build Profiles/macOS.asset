@@ -33,6 +33,8 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/Islands/Flower_Island.unity
   - m_enabled: 1
+    m_path: Assets/Scenes/Islands/Ending.unity
+  - m_enabled: 1
     m_path: Assets/Scenes/Credits.unity
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []

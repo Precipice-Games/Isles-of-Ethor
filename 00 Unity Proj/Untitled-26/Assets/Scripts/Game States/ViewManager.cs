@@ -65,6 +65,8 @@ public class ViewManager : MonoBehaviour
     public float fadeInFadeOutInBetween = 0.5f;
     public float currentFadeInFadeOutTime = 0f;
 
+    public GameObject player;
+
     private void Awake()
     {
         
@@ -376,16 +378,20 @@ public class ViewManager : MonoBehaviour
                 }
                 else
                 {
+
+
                     fadePuzzleTransition = false;
                     // Notify GameStateManager that we've detected a puzzle switch.
                     puzzleSwitchDetected.Invoke();
                 }
+
 
             }
 
         }
         else
         {
+            
 
             if (transitionCanvasColor != null && transitionCanvasColor.color.a >= 0)
             {
