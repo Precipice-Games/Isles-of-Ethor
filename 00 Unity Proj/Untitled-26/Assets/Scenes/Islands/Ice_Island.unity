@@ -200,6 +200,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -282,6 +286,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -477,6 +485,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -559,6 +571,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -641,6 +657,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -723,6 +743,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -914,6 +938,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -2075,6 +2103,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -2157,6 +2189,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -2484,6 +2520,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -2922,6 +2962,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -3004,6 +3048,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -3086,6 +3134,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -3346,6 +3398,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -3428,6 +3484,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -3510,6 +3570,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -3770,6 +3834,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -4028,6 +4096,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -4110,6 +4182,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -4192,6 +4268,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -4289,7 +4369,7 @@ PrefabInstance:
     - target: {fileID: 2453805659328566245, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: '_idleSprites.Array.data[1]'
       value: 
-      objectReference: {fileID: 21300000, guid: 6d3db768c11a8954bb524390353413c7, type: 2}
+      objectReference: {fileID: -1194223155, guid: 1bbe7825471715a41a15aad73feb3fb7, type: 3}
     - target: {fileID: 2453805659328566245, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: '_idleSprites.Array.data[2]'
       value: 
@@ -4592,6 +4672,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -4674,6 +4758,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -4756,6 +4844,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -4838,6 +4930,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -9767,6 +9863,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -10027,6 +10127,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -10109,6 +10213,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -10369,6 +10477,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -10451,6 +10563,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -10533,6 +10649,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -11001,6 +11121,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -11083,6 +11207,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -11165,6 +11293,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -11247,6 +11379,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -11329,6 +11465,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -11411,6 +11551,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -11498,6 +11642,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -11617,6 +11765,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -11699,6 +11851,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -12615,6 +12771,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -13083,6 +13243,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -13343,6 +13507,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -13425,6 +13593,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -13576,6 +13748,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -13836,6 +14012,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -13923,6 +14103,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -14010,6 +14194,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -14097,6 +14285,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -14179,6 +14371,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -14345,6 +14541,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -14427,6 +14627,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -14540,6 +14744,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -14622,6 +14830,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -14704,6 +14916,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -15010,6 +15226,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -20310,6 +20530,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -20652,6 +20876,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -20734,6 +20962,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -20816,6 +21048,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -20898,6 +21134,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -20980,6 +21220,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -21062,6 +21306,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -21353,6 +21601,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -21613,6 +21865,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -21878,6 +22134,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -21960,6 +22220,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -22411,6 +22675,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -22493,6 +22761,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -22575,6 +22847,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -22657,6 +22933,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -22739,6 +23019,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -22999,6 +23283,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -23081,6 +23369,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -23163,6 +23455,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -23245,6 +23541,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -23327,6 +23627,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -23425,6 +23729,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -23507,6 +23815,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -23765,6 +24077,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -23988,6 +24304,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -24261,6 +24581,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -24633,6 +24957,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -24715,6 +25043,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -29675,6 +30007,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -29788,6 +30124,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -29870,6 +30210,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -30128,6 +30472,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -30210,6 +30558,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -35133,6 +35485,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -35215,6 +35571,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -35475,6 +35835,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -40393,6 +40757,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -40506,6 +40874,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -40588,6 +40960,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -41167,6 +41543,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -41249,6 +41629,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -41331,6 +41715,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -41437,6 +41825,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -46355,6 +46747,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -46689,6 +47085,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -46771,6 +47171,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -56702,6 +57106,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -56784,6 +57192,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -56866,6 +57278,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -56948,6 +57364,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -57213,6 +57633,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -57295,6 +57719,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -57555,6 +57983,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -57637,6 +58069,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -57741,6 +58177,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -57860,6 +58300,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -57942,6 +58386,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -58024,6 +58472,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -58106,6 +58558,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -59345,6 +59801,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -59605,6 +60065,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -59687,6 +60151,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -59769,6 +60237,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -60787,6 +61259,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -61046,6 +61522,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -61162,6 +61642,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -66080,6 +66564,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -71354,6 +71842,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -72812,6 +73304,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -72894,6 +73390,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -72976,6 +73476,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -73323,6 +73827,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -73405,6 +73913,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -83669,6 +84181,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -83961,6 +84477,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -84043,6 +84563,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -84130,6 +84654,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -84390,6 +84918,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -84584,6 +85116,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -84666,6 +85202,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -84748,6 +85288,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -84830,6 +85374,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -84912,6 +85460,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -84994,6 +85546,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -86001,6 +86557,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -90896,6 +91456,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -91012,6 +91576,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -91094,6 +91662,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -91176,6 +91748,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -91337,6 +91913,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -91419,6 +91999,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -91571,6 +92155,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -92055,6 +92643,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -92314,6 +92906,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -92408,6 +93004,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -92501,6 +93101,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -92913,6 +93517,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -98515,6 +99123,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -98597,6 +99209,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -98679,6 +99295,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -98772,6 +99392,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -98854,6 +99478,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -99119,6 +99747,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -99201,6 +99833,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -99283,6 +99919,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -99376,6 +100016,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -99469,6 +100113,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -99729,6 +100377,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -99845,6 +100497,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -99927,6 +100583,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -100009,6 +100669,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -100367,6 +101031,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -100449,6 +101117,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -100531,6 +101203,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -100613,6 +101289,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -100749,7 +101429,7 @@ PrefabInstance:
     - target: {fileID: 2453805659328566245, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: '_idleSprites.Array.data[1]'
       value: 
-      objectReference: {fileID: 21300000, guid: 6d3db768c11a8954bb524390353413c7, type: 2}
+      objectReference: {fileID: -1194223155, guid: 1bbe7825471715a41a15aad73feb3fb7, type: 3}
     - target: {fileID: 2453805659328566245, guid: 66fec0045d93e224cb830cdf06dfe2bd, type: 3}
       propertyPath: '_idleSprites.Array.data[2]'
       value: 
@@ -101075,6 +101755,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -101157,6 +101841,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -101239,6 +101927,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -101321,6 +102013,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -111501,6 +112197,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -111583,6 +112283,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -111665,6 +112369,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -111747,6 +112455,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -111829,6 +112541,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -111911,6 +112627,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -111993,6 +112713,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -112075,6 +112799,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -112594,6 +113322,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
@@ -115783,6 +116515,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1045250814}
+    - target: {fileID: 3607394996205835085, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
+      propertyPath: playerCam
+      value: 
+      objectReference: {fileID: 8600581230760321560}
     - target: {fileID: 8014860526984270938, guid: 52fcc2c214e11dd46bc310e39123907a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.049804
