@@ -1,5 +1,8 @@
+using System;
 using System.Runtime.CompilerServices;
+using Unity.Cinemachine;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class IceTrees : MonoBehaviour
 {
@@ -15,7 +18,15 @@ public class IceTrees : MonoBehaviour
     private int treeNum = 0;
 
     [SerializeField]
-    private GameObject player;
+    private CinemachineCamera playerCam;
+
+    private void Awake()
+    {
+        if (playerCam == null)
+        {
+            playerCam = GetComponent<CinemachineCamera>();
+        }
+    }
 
     void Start()
     {
@@ -48,8 +59,10 @@ public class IceTrees : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (player != null && GameStateManager.CurrentGameState != GameStateManager.GameState.Puzzle)
-            transform.LookAt(player.transform.position, Vector3.up);
+        if (GameStateManager.CurrentGameState != GameStateManager.GameState.Puzzle)
+        {
+            transform.LookAt(playerCam.transform.position, Vector3.up); 
             transform.Rotate(0, 180, 0);
+        }
     }
 }

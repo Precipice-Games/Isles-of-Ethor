@@ -7,6 +7,43 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Tile hovering VFX.
 
+## [v2.8.4] - 2026-05-14
+
+### Fixed
+* Fixed a bug where the last sequence of Ice Island parkour was untraversable due to an offset death box.
+
+## [v2.8.3] - 2026-05-14
+
+### Fixed
+* Fixed Sky's rotation in puzzle mode on most islands.
+
+## [v2.8.2] - 2026-05-14
+
+### Fixed
+* Fixed respawn locations for Mother Island.
+* Fixed Flower Island death box.
+
+### Changed
+* Small tweaks to Ice and Oasis.
+
+## [v2.8.1] - 2026-05-14
+
+### Changed
+* Updated Sky's animation to move in tandem with sprinting (speed increase).
+
+## [v2.8.0] - 2026-05-13
+
+### Added
+* Added selective death boxes to Ice Island.
+
+### Fixed
+* Fixed an issue where the Oasis Island crystal was falling down instead of rising.
+
+### Changed
+* Finalized the end of Oasis Island progression.
+* Restored puzzle dialogue triggers.
+* Updated Ice Island puzzle 3.
+
 ## [v2.7.0] - 2026-05-13
 
 ### Added
