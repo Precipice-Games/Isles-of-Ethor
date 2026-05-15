@@ -7,6 +7,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 * Tile hovering VFX.
 
+## [v2.8.4] - 2026-05-14
+
+### Fixed
+* Fixed a bug where the last sequence of Ice Island parkour was untraversable due to an offset death box.
+
 ## [v2.8.3] - 2026-05-14
 
 ### Fixed
